@@ -1,0 +1,66 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Cor Anglais
+// ------------------------------
+
+<group>
+ampeg_release=0.442
+
+<region>
+sample=samples\cor anglais\cor_anglais-f3.wav
+lokey=f3
+hikey=f#3
+pitch_keycenter=f3
+
+<region>
+sample=samples\cor anglais\cor_anglais-g#3.wav
+lokey=g3
+hikey=a3
+pitch_keycenter=g#3
+
+<region>
+sample=samples\cor anglais\cor_anglais-b3.wav
+lokey=a#3
+hikey=c4
+pitch_keycenter=b3
+tune=-6
+
+<region>
+sample=samples\cor anglais\cor_anglais-d4.wav
+lokey=c#4
+hikey=d#4
+pitch_keycenter=d4
+tune=-9
+
+<region>
+sample=samples\cor anglais\cor_anglais-f4.wav
+lokey=e4
+hikey=f#4
+pitch_keycenter=f4
+tune=-12
+
+<region>
+sample=samples\cor anglais\cor_anglais-g#4.wav
+lokey=g4
+hikey=a4
+pitch_keycenter=g#4
+
+<region>
+sample=samples\cor anglais\cor_anglais-b4.wav
+lokey=a#4
+hikey=c5
+pitch_keycenter=b4
+
+<region>
+sample=samples\cor anglais\cor_anglais-d5.wav
+lokey=c#5
+hikey=d#5
+pitch_keycenter=d5
+
+<region>
+sample=samples\cor anglais\cor_anglais-f5.wav
+lokey=e5
+hikey=f5
+pitch_keycenter=f5
+tune=-8

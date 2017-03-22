@@ -1,0 +1,87 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Bass Drum & Snare
+// ------------------------------
+
+// Bass drum
+
+<group>
+loop_mode=one_shot
+
+<region>
+sample=Samples\Percussion\bass_drum-p.wav
+lokey=c3
+hikey=c3
+pitch_keycenter=c3
+
+<region>
+sample=Samples\Percussion\bass_drum-f.wav
+lokey=c#3
+hikey=c#3
+pitch_keycenter=c#3
+
+// Snare
+
+<group>
+loop_mode=one_shot
+
+<region>
+sample=Samples\Percussion\snare-lh-ff.wav
+lokey=d3
+hikey=d3
+pitch_keycenter=d3
+hivel=127
+lovel=80
+
+<region>
+sample=Samples\Percussion\snare-lh-mf.wav
+lokey=d3
+hikey=d3
+pitch_keycenter=d3
+hivel=79
+lovel=64
+
+<region>
+sample=Samples\Percussion\snare-lh-p.wav
+lokey=d3
+hikey=d3
+pitch_keycenter=d3
+hivel=63
+lovel=0
+
+<region>
+sample=Samples\Percussion\snare-rh-ff.wav
+lokey=e3
+hikey=e3
+pitch_keycenter=e3
+hivel=127
+lovel=80
+
+<region>
+sample=Samples\Percussion\snare-rh-mf.wav
+lokey=e3
+hikey=e2
+pitch_keycenter=e3
+hivel=79
+lovel=64
+
+<region>
+sample=Samples\Percussion\snare-rh-p.wav
+lokey=e3
+hikey=e3
+pitch_keycenter=e3
+hivel=63
+lovel=0
+
+<group>
+ampeg_release=0.920
+
+<region>
+sample=Samples\Percussion\snare-roll.wav
+transpose=-1
+tune=-50
+lokey=f3
+hikey=f3
+pitch_keycenter=f3
+

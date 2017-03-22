@@ -1,0 +1,193 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//     1st Violins Pizzicato
+// ------------------------------
+
+<group>
+loop_mode=one_shot
+seq_position=1
+seq_length=2
+ampeg_sustain=0
+ampeg_decay=1
+ampeg_vel2decay=10
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-g3.wav
+lokey=g3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-a#5.wav
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-c#6.wav
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-e6.wav
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-g6.wav
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr1-a#6.wav
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6
+
+
+
+<group>
+loop_mode=one_shot
+seq_position=2
+seq_length=2
+transpose=-1
+ampeg_sustain=0
+ampeg_decay=1
+ampeg_vel2decay=10
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-g3.wav
+lokey=g3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-a#5.wav
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-c#6.wav
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-e6.wav
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-g6.wav
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
+
+<region>
+sample=Samples\1st Violins\1st-violins-piz-rr2-a#6.wav
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6
+

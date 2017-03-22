@@ -1,0 +1,65 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+/        Cymbals & Tamtam
+// ------------------------------
+
+// Cymbals
+
+<group>
+ampeg_release=1.25
+
+<region>
+sample=Samples\Percussion\cymbal_roll-a-f.wav
+lokey=c3
+hikey=c3
+pitch_keycenter=c3
+
+<region>
+sample=Samples\Percussion\cymbal_roll-a-mf.wav
+lokey=d3
+hikey=d3
+pitch_keycenter=d3
+
+<region>
+sample=Samples\Percussion\cymbal_roll-a-p.wav
+lokey=e3
+hikey=e3
+pitch_keycenter=e3
+
+<region>
+sample=Samples\Percussion\cymbal_roll-b.wav
+lokey=f3
+hikey=f3
+pitch_keycenter=f3
+
+<region>
+sample=Samples\Percussion\piatti.wav
+lokey=g3
+hikey=g3
+pitch_keycenter=g3
+
+
+// Tamtam
+
+<group>
+loop_mode=one_shot
+
+<region>
+sample=Samples\Percussion\tamtam-a.wav
+lokey=a3
+hikey=a3
+pitch_keycenter=a3
+
+<region>
+sample=Samples\Percussion\tamtam-b.wav
+lokey=b3
+hikey=b3
+pitch_keycenter=b3
+
+<region>
+sample=Samples\Percussion\tamtam-c.wav
+lokey=c4
+hikey=c4
+pitch_keycenter=c4
+

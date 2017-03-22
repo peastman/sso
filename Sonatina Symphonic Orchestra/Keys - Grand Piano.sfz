@@ -1,0 +1,365 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Grand Piano
+// ------------------------------
+
+<group>
+ampeg_release=1
+hivel=127
+lovel=80
+
+<region>
+sample=samples\grand piano\piano-f-c1.wav
+lokey=c1
+hikey=c#1
+pitch_keycenter=c1
+
+<region>
+sample=samples\grand piano\piano-f-d#1.wav
+lokey=d1
+hikey=e1
+pitch_keycenter=d#1
+
+<region>
+sample=samples\grand piano\piano-f-f#1.wav
+lokey=f1
+hikey=g1
+pitch_keycenter=f#1
+
+<region>
+sample=samples\grand piano\piano-f-a1.wav
+lokey=g#1
+hikey=a#1
+pitch_keycenter=a1
+
+<region>
+sample=samples\grand piano\piano-f-c2.wav
+lokey=b1
+hikey=c#2
+pitch_keycenter=c2
+
+<region>
+sample=samples\grand piano\piano-f-d#2.wav
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
+
+<region>
+sample=samples\grand piano\piano-f-f#2.wav
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
+
+<region>
+sample=samples\grand piano\piano-f-a2.wav
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
+
+<region>
+sample=samples\grand piano\piano-f-c3.wav
+lokey=b2
+hikey=c#3
+pitch_keycenter=c3
+
+<region>
+sample=samples\grand piano\piano-f-d#3.wav
+lokey=d3
+hikey=e3
+pitch_keycenter=d#3
+
+<region>
+sample=samples\grand piano\piano-f-f#3.wav
+lokey=f3
+hikey=g3
+pitch_keycenter=f#3
+
+<region>
+sample=samples\grand piano\piano-f-a3.wav
+lokey=g#3
+hikey=a#3
+pitch_keycenter=a3
+
+<region>
+sample=samples\grand piano\piano-f-c4.wav
+lokey=b3
+hikey=c#4
+
+<region>
+sample=samples\grand piano\piano-f-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=samples\grand piano\piano-f-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=samples\grand piano\piano-f-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=samples\grand piano\piano-f-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=samples\grand piano\piano-f-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=samples\grand piano\piano-f-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=samples\grand piano\piano-f-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=samples\grand piano\piano-f-c6.wav
+lokey=b5
+hikey=c#6
+pitch_keycenter=c6
+
+<region>
+sample=samples\grand piano\piano-f-d#6.wav
+lokey=d6
+hikey=e6
+pitch_keycenter=d#6
+
+<region>
+sample=samples\grand piano\piano-f-f#6.wav
+lokey=f6
+hikey=g6
+pitch_keycenter=f#6
+
+<region>
+sample=samples\grand piano\piano-f-a6.wav
+lokey=g#6
+hikey=a#6
+pitch_keycenter=a6
+
+<region>
+sample=samples\grand piano\piano-f-c7.wav
+lokey=b6
+hikey=c#7
+pitch_keycenter=c7
+
+<region>
+sample=samples\grand piano\piano-f-d#7.wav
+lokey=d7
+hikey=e7
+pitch_keycenter=d#7
+
+<region>
+sample=samples\grand piano\piano-f-f#7.wav
+lokey=f7
+hikey=g7
+pitch_keycenter=f#7
+
+<region>
+sample=samples\grand piano\piano-f-a7.wav
+lokey=g#7
+hikey=a#7
+pitch_keycenter=a7
+
+<region>
+sample=samples\grand piano\piano-f-c8.wav
+lokey=b7
+hikey=c8
+pitch_keycenter=c8
+
+
+
+
+<group>
+ampeg_release=1
+hivel=79
+lovel=0
+
+<region>
+sample=samples\grand piano\piano-p-c1.wav
+lokey=c1
+hikey=c#1
+pitch_keycenter=c1
+
+<region>
+sample=samples\grand piano\piano-p-d#1.wav
+lokey=d1
+hikey=e1
+pitch_keycenter=d#1
+
+<region>
+sample=samples\grand piano\piano-p-f#1.wav
+lokey=f1
+hikey=g1
+pitch_keycenter=f#1
+
+<region>
+sample=samples\grand piano\piano-p-a1.wav
+lokey=g#1
+hikey=a#1
+pitch_keycenter=a1
+
+<region>
+sample=samples\grand piano\piano-p-c2.wav
+lokey=b1
+hikey=c#2
+pitch_keycenter=c2
+
+<region>
+sample=samples\grand piano\piano-p-d#2.wav
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
+
+<region>
+sample=samples\grand piano\piano-p-f#2.wav
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
+
+<region>
+sample=samples\grand piano\piano-p-a2.wav
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
+
+<region>
+sample=samples\grand piano\piano-p-c3.wav
+lokey=b2
+hikey=c#3
+pitch_keycenter=c3
+
+<region>
+sample=samples\grand piano\piano-p-d#3.wav
+lokey=d3
+hikey=e3
+pitch_keycenter=d#3
+
+<region>
+sample=samples\grand piano\piano-p-f#3.wav
+lokey=f3
+hikey=g3
+pitch_keycenter=f#3
+
+<region>
+sample=samples\grand piano\piano-p-a3.wav
+lokey=g#3
+hikey=a#3
+pitch_keycenter=a3
+
+<region>
+sample=samples\grand piano\piano-p-c4.wav
+lokey=b3
+hikey=c#4
+
+<region>
+sample=samples\grand piano\piano-p-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=samples\grand piano\piano-p-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=samples\grand piano\piano-p-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=samples\grand piano\piano-p-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=samples\grand piano\piano-p-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=samples\grand piano\piano-p-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=samples\grand piano\piano-p-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=samples\grand piano\piano-p-c6.wav
+lokey=b5
+hikey=c#6
+pitch_keycenter=c6
+
+<region>
+sample=samples\grand piano\piano-p-d#6.wav
+lokey=d6
+hikey=e6
+pitch_keycenter=d#6
+
+<region>
+sample=samples\grand piano\piano-p-f#6.wav
+lokey=f6
+hikey=g6
+pitch_keycenter=f#6
+
+<region>
+sample=samples\grand piano\piano-p-a6.wav
+lokey=g#6
+hikey=a#6
+pitch_keycenter=a6
+
+<region>
+sample=samples\grand piano\piano-p-c7.wav
+lokey=b6
+hikey=c#7
+pitch_keycenter=c7
+
+<region>
+sample=samples\grand piano\piano-p-d#7.wav
+lokey=d7
+hikey=e7
+pitch_keycenter=d#7
+
+<region>
+sample=samples\grand piano\piano-p-f#7.wav
+lokey=f7
+hikey=g7
+pitch_keycenter=f#7
+
+<region>
+sample=samples\grand piano\piano-p-a7.wav
+lokey=g#7
+hikey=a#7
+pitch_keycenter=a7
+
+<region>
+sample=samples\grand piano\piano-p-c8.wav
+lokey=b7
+hikey=c8
+pitch_keycenter=c8
+
