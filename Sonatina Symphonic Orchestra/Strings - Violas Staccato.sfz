@@ -46,24 +46,28 @@ sample=Samples\Violas\violas-stc-rr1-d#4.wav
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+volume=3
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-f#4.wav
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=2
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-1
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-d#5.wav
@@ -82,6 +86,7 @@ sample=Samples\Violas\violas-stc-rr1-a5.wav
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=-2
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-c6.wav
@@ -123,6 +128,7 @@ sample=Samples\Violas\violas-stc-rr2-a3.wav
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=3
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-c4.wav
@@ -140,18 +146,21 @@ sample=Samples\Violas\violas-stc-rr2-f#4.wav
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=2
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=2
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-d#5.wav
@@ -170,6 +179,7 @@ sample=Samples\Violas\violas-stc-rr2-a5.wav
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=-2
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-c6.wav
