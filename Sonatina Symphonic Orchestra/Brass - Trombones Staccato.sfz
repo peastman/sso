@@ -87,7 +87,7 @@ pitch_keycenter=c#5
 <region>
 sample=Samples\Trombones\trombones-stc-rr1-e5.wav
 lokey=d#5
-hikey=g5
+hikey=f5
 pitch_keycenter=e5
 
 
@@ -175,5 +175,5 @@ pitch_keycenter=c#5
 <region>
 sample=Samples\Trombones\trombones-stc-rr2-e5.wav
 lokey=d#5
-hikey=g5
+hikey=f5
 pitch_keycenter=e5

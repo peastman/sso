@@ -89,6 +89,6 @@ pitch_keycenter=c#5
 <region>
 sample=Samples\Trombones\trombones-sus-e5.wav
 lokey=d#5
-hikey=e5
+hikey=f5
 pitch_keycenter=e5
 

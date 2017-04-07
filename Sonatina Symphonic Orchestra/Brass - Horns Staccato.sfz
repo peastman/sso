@@ -75,7 +75,7 @@ pitch_keycenter=g4
 <region>
 sample=Samples\Horns\horns-stc-rr1-a#4.wav
 lokey=a4
-hikey=b4
+hikey=c5
 pitch_keycenter=a#4
 
 
@@ -154,6 +154,6 @@ pitch_keycenter=g4
 <region>
 sample=Samples\Horns\horns-stc-rr2-a#4.wav
 lokey=a4
-hikey=b4
+hikey=c5
 pitch_keycenter=a#4
 

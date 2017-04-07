@@ -85,5 +85,5 @@ pitch_keycenter=b5
 <region>
 sample=Samples\Clarinets\clarinets-sus-d6.wav
 lokey=c#6
-hikey=d6
+hikey=f6
 pitch_keycenter=d6

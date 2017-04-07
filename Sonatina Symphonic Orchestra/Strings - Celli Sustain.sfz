@@ -85,4 +85,5 @@ pitch_keycenter=a4
 <region>
 sample=Samples\Celli\celli-sus-c5.wav
 lokey=b4
+hikey=c#5
 pitch_keycenter=c5
