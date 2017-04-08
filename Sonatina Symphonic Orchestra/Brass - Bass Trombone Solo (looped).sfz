@@ -9,9 +9,6 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
-<control>
-default_path=Samples-looped\Bass Trombone\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.600
@@ -20,7 +17,7 @@ fil_type=lpf_2p
 cutoff=120
 
 <region>
-sample=bass_trombone-e1.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-e1.wav
 loop_start=55726
 loop_end=133312
 lokey=e1
@@ -28,7 +25,7 @@ hikey=f1
 pitch_keycenter=e1
 
 <region>
-sample=bass_trombone-g1.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-g1.wav
 loop_start=61380
 loop_end=106248
 lokey=f#1
@@ -36,7 +33,7 @@ hikey=g#1
 pitch_keycenter=g1
 
 <region>
-sample=bass_trombone-a#1.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-a#1.wav
 loop_start=59351
 loop_end=149235
 lokey=a1
@@ -44,7 +41,7 @@ hikey=b1
 pitch_keycenter=a#1
 
 <region>
-sample=bass_trombone-c#2.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-c#2.wav
 loop_start=65238
 loop_end=172247
 lokey=c2
@@ -52,7 +49,7 @@ hikey=d2
 pitch_keycenter=c#2
 
 <region>
-sample=bass_trombone-e2.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-e2.wav
 loop_start=63266
 loop_end=170738
 lokey=d#2
@@ -60,7 +57,7 @@ hikey=f2
 pitch_keycenter=e2
 
 <region>
-sample=bass_trombone-g2.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-g2.wav
 loop_start=60813
 loop_end=137362
 lokey=f#2
@@ -68,7 +65,7 @@ hikey=g#2
 pitch_keycenter=g2
 
 <region>
-sample=bass_trombone-a#2.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-a#2.wav
 loop_start=57613
 loop_end=106864
 lokey=a2
@@ -76,7 +73,7 @@ hikey=b2
 pitch_keycenter=a#2
 
 <region>
-sample=bass_trombone-c#3.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-c#3.wav
 loop_start=64851
 loop_end=103989
 lokey=c3
@@ -84,7 +81,7 @@ hikey=d3
 pitch_keycenter=c#3
 
 <region>
-sample=bass_trombone-e3.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-e3.wav
 loop_start=60693
 loop_end=109902
 lokey=d#3
@@ -92,7 +89,7 @@ hikey=f3
 pitch_keycenter=e3
 
 <region>
-sample=bass_trombone-g3.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-g3.wav
 loop_start=57415
 loop_end=117233
 lokey=f#3
@@ -100,7 +97,7 @@ hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=bass_trombone-a#3.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-a#3.wav
 loop_start=50012
 loop_end=122747
 lokey=a3
@@ -108,7 +105,7 @@ hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=bass_trombone-c#4.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-c#4.wav
 loop_start=26615
 loop_end=43515
 lokey=c4
@@ -116,7 +113,7 @@ hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=bass_trombone-e4.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-e4.wav
 loop_start=57237
 loop_end=120285
 lokey=d#4
@@ -124,7 +121,7 @@ hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=bass_trombone-g4.wav
+sample=Samples-looped\Bass Trombone\bass_trombone-g4.wav
 loop_start=56736
 loop_end=144135
 lokey=f#4

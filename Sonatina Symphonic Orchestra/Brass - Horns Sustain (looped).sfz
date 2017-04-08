@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Horns\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.865
@@ -25,7 +22,7 @@ fil_type=lpf_2p
 cutoff=120
 
 <region>
-sample=horns-sus-e2.wav
+sample=Samples-looped\Horns\horns-sus-e2.wav
 loop_start=64490
 loop_end=104785
 lokey=e2
@@ -34,7 +31,7 @@ pitch_keycenter=e2
 tune=11
 
 <region>
-sample=horns-sus-g2.wav
+sample=Samples-looped\Horns\horns-sus-g2.wav
 loop_start=55133
 loop_end=89761
 lokey=f#2
@@ -42,7 +39,7 @@ hikey=g#2
 pitch_keycenter=g2
 
 <region>
-sample=horns-sus-a#2.wav
+sample=Samples-looped\Horns\horns-sus-a#2.wav
 loop_start=63398
 loop_end=181282
 lokey=a2
@@ -50,7 +47,7 @@ hikey=b2
 pitch_keycenter=a#2
 
 <region>
-sample=horns-sus-c#3.wav
+sample=Samples-looped\Horns\horns-sus-c#3.wav
 loop_start=66232
 loop_end=179626
 lokey=c3
@@ -58,7 +55,7 @@ hikey=d3
 pitch_keycenter=c#3
 
 <region>
-sample=horns-sus-e3.wav
+sample=Samples-looped\Horns\horns-sus-e3.wav
 loop_start=66410
 loop_end=174251
 lokey=d#3
@@ -66,7 +63,7 @@ hikey=f3
 pitch_keycenter=e3
 
 <region>
-sample=horns-sus-g3.wav
+sample=Samples-looped\Horns\horns-sus-g3.wav
 loop_start=74401
 loop_end=139915
 lokey=f#3
@@ -74,7 +71,7 @@ hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=horns-sus-a#3.wav
+sample=Samples-looped\Horns\horns-sus-a#3.wav
 loop_start=64237
 loop_end=183885
 lokey=a3
@@ -82,7 +79,7 @@ hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=horns-sus-c#4.wav
+sample=Samples-looped\Horns\horns-sus-c#4.wav
 loop_start=55643
 loop_end=157389
 lokey=c4
@@ -90,7 +87,7 @@ hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=horns-sus-e4.wav
+sample=Samples-looped\Horns\horns-sus-e4.wav
 loop_start=66468
 loop_end=124882
 lokey=d#4
@@ -98,7 +95,7 @@ hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=horns-sus-g4.wav
+sample=Samples-looped\Horns\horns-sus-g4.wav
 loop_start=57221
 loop_end=107577
 lokey=f#4
@@ -107,7 +104,7 @@ pitch_keycenter=g4
 tune=-8
 
 <region>
-sample=horns-sus-a#4.wav
+sample=Samples-looped\Horns\horns-sus-a#4.wav
 loop_start=55328
 loop_end=104081
 lokey=a4

@@ -10,15 +10,12 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Bass Clarinet\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.460
 
 <region>
-sample=bass_clarinet-d2.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-d2.wav
 loop_start=51703
 loop_end=88220
 lokey=d2
@@ -27,7 +24,7 @@ pitch_keycenter=d2
 tune=25
 
 <region>
-sample=bass_clarinet-f2.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-f2.wav
 loop_start=54925
 loop_end=90938
 lokey=e2
@@ -36,7 +33,7 @@ pitch_keycenter=f2
 tune=6
 
 <region>
-sample=bass_clarinet-g#2.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-g#2.wav
 loop_start=46587
 loop_end=91218
 lokey=g2
@@ -44,7 +41,7 @@ hikey=a2
 pitch_keycenter=g#2
 
 <region>
-sample=bass_clarinet-b2.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-b2.wav
 loop_start=49900
 loop_end=87992
 lokey=a#2
@@ -53,7 +50,7 @@ pitch_keycenter=b2
 tune=10
 
 <region>
-sample=bass_clarinet-d3.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-d3.wav
 loop_start=57309
 loop_end=96570
 lokey=c#3
@@ -62,7 +59,7 @@ pitch_keycenter=d3
 tune=5
 
 <region>
-sample=bass_clarinet-f3.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-f3.wav
 loop_start=50440
 loop_end=90557
 lokey=e3
@@ -71,7 +68,7 @@ pitch_keycenter=f3
 tune=8
 
 <region>
-sample=bass_clarinet-g#3.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-g#3.wav
 loop_start=47165
 loop_end=148986
 lokey=g3
@@ -80,7 +77,7 @@ pitch_keycenter=g#3
 tune=23
 
 <region>
-sample=bass_clarinet-b3.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-b3.wav
 loop_start=52584
 loop_end=83850
 lokey=a#3
@@ -89,7 +86,7 @@ pitch_keycenter=b3
 tune=7
 
 <region>
-sample=bass_clarinet-d4.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-d4.wav
 loop_start=48968
 loop_end=90729
 lokey=c#4
@@ -98,7 +95,7 @@ pitch_keycenter=d4
 tune=4
 
 <region>
-sample=bass_clarinet-f4.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-f4.wav
 loop_start=43717
 loop_end=140954
 lokey=e4
@@ -107,7 +104,7 @@ pitch_keycenter=f4
 tune=15
 
 <region>
-sample=bass_clarinet-g#4.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-g#4.wav
 loop_start=48747
 loop_end=91657
 lokey=g4
@@ -115,7 +112,7 @@ hikey=a4
 pitch_keycenter=g#4
 
 <region>
-sample=bass_clarinet-b4.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-b4.wav
 loop_start=47043
 loop_end=147877
 lokey=a#4
@@ -124,7 +121,7 @@ pitch_keycenter=b4
 tune=3
 
 <region>
-sample=bass_clarinet-d5.wav
+sample=Samples-looped\Bass Clarinet\bass_clarinet-d5.wav
 loop_start=46400
 loop_end=157786
 lokey=c#5

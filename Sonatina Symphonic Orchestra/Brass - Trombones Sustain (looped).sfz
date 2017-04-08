@@ -9,8 +9,6 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
-<control>
-default_path=Samples-looped\Trombones\
 
 <group>
 loop_mode=loop_continuous
@@ -23,7 +21,7 @@ fil_type=lpf_2p
 cutoff=120
 
 <region>
-sample=trombones-sus-e2.wav
+sample=Samples-looped\Trombones\trombones-sus-e2.wav
 loop_start=68885
 loop_end=127404
 lokey=e2
@@ -32,7 +30,7 @@ pitch_keycenter=e2
 volume=-1
 
 <region>
-sample=trombones-sus-g2.wav
+sample=Samples-looped\Trombones\trombones-sus-g2.wav
 loop_start=89875
 loop_end=168632
 lokey=f#2
@@ -41,7 +39,7 @@ pitch_keycenter=g2
 volume=-1
 
 <region>
-sample=trombones-sus-a#2.wav
+sample=Samples-looped\Trombones\trombones-sus-a#2.wav
 loop_start=89961
 loop_end=168799
 lokey=a2
@@ -49,7 +47,7 @@ hikey=b2
 pitch_keycenter=a#2
 
 <region>
-sample=trombones-sus-c#3.wav
+sample=Samples-looped\Trombones\trombones-sus-c#3.wav
 loop_start=30095
 loop_end=84010
 lokey=c3
@@ -57,7 +55,7 @@ hikey=d3
 pitch_keycenter=c#3
 
 <region>
-sample=trombones-sus-e3.wav
+sample=Samples-looped\Trombones\trombones-sus-e3.wav
 loop_start=58687
 loop_end=90787
 lokey=d#3
@@ -65,7 +63,7 @@ hikey=f3
 pitch_keycenter=e3
 
 <region>
-sample=trombones-sus-g3.wav
+sample=Samples-looped\Trombones\trombones-sus-g3.wav
 loop_start=52145
 loop_end=154240
 lokey=f#3
@@ -74,7 +72,7 @@ pitch_keycenter=g3
 volume=-1
 
 <region>
-sample=trombones-sus-a#3.wav
+sample=Samples-looped\Trombones\trombones-sus-a#3.wav
 loop_start=52299
 loop_end=86778
 lokey=a3
@@ -82,7 +80,7 @@ hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=trombones-sus-c#4.wav
+sample=Samples-looped\Trombones\trombones-sus-c#4.wav
 loop_start=49466
 loop_end=99937
 lokey=c4
@@ -90,7 +88,7 @@ hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=trombones-sus-e4.wav
+sample=Samples-looped\Trombones\trombones-sus-e4.wav
 loop_start=80381
 loop_end=150817
 lokey=d#4
@@ -99,7 +97,7 @@ pitch_keycenter=e4
 volume=1
 
 <region>
-sample=trombones-sus-g4.wav
+sample=Samples-looped\Trombones\trombones-sus-g4.wav
 loop_start=62162
 loop_end=113136
 lokey=f#4
@@ -107,7 +105,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=trombones-sus-a#4.wav
+sample=Samples-looped\Trombones\trombones-sus-a#4.wav
 loop_start=64969
 loop_end=121577
 lokey=a4
@@ -116,7 +114,7 @@ pitch_keycenter=a#4
 volume=1
 
 <region>
-sample=trombones-sus-c#5.wav
+sample=Samples-looped\Trombones\trombones-sus-c#5.wav
 loop_start=49694
 loop_end=84969
 lokey=c5
@@ -125,7 +123,7 @@ pitch_keycenter=c#5
 volume=-2
 
 <region>
-sample=trombones-sus-e5.wav
+sample=Samples-looped\Trombones\trombones-sus-e5.wav
 loop_start=41453
 loop_end=73315
 lokey=d#5

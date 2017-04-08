@@ -10,15 +10,12 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Violin\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.500
 
 <region>
-sample=violin-g3.wav
+sample=Samples-looped\Violin\violin-g3.wav
 loop_start=102139
 loop_end=178079
 lokey=g3
@@ -26,7 +23,7 @@ hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=violin-a#3.wav
+sample=Samples-looped\Violin\violin-a#3.wav
 loop_start=109941
 loop_end=204790
 lokey=a3
@@ -35,7 +32,7 @@ pitch_keycenter=a#3
 tune=8
 
 <region>
-sample=violin-c#4.wav
+sample=Samples-looped\Violin\violin-c#4.wav
 loop_start=105892
 loop_end=200080
 lokey=c4
@@ -44,7 +41,7 @@ pitch_keycenter=c#4
 tune=-2
 
 <region>
-sample=violin-e4.wav
+sample=Samples-looped\Violin\violin-e4.wav
 loop_start=109837
 loop_end=360183
 lokey=d#4
@@ -53,7 +50,7 @@ pitch_keycenter=e4
 tune=6
 
 <region>
-sample=violin-g4.wav
+sample=Samples-looped\Violin\violin-g4.wav
 loop_start=95140
 loop_end=289968
 lokey=f#4
@@ -61,7 +58,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=violin-a#4.wav
+sample=Samples-looped\Violin\violin-a#4.wav
 loop_start=118756
 loop_end=219720
 lokey=a4
@@ -69,7 +66,7 @@ hikey=b4
 pitch_keycenter=a#4
 
 <region>
-sample=violin-c#5.wav
+sample=Samples-looped\Violin\violin-c#5.wav
 loop_start=109810
 loop_end=185797
 lokey=c5
@@ -77,7 +74,7 @@ hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=violin-e5.wav
+sample=Samples-looped\Violin\violin-e5.wav
 loop_start=106586
 loop_end=340636
 lokey=d#5
@@ -86,7 +83,7 @@ pitch_keycenter=e5
 tune=3
 
 <region>
-sample=violin-g5.wav
+sample=Samples-looped\Violin\violin-g5.wav
 loop_start=118987
 loop_end=198146
 lokey=f#5
@@ -95,7 +92,7 @@ pitch_keycenter=g5
 tune=-2
 
 <region>
-sample=violin-a#5.wav
+sample=Samples-looped\Violin\violin-a#5.wav
 loop_start=114322
 loop_end=190041
 lokey=a5
@@ -104,7 +101,7 @@ pitch_keycenter=a#5
 tune=-8
 
 <region>
-sample=violin-c#6.wav
+sample=Samples-looped\Violin\violin-c#6.wav
 loop_start=111973
 loop_end=196224
 lokey=c6
@@ -113,7 +110,7 @@ pitch_keycenter=c#6
 tune=-8
 
 <region>
-sample=violin-e6.wav
+sample=Samples-looped\Violin\violin-e6.wav
 loop_start=130804
 loop_end=420057
 lokey=d#6
@@ -122,7 +119,7 @@ pitch_keycenter=e6
 tune=-9
 
 <region>
-sample=violin-g6.wav
+sample=Samples-looped\Violin\violin-g6.wav
 loop_start=106768
 loop_end=346640
 lokey=f#6
@@ -131,7 +128,7 @@ pitch_keycenter=g6
 tune=-40
 
 <region>
-sample=violin-a#6.wav
+sample=Samples-looped\Violin\violin-a#6.wav
 loop_start=113415
 loop_end=188863
 lokey=a6

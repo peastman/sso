@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Clarinet\
-
 <group>
 loop_mode=loop_continuous
 ampeg_hold=3.1416
@@ -25,7 +22,7 @@ amplfo_depth=1.5708
 ampeg_release=0.540
 
 <region>
-sample=clarinet-d3.wav
+sample=Samples-looped\Clarinet\clarinet-d3.wav
 loop_start=68965
 loop_end=86466
 lokey=d3
@@ -34,7 +31,7 @@ pitch_keycenter=d3
 tune=3
 
 <region>
-sample=clarinet-f3.wav
+sample=Samples-looped\Clarinet\clarinet-f3.wav
 loop_start=74013
 loop_end=90184
 lokey=e3
@@ -42,7 +39,7 @@ hikey=f#3
 pitch_keycenter=f3
 
 <region>
-sample=clarinet-g#3.wav
+sample=Samples-looped\Clarinet\clarinet-g#3.wav
 loop_start=52411
 loop_end=66403
 lokey=g3
@@ -50,7 +47,7 @@ hikey=a3
 pitch_keycenter=g#3
 
 <region>
-sample=clarinet-b3.wav
+sample=Samples-looped\Clarinet\clarinet-b3.wav
 loop_start=65462
 loop_end=82137
 lokey=a#3
@@ -59,7 +56,7 @@ pitch_keycenter=b3
 tune=5
 
 <region>
-sample=clarinet-d4.wav
+sample=Samples-looped\Clarinet\clarinet-d4.wav
 loop_start=47852
 loop_end=89944
 lokey=c#4
@@ -68,7 +65,7 @@ pitch_keycenter=d4
 tune=6
 
 <region>
-sample=clarinet-f4.wav
+sample=Samples-looped\Clarinet\clarinet-f4.wav
 loop_start=41829
 loop_end=86721
 lokey=e4
@@ -76,7 +73,7 @@ hikey=f#4
 pitch_keycenter=f4
 
 <region>
-sample=clarinet-g#4.wav
+sample=Samples-looped\Clarinet\clarinet-g#4.wav
 loop_start=48760
 loop_end=63254
 lokey=g4
@@ -85,7 +82,7 @@ pitch_keycenter=g#4
 tune=8
 
 <region>
-sample=clarinet-b4.wav
+sample=Samples-looped\Clarinet\clarinet-b4.wav
 loop_start=29391
 loop_end=35296
 lokey=a#4
@@ -93,7 +90,7 @@ hikey=c5
 pitch_keycenter=b4
 
 <region>
-sample=clarinet-d5.wav
+sample=Samples-looped\Clarinet\clarinet-d5.wav
 loop_start=68383
 loop_end=77344
 lokey=c#5
@@ -101,7 +98,7 @@ hikey=d#5
 pitch_keycenter=d5
 
 <region>
-sample=clarinet-f5.wav
+sample=Samples-looped\Clarinet\clarinet-f5.wav
 loop_start=43068
 loop_end=112653
 lokey=e5
@@ -109,7 +106,7 @@ hikey=f#5
 pitch_keycenter=f5
 
 <region>
-sample=clarinet-g#5.wav
+sample=Samples-looped\Clarinet\clarinet-g#5.wav
 loop_start=32699
 loop_end=60113
 lokey=g5
@@ -117,7 +114,7 @@ hikey=a5
 pitch_keycenter=g#5
 
 <region>
-sample=clarinet-b5.wav
+sample=Samples-looped\Clarinet\clarinet-b5.wav
 loop_start=65480
 loop_end=81660
 lokey=a#5
@@ -125,7 +122,7 @@ hikey=c6
 pitch_keycenter=b5
 
 <region>
-sample=clarinet-d6.wav
+sample=Samples-looped\Clarinet\clarinet-d6.wav
 loop_start=51802
 loop_end=97382
 lokey=c#6

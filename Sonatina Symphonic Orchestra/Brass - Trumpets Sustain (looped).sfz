@@ -9,8 +9,6 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
-<control>
-default_path=Samples-looped\Trumpets\
 
 <group>
 loop_mode=loop_continuous
@@ -25,7 +23,7 @@ fil_type=lpf_2p
 cutoff=120
 
 <region>
-sample=trumpets-sus-e3.wav
+sample=Samples-looped\Trumpets\trumpets-sus-e3.wav
 loop_start=101990
 loop_end=185252
 lokey=e3
@@ -33,7 +31,7 @@ hikey=f3
 pitch_keycenter=e3
 
 <region>
-sample=trumpets-sus-g3.wav
+sample=Samples-looped\Trumpets\trumpets-sus-g3.wav
 loop_start=106328
 loop_end=199869
 lokey=f#3
@@ -42,7 +40,7 @@ pitch_keycenter=g3
 tune=10
 
 <region>
-sample=trumpets-sus-a#3.wav
+sample=Samples-looped\Trumpets\trumpets-sus-a#3.wav
 loop_start=108619
 loop_end=204142
 lokey=a3
@@ -51,7 +49,7 @@ pitch_keycenter=a#3
 tune=10
 
 <region>
-sample=trumpets-sus-c#4.wav
+sample=Samples-looped\Trumpets\trumpets-sus-c#4.wav
 loop_start=107473
 loop_end=201969
 lokey=c4
@@ -60,7 +58,7 @@ pitch_keycenter=c#4
 ampeg_attack=0.050
 
 <region>
-sample=trumpets-sus-e4.wav
+sample=Samples-looped\Trumpets\trumpets-sus-e4.wav
 loop_start=105800
 loop_end=198334
 lokey=d#4
@@ -69,7 +67,7 @@ pitch_keycenter=e4
 tune=8
 
 <region>
-sample=trumpets-sus-g4.wav
+sample=Samples-looped\Trumpets\trumpets-sus-g4.wav
 loop_start=107078
 loop_end=200997
 lokey=f#4
@@ -77,7 +75,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=trumpets-sus-a#4.wav
+sample=Samples-looped\Trumpets\trumpets-sus-a#4.wav
 loop_start=101358
 loop_end=243816
 lokey=a4
@@ -85,7 +83,7 @@ hikey=b4
 pitch_keycenter=a#4
 
 <region>
-sample=trumpets-sus-c#5.wav
+sample=Samples-looped\Trumpets\trumpets-sus-c#5.wav
 loop_start=108013
 loop_end=202865
 lokey=c5
@@ -93,7 +91,7 @@ hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=trumpets-sus-e5.wav
+sample=Samples-looped\Trumpets\trumpets-sus-e5.wav
 loop_start=104631
 loop_end=190801
 lokey=d#5
@@ -101,7 +99,7 @@ hikey=f5
 pitch_keycenter=e5
 
 <region>
-sample=trumpets-sus-g5.wav
+sample=Samples-looped\Trumpets\trumpets-sus-g5.wav
 loop_start=105978
 loop_end=198707
 lokey=f#5
@@ -109,7 +107,7 @@ hikey=g#5
 pitch_keycenter=g5
 
 <region>
-sample=trumpets-sus-a#5.wav
+sample=Samples-looped\Trumpets\trumpets-sus-a#5.wav
 loop_start=106891
 loop_end=199552
 lokey=a5
@@ -117,7 +115,7 @@ hikey=b5
 pitch_keycenter=a#5
 
 <region>
-sample=trumpets-sus-c#6.wav
+sample=Samples-looped\Trumpets\trumpets-sus-c#6.wav
 loop_start=90393
 loop_end=180108
 lokey=c6
@@ -125,7 +123,7 @@ hikey=d6
 pitch_keycenter=c#6
 
 <region>
-sample=trumpets-sus-e6.wav
+sample=Samples-looped\Trumpets\trumpets-sus-e6.wav
 loop_start=104855
 loop_end=197102
 lokey=d#6

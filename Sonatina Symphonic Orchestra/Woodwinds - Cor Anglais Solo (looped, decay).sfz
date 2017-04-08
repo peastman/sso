@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Cor Anglais\
-
 <group>
 loop_mode=loop_continuous
 ampeg_hold=3.1416
@@ -25,7 +22,7 @@ amplfo_depth=1.5708
 ampeg_release=0.442
 
 <region>
-sample=cor_anglais-f3.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-f3.wav
 loop_start=54975
 loop_end=158085
 lokey=f3
@@ -33,7 +30,7 @@ hikey=f#3
 pitch_keycenter=f3
 
 <region>
-sample=cor_anglais-g#3.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-g#3.wav
 loop_start=68418
 loop_end=202958
 lokey=g3
@@ -41,7 +38,7 @@ hikey=a3
 pitch_keycenter=g#3
 
 <region>
-sample=cor_anglais-b3.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-b3.wav
 loop_start=78507
 loop_end=239644
 lokey=a#3
@@ -50,7 +47,7 @@ pitch_keycenter=b3
 tune=-6
 
 <region>
-sample=cor_anglais-d4.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-d4.wav
 loop_start=76362
 loop_end=223394
 lokey=c#4
@@ -59,7 +56,7 @@ pitch_keycenter=d4
 tune=-9
 
 <region>
-sample=cor_anglais-f4.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-f4.wav
 loop_start=66376
 loop_end=198773
 lokey=e4
@@ -68,7 +65,7 @@ pitch_keycenter=f4
 tune=-12
 
 <region>
-sample=cor_anglais-g#4.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-g#4.wav
 loop_start=79177
 loop_end=237543
 lokey=g4
@@ -76,7 +73,7 @@ hikey=a4
 pitch_keycenter=g#4
 
 <region>
-sample=cor_anglais-b4.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-b4.wav
 loop_start=75312
 loop_end=135901
 lokey=a#4
@@ -84,7 +81,7 @@ hikey=c5
 pitch_keycenter=b4
 
 <region>
-sample=cor_anglais-d5.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-d5.wav
 loop_start=58767
 loop_end=164751
 lokey=c#5
@@ -92,7 +89,7 @@ hikey=d#5
 pitch_keycenter=d5
 
 <region>
-sample=cor_anglais-f5.wav
+sample=Samples-looped\Cor Anglais\cor_anglais-f5.wav
 loop_start=57615
 loop_end=98141
 lokey=e5

@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Oboe\
-
 <group>
 loop_mode=loop_continuous
 ampeg_hold=3.1416
@@ -27,7 +24,7 @@ fil_type=lpf_2p
 cutoff=5000
 
 <region>
-sample=oboe-a#3.wav
+sample=Samples-looped\Oboe\oboe-a#3.wav
 loop_start=35769
 loop_end=46119
 lokey=a#3
@@ -36,7 +33,7 @@ pitch_keycenter=a#3
 tune=-8
 
 <region>
-sample=oboe-c#4.wav
+sample=Samples-looped\Oboe\oboe-c#4.wav
 loop_start=38793
 loop_end=47020
 lokey=c4
@@ -45,7 +42,7 @@ pitch_keycenter=c#4
 tune=-9
 
 <region>
-sample=oboe-e4.wav
+sample=Samples-looped\Oboe\oboe-e4.wav
 loop_start=42119
 loop_end=50751
 lokey=d#4
@@ -54,7 +51,7 @@ pitch_keycenter=e4
 tune=-14
 
 <region>
-sample=oboe-g4.wav
+sample=Samples-looped\Oboe\oboe-g4.wav
 loop_start=43764
 loop_end=51702
 lokey=f#4
@@ -63,7 +60,7 @@ pitch_keycenter=g4
 tune=-10
 
 <region>
-sample=oboe-a#4.wav
+sample=Samples-looped\Oboe\oboe-a#4.wav
 loop_start=50602
 loop_end=58894
 lokey=a4
@@ -72,7 +69,7 @@ pitch_keycenter=a#4
 tune=-5
 
 <region>
-sample=oboe-c#5.wav
+sample=Samples-looped\Oboe\oboe-c#5.wav
 loop_start=36388
 loop_end=52658
 lokey=c5
@@ -80,7 +77,7 @@ hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=oboe-e5.wav
+sample=Samples-looped\Oboe\oboe-e5.wav
 loop_start=32957
 loop_end=74749
 lokey=d#5
@@ -89,7 +86,7 @@ pitch_keycenter=e5
 tune=-15
 
 <region>
-sample=oboe-g5.wav
+sample=Samples-looped\Oboe\oboe-g5.wav
 loop_start=54336
 loop_end=72706
 lokey=f#5
@@ -98,7 +95,7 @@ pitch_keycenter=g5
 tune=-20
 
 <region>
-sample=oboe-a#5.wav
+sample=Samples-looped\Oboe\oboe-a#5.wav
 loop_start=38396
 loop_end=72186
 lokey=a5
@@ -107,7 +104,7 @@ pitch_keycenter=a#5
 tune=-22
 
 <region>
-sample=oboe-c6.wav
+sample=Samples-looped\Oboe\oboe-c6.wav
 loop_start=34711
 loop_end=65240
 lokey=c6

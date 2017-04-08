@@ -10,15 +10,12 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Contrabassoon\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.500
 
 <region>
-sample=contrabassoon-a#0.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-a#0.wav
 loop_start=43018
 loop_end=56456
 lokey=a#0
@@ -27,7 +24,7 @@ pitch_keycenter=a#0
 tune=-20
 
 <region>
-sample=contrabassoon-c#1.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-c#1.wav
 loop_start=49812
 loop_end=63668
 lokey=c1
@@ -36,7 +33,7 @@ pitch_keycenter=c#1
 tune=-16
 
 <region>
-sample=contrabassoon-e1.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-e1.wav
 loop_start=46723
 loop_end=64889
 lokey=d#1
@@ -44,7 +41,7 @@ hikey=f1
 pitch_keycenter=e1
 
 <region>
-sample=contrabassoon-g1.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-g1.wav
 loop_start=44655
 loop_end=58947
 lokey=f#1
@@ -53,7 +50,7 @@ pitch_keycenter=g1
 tune=-11
 
 <region>
-sample=contrabassoon-a#1.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-a#1.wav
 loop_start=44048
 loop_end=57513
 lokey=a1
@@ -62,7 +59,7 @@ pitch_keycenter=a#1
 tune=-18
 
 <region>
-sample=contrabassoon-c#2.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-c#2.wav
 loop_start=34172
 loop_end=40529
 lokey=c2
@@ -70,7 +67,7 @@ hikey=d2
 pitch_keycenter=c#2
 
 <region>
-sample=contrabassoon-e2.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-e2.wav
 loop_start=42505
 loop_end=51051
 lokey=d#2
@@ -78,7 +75,7 @@ hikey=f2
 pitch_keycenter=e2
 
 <region>
-sample=contrabassoon-g2.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-g2.wav
 loop_start=40992
 loop_end=48135
 lokey=f#2
@@ -87,7 +84,7 @@ pitch_keycenter=g2
 tune=-16
 
 <region>
-sample=contrabassoon-a#2.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-a#2.wav
 loop_start=45261
 loop_end=52053
 lokey=a2
@@ -95,7 +92,7 @@ hikey=b2
 pitch_keycenter=a#2
 
 <region>
-sample=contrabassoon-c#3.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-c#3.wav
 loop_start=45698
 loop_end=56762
 lokey=c3
@@ -104,7 +101,7 @@ pitch_keycenter=c#3
 tune=-13
 
 <region>
-sample=contrabassoon-e3.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-e3.wav
 loop_start=41635
 loop_end=51199
 lokey=d#3
@@ -113,7 +110,7 @@ pitch_keycenter=e3
 tune=-16
 
 <region>
-sample=contrabassoon-g3.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-g3.wav
 loop_start=32088
 loop_end=48132
 lokey=f#3
@@ -122,7 +119,7 @@ pitch_keycenter=g3
 tune=-7
 
 <region>
-sample=contrabassoon-a#3.wav
+sample=Samples-looped\Contrabassoon\contrabassoon-a#3.wav
 loop_start=40920
 loop_end=56966
 lokey=a3

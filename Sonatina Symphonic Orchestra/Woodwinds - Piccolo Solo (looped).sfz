@@ -10,22 +10,19 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Piccolo\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.550
 
 <region>
-sample=piccolo-c4.wav
+sample=Samples-looped\Piccolo\piccolo-c4.wav
 loop_start=90439
 loop_end=148091
 lokey=c4
 hikey=c#4
 
 <region>
-sample=piccolo-d#4.wav
+sample=Samples-looped\Piccolo\piccolo-d#4.wav
 loop_start=85739
 loop_end=238105
 lokey=d4
@@ -33,7 +30,7 @@ hikey=e4
 pitch_keycenter=d#4
 
 <region>
-sample=piccolo-f#4.wav
+sample=Samples-looped\Piccolo\piccolo-f#4.wav
 loop_start=85463
 loop_end=245921
 lokey=f4
@@ -41,7 +38,7 @@ hikey=g4
 pitch_keycenter=f#4
 
 <region>
-sample=piccolo-a4.wav
+sample=Samples-looped\Piccolo\piccolo-a4.wav
 loop_start=89114
 loop_end=167553
 lokey=g#4
@@ -49,7 +46,7 @@ hikey=a#4
 pitch_keycenter=a4
 
 <region>
-sample=piccolo-c5.wav
+sample=Samples-looped\Piccolo\piccolo-c5.wav
 loop_start=89730
 loop_end=168701
 lokey=b4
@@ -57,7 +54,7 @@ hikey=c#5
 pitch_keycenter=c5
 
 <region>
-sample=piccolo-d#5.wav
+sample=Samples-looped\Piccolo\piccolo-d#5.wav
 loop_start=88880
 loop_end=167089
 lokey=d5
@@ -65,7 +62,7 @@ hikey=e5
 pitch_keycenter=d#5
 
 <region>
-sample=piccolo-f#5.wav
+sample=Samples-looped\Piccolo\piccolo-f#5.wav
 loop_start=86782
 loop_end=163146
 lokey=f5
@@ -73,7 +70,7 @@ hikey=g5
 pitch_keycenter=f#5
 
 <region>
-sample=piccolo-a5.wav
+sample=Samples-looped\Piccolo\piccolo-a5.wav
 loop_start=89476
 loop_end=168227
 lokey=g#5
@@ -81,7 +78,7 @@ hikey=a#5
 pitch_keycenter=a5
 
 <region>
-sample=piccolo-c6.wav
+sample=Samples-looped\Piccolo\piccolo-c6.wav
 loop_start=88663
 loop_end=166704
 lokey=b5
@@ -89,7 +86,7 @@ hikey=c#6
 pitch_keycenter=c6
 
 <region>
-sample=piccolo-d#6.wav
+sample=Samples-looped\Piccolo\piccolo-d#6.wav
 loop_start=88600
 loop_end=166561
 lokey=d6
@@ -97,7 +94,7 @@ hikey=e6
 pitch_keycenter=d#6
 
 <region>
-sample=piccolo-f#6.wav
+sample=Samples-looped\Piccolo\piccolo-f#6.wav
 loop_start=87639
 loop_end=164769
 lokey=f6

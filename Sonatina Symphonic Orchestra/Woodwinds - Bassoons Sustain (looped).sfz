@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Bassoons\
-
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.600
@@ -21,7 +18,7 @@ ampeg_decay=30
 ampeg_sustain=35
 
 <region>
-sample=bassoons-sus-a#1.wav
+sample=Samples-looped\Bassoons\bassoons-sus-a#1.wav
 loop_start=81058
 loop_end=109004
 lokey=a#1
@@ -31,7 +28,7 @@ transpose=1
 tune=-5
 
 <region>
-sample=bassoons-sus-c#2.wav
+sample=Samples-looped\Bassoons\bassoons-sus-c#2.wav
 loop_start=128112
 loop_end=240905
 lokey=c2
@@ -40,7 +37,7 @@ pitch_keycenter=c#2
 tune=-4
 
 <region>
-sample=bassoons-sus-e2.wav
+sample=Samples-looped\Bassoons\bassoons-sus-e2.wav
 loop_start=127710
 loop_end=240138
 lokey=d#2
@@ -48,7 +45,7 @@ hikey=f2
 pitch_keycenter=e2
 
 <region>
-sample=bassoons-sus-g2.wav
+sample=Samples-looped\Bassoons\bassoons-sus-g2.wav
 loop_start=116402
 loop_end=142497
 lokey=f#2
@@ -56,7 +53,7 @@ hikey=g#2
 pitch_keycenter=g2
 
 <region>
-sample=bassoons-sus-a#2.wav
+sample=Samples-looped\Bassoons\bassoons-sus-a#2.wav
 loop_start=93373
 loop_end=158829
 lokey=a2
@@ -65,7 +62,7 @@ pitch_keycenter=a#2
 volume=-2
 
 <region>
-sample=bassoons-sus-c#3.wav
+sample=Samples-looped\Bassoons\bassoons-sus-c#3.wav
 loop_start=101396
 loop_end=184446
 lokey=c3
@@ -73,7 +70,7 @@ hikey=d3
 pitch_keycenter=c#3
 
 <region>
-sample=bassoons-sus-e3.wav
+sample=Samples-looped\Bassoons\bassoons-sus-e3.wav
 loop_start=104856
 loop_end=193430
 lokey=d#3
@@ -81,7 +78,7 @@ hikey=f3
 pitch_keycenter=e3
 
 <region>
-sample=bassoons-sus-g3.wav
+sample=Samples-looped\Bassoons\bassoons-sus-g3.wav
 loop_start=123979
 loop_end=219608
 lokey=f#3
@@ -89,7 +86,7 @@ hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=bassoons-sus-a#3.wav
+sample=Samples-looped\Bassoons\bassoons-sus-a#3.wav
 loop_start=126917
 loop_end=439199
 lokey=a3
@@ -97,7 +94,7 @@ hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=bassoons-sus-c#4.wav
+sample=Samples-looped\Bassoons\bassoons-sus-c#4.wav
 loop_start=102324
 loop_end=164040
 lokey=c4
@@ -105,7 +102,7 @@ hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=bassoons-sus-e4.wav
+sample=Samples-looped\Bassoons\bassoons-sus-e4.wav
 loop_start=124939
 loop_end=220323
 lokey=d#4
@@ -113,7 +110,7 @@ hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=bassoons-sus-g4.wav
+sample=Samples-looped\Bassoons\bassoons-sus-g4.wav
 loop_start=102709
 loop_end=208012
 lokey=f#4
@@ -121,7 +118,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=bassoons-sus-a#4.wav
+sample=Samples-looped\Bassoons\bassoons-sus-a#4.wav
 loop_start=125463
 loop_end=235873
 lokey=a4
@@ -130,7 +127,7 @@ pitch_keycenter=a#4
 volume=1
 
 <region>
-sample=bassoons-sus-c#5.wav
+sample=Samples-looped\Bassoons\bassoons-sus-c#5.wav
 loop_start=130971
 loop_end=213865
 lokey=c5
@@ -138,7 +135,7 @@ hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=bassoons-sus-e5.wav
+sample=Samples-looped\Bassoons\bassoons-sus-e5.wav
 loop_start=127275
 loop_end=213972
 lokey=d#5

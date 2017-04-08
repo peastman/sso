@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Flutes\
-
 <group>
 loop_mode=loop_continuous
 ampeg_attack=0.640
@@ -23,7 +20,7 @@ ampeg_decay=25
 ampeg_sustain=35
 
 <region>
-sample=flutes-sus-c3.wav
+sample=Samples-looped\Flutes\flutes-sus-c3.wav
 loop_start=108289
 loop_end=203511
 lokey=c3
@@ -31,7 +28,7 @@ hikey=c#3
 pitch_keycenter=c3
 
 <region>
-sample=flutes-sus-d#3.wav
+sample=Samples-looped\Flutes\flutes-sus-d#3.wav
 loop_start=92826
 loop_end=174536
 lokey=d3
@@ -39,7 +36,7 @@ hikey=e3
 pitch_keycenter=d#3
 
 <region>
-sample=flutes-sus-f#3.wav
+sample=Samples-looped\Flutes\flutes-sus-f#3.wav
 loop_start=97737
 loop_end=198052
 lokey=f3
@@ -47,7 +44,7 @@ hikey=g3
 pitch_keycenter=f#3
 
 <region>
-sample=flutes-sus-a3.wav
+sample=Samples-looped\Flutes\flutes-sus-a3.wav
 loop_start=96729
 loop_end=181839
 lokey=g#3
@@ -55,14 +52,14 @@ hikey=a#3
 pitch_keycenter=a3
 
 <region>
-sample=flutes-sus-c4.wav
+sample=Samples-looped\Flutes\flutes-sus-c4.wav
 loop_start=101372
 loop_end=187929
 lokey=b3
 hikey=c#4
 
 <region>
-sample=flutes-sus-d#4.wav
+sample=Samples-looped\Flutes\flutes-sus-d#4.wav
 loop_start=95862
 loop_end=162717
 lokey=d4
@@ -70,7 +67,7 @@ hikey=e4
 pitch_keycenter=d#4
 
 <region>
-sample=flutes-sus-f#4.wav
+sample=Samples-looped\Flutes\flutes-sus-f#4.wav
 loop_start=98412
 loop_end=185025
 lokey=f4
@@ -79,7 +76,7 @@ pitch_keycenter=f#4
 volume=-2
 
 <region>
-sample=flutes-sus-a4.wav
+sample=Samples-looped\Flutes\flutes-sus-a4.wav
 loop_start=91789
 loop_end=172540
 lokey=g#4
@@ -87,7 +84,7 @@ hikey=a#4
 pitch_keycenter=a4
 
 <region>
-sample=flutes-sus-c5.wav
+sample=Samples-looped\Flutes\flutes-sus-c5.wav
 loop_start=103052
 loop_end=193735
 lokey=b4
@@ -95,7 +92,7 @@ hikey=c#5
 pitch_keycenter=c5
 
 <region>
-sample=flutes-sus-d#5.wav
+sample=Samples-looped\Flutes\flutes-sus-d#5.wav
 loop_start=97510
 loop_end=183312
 lokey=d5
@@ -104,7 +101,7 @@ pitch_keycenter=d#5
 volume=1
 
 <region>
-sample=flutes-sus-f#5.wav
+sample=Samples-looped\Flutes\flutes-sus-f#5.wav
 loop_start=93925
 loop_end=157546
 lokey=f5
@@ -113,7 +110,7 @@ pitch_keycenter=f#5
 volume=-1
 
 <region>
-sample=flutes-sus-a5.wav
+sample=Samples-looped\Flutes\flutes-sus-a5.wav
 loop_start=87260
 loop_end=164059
 lokey=g#5

@@ -10,9 +10,6 @@
 //         sig-ex.com
 
 
-<control>
-default_path=Samples-looped\Chorus\
-
 <group>
 loop_mode=loop_continuous
 ampeg_attack=0.625
@@ -23,7 +20,7 @@ ampeg_sustain=70
 ampeg_release=1.250
 
 <region>
-sample=chorus-female-g4.wav
+sample=Samples-looped\Chorus\chorus-female-g4.wav
 loop_start=186722
 loop_end=351069
 lokey=g4
@@ -31,7 +28,7 @@ hikey=g4
 pitch_keycenter=g4
 
 <region>
-sample=chorus-female-g#4.wav
+sample=Samples-looped\Chorus\chorus-female-g#4.wav
 loop_start=183002
 loop_end=367057
 lokey=g#4
@@ -39,7 +36,7 @@ hikey=g#4
 pitch_keycenter=g#4
 
 <region>
-sample=chorus-female-a4.wav
+sample=Samples-looped\Chorus\chorus-female-a4.wav
 loop_start=183203
 loop_end=344014
 lokey=a4
@@ -47,7 +44,7 @@ hikey=a4
 pitch_keycenter=a4
 
 <region>
-sample=chorus-female-a#4.wav
+sample=Samples-looped\Chorus\chorus-female-a#4.wav
 loop_start=186144
 loop_end=349959
 lokey=a#4
@@ -55,7 +52,7 @@ hikey=a#4
 pitch_keycenter=a#4
 
 <region>
-sample=chorus-female-b4.wav
+sample=Samples-looped\Chorus\chorus-female-b4.wav
 loop_start=185591
 loop_end=354901
 lokey=b4
@@ -63,7 +60,7 @@ hikey=b4
 pitch_keycenter=b4
 
 <region>
-sample=chorus-female-c5.wav
+sample=Samples-looped\Chorus\chorus-female-c5.wav
 loop_start=184217
 loop_end=346311
 lokey=c5
@@ -71,7 +68,7 @@ hikey=c5
 pitch_keycenter=c5
 
 <region>
-sample=chorus-female-c#5.wav
+sample=Samples-looped\Chorus\chorus-female-c#5.wav
 loop_start=186946
 loop_end=351447
 lokey=c#5
@@ -79,7 +76,7 @@ hikey=c#5
 pitch_keycenter=c#5
 
 <region>
-sample=chorus-female-d5.wav
+sample=Samples-looped\Chorus\chorus-female-d5.wav
 loop_start=185748
 loop_end=349205
 lokey=d5
@@ -87,7 +84,7 @@ hikey=d5
 pitch_keycenter=d5
 
 <region>
-sample=chorus-female-d#5.wav
+sample=Samples-looped\Chorus\chorus-female-d#5.wav
 loop_start=183797
 loop_end=376743
 lokey=d#5
@@ -95,7 +92,7 @@ hikey=d#5
 pitch_keycenter=d#5
 
 <region>
-sample=chorus-female-e5.wav
+sample=Samples-looped\Chorus\chorus-female-e5.wav
 loop_start=180879
 loop_end=331642
 lokey=e5
@@ -103,7 +100,7 @@ hikey=e5
 pitch_keycenter=e5
 
 <region>
-sample=chorus-female-f5.wav
+sample=Samples-looped\Chorus\chorus-female-f5.wav
 loop_start=186438
 loop_end=350506
 lokey=f5
@@ -111,7 +108,7 @@ hikey=f5
 pitch_keycenter=f5
 
 <region>
-sample=chorus-female-f#5.wav
+sample=Samples-looped\Chorus\chorus-female-f#5.wav
 loop_start=185663
 loop_end=349087
 lokey=f#5
@@ -119,7 +116,7 @@ hikey=f#5
 pitch_keycenter=f#5
 
 <region>
-sample=chorus-female-g5.wav
+sample=Samples-looped\Chorus\chorus-female-g5.wav
 loop_start=186261
 loop_end=350169
 lokey=g5
@@ -127,7 +124,7 @@ hikey=g5
 pitch_keycenter=g5
 
 <region>
-sample=chorus-female-g#5.wav
+sample=Samples-looped\Chorus\chorus-female-g#5.wav
 loop_start=184173
 loop_end=346234
 lokey=g#5
@@ -135,7 +132,7 @@ hikey=g#5
 pitch_keycenter=g#5
 
 <region>
-sample=chorus-female-a5.wav
+sample=Samples-looped\Chorus\chorus-female-a5.wav
 loop_start=185096
 loop_end=373564
 lokey=a5
@@ -143,7 +140,7 @@ hikey=a5
 pitch_keycenter=a5
 
 <region>
-sample=chorus-female-a#5.wav
+sample=Samples-looped\Chorus\chorus-female-a#5.wav
 loop_start=185741
 loop_end=349175
 lokey=a#5
@@ -151,7 +148,7 @@ hikey=a#5
 pitch_keycenter=a#5
 
 <region>
-sample=chorus-female-b5.wav
+sample=Samples-looped\Chorus\chorus-female-b5.wav
 loop_start=184384
 loop_end=346666
 lokey=b5
@@ -159,7 +156,7 @@ hikey=b5
 pitch_keycenter=b5
 
 <region>
-sample=chorus-female-c6.wav
+sample=Samples-looped\Chorus\chorus-female-c6.wav
 loop_start=179787
 loop_end=338143
 lokey=c6
@@ -167,7 +164,7 @@ hikey=c6
 pitch_keycenter=c6
 
 <region>
-sample=chorus-male-g2.wav
+sample=Samples-looped\Chorus\chorus-male-g2.wav
 loop_start=186303
 loop_end=350211
 lokey=g2
@@ -175,7 +172,7 @@ hikey=g2
 pitch_keycenter=g2
 
 <region>
-sample=chorus-male-g#2.wav
+sample=Samples-looped\Chorus\chorus-male-g#2.wav
 loop_start=188118
 loop_end=353632
 lokey=g#2
@@ -183,7 +180,7 @@ hikey=g#2
 pitch_keycenter=g#2
 
 <region>
-sample=chorus-male-a2.wav
+sample=Samples-looped\Chorus\chorus-male-a2.wav
 loop_start=184212
 loop_end=317966
 lokey=a2
@@ -191,7 +188,7 @@ hikey=a2
 pitch_keycenter=a2
 
 <region>
-sample=chorus-male-a#2.wav
+sample=Samples-looped\Chorus\chorus-male-a#2.wav
 loop_start=182657
 loop_end=328939
 lokey=a#2
@@ -199,7 +196,7 @@ hikey=a#2
 pitch_keycenter=a#2
 
 <region>
-sample=chorus-male-b2.wav
+sample=Samples-looped\Chorus\chorus-male-b2.wav
 loop_start=176335
 loop_end=314406
 lokey=b2
@@ -207,7 +204,7 @@ hikey=b2
 pitch_keycenter=b2
 
 <region>
-sample=chorus-male-c3.wav
+sample=Samples-looped\Chorus\chorus-male-c3.wav
 loop_start=187927
 loop_end=353310
 lokey=c3
@@ -215,7 +212,7 @@ hikey=c3
 pitch_keycenter=c3
 
 <region>
-sample=chorus-male-c#3.wav
+sample=Samples-looped\Chorus\chorus-male-c#3.wav
 loop_start=174124
 loop_end=327170
 lokey=c#3
@@ -223,7 +220,7 @@ hikey=c#3
 pitch_keycenter=c#3
 
 <region>
-sample=chorus-male-d3.wav
+sample=Samples-looped\Chorus\chorus-male-d3.wav
 loop_start=186359
 loop_end=350359
 lokey=d3
@@ -231,7 +228,7 @@ hikey=d3
 pitch_keycenter=d3
 
 <region>
-sample=chorus-male-d#3.wav
+sample=Samples-looped\Chorus\chorus-male-d#3.wav
 loop_start=185952
 loop_end=349595
 lokey=d#3
@@ -239,7 +236,7 @@ hikey=d#3
 pitch_keycenter=d#3
 
 <region>
-sample=chorus-male-e3.wav
+sample=Samples-looped\Chorus\chorus-male-e3.wav
 loop_start=186897
 loop_end=351338
 lokey=e3
@@ -247,7 +244,7 @@ hikey=e3
 pitch_keycenter=e3
 
 <region>
-sample=chorus-male-f3.wav
+sample=Samples-looped\Chorus\chorus-male-f3.wav
 loop_start=186707
 loop_end=351050
 lokey=f3
@@ -255,7 +252,7 @@ hikey=f3
 pitch_keycenter=f3
 
 <region>
-sample=chorus-male-f#3.wav
+sample=Samples-looped\Chorus\chorus-male-f#3.wav
 loop_start=187633
 loop_end=352810
 lokey=f#3
@@ -263,7 +260,7 @@ hikey=f#3
 pitch_keycenter=f#3
 
 <region>
-sample=chorus-male-g3.wav
+sample=Samples-looped\Chorus\chorus-male-g3.wav
 loop_start=186210
 loop_end=350034
 lokey=g3
@@ -271,7 +268,7 @@ hikey=g3
 pitch_keycenter=g3
 
 <region>
-sample=chorus-male-g#3.wav
+sample=Samples-looped\Chorus\chorus-male-g#3.wav
 loop_start=179878
 loop_end=349602
 lokey=g#3
@@ -279,7 +276,7 @@ hikey=g#3
 pitch_keycenter=g#3
 
 <region>
-sample=chorus-male-a3.wav
+sample=Samples-looped\Chorus\chorus-male-a3.wav
 loop_start=187939
 loop_end=353317
 lokey=a3
@@ -287,7 +284,7 @@ hikey=a3
 pitch_keycenter=a3
 
 <region>
-sample=chorus-male-a#3.wav
+sample=Samples-looped\Chorus\chorus-male-a#3.wav
 loop_start=183815
 loop_end=335023
 lokey=a#3
@@ -295,7 +292,7 @@ hikey=a#3
 pitch_keycenter=a#3
 
 <region>
-sample=chorus-male-b3.wav
+sample=Samples-looped\Chorus\chorus-male-b3.wav
 loop_start=187252
 loop_end=351981
 lokey=b3
@@ -303,14 +300,14 @@ hikey=b3
 pitch_keycenter=b3
 
 <region>
-sample=chorus-male-c4.wav
+sample=Samples-looped\Chorus\chorus-male-c4.wav
 loop_start=188426
 loop_end=354221
 lokey=c4
 hikey=c4
 
 <region>
-sample=chorus-male-c#4.wav
+sample=Samples-looped\Chorus\chorus-male-c#4.wav
 loop_start=187666
 loop_end=352808
 lokey=c#4
@@ -318,7 +315,7 @@ hikey=c#4
 pitch_keycenter=c#4
 
 <region>
-sample=chorus-male-d4.wav
+sample=Samples-looped\Chorus\chorus-male-d4.wav
 loop_start=183480
 loop_end=327662
 lokey=d4
@@ -326,7 +323,7 @@ hikey=d4
 pitch_keycenter=d4
 
 <region>
-sample=chorus-male-d#4.wav
+sample=Samples-looped\Chorus\chorus-male-d#4.wav
 loop_start=185669
 loop_end=349087
 lokey=d#4
@@ -334,7 +331,7 @@ hikey=d#4
 pitch_keycenter=d#4
 
 <region>
-sample=chorus-male-e4.wav
+sample=Samples-looped\Chorus\chorus-male-e4.wav
 loop_start=185914
 loop_end=349531
 lokey=e4
@@ -342,7 +339,7 @@ hikey=e4
 pitch_keycenter=e4
 
 <region>
-sample=chorus-male-f4.wav
+sample=Samples-looped\Chorus\chorus-male-f4.wav
 loop_start=187364
 loop_end=352241
 lokey=f4
@@ -350,7 +347,7 @@ hikey=f4
 pitch_keycenter=f4
 
 <region>
-sample=chorus-male-f#4.wav
+sample=Samples-looped\Chorus\chorus-male-f#4.wav
 loop_start=187668
 loop_end=352843
 lokey=f#4

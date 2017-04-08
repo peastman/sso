@@ -9,8 +9,6 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
-<control>
-default_path=Samples-looped\Trumpet\
 
 <group>
 loop_mode=loop_continuous
@@ -20,7 +18,7 @@ fil_type=lpf_2p
 cutoff=120
 
 <region>
-sample=trumpet-e3.wav
+sample=Samples-looped\Trumpet\trumpet-e3.wav
 loop_start=86070
 loop_end=155637
 lokey=e3
@@ -29,7 +27,7 @@ pitch_keycenter=e3
 tune=-6
 
 <region>
-sample=trumpet-g3.wav
+sample=Samples-looped\Trumpet\trumpet-g3.wav
 loop_start=99194
 loop_end=157396
 lokey=f#3
@@ -38,7 +36,7 @@ pitch_keycenter=g3
 tune=8
 
 <region>
-sample=trumpet-a#3.wav
+sample=Samples-looped\Trumpet\trumpet-a#3.wav
 loop_start=101854
 loop_end=179880
 lokey=a3
@@ -47,7 +45,7 @@ pitch_keycenter=a#3
 tune=12
 
 <region>
-sample=trumpet-c#4.wav
+sample=Samples-looped\Trumpet\trumpet-c#4.wav
 loop_start=73399
 loop_end=141826
 lokey=c4
@@ -55,7 +53,7 @@ hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=trumpet-e4.wav
+sample=Samples-looped\Trumpet\trumpet-e4.wav
 loop_start=70454
 loop_end=112538
 lokey=d#4
@@ -63,7 +61,7 @@ hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=trumpet-g4.wav
+sample=Samples-looped\Trumpet\trumpet-g4.wav
 loop_start=90088
 loop_end=273373
 lokey=f#4
@@ -72,7 +70,7 @@ pitch_keycenter=g4
 tune=-8
 
 <region>
-sample=trumpet-a#4.wav
+sample=Samples-looped\Trumpet\trumpet-a#4.wav
 loop_start=98613
 loop_end=182144
 lokey=a4
@@ -81,7 +79,7 @@ pitch_keycenter=a#4
 tune=-4
 
 <region>
-sample=trumpet-c#5.wav
+sample=Samples-looped\Trumpet\trumpet-c#5.wav
 loop_start=95829
 loop_end=180173
 lokey=c5
@@ -89,7 +87,7 @@ hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=trumpet-e5.wav
+sample=Samples-looped\Trumpet\trumpet-e5.wav
 loop_start=105519
 loop_end=193895
 lokey=d#5
@@ -98,7 +96,7 @@ pitch_keycenter=e5
 tune=-10
 
 <region>
-sample=trumpet-g5.wav
+sample=Samples-looped\Trumpet\trumpet-g5.wav
 loop_start=102848
 loop_end=192462
 lokey=f#5
@@ -107,7 +105,7 @@ pitch_keycenter=g5
 tune=-4
 
 <region>
-sample=trumpet-a#5.wav
+sample=Samples-looped\Trumpet\trumpet-a#5.wav
 loop_start=104701
 loop_end=157310
 lokey=a5
@@ -115,7 +113,7 @@ hikey=b5
 pitch_keycenter=a#5
 
 <region>
-sample=trumpet-c#6.wav
+sample=Samples-looped\Trumpet\trumpet-c#6.wav
 loop_start=103921
 loop_end=195372
 lokey=c6
@@ -124,7 +122,7 @@ pitch_keycenter=c#6
 tune=5
 
 <region>
-sample=trumpet-e6.wav
+sample=Samples-looped\Trumpet\trumpet-e6.wav
 loop_start=76076
 loop_end=143028
 lokey=d#6
