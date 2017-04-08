@@ -46,7 +46,7 @@ sample=Samples\Violas\violas-stc-rr1-d#4.wav
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
-volume=3
+volume=4
 
 <region>
 sample=Samples\Violas\violas-stc-rr1-f#4.wav
@@ -116,12 +116,14 @@ sample=Samples\Violas\violas-stc-rr2-d#3.wav
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
+volume=-1
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-f#3.wav
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
+volume=-1
 
 <region>
 sample=Samples\Violas\violas-stc-rr2-a3.wav

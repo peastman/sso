@@ -38,13 +38,14 @@ sample=Samples\Oboes\oboes-sus-g4.wav
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
+volume=-2
 
 <region>
 sample=Samples\Oboes\oboes-sus-a#4.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
-volume=2
+volume=1
 
 <region>
 sample=Samples\Oboes\oboes-sus-c#5.wav

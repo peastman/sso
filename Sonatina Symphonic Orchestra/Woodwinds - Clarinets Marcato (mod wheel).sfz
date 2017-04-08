@@ -38,6 +38,7 @@ sample=Samples\Clarinets\clarinets-sus-b3.wav
 lokey=a#3
 hikey=c4
 pitch_keycenter=b3
+volume=1
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-d4.wav
@@ -56,18 +57,21 @@ sample=Samples\Clarinets\clarinets-sus-g#4.wav
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+volume=2
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-b4.wav
 lokey=a#4
 hikey=c5
 pitch_keycenter=b4
+volume=-1
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-d5.wav
 lokey=c#5
 hikey=d#5
 pitch_keycenter=d5
+volume=-1
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-f5.wav
@@ -86,13 +90,13 @@ sample=Samples\Clarinets\clarinets-sus-b5.wav
 lokey=a#5
 hikey=c6
 pitch_keycenter=b5
+volume=3
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-d6.wav
 lokey=c#6
 hikey=f6
 pitch_keycenter=d6
-volume=-1
 
 
 // --------

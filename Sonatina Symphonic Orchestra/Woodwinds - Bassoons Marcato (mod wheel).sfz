@@ -47,6 +47,7 @@ sample=Samples\Bassoons\bassoons-sus-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=-2
 
 <region>
 sample=Samples\Bassoons\bassoons-sus-c#3.wav
@@ -95,6 +96,7 @@ sample=Samples\Bassoons\bassoons-sus-a#4.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples\Bassoons\bassoons-sus-c#5.wav

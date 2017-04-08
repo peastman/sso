@@ -36,6 +36,7 @@ lokey=c2
 hikey=d2
 pitch_keycenter=c#2
 tune=-14
+volume=2
 
 <region>
 sample=Samples\Tuba\tuba-sus-e2.wav
@@ -43,6 +44,7 @@ lokey=d#2
 hikey=f2
 pitch_keycenter=e2
 tune=-17
+volume=-1
 
 <region>
 sample=Samples\Tuba\tuba-sus-g2.wav
@@ -55,6 +57,7 @@ sample=Samples\Tuba\tuba-sus-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=3
 
 <region>
 sample=Samples\Tuba\tuba-sus-c#3.wav
@@ -68,6 +71,7 @@ sample=Samples\Tuba\tuba-sus-e3.wav
 lokey=d#3
 hikey=f3
 pitch_keycenter=e3
+volume=-1
 
 <region>
 sample=Samples\Tuba\tuba-sus-g3.wav

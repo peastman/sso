@@ -42,6 +42,7 @@ sample=Samples\Tuba\tuba-stc-rr1-e2.wav
 lokey=d#2
 hikey=f2
 pitch_keycenter=e2
+volume=2
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr1-g2.wav
@@ -54,6 +55,7 @@ sample=Samples\Tuba\tuba-stc-rr1-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=2
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr1-c#3.wav
@@ -78,6 +80,7 @@ sample=Samples\Tuba\tuba-stc-rr1-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+volume=3
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr1-c#4.wav
@@ -98,6 +101,7 @@ sample=Samples\Tuba\tuba-stc-rr2-e1.wav
 lokey=e1
 hikey=f1
 pitch_keycenter=e1
+volume=1
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-g1.wav
@@ -116,6 +120,7 @@ sample=Samples\Tuba\tuba-stc-rr2-c#2.wav
 lokey=c2
 hikey=d2
 pitch_keycenter=c#2
+volume=3
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-e2.wav
@@ -134,34 +139,40 @@ sample=Samples\Tuba\tuba-stc-rr2-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=2
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-c#3.wav
 lokey=c3
 hikey=d3
 pitch_keycenter=c#3
+volume=2
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-e3.wav
 lokey=d#3
 hikey=f3
 pitch_keycenter=e3
+volume=1
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-g3.wav
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
+volume=1
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+volume=3
 
 <region>
 sample=Samples\Tuba\tuba-stc-rr2-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
+volume=2
 

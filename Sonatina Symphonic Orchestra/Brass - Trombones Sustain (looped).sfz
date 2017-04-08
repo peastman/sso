@@ -29,6 +29,7 @@ loop_end=127404
 lokey=e2
 hikey=f2
 pitch_keycenter=e2
+volume=-1
 
 <region>
 sample=trombones-sus-g2.wav
@@ -37,6 +38,7 @@ loop_end=168632
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
+volume=-1
 
 <region>
 sample=trombones-sus-a#2.wav
@@ -69,6 +71,7 @@ loop_end=154240
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
+volume=-1
 
 <region>
 sample=trombones-sus-a#3.wav
@@ -93,6 +96,7 @@ loop_end=150817
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+volume=1
 
 <region>
 sample=trombones-sus-g4.wav
@@ -109,6 +113,7 @@ loop_end=121577
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=trombones-sus-c#5.wav
@@ -117,6 +122,7 @@ loop_end=84969
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
+volume=-2
 
 <region>
 sample=trombones-sus-e5.wav

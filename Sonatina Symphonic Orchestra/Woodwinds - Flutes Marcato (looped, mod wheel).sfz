@@ -72,6 +72,7 @@ loop_end=185025
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=-2
 
 <region>
 sample=Samples-looped\Flutes\flutes-sus-a4.wav
@@ -96,6 +97,7 @@ loop_end=183312
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=1
 
 <region>
 sample=Samples-looped\Flutes\flutes-sus-f#5.wav
@@ -104,6 +106,7 @@ loop_end=157546
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-1
 
 <region>
 sample=Samples-looped\Flutes\flutes-sus-a5.wav

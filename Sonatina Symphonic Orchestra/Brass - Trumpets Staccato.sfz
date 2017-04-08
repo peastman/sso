@@ -35,12 +35,14 @@ sample=Samples\Trumpets\trumpets-stc-rr1-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
+volume=2
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr1-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+volume=-2
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr1-g4.wav
@@ -53,6 +55,7 @@ sample=Samples\Trumpets\trumpets-stc-rr1-a#4.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr1-c#5.wav
@@ -117,6 +120,7 @@ sample=Samples\Trumpets\trumpets-stc-rr2-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+volume=-2
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr2-c#4.wav
@@ -147,12 +151,14 @@ sample=Samples\Trumpets\trumpets-stc-rr2-c#5.wav
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
+volume=4
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr2-e5.wav
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
+volume=2
 
 <region>
 sample=Samples\Trumpets\trumpets-stc-rr2-g5.wav

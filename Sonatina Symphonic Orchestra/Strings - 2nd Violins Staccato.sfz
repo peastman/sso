@@ -29,12 +29,14 @@ sample=Samples\2nd Violins\2nd-violins-stc-rr1-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
+volume=1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-g4.wav
@@ -65,36 +67,42 @@ sample=Samples\2nd Violins\2nd-violins-stc-rr1-g5.wav
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-a#5.wav
 lokey=a5
 hikey=b5
 pitch_keycenter=a#5
+volume=1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-c#6.wav
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-e6.wav
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
+volume=-2
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-g6.wav
 lokey=f#6
 hikey=g#6
 pitch_keycenter=g6
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr1-a#6.wav
 lokey=a6
 hikey=c7
 pitch_keycenter=a#6
+volume=1
 
 
 
@@ -126,6 +134,7 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=-5
+volume=1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-e4.wav
@@ -138,6 +147,7 @@ sample=Samples\2nd Violins\2nd-violins-stc-rr2-g4.wav
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
+volume=1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-a#4.wav
@@ -156,40 +166,47 @@ sample=Samples\2nd Violins\2nd-violins-stc-rr2-e5.wav
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
+volume=-2
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-g5.wav
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-a#5.wav
 lokey=a5
 hikey=b5
 pitch_keycenter=a#5
+volume=1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-c#6.wav
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-e6.wav
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
+volume=-2
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-g6.wav
 lokey=f#6
 hikey=g#6
 pitch_keycenter=g6
+volume=-1
 
 <region>
 sample=Samples\2nd Violins\2nd-violins-stc-rr2-a#6.wav
 lokey=a6
 hikey=c7
 pitch_keycenter=a#6
+volume=1
 

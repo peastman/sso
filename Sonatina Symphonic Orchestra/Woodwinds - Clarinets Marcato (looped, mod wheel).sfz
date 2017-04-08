@@ -47,6 +47,7 @@ loop_end=205638
 lokey=a#3
 hikey=c4
 pitch_keycenter=b3
+volume=1
 
 <region>
 sample=Samples-looped\Clarinets\clarinets-sus-d4.wav
@@ -71,6 +72,7 @@ loop_end=152369
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+volume=2
 
 <region>
 sample=Samples-looped\Clarinets\clarinets-sus-b4.wav
@@ -79,6 +81,7 @@ loop_end=207062
 lokey=a#4
 hikey=c5
 pitch_keycenter=b4
+volume=-1
 
 <region>
 sample=Samples-looped\Clarinets\clarinets-sus-d5.wav
@@ -87,6 +90,7 @@ loop_end=169878
 lokey=c#5
 hikey=d#5
 pitch_keycenter=d5
+volume=-1
 
 <region>
 sample=Samples-looped\Clarinets\clarinets-sus-f5.wav
@@ -111,6 +115,7 @@ loop_end=190463
 lokey=a#5
 hikey=c6
 pitch_keycenter=b5
+volume=3
 
 <region>
 sample=Samples-looped\Clarinets\clarinets-sus-d6.wav
@@ -119,7 +124,6 @@ loop_end=166314
 lokey=c#6
 hikey=f6
 pitch_keycenter=d6
-volume=-1
 
 
 // --------

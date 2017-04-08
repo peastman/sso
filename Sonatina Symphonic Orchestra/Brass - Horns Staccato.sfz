@@ -53,6 +53,7 @@ sample=Samples\Horns\horns-stc-rr1-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+volume=2
 
 <region>
 sample=Samples\Horns\horns-stc-rr1-c#4.wav
@@ -132,6 +133,7 @@ sample=Samples\Horns\horns-stc-rr2-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+volume=2
 
 <region>
 sample=Samples\Horns\horns-stc-rr2-c#4.wav

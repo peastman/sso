@@ -52,6 +52,7 @@ sample=Samples\Flutes\flutes-sus-f#4.wav
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=-2
 
 <region>
 sample=Samples\Flutes\flutes-sus-a4.wav
@@ -70,12 +71,14 @@ sample=Samples\Flutes\flutes-sus-d#5.wav
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=1
 
 <region>
 sample=Samples\Flutes\flutes-sus-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-1
 
 <region>
 sample=Samples\Flutes\flutes-sus-a5.wav

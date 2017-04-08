@@ -51,6 +51,7 @@ loop_end=182031
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
+volume=-2
 
 <region>
 sample=oboes-sus-a#4.wav
@@ -59,6 +60,7 @@ loop_end=181882
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=oboes-sus-c#5.wav
@@ -107,3 +109,4 @@ loop_end=179814
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
+volume=-3

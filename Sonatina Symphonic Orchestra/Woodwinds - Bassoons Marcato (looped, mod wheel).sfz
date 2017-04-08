@@ -58,6 +58,7 @@ loop_end=158829
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=-2
 
 <region>
 sample=Samples-looped\Bassoons\bassoons-sus-c#3.wav
@@ -122,6 +123,7 @@ loop_end=235873
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples-looped\Bassoons\bassoons-sus-c#5.wav
