@@ -9,6 +9,7 @@ ampeg_release=1
 hivel=127
 lovel=80
 
+
 <region>
 sample=samples\grand piano\piano-f-c1.wav
 lokey=c1
@@ -50,36 +51,42 @@ sample=samples\grand piano\piano-f-f#2.wav
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
+volume=2
 
 <region>
 sample=samples\grand piano\piano-f-a2.wav
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
+volume=-1
 
 <region>
 sample=samples\grand piano\piano-f-c3.wav
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
+volume=-1
 
 <region>
 sample=samples\grand piano\piano-f-d#3.wav
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
+volume=2
 
 <region>
 sample=samples\grand piano\piano-f-f#3.wav
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
+volume=2
 
 <region>
 sample=samples\grand piano\piano-f-a3.wav
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-c4.wav
@@ -103,6 +110,7 @@ sample=samples\grand piano\piano-f-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-2
 
 <region>
 sample=samples\grand piano\piano-f-c5.wav
@@ -115,72 +123,84 @@ sample=samples\grand piano\piano-f-d#5.wav
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=4
 
 <region>
 sample=samples\grand piano\piano-f-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-1
 
 <region>
 sample=samples\grand piano\piano-f-a5.wav
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=2
 
 <region>
 sample=samples\grand piano\piano-f-c6.wav
 lokey=b5
 hikey=c#6
 pitch_keycenter=c6
+volume=2
 
 <region>
 sample=samples\grand piano\piano-f-d#6.wav
 lokey=d6
 hikey=e6
 pitch_keycenter=d#6
+volume=6
 
 <region>
 sample=samples\grand piano\piano-f-f#6.wav
 lokey=f6
 hikey=g6
 pitch_keycenter=f#6
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-a6.wav
 lokey=g#6
 hikey=a#6
 pitch_keycenter=a6
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-c7.wav
 lokey=b6
 hikey=c#7
 pitch_keycenter=c7
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-d#7.wav
 lokey=d7
 hikey=e7
 pitch_keycenter=d#7
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-f#7.wav
 lokey=f7
 hikey=g7
 pitch_keycenter=f#7
+volume=-3
 
 <region>
 sample=samples\grand piano\piano-f-a7.wav
 lokey=g#7
 hikey=a#7
 pitch_keycenter=a7
+volume=-5
 
 <region>
 sample=samples\grand piano\piano-f-c8.wav
 lokey=b7
 hikey=c8
 pitch_keycenter=c8
+volume=-5
 
 
 
@@ -195,12 +215,14 @@ sample=samples\grand piano\piano-p-c1.wav
 lokey=c1
 hikey=c#1
 pitch_keycenter=c1
+volume=-2
 
 <region>
 sample=samples\grand piano\piano-p-d#1.wav
 lokey=d1
 hikey=e1
 pitch_keycenter=d#1
+volume=2
 
 <region>
 sample=samples\grand piano\piano-p-f#1.wav
@@ -231,18 +253,21 @@ sample=samples\grand piano\piano-p-f#2.wav
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
+volume=1
 
 <region>
 sample=samples\grand piano\piano-p-a2.wav
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
+volume=-2
 
 <region>
 sample=samples\grand piano\piano-p-c3.wav
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
+volume=-2
 
 <region>
 sample=samples\grand piano\piano-p-d#3.wav
@@ -261,6 +286,7 @@ sample=samples\grand piano\piano-p-a3.wav
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=-1
 
 <region>
 sample=samples\grand piano\piano-p-c4.wav
@@ -284,18 +310,21 @@ sample=samples\grand piano\piano-p-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-2
 
 <region>
 sample=samples\grand piano\piano-p-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=1
 
 <region>
 sample=samples\grand piano\piano-p-d#5.wav
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=2
 
 <region>
 sample=samples\grand piano\piano-p-f#5.wav
@@ -314,12 +343,14 @@ sample=samples\grand piano\piano-p-c6.wav
 lokey=b5
 hikey=c#6
 pitch_keycenter=c6
+volume=-1
 
 <region>
 sample=samples\grand piano\piano-p-d#6.wav
 lokey=d6
 hikey=e6
 pitch_keycenter=d#6
+volume=3
 
 <region>
 sample=samples\grand piano\piano-p-f#6.wav
