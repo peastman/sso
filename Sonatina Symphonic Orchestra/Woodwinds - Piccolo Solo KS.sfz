@@ -58,6 +58,7 @@ sample=samples\piccolo\piccolo-a5.wav
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=2
 
 <region>
 sample=samples\piccolo\piccolo-c6.wav
@@ -161,6 +162,7 @@ loop_end=168227
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=2
 
 <region>
 sample=Samples-looped\Piccolo\piccolo-c6.wav
@@ -277,6 +279,7 @@ loop_end=168227
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=2
 
 <region>
 sample=Samples-looped\Piccolo\piccolo-c6.wav

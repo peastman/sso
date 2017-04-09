@@ -17,30 +17,35 @@ sample=samples\cello\cello-c2.wav
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
+volume=-2
 
 <region>
 sample=samples\cello\cello-d#2.wav
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
+volume=-3
 
 <region>
 sample=samples\cello\cello-f#2.wav
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
+volume=1
 
 <region>
 sample=samples\cello\cello-a2.wav
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
+volume=1
 
 <region>
 sample=samples\cello\cello-c3.wav
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
+volume=2
 
 <region>
 sample=samples\cello\cello-d#3.wav
@@ -59,29 +64,34 @@ sample=samples\cello\cello-a3.wav
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=-3
 
 <region>
 sample=samples\cello\cello-c4.wav
 lokey=b3
 hikey=c#4
+volume=-2
 
 <region>
 sample=samples\cello\cello-d#4.wav
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+volume=3
 
 <region>
 sample=samples\cello\cello-f#4.wav
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=-1
 
 <region>
 sample=samples\cello\cello-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-4
 
 <region>
 sample=samples\cello\cello-c5.wav
@@ -94,12 +104,14 @@ sample=samples\cello\cello-d#5.wav
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=-2
 
 <region>
 sample=samples\cello\cello-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=3
 
 <region>
 sample=samples\cello\cello-a5.wav
@@ -136,6 +148,7 @@ loop_end=94443
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-d#2.wav
@@ -144,6 +157,7 @@ loop_end=120708
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
+volume=-3
 
 <region>
 sample=Samples-looped\Cello\cello-f#2.wav
@@ -152,6 +166,7 @@ loop_end=100680
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
+volume=1
 
 <region>
 sample=Samples-looped\Cello\cello-a2.wav
@@ -160,6 +175,7 @@ loop_end=85629
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
+volume=1
 
 <region>
 sample=Samples-looped\Cello\cello-c3.wav
@@ -168,6 +184,7 @@ loop_end=72973
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
+volume=2
 
 <region>
 sample=Samples-looped\Cello\cello-d#3.wav
@@ -192,6 +209,7 @@ loop_end=69720
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=-3
 
 <region>
 sample=Samples-looped\Cello\cello-c4.wav
@@ -199,6 +217,7 @@ loop_start=66381
 loop_end=124585
 lokey=b3
 hikey=c#4
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-d#4.wav
@@ -207,6 +226,7 @@ loop_end=130582
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+volume=3
 
 <region>
 sample=Samples-looped\Cello\cello-f#4.wav
@@ -215,6 +235,7 @@ loop_end=65272
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=-1
 
 <region>
 sample=Samples-looped\Cello\cello-a4.wav
@@ -223,6 +244,7 @@ loop_end=122040
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-4
 
 <region>
 sample=Samples-looped\Cello\cello-c5.wav
@@ -239,6 +261,7 @@ loop_end=102873
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-f#5.wav
@@ -247,6 +270,7 @@ loop_end=89443
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=3
 
 <region>
 sample=Samples-looped\Cello\cello-a5.wav
@@ -292,6 +316,7 @@ loop_end=94443
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-d#2.wav
@@ -300,6 +325,7 @@ loop_end=120708
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
+volume=-3
 
 <region>
 sample=Samples-looped\Cello\cello-f#2.wav
@@ -308,6 +334,7 @@ loop_end=100680
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
+volume=1
 
 <region>
 sample=Samples-looped\Cello\cello-a2.wav
@@ -316,6 +343,7 @@ loop_end=85629
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
+volume=1
 
 <region>
 sample=Samples-looped\Cello\cello-c3.wav
@@ -324,6 +352,7 @@ loop_end=72973
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
+volume=2
 
 <region>
 sample=Samples-looped\Cello\cello-d#3.wav
@@ -348,6 +377,7 @@ loop_end=69720
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=-3
 
 <region>
 sample=Samples-looped\Cello\cello-c4.wav
@@ -355,6 +385,7 @@ loop_start=66381
 loop_end=124585
 lokey=b3
 hikey=c#4
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-d#4.wav
@@ -363,6 +394,7 @@ loop_end=130582
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+volume=3
 
 <region>
 sample=Samples-looped\Cello\cello-f#4.wav
@@ -371,6 +403,7 @@ loop_end=65272
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
+volume=-1
 
 <region>
 sample=Samples-looped\Cello\cello-a4.wav
@@ -379,6 +412,7 @@ loop_end=122040
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
+volume=-4
 
 <region>
 sample=Samples-looped\Cello\cello-c5.wav
@@ -395,6 +429,7 @@ loop_end=102873
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=-2
 
 <region>
 sample=Samples-looped\Cello\cello-f#5.wav
@@ -403,6 +438,7 @@ loop_end=89443
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=3
 
 <region>
 sample=Samples-looped\Cello\cello-a5.wav

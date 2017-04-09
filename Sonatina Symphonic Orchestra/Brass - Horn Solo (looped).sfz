@@ -35,6 +35,7 @@ lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
 tune=-11
+volume=-1
 
 <region>
 sample=Samples-looped\Horn\horn-a#2.wav

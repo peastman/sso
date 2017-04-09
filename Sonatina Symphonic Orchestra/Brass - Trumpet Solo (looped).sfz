@@ -43,6 +43,7 @@ lokey=a3
 hikey=b3
 pitch_keycenter=a#3
 tune=12
+volume=-1
 
 <region>
 sample=Samples-looped\Trumpet\trumpet-c#4.wav
@@ -77,6 +78,7 @@ lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 tune=-4
+volume=-1
 
 <region>
 sample=Samples-looped\Trumpet\trumpet-c#5.wav
@@ -120,6 +122,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=5
+volume=1
 
 <region>
 sample=Samples-looped\Trumpet\trumpet-e6.wav

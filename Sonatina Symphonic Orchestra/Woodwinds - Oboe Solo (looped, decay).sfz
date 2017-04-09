@@ -84,6 +84,7 @@ lokey=d#5
 hikey=f5
 pitch_keycenter=e5
 tune=-15
+volume=2
 
 <region>
 sample=Samples-looped\Oboe\oboe-g5.wav

@@ -31,6 +31,7 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=-2
+volume=1
 
 <region>
 sample=samples\violin\violin-e4.wav
@@ -50,6 +51,7 @@ sample=samples\violin\violin-a#4.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=samples\violin\violin-c#5.wav
@@ -84,6 +86,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=-8
+volume=2
 
 <region>
 sample=samples\violin\violin-e6.wav
@@ -152,6 +155,7 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=-2
+volume=1
 
 <region>
 sample=Samples-looped\Violin\violin-e4.wav
@@ -177,6 +181,7 @@ loop_end=219720
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples-looped\Violin\violin-c#5.wav
@@ -221,6 +226,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=-8
+volume=2
 
 <region>
 sample=Samples-looped\Violin\violin-e6.wav
@@ -303,6 +309,7 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=-2
+volume=1
 
 <region>
 sample=Samples-looped\Violin\violin-e4.wav
@@ -328,6 +335,7 @@ loop_end=219720
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples-looped\Violin\violin-c#5.wav
@@ -372,6 +380,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=-8
+volume=2
 
 <region>
 sample=Samples-looped\Violin\violin-e6.wav

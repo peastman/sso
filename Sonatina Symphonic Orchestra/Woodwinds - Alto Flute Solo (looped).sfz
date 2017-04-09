@@ -39,6 +39,7 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=11
+volume=2
 
 <region>
 sample=Samples-looped\Alto Flute\alto_flute-e4.wav
@@ -48,6 +49,7 @@ lokey=d#4
 hikey=f4
 pitch_keycenter=e4
 tune=-13
+volume=-1
 
 <region>
 sample=Samples-looped\Alto Flute\alto_flute-g4.wav
@@ -65,6 +67,7 @@ loop_end=113715
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
+volume=1
 
 <region>
 sample=Samples-looped\Alto Flute\alto_flute-c#5.wav
@@ -101,6 +104,7 @@ lokey=a5
 hikey=b5
 pitch_keycenter=a#5
 tune=-30
+volume=1
 
 <region>
 sample=Samples-looped\Alto Flute\alto_flute-c#6.wav
@@ -110,6 +114,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=-28
+volume=2
 
 <region>
 sample=Samples-looped\Alto Flute\alto_flute-e6.wav

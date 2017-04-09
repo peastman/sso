@@ -40,6 +40,7 @@ lokey=a1
 hikey=b1
 pitch_keycenter=a#1
 tune=-18
+volume=2
 
 <region>
 sample=samples\contrabassoon\contrabassoon-c#2.wav
@@ -59,12 +60,14 @@ lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
 tune=-16
+volume=2
 
 <region>
 sample=samples\contrabassoon\contrabassoon-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+volume=2
 
 <region>
 sample=samples\contrabassoon\contrabassoon-c#3.wav
@@ -79,6 +82,7 @@ lokey=d#3
 hikey=f3
 pitch_keycenter=e3
 tune=-16
+volume=-1
 
 <region>
 sample=samples\contrabassoon\contrabassoon-g3.wav
@@ -86,9 +90,11 @@ lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
 tune=-7
+volume=-1
 
 <region>
 sample=samples\contrabassoon\contrabassoon-a#3.wav
 lokey=a3
 hikey=a#3
 pitch_keycenter=a#3
+volume=-1

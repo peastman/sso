@@ -99,7 +99,7 @@ tune=-13
 <region>
 sample=samples\bassoon\bassoon-a#4.wav
 lokey=a4
-hikey=a#4
+hikey=b4
 pitch_keycenter=a#4
 tune=-9
 
