@@ -11,6 +11,11 @@ windArticulations = (
     ("Staccato", " Staccato", 4)
 )
 
+sustainArticulations = (
+    ("Sustain (looped)", " Sustain (looped)", 0),
+    ("Sustain (non-looped)", " Sustain", 1)
+)
+
 stringArticulations = (
     ("Sustain", " Sustain", 0),
     ("Marcato (mod wheel)", " Marcato (mod wheel)", 2),
@@ -69,9 +74,9 @@ createFile("Brass - Tenor Trombone Solo", soloArticulations, 72)
 createFile("Brass - Bass Trombone Solo", soloArticulations, 72)
 
 createFile("Woodwinds - Flutes", windArticulations, 24)
-createFile("Woodwinds - Oboes", windArticulations, 24)
-createFile("Woodwinds - Clarinets", windArticulations, 24)
-createFile("Woodwinds - Bassoons", windArticulations, 72)
+createFile("Woodwinds - Oboes", sustainArticulations, 24)
+createFile("Woodwinds - Clarinets", sustainArticulations, 24)
+createFile("Woodwinds - Bassoons", sustainArticulations, 72)
 
 createFile("Woodwinds - Piccolo Solo", soloArticulations, 24)
 createFile("Woodwinds - Flute Solo", soloArticulations, 24)
