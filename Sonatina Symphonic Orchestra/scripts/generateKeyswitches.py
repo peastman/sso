@@ -43,6 +43,16 @@ chorusArticulations = (
     ("Sustain (looped, velocity)", " (looped, velocity)", 2)
 )
 
+soloViolinArticulations = (
+    ("Sustain", " Sustain", 0),
+    ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
+    ("Marcato (mod wheel)", " Marcato (mod wheel)", 2),
+    ("Marcato Non-Vibrato (mod wheel)", " Marcato Non-Vibrato (mod wheel)", 3),
+    ("Spiccato", " Spiccato", 4),
+    ("Pizzicato", " Pizzicato", 5),
+    ("Tremolo", " Tremolo", 7)
+)
+
 keyNames = ['c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#', 'a', 'a#', 'b'] 
 
 def noteName(id):
@@ -95,6 +105,7 @@ createFile("Strings - Celli", stringArticulations, 72)
 createFile("Strings - Basses", stringArticulations, 72)
 
 createFile("Strings - Violin Solo", soloArticulations, 24)
+createFile("Strings - Violin Solo 2", soloViolinArticulations, 24)
 createFile("Strings - Cello Solo", soloArticulations, 79)
 
 createFile("Chorus - Male", chorusArticulations, 24)

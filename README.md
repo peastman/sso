@@ -28,6 +28,7 @@ SSO includes the following instruments and articulations:
 |Cellos|Sustain, Marcato, Staccato, Pizzicato|
 |Basses|Sustain, Marcato, Staccato, Pizzicato|
 |Solo Violin|Sustain (non-looped, looped, decay)|
+|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Pizzicato, Tremolo|
 |Solo Cello|Sustain (non-looped, looped, decay)|
 
 **Brass**
@@ -113,6 +114,10 @@ Most solo instruments have three versions:
 - A looped version that can be held indefinitely, but sounds less natural than the non-looped version.
 - A looped version that adds a gradual decay and gentle modulation.  This tries to give a more natural sound than the
   simple looped version, but still not place a strict limit on how long notes can be held.
+
+There are two different solo violin instruments.  One has the standard three versions listed above.  The other has many
+more articulations, but does not offer a looped version.  The sustained notes are held long enough that the lack of
+looping is usually not a problem.
 
 Marcato articulations use the mod wheel (MIDI control channel 1) to adjust the strength of the initial attack.  This
 lets you smoothly blend between a gentle sustain and a strong marcato.
