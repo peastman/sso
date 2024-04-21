@@ -208,7 +208,7 @@ ampeg_sustain=0
 ampeg_decay=1
 ampeg_vel2decay=10
 volume=-20
-gain_cc1=20
+gain_cc1=25
 
 <region>
 sample=..\Samples\Violas\violas-stc-rr1-c3.wav

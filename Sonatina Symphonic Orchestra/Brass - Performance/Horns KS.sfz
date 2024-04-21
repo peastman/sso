@@ -352,7 +352,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 volume=-20
-gain_cc1=20
+gain_cc1=25
 
 <region>
 sample=..\Samples\Horns\horns-stc-rr1-e2.wav
@@ -536,7 +536,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 volume=-20
-gain_cc1=20
+gain_cc1=25
 
 <region>
 sample=..\Samples\Horns\horns-stc-rr1-e2.wav

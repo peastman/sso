@@ -233,7 +233,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=1000
 volume=-20
-gain_cc1=20
+gain_cc1=25
 
 <region>
 sample=..\Samples\Celli\celli-stc-rr1-c2.wav
