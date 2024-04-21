@@ -1,0 +1,331 @@
+// ---------------------------------
+//   Sonatina Symphonic Orchestra
+// ---------------------------------
+// Solo Violin 2 Sustain Non-Vibrato
+// ---------------------------------
+
+<group>
+ampeg_release=0.45
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G2.wav
+lokey=g3
+hikey=g3
+pitch_keycenter=g3
+offset=3967
+tune=2
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G#2.wav
+lokey=g#3
+hikey=g#3
+pitch_keycenter=g#3
+offset=1669
+tune=-1
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A2.wav
+lokey=a3
+hikey=a3
+pitch_keycenter=a3
+offset=18
+tune=-3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A#2.wav
+lokey=a#3
+hikey=a#3
+pitch_keycenter=a#3
+offset=1691
+tune=0
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_B2.wav
+lokey=b3
+hikey=b3
+pitch_keycenter=b3
+offset=1270
+tune=7
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C3.wav
+lokey=c4
+hikey=c4
+pitch_keycenter=c4
+offset=2409
+tune=-9
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C#3.wav
+lokey=c#4
+hikey=c#4
+pitch_keycenter=c#4
+offset=1555
+tune=-12
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D3.wav
+lokey=d4
+hikey=d4
+pitch_keycenter=d4
+offset=1626
+tune=5
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D#3.wav
+lokey=d#4
+hikey=d#4
+pitch_keycenter=d#4
+offset=1207
+tune=3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_E3.wav
+lokey=e4
+hikey=e4
+pitch_keycenter=e4
+offset=717
+tune=11
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F3.wav
+lokey=f4
+hikey=f4
+pitch_keycenter=f4
+offset=1739
+tune=3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F#3.wav
+lokey=f#4
+hikey=f#4
+pitch_keycenter=f#4
+offset=712
+tune=5
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G3.wav
+lokey=g4
+hikey=g4
+pitch_keycenter=g4
+offset=703
+tune=0
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G#3.wav
+lokey=g#4
+hikey=g#4
+pitch_keycenter=g#4
+offset=1294
+tune=-10
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A3.wav
+lokey=a4
+hikey=a4
+pitch_keycenter=a4
+offset=1481
+tune=-3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A#3.wav
+lokey=a#4
+hikey=a#4
+pitch_keycenter=a#4
+offset=1349
+tune=-2
+volume=-1
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_B3.wav
+lokey=b4
+hikey=b4
+pitch_keycenter=b4
+offset=1771
+tune=3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C4.wav
+lokey=c5
+hikey=c5
+pitch_keycenter=c5
+offset=1719
+tune=-1
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C#4.wav
+lokey=c#5
+hikey=c#5
+pitch_keycenter=c#5
+offset=1393
+tune=-12
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D4.wav
+lokey=d5
+hikey=d5
+pitch_keycenter=d5
+offset=2259
+tune=-7
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D#4.wav
+lokey=d#5
+hikey=d#5
+pitch_keycenter=d#5
+offset=2064
+tune=-1
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_E4.wav
+lokey=e5
+hikey=e5
+pitch_keycenter=e5
+offset=983
+tune=-9
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F4.wav
+lokey=f5
+hikey=f5
+pitch_keycenter=f5
+offset=1905
+tune=-6
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F#4.wav
+lokey=f#5
+hikey=f#5
+pitch_keycenter=f#5
+offset=206
+tune=-4
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G4.wav
+lokey=g5
+hikey=g5
+pitch_keycenter=g5
+offset=1268
+tune=-3
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G#4.wav
+lokey=g#5
+hikey=g#5
+pitch_keycenter=g#5
+offset=2162
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A4.wav
+lokey=a5
+hikey=a5
+pitch_keycenter=a5
+offset=1032
+tune=-1
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A#4.wav
+lokey=a#5
+hikey=a#5
+pitch_keycenter=a#5
+offset=172
+tune=-12
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_B4.wav
+lokey=b5
+hikey=b5
+pitch_keycenter=b5
+offset=1563
+tune=-4
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C5.wav
+lokey=c6
+hikey=c6
+pitch_keycenter=c6
+offset=1230
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_C#5.wav
+lokey=c#6
+hikey=c#6
+pitch_keycenter=c#6
+offset=2319
+tune=-8
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D5.wav
+lokey=d6
+hikey=d6
+pitch_keycenter=d6
+offset=1399
+tune=-5
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_D#5.wav
+lokey=d#6
+hikey=d#6
+pitch_keycenter=d#6
+offset=3205
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_E5.wav
+lokey=e6
+hikey=e6
+pitch_keycenter=e6
+offset=438
+tune=-6
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F5.wav
+lokey=f6
+hikey=f6
+pitch_keycenter=f6
+tune=-25
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_F#5.wav
+lokey=f#6
+hikey=f#6
+pitch_keycenter=f#6
+tune=-15
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G5.wav
+lokey=g6
+hikey=g6
+pitch_keycenter=g6
+tune=-17
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_G#5.wav
+lokey=g#6
+hikey=g#6
+pitch_keycenter=g#6
+offset=1153
+tune=-31
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A5.wav
+lokey=a6
+hikey=a6
+pitch_keycenter=a6
+offset=1340
+tune=-15
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_A#5.wav
+lokey=a#6
+hikey=a#6
+pitch_keycenter=a#6
+tune=-56
+
+<region>
+sample=..\Samples/Violin 2/violin_arco_non_vib_B5.wav
+lokey=b6
+hikey=c7
+pitch_keycenter=b6
+offset=1034
+tune=-32
+

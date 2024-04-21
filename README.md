@@ -54,6 +54,7 @@ SSO includes the following instruments and articulations:
 |Bassoons|Sustain (looped, non-looped)|
 |Solo Piccolo|Sustain (non-looped, looped, decay)|
 |Solo Flute|Sustain (non-looped, looped, decay)|
+|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato|
 |Solo Alto Flute|Sustain (non-looped, looped, decay)|
 |Solo Cor Anglais|Sustain (non-looped, looped, decay)|
 |Solo Oboe|Sustain (non-looped, looped, decay)|
@@ -115,12 +116,22 @@ Most solo instruments have three versions:
 - A looped version that adds a gradual decay and gentle modulation.  This tries to give a more natural sound than the
   simple looped version, but still not place a strict limit on how long notes can be held.
 
-There are two different solo violin instruments.  One has the standard three versions listed above.  The other has many
-more articulations, but does not offer a looped version.  The sustained notes are held long enough that the lack of
-looping is usually not a problem.
+There are two different solo violin instruments, and likewise two different solo flutes.  In each case, one of the two
+instruments has the standard three versions listed above.  The other has many more articulations, but does not offer a
+looped version.  The sustained notes are held long enough that the lack of looping is usually not a problem.
 
-Marcato articulations use the mod wheel (MIDI control channel 1) to adjust the strength of the initial attack.  This
-lets you smoothly blend between a gentle sustain and a strong marcato.
+Many instruments are provided in separate "notation" and "performance" versions.  They differ in how they are controlled.
+
+- Notation instruments use a control system convenient for use in notation programs.
+  - All instruments use velocity to set the volume.
+  - Marcato articulations use the mod wheel (MIDI control channel 1) to adjust the strength of the initial attack.  This
+    lets you smoothly blend between a gentle sustain and a strong marcato.
+- Performance instruments are better for use in live performance.
+  - Long articulations use the mod wheel (MIDI control channel 1) to set the volume.  This allows you to continuously
+    shape each note.
+  - Marcato articulations use the mod wheel to set the overall volume and velocity to control the strength of the
+    initial attack.
+  - Short articulations use velocity to set the volume.
 
 Technical Details
 -----------------
