@@ -16,8 +16,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Bass Trombone\bass_trombone-e1.wav
@@ -34,7 +34,7 @@ loop_end=106248
 lokey=f#1
 hikey=g#1
 pitch_keycenter=g1
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Bass Trombone\bass_trombone-a#1.wav
@@ -43,7 +43,7 @@ loop_end=149235
 lokey=a1
 hikey=b1
 pitch_keycenter=a#1
-volume=-18
+volume=-8
 
 <region>
 sample=..\Samples-looped\Bass Trombone\bass_trombone-c#2.wav
@@ -52,7 +52,7 @@ loop_end=172247
 lokey=c2
 hikey=d2
 pitch_keycenter=c#2
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples-looped\Bass Trombone\bass_trombone-e2.wav
@@ -69,7 +69,7 @@ loop_end=137362
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
-volume=-18
+volume=-8
 
 <region>
 sample=..\Samples-looped\Bass Trombone\bass_trombone-a#2.wav
@@ -134,4 +134,4 @@ loop_end=144135
 lokey=f#4
 hikey=g4
 pitch_keycenter=g4
-volume=-23
+volume=-13

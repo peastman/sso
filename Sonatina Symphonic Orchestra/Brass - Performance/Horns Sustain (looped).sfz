@@ -17,8 +17,8 @@ ampeg_hold=1
 ampeg_decay=28
 ampeg_sustain=30
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 cutoff_cc1=12000
 fil_type=lpf_2p
@@ -113,4 +113,4 @@ loop_end=104081
 lokey=a4
 hikey=c5
 pitch_keycenter=a#4
-volume=-17
+volume=-7

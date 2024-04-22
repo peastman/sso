@@ -25,8 +25,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Horn\horn-e2.wav
@@ -45,7 +45,7 @@ lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
 tune=-11
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Horn\horn-a#2.wav

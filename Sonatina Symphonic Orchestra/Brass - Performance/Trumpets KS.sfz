@@ -27,8 +27,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Trumpets\trumpets-sus-e3.wav
@@ -161,8 +161,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples\Trumpets\trumpets-sus-e3.wav
@@ -274,8 +274,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Trumpets\trumpets-sus-e3.wav
@@ -514,8 +514,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples\Trumpets\trumpets-sus-e3.wav

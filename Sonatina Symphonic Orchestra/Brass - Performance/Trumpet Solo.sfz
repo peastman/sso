@@ -10,8 +10,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples\trumpet\trumpet-e3.wav
@@ -33,7 +33,7 @@ lokey=a3
 hikey=b3
 pitch_keycenter=a#3
 tune=12
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples\trumpet\trumpet-c#4.wav
@@ -60,7 +60,7 @@ lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 tune=-4
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples\trumpet\trumpet-c#5.wav
@@ -94,7 +94,7 @@ lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 tune=5
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples\trumpet\trumpet-e6.wav

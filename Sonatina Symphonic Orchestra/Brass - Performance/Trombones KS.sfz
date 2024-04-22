@@ -25,8 +25,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e2.wav
@@ -35,7 +35,7 @@ loop_end=127404
 lokey=e2
 hikey=f2
 pitch_keycenter=e2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-g2.wav
@@ -44,7 +44,7 @@ loop_end=168632
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-a#2.wav
@@ -77,7 +77,7 @@ loop_end=154240
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-a#3.wav
@@ -102,7 +102,7 @@ loop_end=150817
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-g4.wav
@@ -119,7 +119,7 @@ loop_end=121577
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-c#5.wav
@@ -128,7 +128,7 @@ loop_end=84969
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
-volume=-22
+volume=-12
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e5.wav
@@ -160,8 +160,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 
 <region>
@@ -169,14 +169,14 @@ sample=..\Samples\Trombones\trombones-sus-e2.wav
 lokey=e2
 hikey=f2
 pitch_keycenter=e2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-g2.wav
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-a#2.wav
@@ -201,7 +201,7 @@ sample=..\Samples\Trombones\trombones-sus-g3.wav
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-a#3.wav
@@ -220,7 +220,7 @@ sample=..\Samples\Trombones\trombones-sus-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-g4.wav
@@ -233,14 +233,14 @@ sample=..\Samples\Trombones\trombones-sus-a#4.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-c#5.wav
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
-volume=-22
+volume=-12
 
 <region>
 sample=..\Samples\Trombones\trombones-sus-e5.wav
@@ -277,8 +277,8 @@ cutoff_cc1=11000
 fil_type=lpf_2p
 cutoff=120
 amp_veltrack=0
-volume=-20
-gain_cc1=20
+volume=-10
+gain_cc1=10
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e2.wav
@@ -287,7 +287,7 @@ loop_end=127404
 lokey=e2
 hikey=f2
 pitch_keycenter=e2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-g2.wav
@@ -296,7 +296,7 @@ loop_end=168632
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-a#2.wav
@@ -329,7 +329,7 @@ loop_end=154240
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
-volume=-21
+volume=-11
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-a#3.wav
@@ -354,7 +354,7 @@ loop_end=150817
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-g4.wav
@@ -371,7 +371,7 @@ loop_end=121577
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
-volume=-19
+volume=-9
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-c#5.wav
@@ -380,7 +380,7 @@ loop_end=84969
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
-volume=-22
+volume=-12
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e5.wav
