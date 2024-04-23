@@ -99,7 +99,7 @@ SSO includes the following instruments and articulations:
 |----------|-------------|
 |Grand Piano| - |
 |Concert Harp| - |
-|Chorus|Male (looped, non-looped), Female (looped, non-looped)|
+|Chorus| - |
 
 Instruments with multiple articulations are packaged in two ways.  Use whichever one is more convenient for your
 workflow.
