@@ -1,0 +1,144 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Alto Flute
+// ------------------------------
+//
+// Based on SSO 1.0 by Mattias Westlund
+//         mattiaswestlund.net
+// Looped by Signal Experiments
+//         sig-ex.com
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.450
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-g3.wav
+loop_start=49189
+loop_end=116206
+lokey=g3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-a#3.wav
+loop_start=22225
+loop_end=34227
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+tune=8
+ampeg_attack=0.05
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-c#4.wav
+loop_start=51641
+loop_end=89855
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+tune=11
+volume=2
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-e4.wav
+loop_start=68161
+loop_end=122072
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+tune=-13
+volume=-1
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-g4.wav
+loop_start=66551
+loop_end=118599
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+tune=-22
+ampeg_attack=0.05
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-a#4.wav
+loop_start=61829
+loop_end=113715
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+volume=1
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-c#5.wav
+loop_start=66335
+loop_end=117197
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+tune=-6
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-e5.wav
+loop_start=56592
+loop_end=131958
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+tune=-23
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-g5.wav
+loop_start=55602
+loop_end=103122
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+tune=-32
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-a#5.wav
+loop_start=50127
+loop_end=112825
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+tune=-30
+volume=1
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-c#6.wav
+loop_start=58305
+loop_end=108342
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+tune=-28
+volume=2
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-e6.wav
+loop_start=59035
+loop_end=108060
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+tune=-26
+
+<region>
+sample=..\Samples-looped\Alto Flute\alto_flute-g6.wav
+loop_start=67860
+loop_end=119408
+lokey=f#6
+hikey=g6
+pitch_keycenter=g6
+tune=-58

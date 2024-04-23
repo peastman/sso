@@ -1,0 +1,611 @@
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c2
+sw_label=Sustain
+ampeg_release=0.4
+xfin_locc1=70
+xfin_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-c#3.wav
+lokey=c3
+hikey=d3
+pitch_keycenter=c#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-e3.wav
+lokey=d#3
+hikey=f3
+pitch_keycenter=e3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-g3.wav
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_ff-a#5.wav
+lokey=a5
+hikey=c6
+pitch_keycenter=a#5
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c2
+sw_label=Sustain
+ampeg_release=0.4
+xfout_locc1=70
+xfout_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-c#3.wav
+lokey=c3
+hikey=d3
+pitch_keycenter=c#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-e3.wav
+lokey=d#3
+hikey=f3
+pitch_keycenter=e3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-g3.wav
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_vb_mf-a#5.wav
+lokey=a5
+hikey=c6
+pitch_keycenter=a#5
+
+
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d2
+sw_label=Sustain Non-Vibrato
+ampeg_release=0.4
+xfin_locc1=70
+xfin_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-c#3.wav
+lokey=c3
+hikey=d3
+pitch_keycenter=c#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-e3.wav
+lokey=d#3
+hikey=f3
+pitch_keycenter=e3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-g3.wav
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_ff-a#5.wav
+lokey=a5
+hikey=c6
+pitch_keycenter=a#5
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d2
+sw_label=Sustain Non-Vibrato
+ampeg_release=0.4
+xfout_locc1=70
+xfout_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-c#3.wav
+lokey=c3
+hikey=d3
+pitch_keycenter=c#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-e3.wav
+lokey=d#3
+hikey=f3
+pitch_keycenter=e3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-g3.wav
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-c#5.wav
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-e5.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-g5.wav
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=..\Samples/Flute 2/fl2_sus_nv_mf-a#5.wav
+lokey=a5
+hikey=c6
+pitch_keycenter=a#5
+
+
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Staccato
+lovel=80
+hivel=127
+seq_length=2
+seq_position=1
+ampeg_release=0.800
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c4.wav
+lokey=a3
+hikey=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c6.wav
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Staccato
+lovel=80
+hivel=127
+seq_length=2
+seq_position=2
+ampeg_release=0.800
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c4.wav
+lokey=a3
+hikey=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c6.wav
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Staccato
+lovel=0
+hivel=79
+seq_length=2
+seq_position=1
+ampeg_release=0.800
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-c4.wav
+lokey=a3
+hikey=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr1-c6.wav
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Staccato
+lovel=0
+hivel=79
+seq_length=2
+seq_position=2
+ampeg_release=0.800
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-c4.wav
+lokey=a3
+hikey=c#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+
+<region>
+sample=..\Samples/Flute 2/fl2_stc_mf_rr2-c6.wav
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+
+
+

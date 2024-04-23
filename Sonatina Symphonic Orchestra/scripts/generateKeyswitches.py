@@ -6,8 +6,8 @@
 windArticulations = (
     ("Sustain (looped)", " Sustain (looped)", 0),
     ("Sustain (non-looped)", " Sustain", 1),
-    ("Marcato (looped, mod wheel)", " Marcato (looped, mod wheel)", 2),
-    ("Marcato (non-looped, mod wheel)", " Marcato (mod wheel)", 3),
+    ("Marcato (looped)", " Marcato (looped)", 2),
+    ("Marcato (non-looped)", " Marcato", 3),
     ("Staccato", " Staccato", 4)
 )
 
@@ -18,14 +18,14 @@ sustainArticulations = (
 
 stringArticulations = (
     ("Sustain", " Sustain", 0),
-    ("Marcato (mod wheel)", " Marcato (mod wheel)", 2),
+    ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5)
 )
 
 violinArticulations = (
     ("Sustain", " Sustain", 0),
-    ("Marcato (mod wheel)", " Marcato (mod wheel)", 2),
+    ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
     ("Tremolo", " Tremolo", 7)
@@ -46,11 +46,17 @@ chorusArticulations = (
 soloViolinArticulations = (
     ("Sustain", " Sustain", 0),
     ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
-    ("Marcato (mod wheel)", " Marcato (mod wheel)", 2),
-    ("Marcato Non-Vibrato (mod wheel)", " Marcato Non-Vibrato (mod wheel)", 3),
+    ("Marcato", " Marcato", 2),
+    ("Marcato Non-Vibrato", " Marcato Non-Vibrato", 3),
     ("Spiccato", " Spiccato", 4),
     ("Pizzicato", " Pizzicato", 5),
     ("Tremolo", " Tremolo", 7)
+)
+
+soloFluteArticulations = (
+    ("Sustain", " Sustain", 0),
+    ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 2),
+    ("Staccato", " Staccato", 4)
 )
 
 keyNames = ['c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#', 'a', 'a#', 'b'] 
@@ -58,10 +64,10 @@ keyNames = ['c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#', 'a', 'a#', 'b']
 def noteName(id):
     return '%s%d' % (keyNames[id%12], id/12)
 
-def createFile(instrument, articulations, base):
-    with open('%s KS.sfz' % instrument, 'w') as output:
+def createFile(directory, instrument, articulations, base):
+    with open(f'{directory}/{instrument} KS.sfz', 'w') as output:
         for name, fileSuffix, key in articulations:
-            content = open("%s%s.sfz" % (instrument, fileSuffix)).read()
+            content = open(f'{directory}/{instrument}{fileSuffix}.sfz').read()
             commands = """
 sw_default=%s
 sw_lokey=%s
@@ -73,42 +79,46 @@ sw_label=%s""" % (noteName(base), noteName(base), noteName(base+max(a[2] for a i
             output.write(content)
             output.write('\n\n')
 
-createFile("Brass - Horns", windArticulations, 72)
-createFile("Brass - Trumpets", windArticulations, 24)
-createFile("Brass - Trombones", windArticulations, 72)
-createFile("Brass - Tuba", windArticulations, 72)
+for directory in ['Brass - Notation', 'Brass - Performance']:
+    createFile(directory, "Horns", windArticulations, 72)
+    createFile(directory, "Trumpets", windArticulations, 24)
+    createFile(directory, "Trombones", windArticulations, 72)
+    createFile(directory, "Tuba", windArticulations, 72)
 
-createFile("Brass - Horn Solo", soloArticulations, 72)
-createFile("Brass - Trumpet Solo", soloArticulations, 24)
-createFile("Brass - Tenor Trombone Solo", soloArticulations, 72)
-createFile("Brass - Bass Trombone Solo", soloArticulations, 72)
+    createFile(directory, "Horn Solo", soloArticulations, 72)
+    createFile(directory, "Trumpet Solo", soloArticulations, 24)
+    createFile(directory, "Tenor Trombone Solo", soloArticulations, 72)
+    createFile(directory, "Bass Trombone Solo", soloArticulations, 72)
 
-createFile("Woodwinds - Flutes", windArticulations, 24)
-createFile("Woodwinds - Oboes", sustainArticulations, 24)
-createFile("Woodwinds - Clarinets", sustainArticulations, 24)
-createFile("Woodwinds - Bassoons", sustainArticulations, 72)
+for directory in ['Woodwinds - Notation', 'Woodwinds - Performance']:
+    createFile(directory, "Flutes", windArticulations, 24)
+    createFile(directory, "Oboes", sustainArticulations, 24)
+    createFile(directory, "Clarinets", sustainArticulations, 24)
+    createFile(directory, "Bassoons", sustainArticulations, 72)
 
-createFile("Woodwinds - Piccolo Solo", soloArticulations, 24)
-createFile("Woodwinds - Flute Solo", soloArticulations, 24)
-createFile("Woodwinds - Alto Flute Solo", soloArticulations, 24)
-createFile("Woodwinds - Oboe Solo", soloArticulations, 24)
-createFile("Woodwinds - Cor Anglais Solo", soloArticulations, 24)
-createFile("Woodwinds - Clarinet Solo", soloArticulations, 24)
-createFile("Woodwinds - Bass Clarinet Solo", soloArticulations, 72)
-createFile("Woodwinds - Bassoon Solo", soloArticulations, 72)
-createFile("Woodwinds - Contrabassoon Solo", soloArticulations, 72)
+    createFile(directory, "Piccolo Solo", soloArticulations, 24)
+    createFile(directory, "Flute Solo", soloArticulations, 24)
+    createFile(directory, "Flute Solo 2", soloFluteArticulations, 24)
+    createFile(directory, "Alto Flute Solo", soloArticulations, 24)
+    createFile(directory, "Oboe Solo", soloArticulations, 24)
+    createFile(directory, "Cor Anglais Solo", soloArticulations, 24)
+    createFile(directory, "Clarinet Solo", soloArticulations, 24)
+    createFile(directory, "Bass Clarinet Solo", soloArticulations, 72)
+    createFile(directory, "Bassoon Solo", soloArticulations, 72)
+    createFile(directory, "Contrabassoon Solo", soloArticulations, 72)
 
-createFile("Strings - 1st Violins", violinArticulations, 24)
-createFile("Strings - 2nd Violins", violinArticulations, 24)
-createFile("Strings - Violas", stringArticulations, 24)
-createFile("Strings - Celli", stringArticulations, 72)
-createFile("Strings - Basses", stringArticulations, 72)
+for directory in ['Strings - Notation', 'Strings - Performance']:
+    createFile(directory, "1st Violins", violinArticulations, 24)
+    createFile(directory, "2nd Violins", violinArticulations, 24)
+    createFile(directory, "Violas", stringArticulations, 24)
+    createFile(directory, "Celli", stringArticulations, 72)
+    createFile(directory, "Basses", stringArticulations, 72)
 
-createFile("Strings - Violin Solo", soloArticulations, 24)
-createFile("Strings - Violin Solo 2", soloViolinArticulations, 24)
-createFile("Strings - Cello Solo", soloArticulations, 79)
+    createFile(directory, "Violin Solo", soloArticulations, 24)
+    createFile(directory, "Violin Solo 2", soloViolinArticulations, 24)
+    createFile(directory, "Cello Solo", soloArticulations, 79)
 
-createFile("Chorus - Male", chorusArticulations, 24)
-createFile("Chorus - Female", chorusArticulations, 24)
-createFile("Chorus - Mixed", chorusArticulations, 24)
+createFile("Chorus", "Male", chorusArticulations, 24)
+createFile("Chorus", "Female", chorusArticulations, 24)
+createFile("Chorus", "Mixed", chorusArticulations, 24)
 
