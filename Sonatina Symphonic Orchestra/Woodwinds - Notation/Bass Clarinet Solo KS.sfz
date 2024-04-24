@@ -86,6 +86,7 @@ sample=..\Samples\bass clarinet\bass_clarinet-g#4.wav
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+ampeg_attack=0.1
 
 <region>
 sample=..\Samples\bass clarinet\bass_clarinet-b4.wav
@@ -218,6 +219,7 @@ loop_end=91657
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+ampeg_attack=0.1
 
 <region>
 sample=..\Samples-looped\Bass Clarinet\bass_clarinet-b4.wav
@@ -361,6 +363,7 @@ loop_end=91657
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+ampeg_attack=0.1
 
 <region>
 sample=..\Samples-looped\Bass Clarinet\bass_clarinet-b4.wav
