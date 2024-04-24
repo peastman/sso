@@ -37,12 +37,6 @@ soloArticulations = (
     ("Sustain (looped, decay)", " (looped, decay)", 2)
 )
 
-chorusArticulations = (
-    ("Sustain (non-looped)", "", 0),
-    ("Sustain (looped)", " (looped)", 1),
-    ("Sustain (looped, velocity)", " (looped, velocity)", 2)
-)
-
 soloViolinArticulations = (
     ("Sustain", " Sustain", 0),
     ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
@@ -117,8 +111,3 @@ for directory in ['Strings - Notation', 'Strings - Performance']:
     createFile(directory, "Violin Solo", soloArticulations, 24)
     createFile(directory, "Violin Solo 2", soloViolinArticulations, 24)
     createFile(directory, "Cello Solo", soloArticulations, 79)
-
-createFile("Chorus", "Male", chorusArticulations, 24)
-createFile("Chorus", "Female", chorusArticulations, 24)
-createFile("Chorus", "Mixed", chorusArticulations, 24)
-
