@@ -85,6 +85,7 @@ lokey=f4
 hikey=g4
 pitch_keycenter=f#4
 volume=-1
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples\cello\cello-a4.wav
@@ -92,12 +93,14 @@ lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
 volume=-4
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples\cello\cello-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples\cello\cello-d#5.wav
@@ -112,13 +115,14 @@ lokey=f5
 hikey=g5
 pitch_keycenter=f#5
 volume=3
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples\cello\cello-a5.wav
 lokey=g#5
 hikey=c6
 pitch_keycenter=a5
-
+ampeg_attack=0.4
 
 // ------------------------------
 //  Sonatina Symphonic Orchestra
@@ -236,6 +240,7 @@ lokey=f4
 hikey=g4
 pitch_keycenter=f#4
 volume=-1
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples-looped\Cello\cello-a4.wav
@@ -245,6 +250,7 @@ lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
 volume=-4
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples-looped\Cello\cello-c5.wav
@@ -253,6 +259,7 @@ loop_end=121046
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples-looped\Cello\cello-d#5.wav
@@ -271,6 +278,7 @@ lokey=f5
 hikey=g5
 pitch_keycenter=f#5
 volume=3
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples-looped\Cello\cello-a5.wav
@@ -279,7 +287,7 @@ loop_end=111927
 lokey=g#5
 hikey=c6
 pitch_keycenter=a5
-
+ampeg_attack=0.4
 
 // ------------------------------
 //  Sonatina Symphonic Orchestra
@@ -404,6 +412,7 @@ lokey=f4
 hikey=g4
 pitch_keycenter=f#4
 volume=-1
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples-looped\Cello\cello-a4.wav
@@ -413,6 +422,7 @@ lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
 volume=-4
+ampeg_attack=0.2
 
 <region>
 sample=..\Samples-looped\Cello\cello-c5.wav
@@ -421,6 +431,7 @@ loop_end=121046
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples-looped\Cello\cello-d#5.wav
@@ -439,6 +450,7 @@ lokey=f5
 hikey=g5
 pitch_keycenter=f#5
 volume=3
+ampeg_attack=0.3
 
 <region>
 sample=..\Samples-looped\Cello\cello-a5.wav
@@ -447,5 +459,5 @@ loop_end=111927
 lokey=g#5
 hikey=c6
 pitch_keycenter=a5
-
+ampeg_attack=0.4
 
