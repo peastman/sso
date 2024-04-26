@@ -1,0 +1,60 @@
+group_volume=-11
+ampeg_attack=0.1
+
+<region> lokey=021 hikey=022 pitch_keycenter=033 sample=PP A0.$EXT
+<region> lokey=023 hikey=023 pitch_keycenter=035 sample=PP B0.$EXT offset=618
+<region> lokey=024 hikey=025 pitch_keycenter=037 sample=PP C#1.$EXT
+<region> lokey=026 hikey=027 pitch_keycenter=038 sample=PP D1.$EXT offset=1046
+<region> lokey=028 hikey=028 pitch_keycenter=040 sample=PP E1.$EXT
+<region> lokey=029 hikey=029 pitch_keycenter=041 sample=PP F1.$EXT
+<region> lokey=030 hikey=032 pitch_keycenter=043 sample=PP G1.$EXT
+<region> lokey=033 hikey=034 pitch_keycenter=045 sample=PP A1.$EXT
+<region> lokey=035 hikey=035 pitch_keycenter=047 sample=PP B1.$EXT
+<region> lokey=036 hikey=037 pitch_keycenter=048 sample=PP C2.$EXT
+<region> lokey=038 hikey=038 pitch_keycenter=050 sample=PP D2.$EXT
+<region> lokey=039 hikey=040 pitch_keycenter=052 sample=PP E2.$EXT
+<region> lokey=041 hikey=042 pitch_keycenter=053 sample=PP F2.$EXT
+<region> lokey=043 hikey=043 pitch_keycenter=055 sample=PP G2.$EXT
+<region> lokey=044 hikey=044 pitch_keycenter=056 sample=PP G#2.$EXT
+<region> lokey=045 hikey=045 pitch_keycenter=057 sample=PP A2.$EXT
+<region> lokey=046 hikey=046 pitch_keycenter=058 sample=PP A#2.$EXT
+<region> lokey=047 hikey=047 pitch_keycenter=059 sample=PP B2.$EXT
+<region> lokey=048 hikey=049 pitch_keycenter=060 sample=PP C3.$EXT
+<region> lokey=050 hikey=051 pitch_keycenter=062 sample=PP D3.$EXT
+<region> lokey=052 hikey=052 pitch_keycenter=064 sample=PP E3.$EXT
+<region> lokey=053 hikey=054 pitch_keycenter=065 sample=PP F3.$EXT
+<region> lokey=055 hikey=056 pitch_keycenter=067 sample=PP G3.$EXT
+<region> lokey=057 hikey=057 pitch_keycenter=069 sample=PP A3.$EXT
+<region> lokey=058 hikey=059 pitch_keycenter=071 sample=PP B3.$EXT
+<region> lokey=060 hikey=061 pitch_keycenter=072 sample=PP C4.$EXT
+<region> lokey=062 hikey=063 pitch_keycenter=074 sample=PP D4.$EXT
+<region> lokey=064 hikey=064 pitch_keycenter=076 sample=PP E4.$EXT
+<region> lokey=065 hikey=066 pitch_keycenter=077 sample=PP F4.$EXT
+<region> lokey=067 hikey=067 pitch_keycenter=079 sample=PP G4.$EXT
+<region> lokey=068 hikey=068 pitch_keycenter=080 sample=PP G#4.$EXT
+<region> lokey=069 hikey=069 pitch_keycenter=081 sample=PP A4.$EXT
+<region> lokey=070 hikey=070 pitch_keycenter=082 sample=PP A#4.$EXT
+<region> lokey=071 hikey=071 pitch_keycenter=083 sample=PP B4.$EXT
+<region> lokey=072 hikey=073 pitch_keycenter=085 sample=PP C#5.$EXT
+<region> lokey=074 hikey=074 pitch_keycenter=086 sample=PP D5.$EXT
+<region> lokey=075 hikey=075 pitch_keycenter=087 sample=PP D#5.$EXT
+<region> lokey=076 hikey=077 pitch_keycenter=089 sample=PP F5.$EXT
+<region> lokey=078 hikey=078 pitch_keycenter=090 sample=PP F#5.$EXT pan=-40
+<region> lokey=079 hikey=079 pitch_keycenter=091 sample=PP G5.$EXT pan=-30 offset=135
+<region> lokey=080 hikey=080 pitch_keycenter=092 sample=PP G#5.$EXT pan=-30
+<region> lokey=081 hikey=081 pitch_keycenter=093 sample=PP A5.$EXT pan=-45
+<region> lokey=082 hikey=082 pitch_keycenter=094 sample=PP A#5.$EXT pan=-45
+<region> lokey=083 hikey=083 pitch_keycenter=095 sample=PP B5.$EXT offset=324
+<region> lokey=084 hikey=084 pitch_keycenter=096 sample=PP C6.$EXT offset=57 tune=-5
+<region> lokey=085 hikey=085 pitch_keycenter=097 sample=PP C#6.$EXT offset=265 tune=-5
+<region> lokey=086 hikey=086 pitch_keycenter=098 sample=PP D6.$EXT tune=-10
+<region> lokey=087 hikey=087 pitch_keycenter=099 sample=PP D#6.$EXT tune=-5
+<region> lokey=088 hikey=088 pitch_keycenter=100 sample=PP E6.$EXT tune=-10
+<region> lokey=089 hikey=089 pitch_keycenter=101 sample=PP F6.$EXT tune=-10
+<region> lokey=090 hikey=090 pitch_keycenter=102 sample=PP F#6.$EXT tune=-20
+<region> lokey=091 hikey=091 pitch_keycenter=103 sample=PP G6.$EXT tune=-20
+<region> lokey=092 hikey=092 pitch_keycenter=104 sample=PP G#6.$EXT tune=-25
+<region> lokey=093 hikey=093 pitch_keycenter=105 sample=PP A6.$EXT offset=146 tune=-20
+<region> lokey=094 hikey=094 pitch_keycenter=106 sample=PP A#6.$EXT tune=-25
+<region> lokey=095 hikey=095 pitch_keycenter=107 sample=PP B6.$EXT tune=-25
+<region> lokey=096 hikey=096 pitch_keycenter=108 sample=PP C7.$EXT tune=-20

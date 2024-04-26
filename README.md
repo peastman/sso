@@ -10,7 +10,8 @@ In other words, don't email him with questions about it!
 [**Download SSO**](https://github.com/peastman/sso/releases)
 
 The instruments are packaged in SFZ format.  They can be used with any compatible player, such as
-[Linux Sampler](https://www.linuxsampler.org/), [Sforzando](https://www.plogue.com/products/sforzando/), and
+[Sforzando](https://www.plogue.com/products/sforzando/), [sfizz](https://sfz.tools/sfizz/),
+[Linux Sampler](https://www.linuxsampler.org/), and
 [ARIA Player](https://www.garritan.com/products/personal-orchestra-5/aria-player/).
 
 Instruments
