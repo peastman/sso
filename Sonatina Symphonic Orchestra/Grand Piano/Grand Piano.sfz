@@ -1,0 +1,125 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Splendid Grand Piano
+// Public Domain by AKAI
+// --------------------------------------
+// converted by kinwie
+// modifications by P.Eastman
+// --------------------------------------
+
+
+//midi cc
+#define $RES 70
+#define $RELEASE 72
+#define $VELTRACK 99
+
+//file-folder
+#define $EXT flac
+#define $DIR Data
+
+
+//////////////////////////////////////////////////////////
+<control>
+default_path=../Samples/Grand Piano/
+
+label_cc7=Vol
+label_cc10=Pan
+label_cc12=Treble
+label_cc64=Sus.Pedal
+label_cc$RES=Resonance
+label_cc$RELEASE=Release
+label_cc$VELTRACK=Veltrack
+
+set_cc7=100
+set_hdcc10=0.5
+set_hdcc12=0.5
+set_hdcc$RES=1.0
+set_hdcc$RELEASE=0.35
+set_hdcc$VELTRACK=1
+
+
+//*******************************************************
+<global>
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
+ampeg_attack=0.0005
+ampeg_decay=100
+ampeg_sustain=0
+ampeg_release_oncc$RELEASE=2
+amp_veltrack_oncc$VELTRACK=-100
+amp_veltrack_curvecc$VELTRACK=2
+note_polyphony=1
+off_time=0.5
+// Equalization to boost the treble a little.
+eq3_freq=1600
+eq3_gain_oncc12=5
+// The following are to implement half pedaling.
+// Adapted from https://vi-control.net/community/threads/sfz-half-pedaling.116007/#post-4943326
+sustain_cc=90 //re-route default sustain pedal to CC90
+ampeg_dynamic=1 //allow envelope to update on CC64 change
+ampeg_release_shape=-6 //set the sustain curve dropoff curvature
+ampeg_releasecc64=60 //make maximum release time 60 seconds
+ampeg_release_curvecc64=11 //use the curve_index 11
+
+// Curve for half pedal
+<curve>curve_index=11
+v000=0
+v032=0
+v042=.1
+v064=.3
+v072=.4
+v073=1
+v127=1
+
+//===================================
+
+<group>
+group=1
+locc64=65
+locc$RES=1
+amplitude_oncc$RES=200
+#include "$DIR/Res.txt"
+
+<group>
+lovel=1
+hivel=40
+cutoff=1000
+group_volume=0
+#define $DYN PP
+group_label=P$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=41
+hivel=67
+group_volume=0
+#define $DYN PP
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=68
+hivel=84
+group_volume=0
+#define $DYN MP
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=85
+hivel=100
+group_volume=0
+#define $DYN MF
+group_label=$DYN
+#include "$DIR/$DYN.txt"
+
+<group>
+lovel=101
+hivel=127
+group_volume=0
+#define $DYN FF
+group_label=$DYN
+#include "$DIR/$DYN.txt"
