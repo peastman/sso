@@ -15,9 +15,8 @@ loop_mode=loop_continuous
 ampeg_attack=0.625
 ampeg_vel2attack=-0.625
 ampeg_release=1.250
-delay_random=0.05
 amp_veltrack=0
-gain_cc1=30
+gain_cc1=25
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-g4.wav
@@ -28,6 +27,7 @@ hikey=g#4
 pitch_keycenter=g4
 tune=16
 volume=-29.932730
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-g#4.wav
@@ -48,6 +48,7 @@ hikey=a#4
 pitch_keycenter=a4
 tune=-2
 volume=-32
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-a#4.wav
@@ -68,6 +69,7 @@ hikey=c5
 pitch_keycenter=b4
 tune=-4
 volume=-29.332906
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-c5.wav
@@ -88,6 +90,7 @@ hikey=d5
 pitch_keycenter=c#5
 tune=-7
 volume=-29.872490
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-d5.wav
@@ -107,6 +110,7 @@ hikey=e5
 pitch_keycenter=d#5
 tune=-2
 volume=-29.428512
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-e5.wav
@@ -127,6 +131,7 @@ hikey=f#5
 pitch_keycenter=f5
 tune=7
 volume=-31.254340
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-f#5.wav
@@ -142,11 +147,12 @@ volume=-29.674515
 sample=..\Samples-looped\Chorus\chorus-female-g5.wav
 loop_start=186261
 loop_end=350169
-lokey=g5
-hikey=g5
+lokey=f#5
+hikey=g#5
 pitch_keycenter=g5
 tune=11
 volume=-30.138828
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-g#5.wav
@@ -167,6 +173,7 @@ hikey=a#5
 pitch_keycenter=a5
 tune=10
 volume=-30.481502
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-a#5.wav
@@ -187,6 +194,7 @@ hikey=c6
 pitch_keycenter=b5
 tune=9
 volume=-28.423292
+pan=-15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-c6.wav
@@ -217,6 +225,7 @@ hikey=a2
 pitch_keycenter=g#2
 tune=-3
 volume=-29.134626
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-a2.wav
@@ -237,6 +246,7 @@ hikey=b2
 pitch_keycenter=a#2
 tune=15
 volume=-30.809683
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-b2.wav
@@ -257,6 +267,7 @@ hikey=c#3
 pitch_keycenter=c3
 tune=1
 volume=-31.836444
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-c#3.wav
@@ -277,6 +288,7 @@ hikey=d#3
 pitch_keycenter=d3
 tune=-1
 volume=-28.222276
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-d#3.wav
@@ -297,6 +309,7 @@ hikey=f3
 pitch_keycenter=e3
 tune=2
 volume=-29.410280
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-f3.wav
@@ -316,6 +329,7 @@ lokey=f3
 hikey=g3
 pitch_keycenter=f#3
 volume=-30.711300
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-g3.wav
@@ -336,6 +350,7 @@ hikey=a3
 pitch_keycenter=g#3
 tune=-5
 volume=-31.522087
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-a3.wav
@@ -355,6 +370,7 @@ hikey=b3
 pitch_keycenter=a#3
 tune=6
 volume=-29.476678
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-b3.wav
@@ -372,6 +388,7 @@ loop_end=354221
 lokey=b3
 hikey=c#4
 volume=-29.698775
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-c#4.wav
@@ -392,6 +409,7 @@ hikey=d#4
 pitch_keycenter=d4
 tune=3
 volume=-30.367603
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-d#4.wav
@@ -412,6 +430,7 @@ hikey=f4
 pitch_keycenter=e4
 tune=8
 volume=-29.682691
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-f4.wav
@@ -432,3 +451,4 @@ hikey=g4
 pitch_keycenter=f#4
 tune=9
 volume=-30.783695
+pan=15
