@@ -100,7 +100,7 @@ SSO includes the following instruments and articulations:
 |----------|-------------|
 |Grand Piano| - |
 |Concert Harp| - |
-|Chorus| - |
+|Chorus| Mixed, Large |
 
 Instruments with multiple articulations are packaged in two ways.  Use whichever one is more convenient for your
 workflow.
