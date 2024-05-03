@@ -1,7 +1,7 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
-//         Chorus Mixed
+//         Mixed Chorus
 // ------------------------------
 //
 // Based on SSO 1.0 by Mattias Westlund
@@ -12,11 +12,8 @@
 
 <group>
 loop_mode=loop_continuous
-ampeg_attack=0.625
-ampeg_vel2attack=-0.625
-ampeg_hold=0.840
-ampeg_decay=22
-ampeg_sustain=70
+ampeg_attack=0.4
+ampeg_vel2attack=-0.4
 ampeg_release=1.250
 
 <region>
