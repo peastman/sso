@@ -1,5 +1,5 @@
 group_volume=-11
-ampeg_attack=0.1
+ampeg_attack=0.2
 
 <region> lokey=021 hikey=022 pitch_keycenter=033 sample=PP A0.$EXT
 <region> lokey=023 hikey=023 pitch_keycenter=035 sample=PP B0.$EXT offset=618
