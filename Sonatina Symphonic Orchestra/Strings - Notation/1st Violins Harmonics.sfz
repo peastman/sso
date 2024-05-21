@@ -1,0 +1,137 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//      1st Violins Sustain
+// ------------------------------
+
+<group>
+ampeg_attack=0.180
+ampeg_vel2attack=-0.180
+ampeg_release=0.9
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-g3.flac
+loop_mode=loop_continuous
+loop_start=85325
+loop_end=182517
+lokey=g3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-a#3.flac
+loop_mode=loop_continuous
+loop_start=88340
+loop_end=186398
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+tune=10
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-c#4.flac
+loop_mode=loop_continuous
+loop_start=140506
+loop_end=226082
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-e4.flac
+loop_mode=loop_continuous
+loop_start=92078
+loop_end=223977
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-g4.flac
+loop_mode=loop_continuous
+loop_start=85829
+loop_end=188414
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-a#4.flac
+loop_mode=loop_continuous
+loop_start=109689
+loop_end=198153
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-c#5.flac
+loop_mode=loop_continuous
+loop_start=110178
+loop_end=221043
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-e5.flac
+loop_mode=loop_continuous
+loop_start=80119
+loop_end=225502
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-g5.flac
+loop_mode=loop_continuous
+loop_start=108811
+loop_end=214580
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-a#5.flac
+loop_mode=loop_continuous
+loop_start=107356
+loop_end=181557
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-c#6.flac
+loop_mode=loop_continuous
+loop_start=112782
+loop_end=213851
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-e6.flac
+loop_mode=loop_continuous
+loop_start=129249
+loop_end=206200
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-g6.flac
+loop_mode=loop_continuous
+loop_start=113991
+loop_end=200017
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
+
+<region>
+sample=../Samples/1st Violins/1st-violins-hrm-a#6.flac
+loop_mode=loop_continuous
+loop_start=91279
+loop_end=221741
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6

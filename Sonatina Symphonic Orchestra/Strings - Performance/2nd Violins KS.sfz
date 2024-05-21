@@ -7,7 +7,7 @@
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=c2
 sw_label=Sustain
 
@@ -116,7 +116,7 @@ pitch_keycenter=a#6
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=d2
 sw_label=Marcato
 
@@ -219,7 +219,7 @@ pitch_keycenter=a#6
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=d2
 sw_label=Marcato
 loop_mode=one_shot
@@ -323,7 +323,7 @@ pitch_keycenter=a#6
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=e2
 sw_label=Staccato
 loop_mode=one_shot
@@ -430,7 +430,7 @@ volume=1
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=e2
 sw_label=Staccato
 loop_mode=one_shot
@@ -547,7 +547,7 @@ volume=1
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=f2
 sw_label=Pizzicato
 loop_mode=one_shot
@@ -646,7 +646,7 @@ pitch_keycenter=a#6
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=f2
 sw_label=Pizzicato
 loop_mode=one_shot
@@ -747,7 +747,7 @@ pitch_keycenter=a#6
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=g2
+sw_hikey=a2
 sw_last=g2
 sw_label=Tremolo
 ampeg_release=0.500
@@ -843,5 +843,152 @@ lokey=a6
 hikey=c7
 pitch_keycenter=a#6
 volume=-33
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//      2nd Violins Sustain
+// ------------------------------
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=a2
+sw_last=a2
+sw_label=Harmonics
+
+ampeg_attack=0.175
+ampeg_vel2attack=-0.175
+ampeg_release=1
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-g3.flac
+loop_mode=loop_continuous
+loop_start=120818
+loop_end=222352
+lokey=g3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-a#3.flac
+loop_mode=loop_continuous
+loop_start=105273
+loop_end=220152
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-c#4.flac
+loop_mode=loop_continuous
+loop_start=88535
+loop_end=223151
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-e4.flac
+loop_mode=loop_continuous
+loop_start=137581
+loop_end=201899
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-g4.flac
+loop_mode=loop_continuous
+loop_start=85042
+loop_end=190819
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-a#4.flac
+loop_mode=loop_continuous
+loop_start=122836
+loop_end=216511
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-c#5.flac
+loop_mode=loop_continuous
+loop_start=123338
+loop_end=182306
+lokey=c5
+hikey=d5
+pitch_keycenter=c#5
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-e5.flac
+loop_mode=loop_continuous
+loop_start=87293
+loop_end=183886
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-g5.flac
+loop_mode=loop_continuous
+loop_start=92768
+loop_end=194460
+lokey=f#5
+hikey=g#5
+pitch_keycenter=g5
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-a#5.flac
+loop_mode=loop_continuous
+loop_start=94001
+loop_end=190426
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-c#6.flac
+loop_mode=loop_continuous
+loop_start=109045
+loop_end=228195
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-e6.flac
+loop_mode=loop_continuous
+loop_start=119488
+loop_end=223636
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-g6.flac
+loop_mode=loop_continuous
+loop_start=117778
+loop_end=207509
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
+
+<region>
+sample=../Samples/2nd Violins/2nd-violins-hrm-a#6.flac
+loop_mode=loop_continuous
+loop_start=111412
+loop_end=195136
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6
 
 
