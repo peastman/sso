@@ -749,8 +749,8 @@ volume=-33
 <region>
 sample=../Samples/Celli/celli-hrm-d#2.flac
 loop_mode=loop_continuous
-loop_start=57683
-loop_end=143065
+loop_start=11230
+loop_end=135195
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
@@ -769,8 +769,8 @@ volume=-29
 <region>
 sample=../Samples/Celli/celli-hrm-a2.flac
 loop_mode=loop_continuous
-loop_start=65285
-loop_end=142568
+loop_start=18992
+loop_end=132589
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
@@ -778,8 +778,8 @@ pitch_keycenter=a2
 <region>
 sample=../Samples/Celli/celli-hrm-c3.flac
 loop_mode=loop_continuous
-loop_start=93181
-loop_end=156750
+loop_start=31758
+loop_end=145931
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
@@ -796,8 +796,8 @@ pitch_keycenter=d#3
 <region>
 sample=../Samples/Celli/celli-hrm-f#3.flac
 loop_mode=loop_continuous
-loop_start=91974
-loop_end=153934
+loop_start=11266
+loop_end=120826
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
@@ -824,8 +824,8 @@ volume=-32
 <region>
 sample=../Samples/Celli/celli-hrm-d#4.flac
 loop_mode=loop_continuous
-loop_start=95602
-loop_end=152555
+loop_start=20520
+loop_end=144950
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
