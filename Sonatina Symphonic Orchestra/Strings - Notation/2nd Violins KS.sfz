@@ -848,7 +848,7 @@ sw_hikey=a2
 sw_last=a2
 sw_label=Harmonics
 
-ampeg_attack=0.175
+ampeg_attack=0.375
 ampeg_vel2attack=-0.175
 ampeg_release=1
 
@@ -860,6 +860,7 @@ loop_end=222352
 lokey=g3
 hikey=g#3
 pitch_keycenter=g3
+volume=-1
 
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-a#3.flac
@@ -950,6 +951,7 @@ loop_end=228195
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
+volume=-1
 
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-e6.flac

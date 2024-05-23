@@ -6,7 +6,7 @@
 
 <group>
 
-ampeg_attack=0.175
+ampeg_attack=0.375
 ampeg_vel2attack=-0.175
 ampeg_release=1
 amp_veltrack=0
@@ -21,6 +21,7 @@ loop_end=222352
 lokey=g3
 hikey=g#3
 pitch_keycenter=g3
+volume=-31
 
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-a#3.flac
@@ -120,6 +121,7 @@ loop_end=223636
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
+volume=-31
 
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-g6.flac

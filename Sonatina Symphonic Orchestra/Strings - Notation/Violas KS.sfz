@@ -710,6 +710,7 @@ loop_end=208693
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
+volume=-1
 
 <region>
 sample=../Samples/Violas/violas-hrm-f#3.flac
@@ -719,6 +720,7 @@ loop_end=201911
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
+volume=2
 
 <region>
 sample=../Samples/Violas/violas-hrm-a3.flac
@@ -728,6 +730,7 @@ loop_end=203876
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
+volume=1
 
 <region>
 sample=../Samples/Violas/violas-hrm-c4.flac
@@ -781,6 +784,7 @@ loop_end=178595
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=3
 
 <region>
 sample=../Samples/Violas/violas-hrm-f#5.flac

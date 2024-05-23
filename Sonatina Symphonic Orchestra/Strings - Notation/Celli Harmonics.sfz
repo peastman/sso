@@ -5,7 +5,7 @@
 // ------------------------------
 
 <group>
-ampeg_attack=0.300
+ampeg_attack=0.500
 ampeg_vel2attack=-0.300
 ampeg_release=1.5
 fil_type=hpf_1p
@@ -76,6 +76,7 @@ loop_end=120826
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
+volume=3
 
 <region>
 sample=../Samples/Celli/celli-hrm-a3.flac
@@ -122,7 +123,7 @@ loop_end=159361
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
-volume=-2
+volume=-1
 
 <region>
 sample=../Samples/Celli/celli-hrm-c5.flac
