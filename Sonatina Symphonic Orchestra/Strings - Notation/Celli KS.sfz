@@ -724,30 +724,29 @@ loop_mode=loop_continuous
 ampeg_attack=0.300
 ampeg_vel2attack=-0.300
 ampeg_release=1.5
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=1000
+fil_type=hpf_1p
+cutoff=12
 
 <region>
 sample=../Samples/Celli/celli-trm-c2.flac
-loop_start=79505
-loop_end=290161
+loop_start=92838
+loop_end=278154
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
 
 <region>
 sample=../Samples/Celli/celli-trm-d#2.flac
-loop_start=79686
-loop_end=291959
+loop_start=92615
+loop_end=277738
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
 
 <region>
 sample=../Samples/Celli/celli-trm-f#2.flac
-loop_start=78435
-loop_end=289214
+loop_start=93538
+loop_end=278880
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
@@ -755,40 +754,40 @@ volume=1
 
 <region>
 sample=../Samples/Celli/celli-trm-a2.flac
-loop_start=77996
-loop_end=289310
+loop_start=91701
+loop_end=276144
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
 
 <region>
 sample=../Samples/Celli/celli-trm-c3.flac
-loop_start=79384
-loop_end=289873
+loop_start=92705
+loop_end=276773
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
 
 <region>
 sample=../Samples/Celli/celli-trm-d#3.flac
-loop_start=79242
-loop_end=289560
+loop_start=92498
+loop_end=276627
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
 
 <region>
 sample=../Samples/Celli/celli-trm-f#3.flac
-loop_start=78995
-loop_end=291390
+loop_start=92884
+loop_end=280107
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
 
 <region>
 sample=../Samples/Celli/celli-trm-a3.flac
-loop_start=79916
-loop_end=292131
+loop_start=91824
+loop_end=277288
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
@@ -796,16 +795,16 @@ volume=-3
 
 <region>
 sample=../Samples/Celli/celli-trm-c4.flac
-loop_start=79616
-loop_end=291845
+loop_start=94081
+loop_end=280351
 lokey=b3
 hikey=c#4
 volume=-2
 
 <region>
 sample=../Samples/Celli/celli-trm-d#4.flac
-loop_start=79179
-loop_end=290245
+loop_start=91415
+loop_end=274960
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
@@ -813,8 +812,8 @@ volume=-2
 
 <region>
 sample=../Samples/Celli/celli-trm-f#4.flac
-loop_start=79585
-loop_end=292747
+loop_start=92528
+loop_end=277950
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
@@ -822,8 +821,8 @@ volume=2
 
 <region>
 sample=../Samples/Celli/celli-trm-a4.flac
-loop_start=79691
-loop_end=292053
+loop_start=92965
+loop_end=279213
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
@@ -831,8 +830,8 @@ volume=-3
 
 <region>
 sample=../Samples/Celli/celli-trm-c5.flac
-loop_start=79088
-loop_end=289580
+loop_start=91895
+loop_end=276324
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5

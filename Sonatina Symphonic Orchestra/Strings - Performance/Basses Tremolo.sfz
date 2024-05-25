@@ -15,64 +15,64 @@ gain_cc1=30
 
 <region>
 sample=../Samples/Basses/basses-trm-c1.flac
-loop_start=94913
-loop_end=344194
+loop_start=104521
+loop_end=315147
 lokey=c1
 hikey=c#1
 pitch_keycenter=c1
 
 <region>
 sample=../Samples/Basses/basses-trm-d#1.flac
-loop_start=92332
-loop_end=340360
+loop_start=107984
+loop_end=322974
 lokey=d1
 hikey=e1
 pitch_keycenter=d#1
 
 <region>
 sample=../Samples/Basses/basses-trm-f#1.flac
-loop_start=92031
-loop_end=338317
+loop_start=105092
+loop_end=316372
 lokey=f1
 hikey=g1
 pitch_keycenter=f#1
 
 <region>
 sample=../Samples/Basses/basses-trm-a1.flac
-loop_start=91177
-loop_end=335194
+loop_start=105901
+loop_end=316733
 lokey=g#1
 hikey=a#1
 pitch_keycenter=a1
 
 <region>
 sample=../Samples/Basses/basses-trm-c2.flac
-loop_start=92992
-loop_end=341729
+loop_start=104447
+loop_end=313420
 lokey=b1
 hikey=c#2
 pitch_keycenter=c2
 
 <region>
 sample=../Samples/Basses/basses-trm-d#2.flac
-loop_start=93218
-loop_end=341026
+loop_start=107151
+loop_end=319827
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
 
 <region>
 sample=../Samples/Basses/basses-trm-f#2.flac
-loop_start=92687
-loop_end=340424
+loop_start=106980
+loop_end=320536
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
 
 <region>
 sample=../Samples/Basses/basses-trm-a2.flac
-loop_start=94040
-loop_end=343415
+loop_start=106561
+loop_end=319919
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a2
@@ -80,16 +80,16 @@ volume=-32
 
 <region>
 sample=../Samples/Basses/basses-trm-c3.flac
-loop_start=94661
-loop_end=343837
+loop_start=106866
+loop_end=320643
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
 
 <region>
 sample=../Samples/Basses/basses-trm-d#3.flac
-loop_start=93971
-loop_end=341843
+loop_start=103970
+loop_end=314285
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
@@ -97,8 +97,8 @@ volume=-32
 
 <region>
 sample=../Samples/Basses/basses-trm-f#3.flac
-loop_start=94763
-loop_end=344146
+loop_start=105981
+loop_end=318361
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
@@ -106,8 +106,8 @@ volume=-29
 
 <region>
 sample=../Samples/Basses/basses-trm-a3.flac
-loop_start=92496
-loop_end=340267
+loop_start=108101
+loop_end=319544
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
@@ -115,8 +115,8 @@ volume=-31
 
 <region>
 sample=../Samples/Basses/basses-trm-c4.flac
-loop_start=92689
-loop_end=338226
+loop_start=105081
+loop_end=315855
 lokey=b3
 hikey=c4
 pitch_keycenter=c4
