@@ -21,23 +21,17 @@ stringArticulations = (
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
-    ("Harmonics", " Harmonics", 7)
-)
-
-violinArticulations = (
-    ("Sustain", " Sustain", 0),
-    ("Marcato", " Marcato", 2),
-    ("Staccato", " Staccato", 4),
-    ("Pizzicato", " Pizzicato", 5),
     ("Tremolo", " Tremolo", 7),
     ("Harmonics", " Harmonics", 9)
 )
+
 
 bassArticulations = (
     ("Sustain", " Sustain", 0),
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
-    ("Pizzicato", " Pizzicato", 5)
+    ("Pizzicato", " Pizzicato", 5),
+    ("Tremolo", " Tremolo", 7)
 )
 
 soloArticulations = (
@@ -111,8 +105,8 @@ for directory in ['Woodwinds - Notation', 'Woodwinds - Performance']:
     createFile(directory, "Contrabassoon Solo", soloArticulations, 72)
 
 for directory in ['Strings - Notation', 'Strings - Performance']:
-    createFile(directory, "1st Violins", violinArticulations, 24)
-    createFile(directory, "2nd Violins", violinArticulations, 24)
+    createFile(directory, "1st Violins", stringArticulations, 24)
+    createFile(directory, "2nd Violins", stringArticulations, 24)
     createFile(directory, "Violas", stringArticulations, 24)
     createFile(directory, "Celli", stringArticulations, 72)
     createFile(directory, "Basses", bassArticulations, 72)
