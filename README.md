@@ -28,7 +28,7 @@ SSO includes the following instruments and articulations:
 |Violas|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
 |Cellos|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
 |Basses|Sustain, Marcato, Staccato, Pizzicato, Tremolo|
-|Solo Violin|Sustain (non-looped, looped, decay)|
+|Solo Violin 1|Sustain (non-looped, looped, decay)|
 |Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Pizzicato, Tremolo|
 |Solo Cello|Sustain (non-looped, looped, decay)|
 
@@ -54,7 +54,7 @@ SSO includes the following instruments and articulations:
 |Clarinets|Sustain (looped, non-looped)|
 |Bassoons|Sustain (looped, non-looped)|
 |Solo Piccolo|Sustain (non-looped, looped, decay)|
-|Solo Flute|Sustain (non-looped, looped, decay)|
+|Solo Flute 1|Sustain (non-looped, looped, decay)|
 |Solo Flute 2|Sustain, Sustain non-vibrato, Staccato|
 |Solo Alto Flute|Sustain (non-looped, looped, decay)|
 |Solo Cor Anglais|Sustain (non-looped, looped, decay)|
