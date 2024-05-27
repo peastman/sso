@@ -94,7 +94,7 @@ for directory in ['Woodwinds - Notation', 'Woodwinds - Performance']:
     createFile(directory, "Bassoons", sustainArticulations, 72)
 
     createFile(directory, "Piccolo Solo", soloArticulations, 24)
-    createFile(directory, "Flute Solo", soloArticulations, 24)
+    createFile(directory, "Flute Solo 1", soloArticulations, 24)
     createFile(directory, "Flute Solo 2", soloFluteArticulations, 24)
     createFile(directory, "Alto Flute Solo", soloArticulations, 24)
     createFile(directory, "Oboe Solo", soloArticulations, 24)
@@ -111,6 +111,6 @@ for directory in ['Strings - Notation', 'Strings - Performance']:
     createFile(directory, "Celli", stringArticulations, 72)
     createFile(directory, "Basses", bassArticulations, 72)
 
-    createFile(directory, "Violin Solo", soloArticulations, 24)
+    createFile(directory, "Violin Solo 1", soloArticulations, 24)
     createFile(directory, "Violin Solo 2", soloViolinArticulations, 24)
     createFile(directory, "Cello Solo", soloArticulations, 79)
