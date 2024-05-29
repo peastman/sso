@@ -11,7 +11,7 @@ ampeg_decay=1
 ampeg_vel2decay=10
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G2.wav
+sample=../Samples/Violin 2/violin_spiccato_G2.wav
 lokey=g3
 hikey=g3
 pitch_keycenter=g3
@@ -19,7 +19,7 @@ offset=432
 tune=6
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G#2.wav
+sample=../Samples/Violin 2/violin_spiccato_G#2.wav
 lokey=g#3
 hikey=g#3
 pitch_keycenter=g#3
@@ -27,49 +27,49 @@ offset=335
 tune=0
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A2.wav
+sample=../Samples/Violin 2/violin_spiccato_A2.wav
 lokey=a3
-hikey=a3
+hikey=a#3
 pitch_keycenter=a3
 offset=257
 tune=3
 
-<region>
-sample=..\Samples/Violin 2/violin_spiccato_A#2.wav
-lokey=a#3
-hikey=a#3
-pitch_keycenter=a#3
-offset=124
-tune=-3
+//<region>
+//sample=../Samples/Violin 2/violin_spiccato_A#2.wav
+//lokey=a#3
+//hikey=a#3
+//pitch_keycenter=a#3
+//offset=124
+//tune=-3
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_B2.wav
+sample=../Samples/Violin 2/violin_spiccato_B2.wav
 lokey=b3
-hikey=b3
+hikey=c4
 pitch_keycenter=b3
 offset=206
 tune=4
 
-<region>
-sample=..\Samples/Violin 2/violin_spiccato_C3.wav
-lokey=c4
-hikey=c4
-pitch_keycenter=c4
-offset=141
-tune=0
+//<region>
+//sample=../Samples/Violin 2/violin_spiccato_C3.wav
+//lokey=c4
+//hikey=c4
+//pitch_keycenter=c4
+//offset=141
+//tune=0
+
+//<region>
+//sample=../Samples/Violin 2/violin_spiccato_C#3.wav
+//lokey=c#4
+//hikey=c#4
+//pitch_keycenter=c#4
+//offset=270
+//tune=4
+//volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_C#3.wav
+sample=../Samples/Violin 2/violin_spiccato_D3.wav
 lokey=c#4
-hikey=c#4
-pitch_keycenter=c#4
-offset=270
-tune=4
-volume=1
-
-<region>
-sample=..\Samples/Violin 2/violin_spiccato_D3.wav
-lokey=d4
 hikey=d4
 pitch_keycenter=d4
 offset=284
@@ -77,7 +77,7 @@ tune=6
 volume=1
 
 //<region>
-//sample=..\Samples/Violin 2/violin_spiccato_D#3.wav
+//sample=../Samples/Violin 2/violin_spiccato_D#3.wav
 //lokey=d#4
 //hikey=d#4
 //pitch_keycenter=d#4
@@ -85,7 +85,7 @@ volume=1
 //tune=11
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_E3.wav
+sample=../Samples/Violin 2/violin_spiccato_E3.wav
 lokey=d#4
 hikey=e4
 pitch_keycenter=e4
@@ -93,7 +93,7 @@ offset=419
 tune=3
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_F3.wav
+sample=../Samples/Violin 2/violin_spiccato_F3.wav
 lokey=f4
 hikey=f4
 pitch_keycenter=f4
@@ -101,7 +101,7 @@ offset=344
 tune=5
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_F#3.wav
+sample=../Samples/Violin 2/violin_spiccato_F#3.wav
 lokey=f#4
 hikey=f#4
 pitch_keycenter=f#4
@@ -110,7 +110,7 @@ tune=5
 volume=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G3.wav
+sample=../Samples/Violin 2/violin_spiccato_G3.wav
 lokey=g4
 hikey=g4
 pitch_keycenter=g4
@@ -119,7 +119,7 @@ tune=2
 volume=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G#3.wav
+sample=../Samples/Violin 2/violin_spiccato_G#3.wav
 lokey=g#4
 hikey=g#4
 pitch_keycenter=g#4
@@ -128,7 +128,7 @@ tune=5
 volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A3.wav
+sample=../Samples/Violin 2/violin_spiccato_A3.wav
 lokey=a4
 hikey=a4
 pitch_keycenter=a4
@@ -137,7 +137,7 @@ tune=-7
 volume=2
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A#3.wav
+sample=../Samples/Violin 2/violin_spiccato_A#3.wav
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -146,7 +146,7 @@ tune=0
 volume=-3
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_B3.wav
+sample=../Samples/Violin 2/violin_spiccato_B3.wav
 lokey=b4
 hikey=b4
 pitch_keycenter=b4
@@ -155,7 +155,7 @@ tune=7
 volume=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_C4.wav
+sample=../Samples/Violin 2/violin_spiccato_C4.wav
 lokey=c5
 hikey=c5
 pitch_keycenter=c5
@@ -164,7 +164,7 @@ tune=0
 volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_C#4.wav
+sample=../Samples/Violin 2/violin_spiccato_C#4.wav
 lokey=c#5
 hikey=c#5
 pitch_keycenter=c#5
@@ -172,7 +172,7 @@ offset=513
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_D4.wav
+sample=../Samples/Violin 2/violin_spiccato_D4.wav
 lokey=d5
 hikey=d#5
 pitch_keycenter=d5
@@ -180,7 +180,7 @@ offset=385
 tune=16
 
 //<region>
-//sample=..\Samples/Violin 2/violin_spiccato_D#4.wav
+//sample=../Samples/Violin 2/violin_spiccato_D#4.wav
 //lokey=d#5
 //hikey=d#5
 //pitch_keycenter=d#5
@@ -188,7 +188,7 @@ tune=16
 //tune=14
 
 //<region>
-//sample=..\Samples/Violin 2/violin_spiccato_E4.wav
+//sample=../Samples/Violin 2/violin_spiccato_E4.wav
 //lokey=e5
 //hikey=e5
 //pitch_keycenter=e5
@@ -196,7 +196,7 @@ tune=16
 //tune=5
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_F4.wav
+sample=../Samples/Violin 2/violin_spiccato_F4.wav
 lokey=e5
 hikey=f5
 pitch_keycenter=f5
@@ -204,7 +204,7 @@ offset=233
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_F#4.wav
+sample=../Samples/Violin 2/violin_spiccato_F#4.wav
 lokey=f#5
 hikey=f#5
 pitch_keycenter=f#5
@@ -213,7 +213,7 @@ tune=25
 volume=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G4.wav
+sample=../Samples/Violin 2/violin_spiccato_G4.wav
 lokey=g5
 hikey=g5
 pitch_keycenter=g5
@@ -222,7 +222,7 @@ tune=14
 volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G#4.wav
+sample=../Samples/Violin 2/violin_spiccato_G#4.wav
 lokey=g#5
 hikey=g#5
 pitch_keycenter=g#5
@@ -230,7 +230,7 @@ offset=219
 tune=5
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A4.wav
+sample=../Samples/Violin 2/violin_spiccato_A4.wav
 lokey=a5
 hikey=a5
 pitch_keycenter=a5
@@ -238,7 +238,7 @@ offset=242
 tune=6
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A#4.wav
+sample=../Samples/Violin 2/violin_spiccato_A#4.wav
 lokey=a#5
 hikey=a#5
 pitch_keycenter=a#5
@@ -247,7 +247,7 @@ tune=-6
 volume=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_B4.wav
+sample=../Samples/Violin 2/violin_spiccato_B4.wav
 lokey=b5
 hikey=b5
 pitch_keycenter=b5
@@ -255,7 +255,7 @@ offset=294
 tune=19
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_C5.wav
+sample=../Samples/Violin 2/violin_spiccato_C5.wav
 lokey=c6
 hikey=c6
 pitch_keycenter=c6
@@ -263,25 +263,25 @@ offset=219
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_C#5.wav
+sample=../Samples/Violin 2/violin_spiccato_C#5.wav
 lokey=c#6
-hikey=c#6
+hikey=d6
 pitch_keycenter=c#6
 offset=478
 tune=3
 volume=3
 
-<region>
-sample=..\Samples/Violin 2/violin_spiccato_D5.wav
-lokey=d6
-hikey=d6
-pitch_keycenter=d6
-offset=686
-tune=15
-volume=3
+//<region>
+//sample=../Samples/Violin 2/violin_spiccato_D5.wav
+//lokey=d6
+//hikey=d6
+//pitch_keycenter=d6
+//offset=686
+//tune=15
+//volume=3
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_D#5.wav
+sample=../Samples/Violin 2/violin_spiccato_D#5.wav
 lokey=d#6
 hikey=d#6
 pitch_keycenter=d#6
@@ -289,47 +289,47 @@ offset=186
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_E5.wav
+sample=../Samples/Violin 2/violin_spiccato_E5.wav
 lokey=e6
-hikey=e6
+hikey=f6
 pitch_keycenter=e6
 offset=137
 tune=-2
 
-<region>
-sample=..\Samples/Violin 2/violin_spiccato_F5.wav
-lokey=f6
-hikey=f6
-pitch_keycenter=f6
-offset=134
-tune=-11
-volume=-2
+//<region>
+//sample=../Samples/Violin 2/violin_spiccato_F5.wav
+//lokey=f6
+//hikey=f6
+//pitch_keycenter=f6
+//offset=134
+//tune=-11
+//volume=-2
 
 //<region>
-//sample=..\Samples/Violin 2/violin_spiccato_F#5.wav
+//sample=../Samples/Violin 2/violin_spiccato_F#5.wav
 //lokey=f#6
 //hikey=f#6
 //pitch_keycenter=f#6
 //tune=10
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G5.wav
+sample=../Samples/Violin 2/violin_spiccato_G5.wav
 lokey=f#6
-hikey=g6
+hikey=f#6
 pitch_keycenter=g6
 offset=125
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_G#5.wav
-lokey=g#6
+sample=../Samples/Violin 2/violin_spiccato_G#5.wav
+lokey=g6
 hikey=g#6
 pitch_keycenter=g#6
 offset=449
 tune=-16
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_A5.wav
+sample=../Samples/Violin 2/violin_spiccato_A5.wav
 lokey=a6
 hikey=a#6
 pitch_keycenter=a6
@@ -337,7 +337,7 @@ offset=205
 tune=-21
 
 //<region>
-//sample=..\Samples/Violin 2/violin_spiccato_A#5.wav
+//sample=../Samples/Violin 2/violin_spiccato_A#5.wav
 //lokey=a#6
 //hikey=a#6
 //pitch_keycenter=a#6
@@ -345,7 +345,7 @@ tune=-21
 //tune=-25
 
 <region>
-sample=..\Samples/Violin 2/violin_spiccato_B5.wav
+sample=../Samples/Violin 2/violin_spiccato_B5.wav
 lokey=b6
 hikey=c7
 pitch_keycenter=b6
