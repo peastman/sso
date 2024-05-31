@@ -7,8 +7,9 @@
 <group>
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfout_locc1=0
+xfout_locc1=60
 xfout_hicc1=100
+xf_cccurve=gain
 amp_veltrack=0
 gain_cc1=20
 
@@ -120,8 +121,9 @@ volume=-17
 <group>
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfin_locc1=50
-xfin_hicc1=127
+xfin_locc1=60
+xfin_hicc1=100
+xf_cccurve=gain
 amp_veltrack=0
 gain_cc1=20
 
@@ -161,8 +163,6 @@ tune=-6
 volume=-20
 
 <region>
-xfin_lovel=60
-xfin_hivel=127
 sample=../Samples/Horns/horns-sus-ff-e3-PB-loop.wav
 pitch_keycenter=52
 lokey=51
