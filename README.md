@@ -37,7 +37,7 @@ SSO includes the following instruments and articulations:
 |Instrument|Articulations|
 |----------|-------------|
 |Trumpets|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
-|French Horns|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
+|French Horns|Sustain, Marcato, Staccato|
 |Trombones|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
 |Tuba|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
 |Solo Trumpet|Sustain (non-looped, looped, decay)|
