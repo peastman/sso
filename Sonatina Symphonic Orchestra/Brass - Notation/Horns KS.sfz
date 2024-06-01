@@ -12,8 +12,9 @@ sw_last=c6
 sw_label=Sustain
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfout_lovel=0
-xfout_hivel=90
+xfout_lovel=60
+xfout_hivel=100
+xf_cccurve=gain
 
 <region>
 sample=../Samples/Horns/horns-sus-mp-e2-PB-loop.wav
@@ -128,8 +129,9 @@ sw_last=c6
 sw_label=Sustain
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfin_lovel=70
-xfin_hivel=127
+xfin_lovel=60
+xfin_hivel=100
+xf_cccurve=gain
 
 <region>
 sample=../Samples/Horns/horns-sus-ff-e2-PB-loop.wav
@@ -167,8 +169,6 @@ tune=-6
 volume=0
 
 <region>
-xfin_lovel=60
-xfin_hivel=127
 sample=../Samples/Horns/horns-sus-ff-e3-PB-loop.wav
 pitch_keycenter=52
 lokey=51
@@ -266,8 +266,9 @@ sw_last=d6
 sw_label=Marcato
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfout_lovel=0
-xfout_hivel=90
+xfout_lovel=60
+xfout_hivel=100
+xf_cccurve=gain
 
 <region>
 sample=../Samples/Horns/horns-sus-mp-e2-PB-loop.wav
@@ -382,8 +383,9 @@ sw_last=d6
 sw_label=Marcato
 ampeg_attack=0.000000
 ampeg_release=0.865000
-xfin_lovel=70
-xfin_hivel=127
+xfin_lovel=60
+xfin_hivel=100
+xf_cccurve=gain
 
 <region>
 sample=../Samples/Horns/horns-sus-ff-e2-PB-loop.wav
@@ -421,8 +423,6 @@ tune=-6
 volume=0
 
 <region>
-xfin_lovel=60
-xfin_hivel=127
 sample=../Samples/Horns/horns-sus-ff-e3-PB-loop.wav
 pitch_keycenter=52
 lokey=51
