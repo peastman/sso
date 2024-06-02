@@ -79,6 +79,25 @@ lokey=a4
 hikey=c5
 pitch_keycenter=a#4
 
+<region>
+sample=..\Samples\Horns\horns-sus-ff-c#5-PB-loop.wav
+lokey=c#5
+hikey=d5
+pitch_keycenter=c#5
+ampeg_hold=0.2
+ampeg_sustain=0
+ampeg_decay=1
+volume=2
+
+<region>
+sample=..\Samples\Horns\horns-sus-ff-e5-PB-loop.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+ampeg_hold=0.2
+ampeg_sustain=0
+ampeg_decay=1
+volume=2
 
 
 
@@ -159,3 +178,24 @@ lokey=a4
 hikey=c5
 pitch_keycenter=a#4
 
+<region>
+sample=..\Samples\Horns\horns-sus-ff-c#5-PB-loop.wav
+lokey=c#5
+hikey=d5
+pitch_keycenter=c#5
+ampeg_hold=0.2
+ampeg_sustain=0
+ampeg_decay=1
+volume=2
+transpose=0
+
+<region>
+sample=..\Samples\Horns\horns-sus-ff-e5-PB-loop.wav
+lokey=d#5
+hikey=f5
+pitch_keycenter=e5
+ampeg_hold=0.2
+ampeg_sustain=0
+ampeg_decay=1
+volume=2
+transpose=0

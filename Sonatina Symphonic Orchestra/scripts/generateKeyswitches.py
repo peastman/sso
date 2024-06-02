@@ -11,6 +11,12 @@ windArticulations = (
     ("Staccato", " Staccato", 4)
 )
 
+hornArticulations = (
+    ("Sustain", " Sustain", 0),
+    ("Marcato", " Marcato", 2),
+    ("Staccato", " Staccato", 4)
+)
+
 sustainArticulations = (
     ("Sustain (looped)", " Sustain (looped)", 0),
     ("Sustain (non-looped)", " Sustain", 1)
@@ -87,7 +93,7 @@ sw_label=%s""" % (noteName(base), noteName(base), noteName(base+max(a[2] for a i
             output.write('\n\n')
 
 for directory in ['Brass - Notation', 'Brass - Performance']:
-    createFile(directory, "Horns", windArticulations, 72)
+    createFile(directory, "Horns", hornArticulations, 72)
     createFile(directory, "Trumpets", windArticulations, 24)
     createFile(directory, "Trombones", windArticulations, 72)
     createFile(directory, "Tuba", windArticulations, 72)
