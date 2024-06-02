@@ -4,101 +4,42 @@
 //         Bass Trombone
 // ------------------------------
 
+
 <group>
 ampeg_release=0.600
-cutoff_cc1=11000
-fil_type=lpf_2p
-cutoff=120
 amp_veltrack=0
-volume=-10
-gain_cc1=10
+volume=-20
+gain_cc1=20
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
 
-<region>
-sample=..\Samples\bass trombone\bass_trombone-e1.wav
-lokey=e1
-hikey=f1
-pitch_keycenter=e1
+#include "includes/bass-trombone-solo.sfz"
 
-<region>
-sample=..\Samples\bass trombone\bass_trombone-g1.wav
-lokey=f#1
-hikey=g#1
-pitch_keycenter=g1
-volume=-11
+<group>
+ampeg_release=0.600
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
 
-<region>
-sample=..\Samples\bass trombone\bass_trombone-a#1.wav
-lokey=a1
-hikey=b1
-pitch_keycenter=a#1
-volume=-8
+#include "includes/bass-trombone-solo.sfz"
 
-<region>
-sample=..\Samples\bass trombone\bass_trombone-c#2.wav
-lokey=c2
-hikey=d2
-pitch_keycenter=c#2
-volume=-9
+<group>
+ampeg_release=0.600
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
 
-<region>
-sample=..\Samples\bass trombone\bass_trombone-e2.wav
-lokey=d#2
-hikey=f2
-pitch_keycenter=e2
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-g2.wav
-lokey=f#2
-hikey=g#2
-pitch_keycenter=g2
-volume=-8
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-a#2.wav
-lokey=a2
-hikey=b2
-pitch_keycenter=a#2
-volume=-9
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-c#3.wav
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-e3.wav
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-a#3.wav
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-c#4.wav
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-e4.wav
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples\bass trombone\bass_trombone-g4.wav
-lokey=f#4
-hikey=g4
-pitch_keycenter=g4
-volume=-13
+#include "includes/bass-trombone-solo.sfz"
