@@ -1,0 +1,36 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Oboes Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.700
+ampeg_hold=1.025
+ampeg_decay=26
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/oboes-sustain-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.700
+ampeg_hold=1.025
+ampeg_decay=26
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/oboes-sustain-looped.sfz"

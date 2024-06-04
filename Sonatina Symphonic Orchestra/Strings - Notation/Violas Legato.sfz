@@ -1,0 +1,30 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Violas Legato
+// ------------------------------
+
+
+<group>
+ampeg_attack=0.30
+ampeg_release=1.15
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+offset=20000
+
+#include "includes/violas-sustain.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=1.15
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/violas-sustain.sfz"

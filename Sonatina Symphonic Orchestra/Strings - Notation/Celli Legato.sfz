@@ -1,0 +1,35 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Celli Legato
+// ------------------------------
+
+
+<group>
+ampeg_attack=0.30
+ampeg_vel2attack=-0.300
+ampeg_release=1.5
+fil_type=hpf_1p
+cutoff=12
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+offset=20000
+
+#include "includes/celli-sustain.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=1.5
+fil_type=hpf_1p
+cutoff=12
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/celli-sustain.sfz"
