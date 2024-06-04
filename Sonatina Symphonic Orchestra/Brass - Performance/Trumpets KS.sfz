@@ -3,12 +3,6 @@
 // ------------------------------
 //       Trumpets Sustain
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
-
 
 <group>
 sw_default=c2
@@ -23,120 +17,64 @@ ampeg_hold=1.100
 ampeg_decay=28
 ampeg_sustain=35
 ampeg_release=0.740
-cutoff_cc1=11000
-fil_type=lpf_2p
-cutoff=120
 amp_veltrack=0
 volume=-10
 gain_cc1=10
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e3.wav
-loop_start=101990
-loop_end=185252
-lokey=e3
-hikey=f3
-pitch_keycenter=e3
+#include "includes/trumpets-sustain-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g3.wav
-loop_start=106328
-loop_end=199869
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=10
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c2
+sw_label=Sustain (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#3.wav
-loop_start=108619
-loop_end=204142
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=10
+#include "includes/trumpets-sustain-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#4.wav
-loop_start=107473
-loop_end=201969
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-ampeg_attack=0.050
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c2
+sw_label=Sustain (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e4.wav
-loop_start=105800
-loop_end=198334
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=8
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g4.wav
-loop_start=107078
-loop_end=200997
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#4.wav
-loop_start=101358
-loop_end=243816
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#5.wav
-loop_start=108013
-loop_end=202865
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e5.wav
-loop_start=104631
-loop_end=190801
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g5.wav
-loop_start=105978
-loop_end=198707
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#5.wav
-loop_start=106891
-loop_end=199552
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#6.wav
-loop_start=90393
-loop_end=180108
-lokey=c6
-hikey=d6
-pitch_keycenter=c#6
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e6.wav
-loop_start=104855
-loop_end=197102
-lokey=d#6
-hikey=e6
-pitch_keycenter=e6
+#include "includes/trumpets-sustain-looped.sfz"
 
 
 // ------------------------------
@@ -157,94 +95,63 @@ ampeg_hold=1.100
 ampeg_decay=28
 ampeg_sustain=35
 ampeg_release=0.740
-cutoff_cc1=11000
-fil_type=lpf_2p
-cutoff=120
 amp_veltrack=0
 volume=-10
 gain_cc1=10
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e3.wav
-lokey=e3
-hikey=f3
-pitch_keycenter=e3
+#include "includes/trumpets-sustain.sfz"
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=10
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c#2
+sw_label=Sustain (non-looped)
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#3.wav
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=10
+#include "includes/trumpets-sustain.sfz"
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#4.wav
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-ampeg_attack=0.050
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=c#2
+sw_label=Sustain (non-looped)
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e4.wav
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=8
+#include "includes/trumpets-sustain.sfz"
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g4.wav
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#4.wav
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#5.wav
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e5.wav
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g5.wav
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#5.wav
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#6.wav
-lokey=c6
-hikey=d6
-pitch_keycenter=c#6
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e6.wav
-lokey=d#6
-hikey=e6
-pitch_keycenter=e6
 
 // ------------------------------
 //  Sonatina Symphonic Orchestra
@@ -270,120 +177,64 @@ ampeg_hold=1.100
 ampeg_decay=28
 ampeg_sustain=35
 ampeg_release=0.740
-cutoff_cc1=11000
-fil_type=lpf_2p
-cutoff=120
 amp_veltrack=0
 volume=-10
 gain_cc1=10
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e3.wav
-loop_start=101990
-loop_end=185252
-lokey=e3
-hikey=f3
-pitch_keycenter=e3
+#include "includes/trumpets-sustain-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g3.wav
-loop_start=106328
-loop_end=199869
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=10
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d2
+sw_label=Marcato (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#3.wav
-loop_start=108619
-loop_end=204142
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=10
+#include "includes/trumpets-sustain-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#4.wav
-loop_start=107473
-loop_end=201969
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-ampeg_attack=0.050
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d2
+sw_label=Marcato (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
 
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e4.wav
-loop_start=105800
-loop_end=198334
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=8
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g4.wav
-loop_start=107078
-loop_end=200997
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#4.wav
-loop_start=101358
-loop_end=243816
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#5.wav
-loop_start=108013
-loop_end=202865
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e5.wav
-loop_start=104631
-loop_end=190801
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-g5.wav
-loop_start=105978
-loop_end=198707
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-a#5.wav
-loop_start=106891
-loop_end=199552
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-c#6.wav
-loop_start=90393
-loop_end=180108
-lokey=c6
-hikey=d6
-pitch_keycenter=c#6
-
-<region>
-sample=..\Samples-looped\Trumpets\trumpets-sus-e6.wav
-loop_start=104855
-loop_end=197102
-lokey=d#6
-hikey=e6
-pitch_keycenter=e6
+#include "includes/trumpets-sustain-looped.sfz"
 
 
 // --------
@@ -498,6 +349,7 @@ pitch_keycenter=e6
 // Sustain
 // -------
 
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -510,94 +362,62 @@ ampeg_hold=1.100
 ampeg_decay=28
 ampeg_sustain=35
 ampeg_release=0.740
-cutoff_cc1=11000
-fil_type=lpf_2p
-cutoff=120
 amp_veltrack=0
 volume=-10
 gain_cc1=10
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e3.wav
-lokey=e3
-hikey=f3
-pitch_keycenter=e3
+#include "includes/trumpets-sustain.sfz"
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=10
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d#2
+sw_label=Marcato (non-looped)
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#3.wav
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=10
+#include "includes/trumpets-sustain.sfz"
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#4.wav
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-ampeg_attack=0.050
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d#2
+sw_label=Marcato (non-looped)
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+amp_veltrack=0
+volume=-10
+gain_cc1=10
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
 
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e4.wav
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=8
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g4.wav
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#4.wav
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#5.wav
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e5.wav
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-g5.wav
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-a#5.wav
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-c#6.wav
-lokey=c6
-hikey=d6
-pitch_keycenter=c#6
-
-<region>
-sample=..\Samples\Trumpets\trumpets-sus-e6.wav
-lokey=d#6
-hikey=e6
-pitch_keycenter=e6
+#include "includes/trumpets-sustain.sfz"
 
 
 // --------

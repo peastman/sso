@@ -24,6 +24,7 @@ ampeg_sustain=35
 fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
+pan=20
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e2.wav
@@ -156,6 +157,7 @@ ampeg_sustain=35
 fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
+pan=20
 
 
 <region>
@@ -270,6 +272,7 @@ ampeg_sustain=35
 fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
+pan=20
 
 <region>
 sample=..\Samples-looped\Trombones\trombones-sus-e2.wav
@@ -507,6 +510,7 @@ ampeg_sustain=35
 fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
+pan=20
 
 
 <region>
