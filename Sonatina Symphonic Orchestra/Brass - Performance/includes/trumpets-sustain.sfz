@@ -23,7 +23,6 @@ sample=../Samples/Trumpets/trumpets-sus-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
-ampeg_attack=0.050
 
 <region>
 sample=../Samples/Trumpets/trumpets-sus-e4.wav

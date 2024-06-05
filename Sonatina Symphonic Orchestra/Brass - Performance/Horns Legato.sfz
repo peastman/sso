@@ -1,0 +1,71 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Horns Legato
+// ------------------------------
+
+<group>
+ampeg_attack=0.000000
+ampeg_release=0.865000
+xfout_locc1=60
+xfout_hicc1=100
+xf_cccurve=gain
+amp_veltrack=0
+gain_cc1=20
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/horns-sustain-mp.sfz"
+
+<group>
+ampeg_attack=0.000000
+ampeg_release=0.865000
+xfin_locc1=60
+xfin_hicc1=100
+xf_cccurve=gain
+amp_veltrack=0
+gain_cc1=20
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/horns-sustain-ff.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.865000
+xfout_locc1=60
+xfout_hicc1=100
+xf_cccurve=gain
+amp_veltrack=0
+gain_cc1=20
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/horns-sustain-mp.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.865000
+xfin_locc1=60
+xfin_hicc1=100
+xf_cccurve=gain
+amp_veltrack=0
+gain_cc1=20
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/horns-sustain-ff.sfz"
