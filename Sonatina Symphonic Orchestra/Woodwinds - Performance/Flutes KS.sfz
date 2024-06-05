@@ -13,7 +13,7 @@
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=c2
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -39,7 +39,7 @@ gain_cc1=30
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=c#2
 sw_label=Sustain (non-looped)
 ampeg_attack=0.640
@@ -141,7 +141,7 @@ pitch_keycenter=a5
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=d2
 sw_label=Marcato (looped)
 loop_mode=loop_continuous
@@ -165,7 +165,7 @@ gain_cc1=30
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=d2
 sw_label=Marcato (looped)
 loop_mode=one_shot
@@ -264,7 +264,7 @@ pitch_keycenter=a5
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=d#2
 sw_label=Marcato (non-looped)
 ampeg_attack=0.640
@@ -359,7 +359,7 @@ pitch_keycenter=a5
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=d#2
 sw_label=Marcato (non-looped)
 loop_mode=one_shot
@@ -453,7 +453,7 @@ pitch_keycenter=a5
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=e2
 sw_label=Staccato
 loop_mode=one_shot
@@ -538,7 +538,7 @@ pitch_keycenter=a5
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=f2
 sw_last=e2
 sw_label=Staccato
 loop_mode=one_shot
@@ -620,4 +620,59 @@ lokey=g#5
 hikey=a5
 pitch_keycenter=a5
 
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Flutes Legato
+// ------------------------------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/flutes-sustain-looped.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/flutes-sustain-looped.sfz"
 

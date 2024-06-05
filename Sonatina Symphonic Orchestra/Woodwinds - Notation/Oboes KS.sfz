@@ -8,7 +8,7 @@
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=c#2
+sw_hikey=d2
 sw_last=c2
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -29,7 +29,7 @@ ampeg_sustain=35
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=c#2
+sw_hikey=d2
 sw_last=c#2
 sw_label=Sustain (non-looped)
 ampeg_release=0.700
@@ -105,5 +105,53 @@ lokey=d#6
 hikey=f6
 pitch_keycenter=e6
 volume=-3
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Oboes Legato
+// ------------------------------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=d2
+sw_last=d2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_release=0.700
+ampeg_hold=1.025
+ampeg_decay=26
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/oboes-sustain-looped.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=d2
+sw_last=d2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.700
+ampeg_hold=1.025
+ampeg_decay=26
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/oboes-sustain-looped.sfz"
 
 

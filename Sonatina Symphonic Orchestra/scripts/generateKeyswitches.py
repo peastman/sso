@@ -8,22 +8,26 @@ windArticulations = (
     ("Sustain (non-looped)", " Sustain", 1),
     ("Marcato (looped)", " Marcato (looped)", 2),
     ("Marcato (non-looped)", " Marcato", 3),
-    ("Staccato", " Staccato", 4)
+    ("Staccato", " Staccato", 4),
+    ("Legato", " Legato", 5)
 )
 
 hornArticulations = (
     ("Sustain", " Sustain", 0),
     ("Marcato", " Marcato", 2),
-    ("Staccato", " Staccato", 4)
+    ("Staccato", " Staccato", 4),
+    ("Legato", " Legato", 5)
 )
 
 sustainArticulations = (
     ("Sustain (looped)", " Sustain (looped)", 0),
-    ("Sustain (non-looped)", " Sustain", 1)
+    ("Sustain (non-looped)", " Sustain", 1),
+    ("Legato", " Legato", 2)
 )
 
 stringArticulations = (
     ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
@@ -34,6 +38,7 @@ stringArticulations = (
 
 bassArticulations = (
     ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),

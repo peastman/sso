@@ -23,6 +23,56 @@ gain_cc1=30
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
+//      1st Violins Legato
+// ------------------------------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=a2
+sw_last=c#2
+sw_label=Legato
+ampeg_attack=0.30
+ampeg_vel2attack=-0.180
+ampeg_release=0.9
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+offset=20000
+
+#include "includes/1st-violins-sustain.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=a2
+sw_last=c#2
+sw_label=Legato
+ampeg_attack=0.2
+ampeg_vel2attack=-0.180
+ampeg_release=0.9
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/1st-violins-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
 //      1st Violins Marcato
 // ------------------------------
 

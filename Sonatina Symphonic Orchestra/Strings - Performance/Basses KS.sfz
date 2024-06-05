@@ -23,6 +23,55 @@ gain_cc1=30
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
+//         Basses Legato
+// ------------------------------
+
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=c#6
+sw_label=Legato
+ampeg_attack=0.30
+ampeg_vel2attack=-0.300
+ampeg_release=1.25
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+offset=20000
+
+#include "includes/basses-sustain.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=c#6
+sw_label=Legato
+ampeg_attack=0.2
+ampeg_release=1.25
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=30000
+
+#include "includes/basses-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
 //        Basses Marcato
 // ------------------------------
 
