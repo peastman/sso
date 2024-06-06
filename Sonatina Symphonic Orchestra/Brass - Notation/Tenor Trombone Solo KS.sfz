@@ -88,11 +88,6 @@ tune=7
 // ------------------------------
 //        Tenor Trombone
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
@@ -107,94 +102,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e2.wav
-loop_start=47610
-loop_end=80808
-lokey=e2
-hikey=f2
-pitch_keycenter=e2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g2.wav
-loop_start=54223
-loop_end=95602
-lokey=f#2
-hikey=g#2
-pitch_keycenter=g2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#2.wav
-loop_start=50215
-loop_end=83976
-lokey=a2
-hikey=b2
-pitch_keycenter=a#2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-c#3.wav
-loop_start=31591
-loop_end=58091
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e3.wav
-loop_start=27761
-loop_end=63181
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g3.wav
-loop_start=46304
-loop_end=74700
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#3.wav
-loop_start=48286
-loop_end=74841
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-c#4.wav
-loop_start=31626
-loop_end=43241
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e4.wav
-loop_start=45515
-loop_end=74292
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g4.wav
-loop_start=42804
-loop_end=114425
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#4.wav
-loop_start=46569
-loop_end=89303
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=7
+#include "includes/tenor-trombone-solo-looped.sfz"
 
 
 // ------------------------------
@@ -202,11 +110,6 @@ tune=7
 // ------------------------------
 //        Tenor Trombone
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
@@ -228,93 +131,6 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e2.wav
-loop_start=47610
-loop_end=80808
-lokey=e2
-hikey=f2
-pitch_keycenter=e2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g2.wav
-loop_start=54223
-loop_end=95602
-lokey=f#2
-hikey=g#2
-pitch_keycenter=g2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#2.wav
-loop_start=50215
-loop_end=83976
-lokey=a2
-hikey=b2
-pitch_keycenter=a#2
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-c#3.wav
-loop_start=31591
-loop_end=58091
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e3.wav
-loop_start=27761
-loop_end=63181
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g3.wav
-loop_start=46304
-loop_end=74700
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#3.wav
-loop_start=48286
-loop_end=74841
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-c#4.wav
-loop_start=31626
-loop_end=43241
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-e4.wav
-loop_start=45515
-loop_end=74292
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-g4.wav
-loop_start=42804
-loop_end=114425
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-
-<region>
-sample=..\Samples-looped\Tenor Trombone\tenor_trombone-a#4.wav
-loop_start=46569
-loop_end=89303
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=7
+#include "includes/tenor-trombone-solo-looped.sfz"
 
 

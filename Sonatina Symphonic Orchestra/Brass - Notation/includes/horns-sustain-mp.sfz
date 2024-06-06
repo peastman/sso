@@ -3,7 +3,6 @@ sample=../Samples/Horns/horns-sus-mp-e2-PB-loop.wav
 pitch_keycenter=40
 lokey=40
 hikey=41
-offset=246
 tune=-4
 volume=3
 
@@ -12,7 +11,6 @@ sample=../Samples/Horns/horns-sus-mp-g2-PB-loop.wav
 pitch_keycenter=43
 lokey=42
 hikey=44
-offset=38
 tune=2
 volume=2
 
@@ -21,7 +19,6 @@ sample=../Samples/Horns/horns-sus-mp-a#2-PB-loop.wav
 pitch_keycenter=46
 lokey=45
 hikey=47
-offset=16
 tune=-2
 volume=5
 
@@ -30,7 +27,6 @@ sample=../Samples/Horns/horns-sus-mp-c#3-PB-loop.wav
 pitch_keycenter=49
 lokey=48
 hikey=50
-offset=136
 volume=6
 
 <region>
@@ -38,7 +34,6 @@ sample=../Samples/Horns/horns-sus-mp-e3-PB-loop.wav
 pitch_keycenter=52
 lokey=51
 hikey=53
-offset=135
 volume=2
 
 <region>
@@ -46,7 +41,6 @@ sample=../Samples/Horns/horns-sus-mp-g3-PB-loop.wav
 pitch_keycenter=55
 lokey=54
 hikey=56
-offset=99
 volume=2
 
 <region>
@@ -54,7 +48,6 @@ sample=../Samples/Horns/horns-sus-mp-a#3-PB-loop.wav
 pitch_keycenter=58
 lokey=57
 hikey=59
-offset=19
 volume=3
 
 <region>
@@ -91,7 +84,6 @@ sample=../Samples/Horns/horns-sus-mp-c#5-PB-loop.wav
 pitch_keycenter=73
 lokey=72
 hikey=74
-offset=38
 tune=-2
 volume=4
 
@@ -100,5 +92,4 @@ sample=../Samples/Horns/horns-sus-mp-e5-PB-loop.wav
 pitch_keycenter=76
 lokey=75
 hikey=77
-offset=25
 volume=3

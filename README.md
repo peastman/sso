@@ -9,10 +9,9 @@ In other words, don't email him with questions about it!
 
 [**Download SSO**](https://github.com/peastman/sso/releases)
 
-The instruments are packaged in SFZ format.  They can be used with any compatible player, such as
-[Sforzando](https://www.plogue.com/products/sforzando/), [sfizz](https://sfz.tools/sfizz/),
-[Linux Sampler](https://www.linuxsampler.org/), and
-[ARIA Player](https://www.garritan.com/products/personal-orchestra-5/aria-player/).
+The instruments are packaged in SFZ format.  They can be used with any compatible player.  They are tested on
+[Sforzando](https://www.plogue.com/products/sforzando/) and [sfizz](https://sfz.tools/sfizz/).  Some features
+may not work correctly on other players that have less complete support for the format.
 
 Instruments
 -----------
@@ -23,11 +22,11 @@ SSO includes the following instruments and articulations:
 
 |Instrument|Articulations|
 |----------|-------------|
-|1st Violins|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
-|2nd Violins|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
-|Violas|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
-|Cellos|Sustain, Marcato, Staccato, Pizzicato, Tremolo, Harmonics|
-|Basses|Sustain, Marcato, Staccato, Pizzicato, Tremolo|
+|1st Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
+|2nd Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
+|Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
+|Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
+|Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo|
 |Solo Violin 1|Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Spiccato|
 |Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Pizzicato, Tremolo|
 |Solo Cello|Sustain (non-looped, looped, decay)|
@@ -36,23 +35,23 @@ SSO includes the following instruments and articulations:
 
 |Instrument|Articulations|
 |----------|-------------|
-|Trumpets|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
-|French Horns|Sustain, Marcato, Staccato|
-|Trombones|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
-|Tuba|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
-|Solo Trumpet|Sustain (non-looped, looped, decay)|
-|Solo French Horn|Sustain (non-looped, looped, decay)|
-|Solo Tenor Trombone|Sustain (non-looped, looped, decay)|
-|Solo Bass Trombone|Sustain (non-looped, looped, decay)|
+|Trumpets|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|French Horns|Sustain, Marcato, Staccato, Legato|
+|Trombones|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|Tuba|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|Solo Trumpet|Sustain (non-looped, looped, decay), Legato|
+|Solo French Horn|Sustain (non-looped, looped, decay), Legato|
+|Solo Tenor Trombone|Sustain (non-looped, looped, decay), Legato|
+|Solo Bass Trombone|Sustain (non-looped, looped, decay), Legato|
 
 **Woodwinds**
 
 |Instrument|Articulations|
 |----------|-------------|
-|Flutes|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato|
-|Oboes|Sustain (looped, non-looped)|
-|Clarinets|Sustain (looped, non-looped)|
-|Bassoons|Sustain (looped, non-looped)|
+|Flutes|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|Oboes|Sustain (looped, non-looped), Legato|
+|Clarinets|Sustain (looped, non-looped), Legato|
+|Bassoons|Sustain (looped, non-looped), Legato|
 |Solo Piccolo|Sustain (non-looped, looped, decay)|
 |Solo Flute 1|Sustain (non-looped, looped, decay)|
 |Solo Flute 2|Sustain, Sustain non-vibrato, Staccato|
@@ -96,8 +95,8 @@ SSO includes the following instruments and articulations:
 
 **Miscellaneous**
 
-|Instrument|Articulations|
-|----------|-------------|
+|Instrument|Variations|
+|----------|----------|
 |Grand Piano| - |
 |Concert Harp| - |
 |Chorus| Mixed, Large |
@@ -134,6 +133,32 @@ Many instruments are provided in separate "notation" and "performance" versions.
   - Marcato articulations use the mod wheel to set the overall volume and velocity to control the strength of the
     initial attack.
   - Short articulations use velocity to set the volume.
+
+Here are definitions of the most common articulations.
+
+**Sustain**: This produces long notes, often with a gentle attack.  The sound continues as long as you hold the note
+down (or for non-looped versions, until the end of the sample is reached).
+
+**Marcato**: This is similar to sustain, but with an accented attack at the beginning.  The strength of the attack
+can be controlled with key velocity (for performance instruments) or the mod wheel (for notation instruments).
+
+**Staccato**: Short, strongly accented notes.
+
+**Legato**: This is a monophonic articulation: the instrument can only play one note at a time.  If you press a
+new note before releasing the previous one, it smoothly transitions between them with no break in the sound.
+On some instruments this is typically described as "slurred" rather than "legato", but for consistency all
+instruments use the same name for corresponding articulations.
+
+**Pizzicato**: The player plucks the string with their finger instead of using the bow.
+
+**Tremolo**: More precisely, this is an unmeasured tremolo.  All the musicians in the section move their bows
+back and forth over the string as quickly as possible, not trying to synchronize with each other.  The result
+is a pulsing, shimmering sound.
+
+**Harmonics**: More precisely, this is the playing technique known as "artificial harmonics".  The player
+lightly touches their finger to a point one quarter of the way along the free part of the string.  This
+suppresses many of the vibrational frequencies, leading to a note two octaves higher than written with a
+thin, ghostly sound.
 
 Technical Details
 -----------------
