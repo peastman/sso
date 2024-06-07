@@ -10,8 +10,8 @@ In other words, don't email him with questions about it!
 [**Download SSO**](https://github.com/peastman/sso/releases)
 
 The instruments are packaged in SFZ format.  They can be used with any compatible player.  They are tested on
-[Sforzando](https://www.plogue.com/products/sforzando/) and [sfizz](https://sfz.tools/sfizz/).  Some features
-may not work correctly on other players that have less complete support for the format.
+[Sforzando](https://www.plogue.com/products/sforzando/) and [sfizz](https://sfz.tools/sfizz/).  Other players often
+have less complete support for the format, so some features may not work correctly on them.
 
 Instruments
 -----------
@@ -52,16 +52,16 @@ SSO includes the following instruments and articulations:
 |Oboes|Sustain (looped, non-looped), Legato|
 |Clarinets|Sustain (looped, non-looped), Legato|
 |Bassoons|Sustain (looped, non-looped), Legato|
-|Solo Piccolo|Sustain (non-looped, looped, decay)|
-|Solo Flute 1|Sustain (non-looped, looped, decay)|
-|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato|
-|Solo Alto Flute|Sustain (non-looped, looped, decay)|
-|Solo Cor Anglais|Sustain (non-looped, looped, decay)|
-|Solo Oboe|Sustain (non-looped, looped, decay)|
-|Solo Clarinet|Sustain (non-looped, looped, decay)|
-|Solo Bass Clarinet|Sustain (non-looped, looped, decay)|
-|Solo Bassoon|Sustain (non-looped, looped, decay)|
-|Solo Contrabassoon|Sustain (non-looped, looped, decay)|
+|Solo Piccolo|Sustain (non-looped, looped, decay), Legato|
+|Solo Flute 1|Sustain (non-looped, looped, decay), Legato|
+|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato, Legato|
+|Solo Alto Flute|Sustain (non-looped, looped, decay), Legato|
+|Solo Cor Anglais|Sustain (non-looped, looped, decay), Legato|
+|Solo Oboe|Sustain (non-looped, looped, decay), Legato|
+|Solo Clarinet|Sustain (non-looped, looped, decay), Legato|
+|Solo Bass Clarinet|Sustain (non-looped, looped, decay), Legato|
+|Solo Bassoon|Sustain (non-looped, looped, decay), Legato|
+|Solo Contrabassoon|Sustain (non-looped, looped, decay), Legato|
 
 **Pitched Percussion**
 

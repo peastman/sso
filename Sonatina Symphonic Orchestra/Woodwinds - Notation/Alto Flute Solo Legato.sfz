@@ -1,0 +1,36 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Alto Flute Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.600
+ampeg_hold=1.250
+ampeg_decay=30
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/alto-flute-solo-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.600
+ampeg_hold=1.250
+ampeg_decay=30
+ampeg_sustain=35
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/alto-flute-solo-looped.sfz"
