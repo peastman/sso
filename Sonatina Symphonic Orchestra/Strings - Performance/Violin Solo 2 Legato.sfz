@@ -1,0 +1,33 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//     Solo Violin 2 Legato
+// ------------------------------
+
+<group>
+ampeg_release=0.45
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/violin-solo-2-sustain.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.45
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/violin-solo-2-sustain.sfz"
