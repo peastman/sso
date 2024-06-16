@@ -7,7 +7,7 @@
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c6
 sw_label=Sustain (non-looped)
 ampeg_release=0.500
@@ -120,17 +120,12 @@ tune=-10
 // ------------------------------
 //           Bassoon
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c#6
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -142,129 +137,7 @@ amp_veltrack=0
 volume=-20
 gain_cc1=20
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#1.wav
-loop_start=47359
-loop_end=90880
-lokey=a#1
-hikey=b1
-pitch_keycenter=a#1
-tune=-13
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#2.wav
-loop_start=53322
-loop_end=92415
-lokey=c2
-hikey=d2
-pitch_keycenter=c#2
-tune=-17
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e2.wav
-loop_start=53064
-loop_end=82327
-lokey=d#2
-hikey=f2
-pitch_keycenter=e2
-tune=-12
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g2.wav
-loop_start=57370
-loop_end=91071
-lokey=f#2
-hikey=g#2
-pitch_keycenter=g2
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#2.wav
-loop_start=59662
-loop_end=92226
-lokey=a2
-hikey=b2
-pitch_keycenter=a#2
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#3.wav
-loop_start=47304
-loop_end=88443
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-tune=-12
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e3.wav
-loop_start=40934
-loop_end=73055
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-tune=-11
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g3.wav
-loop_start=50775
-loop_end=95422
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=-5
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#3.wav
-loop_start=53171
-loop_end=87133
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=-4
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#4.wav
-loop_start=59225
-loop_end=111442
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-tune=5
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e4.wav
-loop_start=52141
-loop_end=104090
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g4.wav
-loop_start=56525
-loop_end=96105
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-tune=-13
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#4.wav
-loop_start=56441
-loop_end=106104
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=-9
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#5.wav
-loop_start=55631
-loop_end=104653
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-tune=-10
-
+#include "includes/bassoon-solo-looped.sfz"
 
 
 // ------------------------------
@@ -272,17 +145,12 @@ tune=-10
 // ------------------------------
 //           Bassoon
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=d6
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -301,128 +169,74 @@ amp_veltrack=0
 volume=-20
 gain_cc1=20
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#1.wav
-loop_start=47359
-loop_end=90880
-lokey=a#1
-hikey=b1
-pitch_keycenter=a#1
-tune=-13
+#include "includes/bassoon-solo-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#2.wav
-loop_start=53322
-loop_end=92415
-lokey=c2
-hikey=d2
-pitch_keycenter=c#2
-tune=-17
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e2.wav
-loop_start=53064
-loop_end=82327
-lokey=d#2
-hikey=f2
-pitch_keycenter=e2
-tune=-12
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bassoon Legato
+// ------------------------------
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g2.wav
-loop_start=57370
-loop_end=91071
-lokey=f#2
-hikey=g#2
-pitch_keycenter=g2
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#2.wav
-loop_start=59662
-loop_end=92226
-lokey=a2
-hikey=b2
-pitch_keycenter=a#2
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.500
+cutoff_cc1=11000
+fil_type=lpf_2p
+cutoff=120
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#3.wav
-loop_start=47304
-loop_end=88443
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-tune=-12
+#include "includes/bassoon-solo-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e3.wav
-loop_start=40934
-loop_end=73055
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-tune=-11
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.500
+cutoff_cc1=11000
+fil_type=lpf_2p
+cutoff=120
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
 
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g3.wav
-loop_start=50775
-loop_end=95422
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-tune=-5
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#3.wav
-loop_start=53171
-loop_end=87133
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-tune=-4
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#4.wav
-loop_start=59225
-loop_end=111442
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-tune=5
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-e4.wav
-loop_start=52141
-loop_end=104090
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-g4.wav
-loop_start=56525
-loop_end=96105
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-tune=-13
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-a#4.wav
-loop_start=56441
-loop_end=106104
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=-9
-
-<region>
-sample=..\Samples-looped\Bassoon\bassoon-c#5.wav
-loop_start=55631
-loop_end=104653
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-tune=-10
-
+#include "includes/bassoon-solo-looped.sfz"
 
 

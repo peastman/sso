@@ -7,7 +7,7 @@
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=c2
 sw_label=Sustain (non-looped)
 ampeg_release=0.425
@@ -107,17 +107,12 @@ tune=-18
 // ------------------------------
 //            Flute
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=c#2
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -126,117 +121,7 @@ amp_veltrack=0
 volume=-30
 gain_cc1=30
 
-<region>
-sample=..\Samples-looped\Flute\flute-c3.wav
-loop_start=108844
-loop_end=215075
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
-
-<region>
-sample=..\Samples-looped\Flute\flute-d#3.wav
-loop_start=129213
-loop_end=212635
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
-
-<region>
-sample=..\Samples-looped\Flute\flute-f#3.wav
-loop_start=132363
-loop_end=259531
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
-
-<region>
-sample=..\Samples-looped\Flute\flute-a3.wav
-loop_start=126607
-loop_end=238063
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
-
-<region>
-sample=..\Samples-looped\Flute\flute-c4.wav
-loop_start=133268
-loop_end=267191
-lokey=b3
-hikey=c#4
-tune=-16
-
-<region>
-sample=..\Samples-looped\Flute\flute-d#4.wav
-loop_start=121361
-loop_end=202992
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
-tune=-7
-
-<region>
-sample=..\Samples-looped\Flute\flute-f#4.wav
-loop_start=110589
-loop_end=214418
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
-tune=-4
-
-<region>
-sample=..\Samples-looped\Flute\flute-a4.wav
-loop_start=128945
-loop_end=209699
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
-tune=-17
-
-<region>
-sample=..\Samples-looped\Flute\flute-c5.wav
-loop_start=124762
-loop_end=234589
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-tune=-4
-
-<region>
-sample=..\Samples-looped\Flute\flute-d#5.wav
-loop_start=80393
-loop_end=143531
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-tune=-8
-
-<region>
-sample=..\Samples-looped\Flute\flute-f#5.wav
-loop_start=123265
-loop_end=240563
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-tune=-16
-
-<region>
-sample=..\Samples-looped\Flute\flute-a5.wav
-loop_start=123457
-loop_end=232099
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
-tune=-17
-
-<region>
-sample=..\Samples-looped\Flute\flute-c6.wav
-loop_start=118805
-loop_end=223353
-lokey=b5
-hikey=c6
-pitch_keycenter=c6
-tune=-18
+#include "includes/flute-solo-1-looped.sfz"
 
 
 // ------------------------------
@@ -244,17 +129,12 @@ tune=-18
 // ------------------------------
 //            Flute
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=d2
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -270,116 +150,68 @@ amp_veltrack=0
 volume=-30
 gain_cc1=30
 
-<region>
-sample=..\Samples-looped\Flute\flute-c3.wav
-loop_start=108844
-loop_end=215075
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
+#include "includes/flute-solo-1-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Flute\flute-d#3.wav
-loop_start=129213
-loop_end=212635
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
 
-<region>
-sample=..\Samples-looped\Flute\flute-f#3.wav
-loop_start=132363
-loop_end=259531
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Flute Legato
+// ------------------------------
 
-<region>
-sample=..\Samples-looped\Flute\flute-a3.wav
-loop_start=126607
-loop_end=238063
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
 
-<region>
-sample=..\Samples-looped\Flute\flute-c4.wav
-loop_start=133268
-loop_end=267191
-lokey=b3
-hikey=c#4
-tune=-16
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.425
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
 
-<region>
-sample=..\Samples-looped\Flute\flute-d#4.wav
-loop_start=121361
-loop_end=202992
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
-tune=-7
+#include "includes/flute-solo-1-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Flute\flute-f#4.wav
-loop_start=110589
-loop_end=214418
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
-tune=-4
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.425
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
 
-<region>
-sample=..\Samples-looped\Flute\flute-a4.wav
-loop_start=128945
-loop_end=209699
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
-tune=-17
-
-<region>
-sample=..\Samples-looped\Flute\flute-c5.wav
-loop_start=124762
-loop_end=234589
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-tune=-4
-
-<region>
-sample=..\Samples-looped\Flute\flute-d#5.wav
-loop_start=80393
-loop_end=143531
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-tune=-8
-
-<region>
-sample=..\Samples-looped\Flute\flute-f#5.wav
-loop_start=123265
-loop_end=240563
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-tune=-16
-
-<region>
-sample=..\Samples-looped\Flute\flute-a5.wav
-loop_start=123457
-loop_end=232099
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
-tune=-17
-
-<region>
-sample=..\Samples-looped\Flute\flute-c6.wav
-loop_start=118805
-loop_end=223353
-lokey=b5
-hikey=c6
-pitch_keycenter=c6
-tune=-18
+#include "includes/flute-solo-1-looped.sfz"
 
 

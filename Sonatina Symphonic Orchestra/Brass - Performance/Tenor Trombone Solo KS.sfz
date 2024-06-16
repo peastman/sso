@@ -8,7 +8,7 @@
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c6
 sw_label=Sustain (non-looped)
 ampeg_release=0.554
@@ -26,7 +26,7 @@ cutoff=1000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c6
 sw_label=Sustain (non-looped)
 ampeg_release=0.554
@@ -46,7 +46,7 @@ cutoff=2000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c6
 sw_label=Sustain (non-looped)
 ampeg_release=0.554
@@ -70,7 +70,7 @@ xf_cccurve=gain
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c#6
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -89,7 +89,7 @@ cutoff=1000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c#6
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -110,7 +110,7 @@ cutoff=2000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=c#6
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -135,7 +135,7 @@ xf_cccurve=gain
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=d6
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -161,7 +161,7 @@ cutoff=1000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=d6
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -189,7 +189,7 @@ cutoff=2000
 <group>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=e6
 sw_last=d6
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -207,6 +207,206 @@ gain_cc1=20
 xfin_locc1=90
 xfin_hicc1=120
 xf_cccurve=gain
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//     Tenor Trombone Legato
+// ------------------------------
+
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfout_locc1=0
+xfout_hicc1=60
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=1000
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=10000
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=0
+xfin_hicc1=60
+xfout_locc1=90
+xfout_hicc1=120
+xf_cccurve=gain
+fil_type=lpf_2p
+cutoff=2000
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=10000
+
+#include "includes/tenor-trombone-solo-looped.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=e6
+sw_last=e6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.554
+amp_veltrack=0
+volume=-20
+gain_cc1=20
+xfin_locc1=90
+xfin_hicc1=120
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=10000
 
 #include "includes/tenor-trombone-solo-looped.sfz"
 
