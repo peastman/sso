@@ -1,0 +1,52 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Horn Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.650
+ampeg_attack=0.600
+ampeg_vel2attack=-0.600
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/horn-solo-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.650
+ampeg_attack=0.2
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=5000
+
+#include "includes/horn-solo-looped.sfz"
