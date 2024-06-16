@@ -1,0 +1,70 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//    Flute Legato Non-Vibrato
+// ------------------------------
+
+
+<group>
+ampeg_release=0.4
+xfin_locc1=70
+xfin_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/flute-solo-2-sustain-non-vibrato-ff.sfz"
+
+<group>
+ampeg_release=0.4
+xfout_locc1=70
+xfout_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/flute-solo-2-sustain-non-vibrato-mf.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.4
+xfin_locc1=70
+xfin_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/flute-solo-2-sustain-non-vibrato-ff.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.4
+xfout_locc1=70
+xfout_hicc1=80
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/flute-solo-2-sustain-non-vibrato-mf.sfz"

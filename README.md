@@ -27,9 +27,9 @@ SSO includes the following instruments and articulations:
 |Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
 |Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
 |Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo|
-|Solo Violin 1|Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Spiccato|
-|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Pizzicato, Tremolo|
-|Solo Cello|Sustain (non-looped, looped, decay)|
+|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato|
+|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Pizzicato, Tremolo|
+|Solo Cello|Sustain (non-looped, looped), Legato|
 
 **Brass**
 
@@ -54,7 +54,7 @@ SSO includes the following instruments and articulations:
 |Bassoons|Sustain (looped, non-looped), Legato|
 |Solo Piccolo|Sustain (non-looped, looped, decay), Legato|
 |Solo Flute 1|Sustain (non-looped, looped, decay), Legato|
-|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato, Legato|
+|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato, Legato, Legato non-vibrato|
 |Solo Alto Flute|Sustain (non-looped, looped, decay), Legato|
 |Solo Cor Anglais|Sustain (non-looped, looped, decay), Legato|
 |Solo Oboe|Sustain (non-looped, looped, decay), Legato|
