@@ -28,7 +28,7 @@ SSO includes the following instruments and articulations:
 |Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
 |Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo|
 |Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato|
-|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Pizzicato, Tremolo|
+|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
 |Solo Cello|Sustain (non-looped, looped), Legato|
 
 **Brass**
@@ -129,7 +129,7 @@ Many instruments are provided in separate "notation" and "performance" versions.
     lets you smoothly blend between a gentle sustain and a strong marcato.
 - Performance instruments are better for use in live performance.
   - Long articulations use the mod wheel (MIDI control channel 1) to set the volume.  This allows you to continuously
-    shape each note.
+    shape each note.  Many long articulations also use velocity to control the attack rate.
   - Marcato articulations use the mod wheel to set the overall volume and velocity to control the strength of the
     initial attack.
   - Short articulations use velocity to set the volume.
@@ -137,7 +137,7 @@ Many instruments are provided in separate "notation" and "performance" versions.
 Here are definitions of the most common articulations.
 
 **Sustain**: This produces long notes, often with a gentle attack.  The sound continues as long as you hold the note
-down (or for non-looped versions, until the end of the sample is reached).
+down (or for non-looped versions, until the end of the sample is reached).  In many cases, the attack rate can be controlled with key velocity.
 
 **Marcato**: This is similar to sustain, but with an accented attack at the beginning.  The strength of the attack
 can be controlled with key velocity (for performance instruments) or the mod wheel (for notation instruments).

@@ -41,7 +41,6 @@ off_by=1
 off_mode=time
 off_time=1
 trigger=first
-offset=20000
 
 #include "includes/celli-sustain.sfz"
 

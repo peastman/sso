@@ -6,7 +6,6 @@
 
 
 <group>
-ampeg_attack=0.30
 ampeg_release=1.15
 amp_veltrack=0
 volume=-30
@@ -16,7 +15,6 @@ off_by=1
 off_mode=time
 off_time=1
 trigger=first
-offset=20000
 
 #include "includes/violas-sustain.sfz"
 
