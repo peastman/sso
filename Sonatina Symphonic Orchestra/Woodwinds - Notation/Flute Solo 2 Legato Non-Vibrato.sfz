@@ -7,8 +7,8 @@
 
 <group>
 ampeg_release=0.4
-xfin_locc1=70
-xfin_hicc1=80
+xfin_lovel=70
+xfin_hivel=80
 group=1
 off_by=1
 off_mode=time
@@ -19,10 +19,10 @@ trigger=first
 
 <group>
 ampeg_release=0.4
-xfout_locc1=70
-xfout_hicc1=80
-group=2
-off_by=2
+xfout_lovel=70
+xfout_hivel=80
+group=1
+off_by=1
 off_mode=time
 off_time=0.5
 trigger=first
@@ -32,8 +32,8 @@ trigger=first
 <group>
 ampeg_attack=0.2
 ampeg_release=0.4
-xfin_locc1=70
-xfin_hicc1=80
+xfin_lovel=70
+xfin_hivel=80
 group=1
 off_by=1
 off_mode=time
@@ -46,10 +46,10 @@ offset=10000
 <group>
 ampeg_attack=0.2
 ampeg_release=0.4
-xfout_locc1=70
-xfout_hicc1=80
-group=2
-off_by=2
+xfout_lovel=70
+xfout_hivel=80
+group=1
+off_by=1
 off_mode=time
 off_time=0.5
 trigger=legato
