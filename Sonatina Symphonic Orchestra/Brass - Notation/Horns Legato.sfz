@@ -1,0 +1,75 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Horns Legato
+// ------------------------------
+
+<group>
+ampeg_attack=0.000000
+ampeg_release=0.865000
+ampeg_hold=3
+ampeg_decay=28
+ampeg_sustain=35
+xfout_lovel=60
+xfout_hivel=100
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/horns-sustain-mp.sfz"
+
+<group>
+ampeg_attack=0.000000
+ampeg_release=0.865000
+ampeg_hold=3
+ampeg_decay=28
+ampeg_sustain=35
+xfin_lovel=60
+xfin_hivel=100
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/horns-sustain-ff.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.865000
+ampeg_hold=3
+ampeg_decay=28
+ampeg_sustain=35
+xfout_lovel=60
+xfout_hivel=100
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=1000
+
+#include "includes/horns-sustain-mp.sfz"
+
+<group>
+ampeg_attack=0.2
+ampeg_release=0.865000
+ampeg_hold=3
+ampeg_decay=28
+ampeg_sustain=35
+xfin_lovel=60
+xfin_hivel=100
+xf_cccurve=gain
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=1000
+
+#include "includes/horns-sustain-ff.sfz"

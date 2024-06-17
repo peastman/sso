@@ -1,0 +1,44 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Trumpets Legato
+// ------------------------------
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.250
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/trumpets-sustain-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.4
+ampeg_vel2attack=-0.250
+ampeg_hold=1.100
+ampeg_decay=28
+ampeg_sustain=35
+ampeg_release=0.740
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=10000
+
+#include "includes/trumpets-sustain-looped.sfz"

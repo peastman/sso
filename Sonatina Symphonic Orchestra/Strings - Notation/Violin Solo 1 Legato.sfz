@@ -1,0 +1,30 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Violin Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.500
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/violin-solo-1-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.500
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/violin-solo-1-looped.sfz"

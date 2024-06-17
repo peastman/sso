@@ -8,22 +8,26 @@ windArticulations = (
     ("Sustain (non-looped)", " Sustain", 1),
     ("Marcato (looped)", " Marcato (looped)", 2),
     ("Marcato (non-looped)", " Marcato", 3),
-    ("Staccato", " Staccato", 4)
+    ("Staccato", " Staccato", 4),
+    ("Legato", " Legato", 5)
 )
 
 hornArticulations = (
     ("Sustain", " Sustain", 0),
     ("Marcato", " Marcato", 2),
-    ("Staccato", " Staccato", 4)
+    ("Staccato", " Staccato", 4),
+    ("Legato", " Legato", 5)
 )
 
 sustainArticulations = (
     ("Sustain (looped)", " Sustain (looped)", 0),
-    ("Sustain (non-looped)", " Sustain", 1)
+    ("Sustain (non-looped)", " Sustain", 1),
+    ("Legato", " Legato", 2)
 )
 
 stringArticulations = (
     ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
@@ -34,6 +38,7 @@ stringArticulations = (
 
 bassArticulations = (
     ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
@@ -43,32 +48,42 @@ bassArticulations = (
 soloArticulations = (
     ("Sustain (non-looped)", "", 0),
     ("Sustain (looped)", " (looped)", 1),
-    ("Sustain (looped, decay)", " (looped, decay)", 2)
+    ("Sustain (looped, decay)", " (looped, decay)", 2),
+    ("Legato", " Legato", 4),
 )
 
 soloViolin1Articulations = (
     ("Sustain (non-looped)", "", 0),
     ("Sustain (looped)", " (looped)", 1),
-    ("Sustain (looped, decay)", " (looped, decay)", 2),
+    ("Legato", " Legato", 2),
     ("Marcato (non-looped)", " Marcato", 3),
     ("Marcato (looped)", " Marcato (looped)", 4),
-    ("Marcato (looped, decay)", " Marcato (looped, decay)", 5),
-    ("Spiccato", " Spiccato", 6),
+    ("Spiccato", " Spiccato", 5)
 )
 
 soloViolin2Articulations = (
     ("Sustain", " Sustain", 0),
     ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
-    ("Marcato", " Marcato", 2),
-    ("Marcato Non-Vibrato", " Marcato Non-Vibrato", 3),
-    ("Spiccato", " Spiccato", 4),
-    ("Pizzicato", " Pizzicato", 5),
-    ("Tremolo", " Tremolo", 7)
+    ("Legato", " Legato", 2),
+    ("Legato Non-Vibrato", " Legato Non-Vibrato", 3),
+    ("Marcato", " Marcato", 4),
+    ("Marcato Non-Vibrato", " Marcato Non-Vibrato", 5),
+    ("Spiccato", " Spiccato", 6),
+    ("Pizzicato", " Pizzicato", 7),
+    ("Tremolo", " Tremolo", 8)
+)
+
+soloCelloArticulations = (
+    ("Sustain (non-looped)", "", 0),
+    ("Sustain (looped)", " (looped)", 2),
+    ("Legato", " Legato", 4)
 )
 
 soloFluteArticulations = (
     ("Sustain", " Sustain", 0),
-    ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 2),
+    ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
+    ("Legato", " Legato", 2),
+    ("Legato Non-Vibrato", " Legato Non-Vibrato", 3),
     ("Staccato", " Staccato", 4)
 )
 
@@ -129,4 +144,4 @@ for directory in ['Strings - Notation', 'Strings - Performance']:
 
     createFile(directory, "Violin Solo 1", soloViolin1Articulations, 24)
     createFile(directory, "Violin Solo 2", soloViolin2Articulations, 24)
-    createFile(directory, "Cello Solo", soloArticulations, 79)
+    createFile(directory, "Cello Solo", soloCelloArticulations, 79)

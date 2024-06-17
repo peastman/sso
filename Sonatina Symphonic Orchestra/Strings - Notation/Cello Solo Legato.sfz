@@ -1,0 +1,30 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Cello Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.960
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/cello-solo-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.960
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=20000
+
+#include "includes/cello-solo-looped.sfz"

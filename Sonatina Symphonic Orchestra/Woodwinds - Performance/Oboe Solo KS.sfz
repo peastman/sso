@@ -7,7 +7,7 @@
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=c2
 sw_label=Sustain (non-looped)
 ampeg_release=0.560
@@ -93,17 +93,12 @@ tune=-25
 // ------------------------------
 //           Oboe
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=c#2
 sw_label=Sustain (looped)
 loop_mode=loop_continuous
@@ -114,95 +109,7 @@ amp_veltrack=0
 volume=-30
 gain_cc1=30
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#3.wav
-loop_start=35769
-loop_end=46119
-lokey=a#3
-hikey=b3
-pitch_keycenter=a#3
-tune=-8
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-c#4.wav
-loop_start=38793
-loop_end=47020
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-tune=-9
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-e4.wav
-loop_start=42119
-loop_end=50751
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=-14
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-g4.wav
-loop_start=43764
-loop_end=51702
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-tune=-10
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#4.wav
-loop_start=50602
-loop_end=58894
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=-5
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-c#5.wav
-loop_start=36388
-loop_end=52658
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-e5.wav
-loop_start=32957
-loop_end=74749
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-tune=-15
-volume=-28
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-g5.wav
-loop_start=54336
-loop_end=72706
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-tune=-20
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#5.wav
-loop_start=38396
-loop_end=72186
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-tune=-22
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-c6.wav
-loop_start=34711
-loop_end=65240
-lokey=c6
-hikey=c6
-pitch_keycenter=c6
-tune=-25
+#include "includes/oboe-solo-looped.sfz"
 
 
 // ------------------------------
@@ -210,17 +117,12 @@ tune=-25
 // ------------------------------
 //           Oboe
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=d2
+sw_hikey=e2
 sw_last=d2
 sw_label=Sustain (looped, decay)
 loop_mode=loop_continuous
@@ -238,94 +140,72 @@ amp_veltrack=0
 volume=-30
 gain_cc1=30
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#3.wav
-loop_start=35769
-loop_end=46119
-lokey=a#3
-hikey=b3
-pitch_keycenter=a#3
-tune=-8
+#include "includes/oboe-solo-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-c#4.wav
-loop_start=38793
-loop_end=47020
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-tune=-9
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-e4.wav
-loop_start=42119
-loop_end=50751
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=-14
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Oboe Legato
+// ------------------------------
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-g4.wav
-loop_start=43764
-loop_end=51702
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-tune=-10
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#4.wav
-loop_start=50602
-loop_end=58894
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=-5
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.560
+fil_type=lpf_2p
+cutoff=5000
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-c#5.wav
-loop_start=36388
-loop_end=52658
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
+#include "includes/oboe-solo-looped.sfz"
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-e5.wav
-loop_start=32957
-loop_end=74749
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-tune=-15
-volume=-28
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=e2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_hold=3.1416
+ampeg_decay=32.3607
+ampeg_sustain=16.18
+amplfo_delay=1.618
+amplfo_fade=0.618
+amplfo_freq=0.3142
+amplfo_depth=1.5708
+ampeg_release=0.560
+fil_type=lpf_2p
+cutoff=5000
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
 
-<region>
-sample=..\Samples-looped\Oboe\oboe-g5.wav
-loop_start=54336
-loop_end=72706
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-tune=-20
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-a#5.wav
-loop_start=38396
-loop_end=72186
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-tune=-22
-
-<region>
-sample=..\Samples-looped\Oboe\oboe-c6.wav
-loop_start=34711
-loop_end=65240
-lokey=c6
-hikey=c6
-pitch_keycenter=c6
-tune=-25
+#include "includes/oboe-solo-looped.sfz"
 
 

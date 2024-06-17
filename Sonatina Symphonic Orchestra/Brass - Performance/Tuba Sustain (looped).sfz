@@ -7,6 +7,9 @@
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.645
+ampeg_hold=2
+ampeg_decay=20
+ampeg_sustain=35
 amp_veltrack=0
 volume=-20
 gain_cc1=20
@@ -21,6 +24,9 @@ cutoff=1000
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.645
+ampeg_hold=2
+ampeg_decay=20
+ampeg_sustain=35
 amp_veltrack=0
 volume=-20
 gain_cc1=20
@@ -37,6 +43,9 @@ cutoff=2000
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.645
+ampeg_hold=2
+ampeg_decay=20
+ampeg_sustain=35
 amp_veltrack=0
 volume=-20
 gain_cc1=20
