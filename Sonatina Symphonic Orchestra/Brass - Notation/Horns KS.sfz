@@ -472,7 +472,7 @@ off_by=1
 off_mode=time
 off_time=0.5
 trigger=legato
-offset=1000
+offset=10000
 
 #include "includes/horns-sustain-mp.sfz"
 
@@ -495,7 +495,7 @@ off_by=1
 off_mode=time
 off_time=0.5
 trigger=legato
-offset=1000
+offset=10000
 
 #include "includes/horns-sustain-ff.sfz"
 

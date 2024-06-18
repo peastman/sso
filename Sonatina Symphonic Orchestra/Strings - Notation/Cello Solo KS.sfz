@@ -161,7 +161,7 @@ ampeg_release=0.960
 group=1
 off_by=1
 off_mode=time
-off_time=0.5
+off_time=1
 trigger=first
 
 #include "includes/cello-solo-looped.sfz"
@@ -178,7 +178,7 @@ ampeg_release=0.960
 group=1
 off_by=1
 off_mode=time
-off_time=0.5
+off_time=1
 trigger=legato
 offset=20000
 
