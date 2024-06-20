@@ -12,11 +12,12 @@
 
 <group>
 loop_mode=loop_continuous
-ampeg_attack=0.625
+ampeg_attack=0.825
 ampeg_vel2attack=-0.625
 ampeg_release=1.250
 amp_veltrack=0
 gain_cc1=30
+offset=40000
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-female-g4.wav
