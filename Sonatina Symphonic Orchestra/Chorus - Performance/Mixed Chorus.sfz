@@ -412,6 +412,7 @@ hikey=e4
 pitch_keycenter=e4
 tune=8
 volume=-29.682691
+pan=5
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-f4.wav
@@ -422,6 +423,7 @@ hikey=f4
 pitch_keycenter=f4
 tune=8
 volume=-27.884369
+pan=15
 
 <region>
 sample=..\Samples-looped\Chorus\chorus-male-f#4.wav
@@ -432,3 +434,4 @@ hikey=f#4
 pitch_keycenter=f#4
 tune=9
 volume=-30.783695
+pan=15
