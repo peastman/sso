@@ -14,5 +14,27 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=a#3
+fil_type=lpf_2p
+cutoff=200
+
+#include "includes/oboes-sustain-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.700
+ampeg_hold=1.025
+ampeg_decay=26
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
 #include "includes/oboes-sustain-looped.sfz"

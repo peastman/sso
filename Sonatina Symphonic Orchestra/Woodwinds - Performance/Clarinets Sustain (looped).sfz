@@ -14,5 +14,27 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/clarinets-sustain-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.835
+ampeg_hold=1.112
+ampeg_decay=28
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
 #include "includes/clarinets-sustain-looped.sfz"

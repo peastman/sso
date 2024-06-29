@@ -9,6 +9,11 @@ ampeg_release=0.835
 ampeg_hold=1.112
 ampeg_decay=28
 ampeg_sustain=35
+fil_veltrack=7000
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_2p
+cutoff=500
 
 <region>
 sample=..\Samples\Clarinets\clarinets-sus-d3.wav
