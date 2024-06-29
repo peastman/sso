@@ -3,11 +3,6 @@
 // ------------------------------
 //        Flutes Sustain
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
@@ -21,5 +16,29 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/flutes-sustain-looped.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
 #include "includes/flutes-sustain-looped.sfz"

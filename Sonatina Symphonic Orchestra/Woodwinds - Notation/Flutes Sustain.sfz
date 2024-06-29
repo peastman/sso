@@ -11,6 +11,11 @@ ampeg_release=0.910
 ampeg_hold=1.0
 ampeg_decay=25
 ampeg_sustain=35
+fil_veltrack=7000
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
 
 <region>
 sample=..\Samples\Flutes\flutes-sus-c3.wav
