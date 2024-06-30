@@ -1,5 +1,8 @@
 <region>
-sample=../Samples/Celli/celli-sus-c2.wav
+sample=../Samples/Celli/celli-sus-c2.flac
+loop_mode=loop_continuous
+loop_start=49247
+loop_end=127824
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
