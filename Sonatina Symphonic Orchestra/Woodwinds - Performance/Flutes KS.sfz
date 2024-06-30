@@ -3,11 +3,6 @@
 // ------------------------------
 //        Flutes Sustain
 // ------------------------------
-//
-// Based on SSO 1.0 by Mattias Westlund
-//         mattiaswestlund.net
-// Looped by Signal Experiments
-//         sig-ex.com
 
 
 <group>
@@ -26,6 +21,35 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/flutes-sustain-looped.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=c2
+sw_label=Sustain (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
 #include "includes/flutes-sustain-looped.sfz"
 
@@ -35,6 +59,7 @@ gain_cc1=30
 // ------------------------------
 //        Flutes Sustain
 // ------------------------------
+
 
 <group>
 sw_default=c2
@@ -51,80 +76,36 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-c3.wav
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
+#include "includes/flutes-sustain.sfz"
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#3.wav
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=c#2
+sw_label=Sustain (non-looped)
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#3.wav
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-a3.wav
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-c4.wav
-lokey=b3
-hikey=c#4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#4.wav
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#4.wav
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
-volume=-32
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-a4.wav
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-c5.wav
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#5.wav
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-volume=-29
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#5.wav
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-volume=-31
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-a5.wav
-lokey=g#5
-hikey=a5
-pitch_keycenter=a5
+#include "includes/flutes-sustain.sfz"
 
 
 // ------------------------------
@@ -146,7 +127,7 @@ sw_last=d2
 sw_label=Marcato (looped)
 loop_mode=loop_continuous
 ampeg_attack=0.640
-ampeg_vel2attack=-0.640
+ampeg_attackcc1=-0.640
 ampeg_release=0.910
 ampeg_hold=1.0
 ampeg_decay=25
@@ -154,6 +135,35 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/flutes-sustain-looped.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=d2
+sw_label=Marcato (looped)
+loop_mode=loop_continuous
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
 #include "includes/flutes-sustain-looped.sfz"
 
@@ -268,7 +278,7 @@ sw_hikey=f2
 sw_last=d#2
 sw_label=Marcato (non-looped)
 ampeg_attack=0.640
-ampeg_vel2attack=-0.640
+ampeg_attackcc1=-0.640
 ampeg_release=0.910
 ampeg_hold=1.0
 ampeg_decay=25
@@ -276,80 +286,37 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-c3.wav
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
+#include "includes/flutes-sustain.sfz"
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#3.wav
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=d#2
+sw_label=Marcato (non-looped)
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#3.wav
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
+#include "includes/flutes-sustain.sfz"
 
-<region>
-sample=..\Samples\Flutes\flutes-sus-a3.wav
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-c4.wav
-lokey=b3
-hikey=c#4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#4.wav
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#4.wav
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
-volume=-32
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-a4.wav
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-c5.wav
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-d#5.wav
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-volume=-29
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-f#5.wav
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-volume=-31
-
-<region>
-sample=..\Samples\Flutes\flutes-sus-a5.wav
-lokey=g#5
-hikey=a5
-pitch_keycenter=a5
 
 
 // --------
@@ -644,6 +611,40 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/flutes-sustain-looped.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.640
+ampeg_attackcc1=-0.640
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 group=1
 off_by=1
 off_mode=time
@@ -667,6 +668,39 @@ ampeg_sustain=35
 amp_veltrack=0
 volume=-30
 gain_cc1=30
+xfout_locc1=0
+xfout_hicc1=127
+xf_cccurve=gain
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_2p
+cutoff=500
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=10000
+
+#include "includes/flutes-sustain-looped.sfz"
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.910
+ampeg_hold=1.0
+ampeg_decay=25
+ampeg_sustain=35
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+xfin_locc1=0
+xfin_hicc1=127
+xf_cccurve=gain
 group=1
 off_by=1
 off_mode=time

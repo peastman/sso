@@ -11,5 +11,10 @@ ampeg_release=0.600
 ampeg_hold=1.250
 ampeg_decay=30
 ampeg_sustain=35
+fil_veltrack=7000
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_2p
+cutoff=200
 
 #include "includes/bassoons-sustain-looped.sfz"
