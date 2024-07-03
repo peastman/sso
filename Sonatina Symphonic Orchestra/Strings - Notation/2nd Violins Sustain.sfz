@@ -5,7 +5,6 @@
 // ------------------------------
 
 <group>
-
 ampeg_attack=0.175
 ampeg_vel2attack=-0.175
 ampeg_release=1
