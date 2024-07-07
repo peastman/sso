@@ -1,0 +1,356 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Viola Sustain
+// ------------------------------
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=c2
+sw_label=Sustain
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=0.5
+
+#include "includes/viola-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Viola Legato
+// ------------------------------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=c#2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=0.5
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=first
+
+#include "includes/viola-solo-sustain.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=c#2
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_release=0.5
+group=1
+off_by=1
+off_mode=time
+off_time=0.5
+trigger=legato
+offset=40000
+
+#include "includes/viola-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Viola Marcato
+// ------------------------------
+
+
+// -------
+// Sustain
+// -------
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=d2
+sw_label=Marcato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=0.5
+
+#include "includes/viola-solo-sustain.sfz"
+
+
+// --------
+// Staccato
+// --------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=d2
+sw_label=Marcato
+loop_mode=one_shot
+offset=50000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.03
+ampeg_sustain=0
+ampeg_decay=0.5
+gain_cc1=-12
+group_tune=-10
+
+#include "includes/viola-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Viola Staccato
+// ------------------------------
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=e2
+sw_label=Staccato
+loop_mode=one_shot
+offset=50000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.03
+ampeg_sustain=0
+ampeg_decay=0.5
+
+#include "includes/viola-solo-sustain.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=e2
+sw_label=Staccato
+loop_mode=one_shot
+offset=50000
+offset_random=10000
+ampeg_attack=0.2
+ampeg_hold=0
+ampeg_sustain=0
+ampeg_decay=0.9
+volume=-3
+fil_type=lpf_2p
+cutoff=500
+fil_keytrack=100
+fil_keycenter=c3
+
+#include "includes/viola-solo-sustain.sfz"
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=e2
+sw_label=Staccato
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.3
+
+#include "includes/viola-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Viola Pizzicato
+// ------------------------------
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Pizzicato
+loop_mode=one_shot
+seq_position=1
+seq_length=2
+ampeg_sustain=0
+ampeg_decay=1
+ampeg_vel2decay=10
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-c3.flac
+lokey=c3
+hikey=c3
+pitch_keycenter=c3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-d3.flac
+lokey=c#3
+hikey=d#3
+pitch_keycenter=d3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-e3.flac
+lokey=e3
+hikey=f3
+pitch_keycenter=e3
+volume=-2
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-g3.flac
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-a#3.flac
+lokey=a3
+hikey=c4
+pitch_keycenter=a#3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-e4.flac
+lokey=c#4
+hikey=e4
+pitch_keycenter=e4
+volume=1
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-f4.flac
+lokey=f4
+hikey=f#4
+pitch_keycenter=f4
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-g4.flac
+lokey=g4
+hikey=a4
+pitch_keycenter=g4
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-a#4.flac
+lokey=a#4
+hikey=c5
+pitch_keycenter=a#4
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-d5.flac
+lokey=c#5
+hikey=d#5
+pitch_keycenter=d5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-e5.flac
+lokey=e5
+hikey=f#5
+pitch_keycenter=e5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-g5.flac
+lokey=g5
+hikey=a5
+pitch_keycenter=g5
+
+
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=f2
+sw_label=Pizzicato
+loop_mode=one_shot
+seq_position=2
+seq_length=2
+ampeg_sustain=0
+ampeg_decay=1
+ampeg_vel2decay=10
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-c3.flac
+lokey=c3
+hikey=c3
+pitch_keycenter=c3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-d#3.flac
+lokey=c#3
+hikey=d#3
+pitch_keycenter=d#3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-f3.flac
+lokey=e3
+hikey=f3
+pitch_keycenter=f3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-g#3.flac
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g#3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-b3.flac
+lokey=a3
+hikey=c4
+pitch_keycenter=b3
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-d#4.flac
+lokey=c#4
+hikey=e4
+pitch_keycenter=d#4
+volume=1
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-f#4.flac
+lokey=f4
+hikey=f#4
+pitch_keycenter=f#4
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-a4.flac
+lokey=g4
+hikey=a4
+pitch_keycenter=a4
+volume=-1
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-b4.flac
+lokey=a#4
+hikey=c5
+pitch_keycenter=b4
+volume=-1
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-d5.flac
+lokey=c#5
+hikey=d#5
+pitch_keycenter=d5
+volume=1
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-f5.flac
+lokey=e5
+hikey=f#5
+pitch_keycenter=f5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-a5.flac
+lokey=g5
+hikey=a5
+pitch_keycenter=a5
+
+

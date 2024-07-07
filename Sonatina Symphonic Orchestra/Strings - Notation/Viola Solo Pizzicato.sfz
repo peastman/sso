@@ -131,6 +131,7 @@ sample=../Samples/Viola/viola-piz-rr2-d#4.flac
 lokey=c#4
 hikey=e4
 pitch_keycenter=d#4
+volume=1
 
 <region>
 sample=../Samples/Viola/viola-piz-rr2-f#4.flac
