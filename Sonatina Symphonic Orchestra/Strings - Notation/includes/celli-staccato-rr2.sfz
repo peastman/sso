@@ -26,13 +26,13 @@ pitch_keycenter=a2
 volume=1
 
 <region>
-sample=../Samples/Celli/celli-stc-rr2-c3.wav
+sample=../Samples/Celli/celli-stc-rr2-c3.flac
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
 
 <region>
-sample=../Samples/Celli/celli-stc-rr2-d#3.wav
+sample=../Samples/Celli/celli-stc-rr2-d#3.flac
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
