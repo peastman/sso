@@ -87,6 +87,18 @@ lokey=g5
 hikey=a5
 pitch_keycenter=g5
 
+<region>
+sample=../Samples/Viola/viola-piz-rr1-a#5.flac
+lokey=a#5
+hikey=b5
+pitch_keycenter=a#5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr1-c6.flac
+lokey=c6
+hikey=e6
+pitch_keycenter=c6
+
 
 <group>
 loop_mode=one_shot
@@ -171,3 +183,15 @@ sample=../Samples/Viola/viola-piz-rr2-a5.flac
 lokey=g5
 hikey=a5
 pitch_keycenter=a5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-b5.flac
+lokey=a#5
+hikey=b5
+pitch_keycenter=b5
+
+<region>
+sample=../Samples/Viola/viola-piz-rr2-d6.flac
+lokey=c6
+hikey=e6
+pitch_keycenter=d6

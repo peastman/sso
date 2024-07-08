@@ -78,8 +78,8 @@ pitch_keycenter=c5
 
 <region>
 sample=../Samples/Viola/viola-sus-d#5.flac
-loop_start=41713
-loop_end=184347
+loop_start=41695
+loop_end=188444
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
@@ -87,9 +87,25 @@ tune=23
 
 <region>
 sample=../Samples/Viola/viola-sus-f#5.flac
-loop_start=51084
-loop_end=189726
+loop_start=51023
+loop_end=202123
 lokey=f5
-hikey=a5
+hikey=g5
 pitch_keycenter=f#5
 tune=19
+
+<region>
+sample=../Samples/Viola/viola-sus-a5.flac
+loop_start=51776
+loop_end=133435
+lokey=g#5
+hikey=b5
+pitch_keycenter=a5
+
+<region>
+sample=../Samples/Viola/viola-sus-c6.flac
+loop_start=28898
+loop_end=123073
+lokey=c6
+hikey=e6
+pitch_keycenter=c6
