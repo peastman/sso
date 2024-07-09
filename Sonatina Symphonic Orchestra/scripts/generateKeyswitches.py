@@ -73,6 +73,14 @@ soloViolin2Articulations = (
     ("Tremolo", " Tremolo", 8)
 )
 
+soloViolaArticulations = (
+    ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
+    ("Marcato", " Marcato", 2),
+    ("Staccato", " Staccato", 4),
+    ("Pizzicato", " Pizzicato", 5)
+)
+
 soloCelloArticulations = (
     ("Sustain (non-looped)", "", 0),
     ("Sustain (looped)", " (looped)", 2),
@@ -144,4 +152,5 @@ for directory in ['Strings - Notation', 'Strings - Performance']:
 
     createFile(directory, "Violin Solo 1", soloViolin1Articulations, 24)
     createFile(directory, "Violin Solo 2", soloViolin2Articulations, 24)
+    createFile(directory, "Viola Solo", soloViolaArticulations, 24)
     createFile(directory, "Cello Solo", soloCelloArticulations, 79)
