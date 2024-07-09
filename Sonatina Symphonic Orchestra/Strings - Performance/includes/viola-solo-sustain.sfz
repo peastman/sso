@@ -35,17 +35,16 @@ tune=-2
 
 <region>
 sample=../Samples/Viola/viola-sus-c4.flac
-loop_start=53685
-loop_end=184675
+loop_start=58316
+loop_end=219278
 lokey=b3
 hikey=c#4
 pitch_keycenter=c4
-tune=-8
 
 <region>
 sample=../Samples/Viola/viola-sus-d#4.flac
-loop_start=43178
-loop_end=183731
+loop_start=54253
+loop_end=228241
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
