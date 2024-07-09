@@ -92,7 +92,7 @@ loop_end=202123
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
-tune=19
+tune=20
 
 <region>
 sample=../Samples/Viola/viola-sus-a5.flac
@@ -109,3 +109,4 @@ loop_end=123073
 lokey=c6
 hikey=e6
 pitch_keycenter=c6
+tune=9
