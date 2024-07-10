@@ -1253,7 +1253,7 @@ ampeg_decay=1
 ampeg_vel2decay=10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G2.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G2.wav
 lokey=g3
 hikey=g3
 pitch_keycenter=g3
@@ -1261,39 +1261,15 @@ offset=963
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G2.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A#2.wav
 lokey=g#3
-hikey=g#3
-pitch_keycenter=g3
-offset=963
-tune=-6
-
-//<region>
-//sample=..\Samples/Violin 2/violin_pizz_vib_G#2.wav
-//lokey=g#3
-//hikey=g#3
-//pitch_keycenter=g#3
-//offset=729
-//tune=-1
-
-//<region>
-//sample=..\Samples/Violin 2/violin_pizz_vib_A2.wav
-//lokey=a3
-//hikey=a3
-//pitch_keycenter=a3
-//offset=1366
-//tune=-19
-
-<region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A#2.wav
-lokey=a3
 hikey=a3
 pitch_keycenter=a#3
 offset=367
 tune=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A#2.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A#2.wav
 lokey=a#3
 hikey=a#3
 pitch_keycenter=a#3
@@ -1301,7 +1277,7 @@ offset=367
 tune=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_B2.wav
+sample=../Samples/Violin 2/violin_pizz_vib_B2.wav
 lokey=b3
 hikey=b3
 pitch_keycenter=b3
@@ -1309,7 +1285,7 @@ offset=803
 tune=-20
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C3.wav
 lokey=c4
 hikey=c4
 pitch_keycenter=c4
@@ -1317,7 +1293,7 @@ offset=645
 tune=-34
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C#3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C#3.wav
 lokey=c#4
 hikey=c#4
 pitch_keycenter=c#4
@@ -1325,7 +1301,7 @@ offset=785
 tune=0
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D3.wav
 lokey=d4
 hikey=d4
 pitch_keycenter=d4
@@ -1333,7 +1309,7 @@ offset=680
 tune=13
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D#3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D#3.wav
 lokey=d#4
 hikey=d#4
 pitch_keycenter=d#4
@@ -1341,7 +1317,7 @@ offset=558
 tune=8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_E3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_E3.wav
 lokey=e4
 hikey=e4
 pitch_keycenter=e4
@@ -1349,7 +1325,7 @@ offset=1002
 tune=6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F3.wav
 lokey=f4
 hikey=f4
 pitch_keycenter=f4
@@ -1357,7 +1333,7 @@ offset=759
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F#3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F#3.wav
 lokey=f#4
 hikey=f#4
 pitch_keycenter=f#4
@@ -1365,7 +1341,7 @@ offset=862
 tune=-9
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G3.wav
 lokey=g4
 hikey=g4
 pitch_keycenter=g4
@@ -1373,7 +1349,7 @@ offset=789
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G#3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G#3.wav
 lokey=g#4
 hikey=g#4
 pitch_keycenter=g#4
@@ -1381,7 +1357,7 @@ offset=1093
 tune=-13
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A3.wav
 lokey=a4
 hikey=a4
 pitch_keycenter=a4
@@ -1389,7 +1365,7 @@ offset=773
 tune=3
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A#3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A#3.wav
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -1397,7 +1373,7 @@ offset=869
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_B3.wav
+sample=../Samples/Violin 2/violin_pizz_vib_B3.wav
 lokey=b4
 hikey=b4
 pitch_keycenter=b4
@@ -1405,7 +1381,7 @@ offset=815
 tune=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C4.wav
 lokey=c5
 hikey=c5
 pitch_keycenter=c5
@@ -1413,7 +1389,7 @@ offset=900
 tune=-17
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C#4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C#4.wav
 lokey=c#5
 hikey=c#5
 pitch_keycenter=c#5
@@ -1421,7 +1397,7 @@ offset=770
 tune=-13
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D4.wav
 lokey=d5
 hikey=d5
 pitch_keycenter=d5
@@ -1429,7 +1405,7 @@ offset=660
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D#4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D#4.wav
 lokey=d#5
 hikey=d#5
 pitch_keycenter=d#5
@@ -1437,7 +1413,7 @@ offset=799
 tune=-14
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_E4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_E4.wav
 lokey=e5
 hikey=e5
 pitch_keycenter=e5
@@ -1445,7 +1421,7 @@ offset=1300
 tune=-25
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F4.wav
 lokey=f5
 hikey=f5
 pitch_keycenter=f5
@@ -1453,7 +1429,7 @@ offset=1276
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F#4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F#4.wav
 lokey=f#5
 hikey=f#5
 pitch_keycenter=f#5
@@ -1461,7 +1437,7 @@ offset=1158
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G4.wav
 lokey=g5
 hikey=g5
 pitch_keycenter=g5
@@ -1469,7 +1445,7 @@ offset=940
 tune=12
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G#4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G#4.wav
 lokey=g#5
 hikey=g#5
 pitch_keycenter=g#5
@@ -1477,7 +1453,7 @@ offset=1009
 tune=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A4.wav
 lokey=a5
 hikey=a5
 pitch_keycenter=a5
@@ -1485,7 +1461,7 @@ offset=590
 tune=-10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A#4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A#4.wav
 lokey=a#5
 hikey=a#5
 pitch_keycenter=a#5
@@ -1493,7 +1469,7 @@ offset=782
 tune=10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_B4.wav
+sample=../Samples/Violin 2/violin_pizz_vib_B4.wav
 lokey=b5
 hikey=b5
 pitch_keycenter=b5
@@ -1501,7 +1477,7 @@ offset=805
 tune=5
 
 //<region>
-//sample=..\Samples/Violin 2/violin_pizz_vib_C5.wav
+//sample=../Samples/Violin 2/violin_pizz_vib_C5.wav
 //lokey=c6
 //hikey=c6
 //pitch_keycenter=c6
@@ -1509,7 +1485,7 @@ tune=5
 //tune=-9
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C#5.wav
 lokey=c6
 hikey=c6
 pitch_keycenter=c#6
@@ -1517,7 +1493,7 @@ offset=1195
 tune=16
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_C#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_C#5.wav
 lokey=c#6
 hikey=c#6
 pitch_keycenter=c#6
@@ -1525,7 +1501,7 @@ offset=1195
 tune=16
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D5.wav
 lokey=d6
 hikey=d6
 pitch_keycenter=d6
@@ -1533,7 +1509,7 @@ offset=1122
 tune=7
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_D#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_D#5.wav
 lokey=d#6
 hikey=d#6
 pitch_keycenter=d#6
@@ -1541,7 +1517,7 @@ offset=1178
 tune=8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_E5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_E5.wav
 lokey=e6
 hikey=e6
 pitch_keycenter=e6
@@ -1549,7 +1525,7 @@ offset=1083
 tune=10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F5.wav
 lokey=f6
 hikey=f6
 pitch_keycenter=f6
@@ -1557,14 +1533,14 @@ offset=944
 tune=10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_F#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_F#5.wav
 lokey=f#6
 hikey=f#6
 pitch_keycenter=f#6
 offset=790
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G5.wav
 lokey=g6
 hikey=g6
 pitch_keycenter=g6
@@ -1572,7 +1548,7 @@ offset=607
 tune=-55
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_G#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_G#5.wav
 lokey=g#6
 hikey=g#6
 pitch_keycenter=g#6
@@ -1580,7 +1556,7 @@ offset=642
 tune=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A5.wav
 lokey=a6
 hikey=a6
 pitch_keycenter=a6
@@ -1588,7 +1564,7 @@ offset=677
 tune=-12
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_A#5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_A#5.wav
 lokey=a#6
 hikey=a#6
 pitch_keycenter=a#6
@@ -1596,7 +1572,7 @@ offset=880
 tune=-33
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_vib_B5.wav
+sample=../Samples/Violin 2/violin_pizz_vib_B5.wav
 lokey=b6
 hikey=c7
 pitch_keycenter=b6
@@ -1620,7 +1596,7 @@ ampeg_decay=1
 ampeg_vel2decay=10
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G2.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G2.wav
 lokey=g3
 hikey=g3
 pitch_keycenter=g3
@@ -1628,7 +1604,7 @@ offset=350
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G#2.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G#2.wav
 lokey=g#3
 hikey=g#3
 pitch_keycenter=g#3
@@ -1636,7 +1612,7 @@ offset=164
 tune=-4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A2.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A2.wav
 lokey=a3
 hikey=a3
 pitch_keycenter=a3
@@ -1644,7 +1620,7 @@ offset=392
 tune=6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A#2.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A#2.wav
 lokey=a#3
 hikey=a#3
 pitch_keycenter=a#3
@@ -1653,7 +1629,7 @@ tune=-5
 volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_B2.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_B2.wav
 lokey=b3
 hikey=b3
 pitch_keycenter=b3
@@ -1662,7 +1638,7 @@ tune=-17
 volume=1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C3.wav
 lokey=c4
 hikey=c4
 pitch_keycenter=c4
@@ -1670,7 +1646,7 @@ offset=275
 tune=-17
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C#3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C#3.wav
 lokey=c#4
 hikey=c#4
 pitch_keycenter=c#4
@@ -1678,7 +1654,7 @@ offset=468
 tune=3
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D3.wav
 lokey=d4
 hikey=d4
 pitch_keycenter=d4
@@ -1686,7 +1662,7 @@ offset=436
 tune=28
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D#3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D#3.wav
 lokey=d#4
 hikey=d#4
 pitch_keycenter=d#4
@@ -1694,7 +1670,7 @@ offset=374
 tune=0
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_E3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_E3.wav
 lokey=e4
 hikey=e4
 pitch_keycenter=e4
@@ -1702,7 +1678,7 @@ offset=322
 tune=1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F3.wav
 lokey=f4
 hikey=f4
 pitch_keycenter=f4
@@ -1710,7 +1686,7 @@ offset=391
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F#3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F#3.wav
 lokey=f#4
 hikey=f#4
 pitch_keycenter=f#4
@@ -1718,7 +1694,7 @@ offset=247
 tune=2
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G3.wav
 lokey=g4
 hikey=g4
 pitch_keycenter=g4
@@ -1726,7 +1702,7 @@ offset=464
 tune=9
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G#3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G#3.wav
 lokey=g#4
 hikey=g#4
 pitch_keycenter=g#4
@@ -1734,7 +1710,7 @@ offset=217
 tune=-3
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A3.wav
 lokey=a4
 hikey=a4
 pitch_keycenter=a4
@@ -1742,7 +1718,7 @@ offset=601
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A#3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A#3.wav
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -1750,7 +1726,7 @@ offset=525
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_B3.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_B3.wav
 lokey=b4
 hikey=b4
 pitch_keycenter=b4
@@ -1758,7 +1734,7 @@ offset=265
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C4.wav
 lokey=c5
 hikey=c5
 pitch_keycenter=c5
@@ -1766,7 +1742,7 @@ offset=976
 tune=-31
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C#4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C#4.wav
 lokey=c#5
 hikey=c#5
 pitch_keycenter=c#5
@@ -1774,7 +1750,7 @@ offset=840
 tune=-17
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D4.wav
 lokey=d5
 hikey=d5
 pitch_keycenter=d5
@@ -1782,7 +1758,7 @@ offset=442
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D#4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D#4.wav
 lokey=d#5
 hikey=d#5
 pitch_keycenter=d#5
@@ -1790,7 +1766,7 @@ offset=308
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_E4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_E4.wav
 lokey=e5
 hikey=e5
 pitch_keycenter=e5
@@ -1798,7 +1774,7 @@ offset=353
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F4.wav
 lokey=f5
 hikey=f5
 pitch_keycenter=f5
@@ -1806,7 +1782,7 @@ offset=397
 tune=-12
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F#4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F#4.wav
 lokey=f#5
 hikey=f#5
 pitch_keycenter=f#5
@@ -1814,7 +1790,7 @@ offset=428
 tune=2
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G4.wav
 lokey=g5
 hikey=g5
 pitch_keycenter=g5
@@ -1822,7 +1798,7 @@ offset=668
 tune=7
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G#4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G#4.wav
 lokey=g#5
 hikey=g#5
 pitch_keycenter=g#5
@@ -1830,7 +1806,7 @@ offset=399
 tune=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A4.wav
 lokey=a5
 hikey=a5
 pitch_keycenter=a5
@@ -1838,7 +1814,7 @@ offset=411
 tune=-19
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A#4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A#4.wav
 lokey=a#5
 hikey=a#5
 pitch_keycenter=a#5
@@ -1846,7 +1822,7 @@ offset=429
 tune=-16
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_B4.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_B4.wav
 lokey=b5
 hikey=b5
 pitch_keycenter=b5
@@ -1854,7 +1830,7 @@ offset=194
 tune=5
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C5.wav
 lokey=c6
 hikey=c6
 pitch_keycenter=c6
@@ -1862,7 +1838,7 @@ offset=566
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_C#5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_C#5.wav
 lokey=c#6
 hikey=c#6
 pitch_keycenter=c#6
@@ -1870,7 +1846,7 @@ offset=189
 tune=6
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D5.wav
 lokey=d6
 hikey=d6
 pitch_keycenter=d6
@@ -1878,7 +1854,7 @@ offset=504
 tune=21
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_D#5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_D#5.wav
 lokey=d#6
 hikey=d#6
 pitch_keycenter=d#6
@@ -1886,7 +1862,7 @@ offset=645
 tune=37
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_E5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_E5.wav
 lokey=e6
 hikey=e6
 pitch_keycenter=e6
@@ -1894,7 +1870,7 @@ offset=605
 tune=22
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F5.wav
 lokey=f6
 hikey=f6
 pitch_keycenter=f6
@@ -1902,21 +1878,21 @@ offset=510
 tune=50
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_F#5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_F#5.wav
 lokey=f#6
 hikey=f#6
 pitch_keycenter=f#6
 offset=486
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G5.wav
 lokey=g6
 hikey=g6
 pitch_keycenter=g6
 offset=333
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_G#5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_G#5.wav
 lokey=g#6
 hikey=g#6
 pitch_keycenter=g#6
@@ -1924,14 +1900,14 @@ offset=703
 tune=-13
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A5.wav
 lokey=a6
 hikey=a6
 pitch_keycenter=a6
 offset=294
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_A#5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_A#5.wav
 lokey=a#6
 hikey=a#6
 pitch_keycenter=a#6
@@ -1939,7 +1915,7 @@ offset=439
 tune=-8
 
 <region>
-sample=..\Samples/Violin 2/violin_pizz_non_vib_B5.wav
+sample=../Samples/Violin 2/violin_pizz_non_vib_B5.wav
 lokey=b6
 hikey=c7
 pitch_keycenter=b6
