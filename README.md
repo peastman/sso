@@ -27,7 +27,7 @@ SSO includes the following instruments and articulations:
 |Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
 |Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
 |Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo|
-|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato|
+|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato, Pizzicato|
 |Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
 |Solo Viola|Sustain, Marcato, Staccato, Legato, Pizzicato|
 |Solo Cello|Sustain (non-looped, looped), Legato|
@@ -119,8 +119,7 @@ Most solo instruments have three versions:
   simple looped version, but still not place a strict limit on how long notes can be held.
 
 There are two different solo violin instruments, and likewise two different solo flutes.  In each case, one of the two
-instruments has the standard three versions listed above.  The other has many more articulations, but does not offer a
-looped version.  The sustained notes are held long enough that the lack of looping is usually not a problem.
+instruments has more articulations, but does not offer a looped version.
 
 Many instruments are provided in separate "notation" and "performance" versions.  They differ in how they are controlled.
 

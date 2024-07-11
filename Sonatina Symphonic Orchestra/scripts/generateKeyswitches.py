@@ -58,7 +58,8 @@ soloViolin1Articulations = (
     ("Legato", " Legato", 2),
     ("Marcato (non-looped)", " Marcato", 3),
     ("Marcato (looped)", " Marcato (looped)", 4),
-    ("Spiccato", " Spiccato", 5)
+    ("Spiccato", " Spiccato", 5),
+    ("Pizzicato", " Pizzicato", 7)
 )
 
 soloViolin2Articulations = (
