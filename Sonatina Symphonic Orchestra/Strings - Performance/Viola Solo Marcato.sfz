@@ -39,3 +39,14 @@ gain_cc1=20
 group_tune=-10
 
 #include "includes/viola-solo-sustain.sfz"
+
+<group>
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.3
+group_volume=-20
+gain_cc1=20
+
+#include "includes/viola-solo-sustain.sfz"
