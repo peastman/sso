@@ -83,9 +83,11 @@ soloViolaArticulations = (
 )
 
 soloCelloArticulations = (
-    ("Sustain (non-looped)", "", 0),
-    ("Sustain (looped)", " (looped)", 2),
-    ("Legato", " Legato", 4)
+    ("Sustain", " Sustain", 0),
+    ("Legato", " Legato", 1),
+    ("Marcato", " Marcato", 2),
+    ("Staccato", " Staccato", 4),
+    ("Pizzicato", " Pizzicato", 5)
 )
 
 soloFluteArticulations = (

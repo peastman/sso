@@ -110,6 +110,21 @@ group_tune=-10
 
 #include "includes/viola-solo-sustain.sfz"
 
+<group>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=f2
+sw_last=d2
+sw_label=Marcato
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.3
+gain_cc1=-12
+
+#include "includes/viola-solo-sustain.sfz"
+
 
 // ------------------------------
 //  Sonatina Symphonic Orchestra
