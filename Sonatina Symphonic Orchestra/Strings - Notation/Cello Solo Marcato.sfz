@@ -1,7 +1,7 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
-//         Viola Marcato
+//         Cello Marcato
 // ------------------------------
 
 
@@ -13,40 +13,35 @@
 loop_mode=loop_continuous
 ampeg_attack=0.2
 ampeg_vel2attack=-0.15
-ampeg_release=0.5
-amp_veltrack=0
-volume=-30
-gain_cc1=30
+ampeg_release=0.960
 
-#include "includes/viola-solo-sustain.sfz"
+#include "includes/cello-solo-looped.sfz"
 
 
 // --------
 // Staccato
 // --------
 
-
 <group>
 loop_mode=one_shot
-offset=50000
+offset=30000
 offset_random=10000
-ampeg_attack=0.07
+ampeg_attack=0.02
 ampeg_hold=0.03
 ampeg_sustain=0
 ampeg_decay=0.5
-group_volume=-20
-gain_cc1=20
-group_tune=-10
+group_volume=5
+gain_cc1=-12
 
-#include "includes/viola-solo-sustain.sfz"
+#include "includes/cello-solo.sfz"
 
 <group>
 loop_mode=one_shot
 ampeg_attack=0
 ampeg_hold=0.1
 ampeg_sustain=0
-ampeg_decay=0.3
-group_volume=-20
-gain_cc1=20
+ampeg_decay=0.2
+group_volume=5
+gain_cc1=-12
 
-#include "includes/viola-solo-sustain.sfz"
+#include "includes/cello-solo.sfz"
