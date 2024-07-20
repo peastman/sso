@@ -395,7 +395,7 @@ sw_last=f#2
 sw_label=Col Legno
 loop_mode=one_shot
 delay_random=0.04
-volume=-10
+volume=-8
 
 <region>
 sample=../Samples/1st Violins/1st-violins-col-g3-p.flac

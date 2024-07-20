@@ -9,7 +9,7 @@ loop_mode=one_shot
 delay_random=0.04
 ampeg_sustain=0
 ampeg_decay=2
-group_volume=-10
+group_volume=-8
 
 
 <region>
