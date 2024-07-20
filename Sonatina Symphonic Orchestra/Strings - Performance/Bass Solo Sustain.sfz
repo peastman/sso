@@ -1,0 +1,16 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Bass Sustain
+// ------------------------------
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=0.5
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/bass-solo-sustain.sfz"
