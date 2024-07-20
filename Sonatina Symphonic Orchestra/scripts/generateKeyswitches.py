@@ -31,6 +31,7 @@ stringArticulations = (
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
+    ("Col Legno", " Col Legno", 6),
     ("Tremolo", " Tremolo", 7),
     ("Harmonics", " Harmonics", 9)
 )
@@ -42,6 +43,7 @@ bassArticulations = (
     ("Marcato", " Marcato", 2),
     ("Staccato", " Staccato", 4),
     ("Pizzicato", " Pizzicato", 5),
+    ("Col Legno", " Col Legno", 6),
     ("Tremolo", " Tremolo", 7)
 )
 
