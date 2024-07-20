@@ -22,11 +22,11 @@ SSO includes the following instruments and articulations:
 
 |Instrument|Articulations|
 |----------|-------------|
-|1st Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
-|2nd Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
-|Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
-|Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo, Harmonics|
-|Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Tremolo|
+|1st Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
+|2nd Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
+|Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
+|Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
+|Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo|
 |Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato, Pizzicato|
 |Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
 |Solo Viola|Sustain, Marcato, Staccato, Legato, Pizzicato|
@@ -150,6 +150,9 @@ On some instruments this is typically described as "slurred" rather than "legato
 instruments use the same name for corresponding articulations.
 
 **Pizzicato**: The player plucks the string with their finger instead of using the bow.
+
+**Col Legno**: More precisely, col legno battuto.  The player strikes the string with the wooden part of
+the bow.  When played by an ensemble, this produces a tight cluster of very short, percussive notes.
 
 **Tremolo**: More precisely, this is an unmeasured tremolo.  All the musicians in the section move their bows
 back and forth over the string as quickly as possible, not trying to synchronize with each other.  The result

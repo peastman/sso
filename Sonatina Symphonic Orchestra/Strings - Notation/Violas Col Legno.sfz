@@ -6,19 +6,17 @@
 
 <group>
 loop_mode=one_shot
-//seq_position=1
-//seq_length=2
 delay_random=0.04
 ampeg_sustain=0
 ampeg_decay=2
-//group_volume=-10
-
+group_volume=-10
 
 <region>
 sample=../Samples/Violas/violas-col-c3.flac
 pitch_keycenter=c3
 lokey=c3
 hikey=e3
+pan=-10
 tune=11
 volume=0
 
@@ -27,6 +25,7 @@ sample=../Samples/Violas/violas-col-f#3.flac
 pitch_keycenter=f#3
 lokey=c3
 hikey=g3
+pan=10
 tune=21
 volume=0
 
@@ -35,6 +34,7 @@ sample=../Samples/Violas/violas-col-g3.flac
 pitch_keycenter=g3
 lokey=f3
 hikey=g3
+pan=-10
 tune=1
 volume=0
 
@@ -43,6 +43,7 @@ sample=../Samples/Violas/violas-col-g#3.flac
 pitch_keycenter=g#3
 lokey=g#3
 hikey=a3
+pan=10
 tune=30
 volume=1
 
@@ -51,6 +52,7 @@ sample=../Samples/Violas/violas-col-a3.flac
 pitch_keycenter=a3
 lokey=g#3
 hikey=b3
+pan=-10
 tune=-34
 volume=0
 
@@ -58,7 +60,8 @@ volume=0
 sample=../Samples/Violas/violas-col-b3.flac
 pitch_keycenter=b3
 lokey=a#3
-hikey=c4
+hikey=c#4
+pan=10
 tune=-17
 volume=-2
 
@@ -66,23 +69,17 @@ volume=-2
 sample=../Samples/Violas/violas-col-c4.flac
 pitch_keycenter=c4
 lokey=c4
-hikey=c#4
+hikey=d#4
+pan=-10
 tune=-4
 volume=1
-
-<region>
-sample=../Samples/Violas/violas-col-c#4.flac
-pitch_keycenter=c#4
-lokey=c#4
-hikey=d#4
-tune=7
-volume=0
 
 <region>
 sample=../Samples/Violas/violas-col-e4.flac
 pitch_keycenter=e4
 lokey=d4
 hikey=g4
+pan=10
 volume=-4
 
 <region>
@@ -90,6 +87,7 @@ sample=../Samples/Violas/violas-col-g4.flac
 pitch_keycenter=g4
 lokey=e4
 hikey=a#4
+pan=-10
 volume=5
 
 <region>
@@ -97,6 +95,7 @@ sample=../Samples/Violas/violas-col-a4.flac
 pitch_keycenter=a4
 lokey=g#4
 hikey=d5
+pan=10
 volume=-1
 
 <region>
@@ -104,15 +103,17 @@ sample=../Samples/Violas/violas-col-d5.flac
 pitch_keycenter=d5
 lokey=b4
 hikey=a5
+pan=-10
 volume=0
 
 <region>
 sample=../Samples/Violas/violas-col-f#5.flac
 pitch_keycenter=f#5
-lokey=d#4
+lokey=d#5
 hikey=c6
+pan=10
 volume=1
-/*
+
 // Borrowed violin samples
 
 <region>
@@ -120,7 +121,7 @@ sample=../Samples/1st Violins/1st-violins-col-g3-p.flac
 lokey=c3
 hikey=d#3
 pitch_keycenter=g3
-pan=3
+pan=-3
 tune=-5
 
 <region>
@@ -136,7 +137,7 @@ sample=../Samples/1st Violins/1st-violins-col-f4-p.flac
 lokey=a3
 hikey=b3
 pitch_keycenter=f4
-pan=3
+pan=-3
 tune=-14
 
 <region>
@@ -144,7 +145,7 @@ sample=../Samples/1st Violins/1st-violins-col-g4-p.flac
 lokey=c4
 hikey=c#4
 pitch_keycenter=g4
-pan=3
+pan=-3
 tune=-2
 
 <region>
@@ -152,7 +153,7 @@ sample=../Samples/1st Violins/1st-violins-col-b4-p.flac
 lokey=d4
 hikey=f4
 pitch_keycenter=b4
-pan=3
+pan=-3
 tune=6
 
 <region>
@@ -160,7 +161,7 @@ sample=../Samples/1st Violins/1st-violins-col-d#5-p.flac
 lokey=f#4
 hikey=a4
 pitch_keycenter=d#5
-pan=3
+pan=-3
 tune=-21
 
 <region>
@@ -168,7 +169,7 @@ sample=../Samples/1st Violins/1st-violins-col-g#5-p.flac
 lokey=a#4
 hikey=d5
 pitch_keycenter=g#5
-pan=3
+pan=-3
 tune=-5
 
 <region>
@@ -176,7 +177,7 @@ sample=../Samples/1st Violins/1st-violins-col-b5-p.flac
 lokey=d#5
 hikey=g5
 pitch_keycenter=b5
-pan=3
+pan=-3
 tune=0
 
 <region>
@@ -184,7 +185,7 @@ sample=../Samples/1st Violins/1st-violins-col-d#6-p.flac
 lokey=g#5
 hikey=c6
 pitch_keycenter=d#6
-pan=-10
+pan=-3
 tune=27
 
 <region>
@@ -192,7 +193,7 @@ sample=../Samples/1st Violins/1st-violins-col-g#6-p.flac
 lokey=a#5
 hikey=c6
 pitch_keycenter=g#6
-pan=3
+pan=-3
 tune=-36
 
 // Borrowed cello samples
@@ -202,6 +203,7 @@ sample=../Samples/Celli/celli-col-f#2.flac
 pitch_keycenter=f#2
 lokey=c3
 hikey=d3
+pan=3
 tune=-30
 volume=-1
 
@@ -210,6 +212,7 @@ sample=../Samples/Celli/celli-col-a#2.flac
 pitch_keycenter=a#2
 lokey=d#3
 hikey=g#3
+pan=3
 tune=29
 volume=3
 
@@ -218,6 +221,7 @@ sample=../Samples/Celli/celli-col-e3.flac
 pitch_keycenter=e3
 lokey=a3
 hikey=c#4
+pan=3
 volume=-3
 
 <region>
@@ -225,6 +229,7 @@ sample=../Samples/Celli/celli-col-a3.flac
 pitch_keycenter=a3
 lokey=d4
 hikey=f#4
+pan=3
 tune=-3
 volume=0
 
@@ -233,6 +238,7 @@ sample=../Samples/Celli/celli-col-d#4.flac
 pitch_keycenter=d#4
 lokey=g4
 hikey=b4
+pan=3
 tune=-21
 volume=1
 
@@ -241,6 +247,7 @@ sample=../Samples/Celli/celli-col-g4.flac
 pitch_keycenter=g4
 lokey=c5
 hikey=f#5
+pan=3
 volume=1
 
 <region>
@@ -248,6 +255,6 @@ sample=../Samples/Celli/celli-col-d5.flac
 pitch_keycenter=d5
 lokey=g5
 hikey=c6
+pan=3
 tune=-33
 volume=-1
-*/
