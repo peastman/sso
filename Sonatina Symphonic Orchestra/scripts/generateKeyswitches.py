@@ -159,3 +159,4 @@ for directory in ['Strings - Notation', 'Strings - Performance']:
     createFile(directory, "Violin Solo 2", soloViolin2Articulations, 24)
     createFile(directory, "Viola Solo", soloViolaArticulations, 24)
     createFile(directory, "Cello Solo", soloCelloArticulations, 79)
+    createFile(directory, "Bass Solo", soloCelloArticulations, 72)

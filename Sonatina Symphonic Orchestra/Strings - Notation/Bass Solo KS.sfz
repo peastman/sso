@@ -1,11 +1,217 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
+//          Bass Sustain
+// ------------------------------
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=c6
+sw_label=Sustain
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=1
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Legato
+// ------------------------------
+
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=c#6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=1
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=c#6
+sw_label=Legato
+loop_mode=loop_continuous
+ampeg_attack=0.4
+ampeg_release=1
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Marcato
+// ------------------------------
+
+
+// -------
+// Sustain
+// -------
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=d6
+sw_label=Marcato
+loop_mode=loop_continuous
+ampeg_attack=0.2
+ampeg_vel2attack=-0.15
+ampeg_release=1
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// --------
+// Staccato
+// --------
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=d6
+sw_label=Marcato
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.02
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.6
+group_volume=-16
+gain_cc1=20
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=d6
+sw_label=Marcato
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.2
+group_volume=-16
+gain_cc1=20
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Staccato
+// ------------------------------
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=e6
+sw_label=Staccato
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.02
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=e6
+sw_label=Staccato
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.2
+ampeg_hold=0
+ampeg_sustain=0
+ampeg_decay=1.5
+amp_keycenter=c2
+amp_keytrack=-0.15
+group_volume=-3
+fil_type=lpf_2p
+cutoff=400
+fil_keytrack=100
+fil_keycenter=c3
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=e6
+sw_label=Staccato
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.2
+group_volume=3
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
 //        Bass Pizzicato
 // ------------------------------
 
 
 <group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=f6
+sw_label=Pizzicato
 loop_mode=one_shot
 seq_position=1
 seq_length=2
@@ -77,7 +283,7 @@ sample=../Samples/Bass/bass-piz-rr1-c3.flac
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
-tune=-10
+tune=4
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-d#3.flac
@@ -122,6 +328,11 @@ pitch_keycenter=f4
 
 
 <group>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=f6
+sw_last=f6
+sw_label=Pizzicato
 loop_mode=one_shot
 seq_position=2
 seq_length=2
@@ -192,7 +403,7 @@ sample=../Samples/Bass/bass-piz-rr2-c#3.flac
 lokey=b2
 hikey=c#3
 pitch_keycenter=c#3
-tune=-6
+tune=4
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-e3.flac
@@ -235,3 +446,5 @@ lokey=f4
 hikey=g4
 pitch_keycenter=f#4
 tune=40
+
+
