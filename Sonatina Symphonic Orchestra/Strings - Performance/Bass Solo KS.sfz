@@ -283,7 +283,7 @@ sample=../Samples/Bass/bass-piz-rr1-c3.flac
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
-tune=4
+tune=-10
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-d#3.flac
@@ -403,7 +403,7 @@ sample=../Samples/Bass/bass-piz-rr2-c#3.flac
 lokey=b2
 hikey=c#3
 pitch_keycenter=c#3
-tune=4
+tune=-6
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-e3.flac
