@@ -28,13 +28,13 @@ volume=2
 
 <region>
 sample=../Samples/Bass/bass-sus-a1.flac
-loop_start=31934
-loop_end=203190
+loop_start=29422
+loop_end=200678
 lokey=g#1
 hikey=a#1
 pitch_keycenter=a1
 tune=-11
-volume=2
+volume=1
 
 <region>
 sample=../Samples/Bass/bass-sus-c2.flac
@@ -63,7 +63,7 @@ loop_end=215389
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
-tune=-60
+tune=29
 volume=1
 
 <region>

@@ -7,8 +7,8 @@
 
 <group>
 loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_vel2attack=-0.15
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
 ampeg_release=1
 amp_veltrack=0
 group_volume=-30
@@ -23,7 +23,7 @@ trigger=first
 
 <group>
 loop_mode=loop_continuous
-ampeg_attack=0.4
+ampeg_attack=0.3
 ampeg_release=1
 amp_veltrack=0
 group_volume=-30

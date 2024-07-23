@@ -12,6 +12,7 @@ seq_length=2
 ampeg_sustain=0
 ampeg_decay=1
 ampeg_vel2decay=10
+group_volume=2
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-c1.flac
@@ -113,12 +114,14 @@ sample=../Samples/Bass/bass-piz-rr1-d#4.flac
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+tune=3
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-f4.flac
 lokey=f4
 hikey=g4
 pitch_keycenter=f4
+tune=23
 
 
 <group>
@@ -128,6 +131,7 @@ seq_length=2
 ampeg_sustain=0
 ampeg_decay=1
 ampeg_vel2decay=10
+group_volume=2
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-c#1.flac
@@ -228,6 +232,7 @@ sample=../Samples/Bass/bass-piz-rr2-e4.flac
 lokey=d4
 hikey=e4
 pitch_keycenter=e4
+tune=15
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-f#4.flac

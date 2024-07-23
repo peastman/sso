@@ -11,12 +11,9 @@ sw_hikey=f6
 sw_last=c6
 sw_label=Sustain
 loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_vel2attack=-0.15
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
 ampeg_release=1
-amp_veltrack=0
-group_volume=-30
-gain_cc1=30
 
 #include "includes/bass-solo-sustain.sfz"
 
@@ -35,12 +32,9 @@ sw_hikey=f6
 sw_last=c#6
 sw_label=Legato
 loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_vel2attack=-0.15
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
 ampeg_release=1
-amp_veltrack=0
-group_volume=-30
-gain_cc1=30
 group=1
 off_by=1
 off_mode=time
@@ -56,11 +50,8 @@ sw_hikey=f6
 sw_last=c#6
 sw_label=Legato
 loop_mode=loop_continuous
-ampeg_attack=0.4
+ampeg_attack=0.3
 ampeg_release=1
-amp_veltrack=0
-group_volume=-30
-gain_cc1=30
 group=1
 off_by=1
 off_mode=time
@@ -89,12 +80,9 @@ sw_hikey=f6
 sw_last=d6
 sw_label=Marcato
 loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_vel2attack=-0.15
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
 ampeg_release=1
-amp_veltrack=0
-group_volume=-30
-gain_cc1=30
 
 #include "includes/bass-solo-sustain.sfz"
 
@@ -116,8 +104,8 @@ ampeg_attack=0.02
 ampeg_hold=0.05
 ampeg_sustain=0
 ampeg_decay=0.6
-group_volume=-16
-gain_cc1=20
+group_volume=5
+gain_cc1=-12
 
 #include "includes/bass-solo-sustain.sfz"
 
@@ -132,8 +120,8 @@ ampeg_attack=0
 ampeg_hold=0.1
 ampeg_sustain=0
 ampeg_decay=0.2
-group_volume=-16
-gain_cc1=20
+group_volume=5
+gain_cc1=-12
 
 #include "includes/bass-solo-sustain.sfz"
 
@@ -218,6 +206,7 @@ seq_length=2
 ampeg_sustain=0
 ampeg_decay=1
 ampeg_vel2decay=10
+group_volume=2
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-c1.flac
@@ -319,12 +308,14 @@ sample=../Samples/Bass/bass-piz-rr1-d#4.flac
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
+tune=3
 
 <region>
 sample=../Samples/Bass/bass-piz-rr1-f4.flac
 lokey=f4
 hikey=g4
 pitch_keycenter=f4
+tune=23
 
 
 <group>
@@ -339,6 +330,7 @@ seq_length=2
 ampeg_sustain=0
 ampeg_decay=1
 ampeg_vel2decay=10
+group_volume=2
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-c#1.flac
@@ -439,6 +431,7 @@ sample=../Samples/Bass/bass-piz-rr2-e4.flac
 lokey=d4
 hikey=e4
 pitch_keycenter=e4
+tune=15
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-f#4.flac
