@@ -104,7 +104,7 @@ ampeg_attack=0.02
 ampeg_hold=0.05
 ampeg_sustain=0
 ampeg_decay=0.6
-group_volume=5
+group_volume=2
 gain_cc1=-12
 
 #include "includes/bass-solo-sustain.sfz"
@@ -120,7 +120,7 @@ ampeg_attack=0
 ampeg_hold=0.1
 ampeg_sustain=0
 ampeg_decay=0.2
-group_volume=5
+group_volume=4
 gain_cc1=-12
 
 #include "includes/bass-solo-sustain.sfz"
