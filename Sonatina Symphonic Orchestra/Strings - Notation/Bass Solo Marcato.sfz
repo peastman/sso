@@ -1,0 +1,47 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Marcato
+// ------------------------------
+
+
+// -------
+// Sustain
+// -------
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
+ampeg_release=1
+
+#include "includes/bass-solo-sustain.sfz"
+
+
+// --------
+// Staccato
+// --------
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.02
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.6
+group_volume=2
+gain_cc1=-12
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.2
+group_volume=4
+gain_cc1=-12
+
+#include "includes/bass-solo-sustain.sfz"

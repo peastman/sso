@@ -1,0 +1,32 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Legato
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.8
+ampeg_vel2attack=-0.8
+ampeg_release=1
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=first
+
+#include "includes/bass-solo-sustain.sfz"
+
+<group>
+loop_mode=loop_continuous
+ampeg_attack=0.3
+ampeg_release=1
+group=1
+off_by=1
+off_mode=time
+off_time=1
+trigger=legato
+offset=20000
+
+#include "includes/bass-solo-sustain.sfz"
