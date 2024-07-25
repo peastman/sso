@@ -72,22 +72,22 @@ sample=../Samples-looped/Oboes/oboes-sus-a#5.wav
 loop_start=95975
 loop_end=180448
 lokey=a5
-hikey=c#6
+hikey=b5
 pitch_keycenter=a#5
 
-//<region>
-//sample=../Samples-looped/Oboes/oboes-sus-c#6.wav
-//loop_start=95465
-//loop_end=179469
-//lokey=c6
-//hikey=d6
-//pitch_keycenter=c#6
+<region>
+sample=../Samples-looped/Oboes/oboes-sus-c#6.flac
+loop_start=95465
+loop_end=179469
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
 
 <region>
-sample=../Samples-looped/Oboes/oboes-sus-e6.wav
+sample=../Samples-looped/Oboes/oboes-sus-e6.flac
 loop_start=95647
 loop_end=179814
-lokey=d6
+lokey=d#6
 hikey=f6
 pitch_keycenter=e6
 volume=-33

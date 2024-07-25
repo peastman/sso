@@ -2,7 +2,7 @@
 //         sig-ex.com
 
 <region>
-sample=../Samples-looped/Cello/cello-c2.wav
+sample=../Samples-looped/Cello/cello-c2.flac
 loop_start=58059
 loop_end=94443
 lokey=c2
