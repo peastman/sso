@@ -39,6 +39,8 @@ loop_end=187827
 lokey=44
 hikey=46
 pitch_keycenter=45
+offset=3000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/048-C.flac
@@ -47,6 +49,8 @@ loop_end=214339
 lokey=47
 hikey=49
 pitch_keycenter=48
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/051-D#.flac
@@ -55,6 +59,8 @@ loop_end=308582
 lokey=50
 hikey=52
 pitch_keycenter=51
+offset=3000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/054-F#.flac
@@ -88,6 +94,8 @@ loop_end=296149
 lokey=62
 hikey=64
 pitch_keycenter=63
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/066-F#.flac
@@ -96,6 +104,8 @@ loop_end=179546
 lokey=65
 hikey=67
 pitch_keycenter=66
+offset=2000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/069-A.flac

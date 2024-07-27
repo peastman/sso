@@ -31,6 +31,9 @@ loop_end=287106
 lokey=41
 hikey=43
 pitch_keycenter=42
+volume=-2
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/045-A.flac
@@ -40,6 +43,8 @@ lokey=44
 hikey=46
 pitch_keycenter=45
 volume=4
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/048-C.flac
@@ -49,6 +54,8 @@ lokey=47
 hikey=49
 pitch_keycenter=48
 volume=3
+offset=7000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/051-D#.flac
@@ -57,7 +64,7 @@ loop_end=298800
 lokey=50
 hikey=52
 pitch_keycenter=51
-volume=-4
+volume=-6
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/054-F#.flac
@@ -66,6 +73,8 @@ loop_end=273373
 lokey=53
 hikey=55
 pitch_keycenter=54
+offset=5000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/057-A.flac
@@ -125,6 +134,7 @@ offset=348363
 lokey=41
 hikey=43
 pitch_keycenter=42
+volume=-2
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/045-A.flac
@@ -136,10 +146,11 @@ volume=4
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/048-C.flac
-offset=368307
+offset=373000
 lokey=47
 hikey=49
 pitch_keycenter=48
+cutoff=300
 volume=3
 
 <region>
@@ -148,7 +159,7 @@ offset=370821
 lokey=50
 hikey=52
 pitch_keycenter=51
-volume=-4
+volume=-6
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/054-F#.flac
