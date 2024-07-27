@@ -5,7 +5,7 @@ group_volume=10
 ampeg_release=0.2
 fil_type=lpf_2p
 fil_keycenter=36
-cutoff=1000
+cutoff=2000
 fil_keytrack=100
 
 <region>
@@ -115,6 +115,7 @@ loop_end=269580
 lokey=71
 hikey=73
 pitch_keycenter=72
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/075-D#.flac
@@ -123,7 +124,8 @@ loop_end=313127
 lokey=74
 hikey=76
 pitch_keycenter=75
-volume=3
+volume=4
+ampeg_attack=0.1
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/078-F#.flac
@@ -132,7 +134,7 @@ loop_end=215843
 lokey=77
 hikey=79
 pitch_keycenter=78
-volume=3
+volume=5
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/081-A.flac
@@ -149,6 +151,7 @@ loop_end=336986
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/087-D#.flac
@@ -157,7 +160,7 @@ loop_end=327754
 lokey=86
 hikey=88
 pitch_keycenter=87
-volume=1
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/090-F#.flac
@@ -166,7 +169,7 @@ loop_end=299645
 lokey=89
 hikey=91
 pitch_keycenter=90
-volume=4
+volume=10
 
 
 // Releases
@@ -276,6 +279,7 @@ offset=324595
 lokey=71
 hikey=73
 pitch_keycenter=72
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/075-D#.flac
@@ -283,15 +287,15 @@ offset=349042
 lokey=74
 hikey=76
 pitch_keycenter=75
-volume=3
+volume=4
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/078-F#.flac
-offset=354065
+offset=358000
 lokey=77
 hikey=79
 pitch_keycenter=78
-volume=3
+volume=5
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/081-A.flac
@@ -306,6 +310,7 @@ offset=374100
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/087-D#.flac
@@ -313,7 +318,7 @@ offset=357110
 lokey=86
 hikey=88
 pitch_keycenter=87
-volume=1
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-oboe8ft/090-F#.flac
@@ -321,4 +326,4 @@ offset=355759
 lokey=89
 hikey=91
 pitch_keycenter=90
-volume=4
+volume=10

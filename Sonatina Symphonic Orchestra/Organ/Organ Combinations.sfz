@@ -1,7 +1,7 @@
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=12
 sw_label=Great - Mezzo piano
 
@@ -11,7 +11,7 @@ sw_label=Great - Mezzo piano
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=13
 sw_label=Great - Mezzo forte
 
@@ -21,7 +21,7 @@ sw_label=Great - Mezzo forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=14
 sw_label=Great - Forte
 
@@ -32,7 +32,7 @@ sw_label=Great - Forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=15
 sw_label=Great - Fortissimo
 
@@ -44,7 +44,7 @@ sw_label=Great - Fortissimo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=16
 sw_label=Great - Intense
 
@@ -57,7 +57,7 @@ sw_label=Great - Intense
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=17
 sw_label=Swell - Mezzo piano
 
@@ -67,7 +67,7 @@ sw_label=Swell - Mezzo piano
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=18
 sw_label=Swell - Mezzo forte
 
@@ -78,8 +78,20 @@ sw_label=Swell - Mezzo forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
+sw_hikey=24
 sw_last=19
+sw_label=Swell - Forte
+
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Gamba 8ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=24
+sw_last=20
 sw_label=Soft solo
 
 #include "Great - Stopped Diapason 8ft.sfz"
@@ -88,8 +100,8 @@ sw_label=Soft solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
-sw_last=20
+sw_hikey=24
+sw_last=21
 sw_label=High solo
 
 #include "Great - Flute 4ft.sfz"
@@ -98,8 +110,8 @@ sw_label=High solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
-sw_last=21
+sw_hikey=24
+sw_last=22
 sw_label=Intense Solo
 
 #include "Great - Open Diapason 8ft.sfz"
@@ -108,8 +120,8 @@ sw_label=Intense Solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
-sw_last=22
+sw_hikey=24
+sw_last=23
 sw_label=Combined flutes
 
 #include "Swell - Gedact 8ft.sfz"
@@ -119,8 +131,8 @@ sw_label=Combined flutes
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=23
-sw_last=23
+sw_hikey=24
+sw_last=24
 sw_label=Combined pedal
 
 #include "Pedal - Bourdon 16ft.sfz"

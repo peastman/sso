@@ -31,6 +31,9 @@ loop_end=256094
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=3000
+ampeg_attack=0.02
+volume=-4
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/045-A.flac
@@ -39,6 +42,9 @@ loop_end=270321
 lokey=44
 hikey=46
 pitch_keycenter=45
+offset=10000
+ampeg_attack=0.02
+volume=-3
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/048-C.flac
@@ -47,6 +53,7 @@ loop_end=172213
 lokey=47
 hikey=49
 pitch_keycenter=48
+volume=4
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/051-D#.flac
@@ -118,17 +125,19 @@ pitch_keycenter=39
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/042-F#.flac
-offset=294781
+offset=304000
 lokey=41
 hikey=43
 pitch_keycenter=42
+volume=-4
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/045-A.flac
-offset=333705
+offset=339000
 lokey=44
 hikey=46
 pitch_keycenter=45
+volume=-3
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/048-C.flac
@@ -136,6 +145,7 @@ offset=345788
 lokey=47
 hikey=49
 pitch_keycenter=48
+volume=4
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/051-D#.flac
