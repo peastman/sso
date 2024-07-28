@@ -144,6 +144,8 @@ lokey=80
 hikey=82
 pitch_keycenter=81
 volume=-1
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-flute4ft/084-C.flac
@@ -153,6 +155,8 @@ lokey=83
 hikey=85
 pitch_keycenter=84
 volume=3
+offset=4000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-flute4ft/087-D#.flac
@@ -161,7 +165,7 @@ loop_end=297009
 lokey=86
 hikey=88
 pitch_keycenter=87
-volume=5
+volume=8
 
 <region>
 sample=../Samples/Organ/great-flute4ft/090-F#.flac
@@ -170,7 +174,7 @@ loop_end=256734
 lokey=89
 hikey=91
 pitch_keycenter=90
-volume=3
+volume=4
 
 
 // Releases
@@ -319,7 +323,7 @@ offset=348947
 lokey=86
 hikey=88
 pitch_keycenter=87
-volume=5
+volume=8
 
 <region>
 sample=../Samples/Organ/great-flute4ft/090-F#.flac
@@ -327,4 +331,4 @@ offset=314153
 lokey=89
 hikey=91
 pitch_keycenter=90
-volume=3
+volume=4

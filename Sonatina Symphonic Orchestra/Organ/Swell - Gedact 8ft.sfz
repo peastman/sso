@@ -86,6 +86,7 @@ lokey=56
 hikey=58
 pitch_keycenter=57
 volume=-1
+cutoff=500
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/060-C.flac
@@ -94,6 +95,7 @@ loop_end=272511
 lokey=59
 hikey=61
 pitch_keycenter=60
+cutoff=300
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/063-D#.flac

@@ -1,0 +1,125 @@
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=12
+sw_label=Great - Bourdon 16'
+
+#include "Great - Bourdon 16ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=13
+sw_label=Great - Open Diapason 8'
+
+#include "Great - Open Diapason 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=14
+sw_label=Great - Stopped Diapason 8'
+
+#include "Great - Stopped Diapason 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=15
+sw_label=Great - Dulciana 8'
+
+#include "Great - Dulciana 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=16
+sw_label=Great - Flute 4'
+
+#include "Great - Flute 4ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=17
+sw_label=Great - Principal 4'
+
+#include "Great - Principal 4ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=18
+sw_label=Great - Twelfth 3'
+
+#include "Great - Twelfth 3ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=19
+sw_label=Great - Fifteenth 2'
+
+#include "Great - Fifteenth 2ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=20
+sw_label=Swell - Gamba 8'
+
+#include "Swell - Gamba 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=21
+sw_label=Swell - Gedact 8'
+
+#include "Swell - Gedact 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=22
+sw_label=Swell - Oboe 8'
+
+#include "Swell - Oboe 8ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=23
+sw_label=Swell - Octave 4'
+
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=24
+sw_label=Pedal - Bourdon 16'
+
+#include "Pedal - Bourdon 16ft.sfz"
+
+<global>
+sw_default=13
+sw_lokey=12
+sw_hikey=25
+sw_last=25
+sw_label=Pedal - Violon 16'
+
+#include "Pedal - Violon 16ft.sfz"

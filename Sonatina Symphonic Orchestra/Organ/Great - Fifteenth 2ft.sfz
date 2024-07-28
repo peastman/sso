@@ -146,6 +146,7 @@ loop_end=255398
 lokey=80
 hikey=82
 pitch_keycenter=81
+volume=1
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/084-C.flac
@@ -154,6 +155,7 @@ loop_end=256005
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=-4
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/087-D#.flac
@@ -299,6 +301,7 @@ offset=314053
 lokey=80
 hikey=82
 pitch_keycenter=81
+volume=1
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/084-C.flac
@@ -306,6 +309,7 @@ offset=310088
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=-4
 
 <region>
 sample=../Samples/Organ/great-fifteenth2ft/087-D#.flac

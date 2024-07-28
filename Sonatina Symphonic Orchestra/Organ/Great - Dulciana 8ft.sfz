@@ -99,6 +99,8 @@ loop_end=323266
 lokey=77
 hikey=79
 pitch_keycenter=78
+offset=10000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-dulciana8ft/081-A.flac
@@ -115,6 +117,8 @@ loop_end=315807
 lokey=83
 hikey=85
 pitch_keycenter=84
+offset=10000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-dulciana8ft/087-D#.flac

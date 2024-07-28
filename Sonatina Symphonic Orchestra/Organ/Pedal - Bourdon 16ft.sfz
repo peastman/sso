@@ -5,8 +5,8 @@ group_volume=10
 ampeg_release=0.2
 fil_type=lpf_2p
 fil_keycenter=36
-cutoff=1000
-fil_keytrack=100
+cutoff=500
+fil_keytrack=70
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/036-C.flac

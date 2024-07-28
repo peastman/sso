@@ -65,6 +65,7 @@ lokey=50
 hikey=52
 pitch_keycenter=51
 volume=-6
+ampeg_attack=0.3
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/054-F#.flac
@@ -83,6 +84,8 @@ loop_end=270391
 lokey=56
 hikey=58
 pitch_keycenter=57
+volume=-2
+ampeg_attack=0.3
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/060-C.flac
@@ -91,6 +94,7 @@ loop_end=263599
 lokey=59
 hikey=61
 pitch_keycenter=60
+ampeg_attack=0.3
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/063-D#.flac
@@ -174,6 +178,7 @@ offset=335557
 lokey=56
 hikey=58
 pitch_keycenter=57
+volume=-2
 
 <region>
 sample=../Samples/Organ/pedal-violon16ft/060-C.flac
