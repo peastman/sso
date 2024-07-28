@@ -1,12 +1,16 @@
 <group>
 loop_mode=loop_continuous
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_release=0.2
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=1000
 fil_keytrack=80
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/036-C.flac
@@ -15,6 +19,7 @@ loop_end=224653
 lokey=36
 hikey=37
 pitch_keycenter=36
+tune=-68
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/039-D#.flac
@@ -23,6 +28,7 @@ loop_end=364363
 lokey=38
 hikey=40
 pitch_keycenter=39
+tune=-55
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/042-F#.flac
@@ -31,6 +37,7 @@ loop_end=311228
 lokey=41
 hikey=43
 pitch_keycenter=42
+tune=-17
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/045-A.flac
@@ -39,6 +46,9 @@ loop_end=310436
 lokey=44
 hikey=46
 pitch_keycenter=45
+offset=7000
+ampeg_attack=0.02
+tune=-70
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/048-C.flac
@@ -56,6 +66,8 @@ lokey=50
 hikey=52
 pitch_keycenter=51
 volume=-3
+offset=2000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/054-F#.flac
@@ -64,7 +76,7 @@ loop_end=313007
 lokey=53
 hikey=55
 pitch_keycenter=54
-volume=1
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/057-A.flac
@@ -73,6 +85,7 @@ loop_end=249588
 lokey=56
 hikey=58
 pitch_keycenter=57
+volume=-1
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/060-C.flac
@@ -176,12 +189,16 @@ volume=5
 loop_mode=one_shot
 trigger=release_key
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_attack=0.05
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=1000
 fil_keytrack=100
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/036-C.flac
@@ -189,6 +206,7 @@ offset=274486
 lokey=36
 hikey=37
 pitch_keycenter=36
+tune=-68
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/039-D#.flac
@@ -196,6 +214,7 @@ offset=412788
 lokey=38
 hikey=40
 pitch_keycenter=39
+tune=-55
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/042-F#.flac
@@ -203,6 +222,7 @@ offset=348257
 lokey=41
 hikey=43
 pitch_keycenter=42
+tune=-17
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/045-A.flac
@@ -210,6 +230,7 @@ offset=351969
 lokey=44
 hikey=46
 pitch_keycenter=45
+tune=-70
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/048-C.flac
@@ -232,7 +253,7 @@ offset=347734
 lokey=53
 hikey=55
 pitch_keycenter=54
-volume=1
+volume=3
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/057-A.flac
@@ -240,6 +261,7 @@ offset=328526
 lokey=56
 hikey=58
 pitch_keycenter=57
+volume=-1
 
 <region>
 sample=../Samples/Organ/swell-gedact8ft/060-C.flac

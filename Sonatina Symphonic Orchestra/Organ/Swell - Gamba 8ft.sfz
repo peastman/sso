@@ -1,12 +1,16 @@
 <group>
 loop_mode=loop_continuous
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_release=0.2
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=1000
 fil_keytrack=100
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/048-C.flac
@@ -17,6 +21,7 @@ hikey=49
 pitch_keycenter=48
 offset=3000
 ampeg_attack=0.06
+volume=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/051-D#.flac
@@ -37,6 +42,7 @@ hikey=55
 pitch_keycenter=54
 offset=3000
 ampeg_attack=0.06
+volume=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/057-A.flac
@@ -58,6 +64,7 @@ hikey=61
 pitch_keycenter=60
 offset=4000
 ampeg_attack=0.06
+volume=-1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/063-D#.flac
@@ -84,6 +91,7 @@ hikey=70
 pitch_keycenter=69
 offset=10000
 ampeg_attack=0.06
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/072-C.flac
@@ -92,6 +100,7 @@ loop_end=264575
 lokey=71
 hikey=73
 pitch_keycenter=72
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/075-D#.flac
@@ -100,6 +109,7 @@ loop_end=307139
 lokey=74
 hikey=76
 pitch_keycenter=75
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/078-F#.flac
@@ -108,6 +118,9 @@ loop_end=248793
 lokey=77
 hikey=79
 pitch_keycenter=78
+volume=2
+offset=3000
+ampeg_attack=0.03
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/081-A.flac
@@ -116,6 +129,7 @@ loop_end=299268
 lokey=80
 hikey=82
 pitch_keycenter=81
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/084-C.flac
@@ -124,6 +138,7 @@ loop_end=287651
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/087-D#.flac
@@ -132,6 +147,7 @@ loop_end=308189
 lokey=86
 hikey=88
 pitch_keycenter=87
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/090-F#.flac
@@ -140,6 +156,7 @@ loop_end=286834
 lokey=89
 hikey=91
 pitch_keycenter=90
+volume=2
 
 
 // Releases
@@ -148,12 +165,16 @@ pitch_keycenter=90
 loop_mode=one_shot
 trigger=release_key
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_attack=0.05
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=1000
 fil_keytrack=100
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/048-C.flac
@@ -161,6 +182,7 @@ offset=352194
 lokey=48
 hikey=49
 pitch_keycenter=48
+volume=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/051-D#.flac
@@ -175,6 +197,7 @@ offset=329548
 lokey=53
 hikey=55
 pitch_keycenter=54
+volume=4
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/057-A.flac
@@ -190,6 +213,7 @@ offset=335447
 lokey=59
 hikey=61
 pitch_keycenter=60
+volume=-1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/063-D#.flac
@@ -211,6 +235,7 @@ offset=320633
 lokey=68
 hikey=70
 pitch_keycenter=69
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/072-C.flac
@@ -218,6 +243,7 @@ offset=367556
 lokey=71
 hikey=73
 pitch_keycenter=72
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/075-D#.flac
@@ -232,6 +258,7 @@ offset=340278
 lokey=77
 hikey=79
 pitch_keycenter=78
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/081-A.flac
@@ -239,6 +266,7 @@ offset=313069
 lokey=80
 hikey=82
 pitch_keycenter=81
+volume=1
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/084-C.flac
@@ -246,6 +274,7 @@ offset=338089
 lokey=83
 hikey=85
 pitch_keycenter=84
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/087-D#.flac
@@ -253,6 +282,7 @@ offset=335551
 lokey=86
 hikey=88
 pitch_keycenter=87
+volume=2
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/090-F#.flac
@@ -260,4 +290,4 @@ offset=333119
 lokey=89
 hikey=91
 pitch_keycenter=90
-
+volume=2

@@ -92,7 +92,7 @@ sw_default=14
 sw_lokey=12
 sw_hikey=24
 sw_last=20
-sw_label=Soft solo
+sw_label=Pure solo
 
 #include "Great - Stopped Diapason 8ft.sfz"
 #include "Great - Flute 4ft.sfz"

@@ -80,7 +80,8 @@ loop_end=308552
 lokey=59
 hikey=61
 pitch_keycenter=60
-volume=4
+volume=5
+cutoff=500
 
 <region>
 sample=../Samples/Organ/great-flute4ft/063-D#.flac

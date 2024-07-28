@@ -1,12 +1,16 @@
 <group>
 loop_mode=loop_continuous
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_release=0.2
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=800
 fil_keytrack=100
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-octave4ft/036-C.flac
@@ -182,12 +186,16 @@ volume=2
 loop_mode=one_shot
 trigger=release_key
 amp_veltrack=0
-group_volume=10
+group_volume=9
 ampeg_attack=0.05
 fil_type=lpf_2p
 fil_keycenter=36
 cutoff=1000
 fil_keytrack=100
+fil2_type=lpf_1p
+cutoff2=400
+cutoff2_cc1=5000
+gain_cc1=4
 
 <region>
 sample=../Samples/Organ/swell-octave4ft/036-C.flac
