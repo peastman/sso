@@ -15,6 +15,8 @@ loop_end=224396
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=25000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-bourdon16ft/039-D#.flac
@@ -23,6 +25,8 @@ loop_end=264144
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=27000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-bourdon16ft/042-F#.flac
@@ -31,6 +35,9 @@ loop_end=297093
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=30000
+ampeg_attack=0.02
+volume=-3
 
 <region>
 sample=../Samples/Organ/great-bourdon16ft/045-A.flac
@@ -39,6 +46,8 @@ loop_end=176158
 lokey=44
 hikey=46
 pitch_keycenter=45
+offset=3000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-bourdon16ft/048-C.flac
@@ -197,6 +206,7 @@ offset=361222
 lokey=41
 hikey=43
 pitch_keycenter=42
+volume=-3
 
 <region>
 sample=../Samples/Organ/great-bourdon16ft/045-A.flac

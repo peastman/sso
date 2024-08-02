@@ -15,6 +15,8 @@ loop_end=402890
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=30000
+ampeg_attack=0.5
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/039-D#.flac
@@ -23,6 +25,8 @@ loop_end=338885
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=30000
+ampeg_attack=0.5
 
 <region>
 sample=../Samples/Organ/pedal-bourdon16ft/042-F#.flac
@@ -31,8 +35,8 @@ loop_end=256094
 lokey=41
 hikey=43
 pitch_keycenter=42
-offset=3000
-ampeg_attack=0.02
+offset=10000
+ampeg_attack=0.2
 volume=-4
 
 <region>

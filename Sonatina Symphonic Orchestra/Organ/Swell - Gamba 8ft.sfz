@@ -254,7 +254,7 @@ pitch_keycenter=75
 
 <region>
 sample=../Samples/Organ/swell-gamba8ft/078-F#.flac
-offset=340278
+offset=343000
 lokey=77
 hikey=79
 pitch_keycenter=78

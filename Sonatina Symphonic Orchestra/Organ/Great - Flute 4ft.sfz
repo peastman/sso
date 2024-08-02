@@ -15,6 +15,8 @@ loop_end=203326
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=10000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-flute4ft/039-D#.flac
@@ -23,6 +25,9 @@ loop_end=247441
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=10000
+ampeg_attack=0.02
+tune=-100
 
 <region>
 sample=../Samples/Organ/great-flute4ft/042-F#.flac
@@ -31,6 +36,8 @@ loop_end=284388
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=8000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-flute4ft/045-A.flac
@@ -203,6 +210,7 @@ offset=329095
 lokey=38
 hikey=40
 pitch_keycenter=39
+tune=-100
 
 <region>
 sample=../Samples/Organ/great-flute4ft/042-F#.flac

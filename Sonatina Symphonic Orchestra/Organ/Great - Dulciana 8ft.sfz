@@ -24,7 +24,9 @@ loop_end=250853
 lokey=50
 hikey=52
 pitch_keycenter=51
-cutoff=300
+cutoff=500
+volume=5
+tune=-21
 
 <region>
 sample=../Samples/Organ/great-dulciana8ft/054-F#.flac
@@ -163,6 +165,8 @@ offset=336306
 lokey=50
 hikey=52
 pitch_keycenter=51
+volume=5
+tune=-21
 
 <region>
 sample=../Samples/Organ/great-dulciana8ft/054-F#.flac

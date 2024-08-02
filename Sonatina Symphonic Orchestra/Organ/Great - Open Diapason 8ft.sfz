@@ -16,6 +16,8 @@ lokey=36
 hikey=37
 pitch_keycenter=36
 volume=-2
+offset=15000
+ampeg_attack=0.1
 
 <region>
 sample=../Samples/Organ/great-opendiapason8ft/039-D#.flac
@@ -24,6 +26,8 @@ loop_end=229388
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=15000
+ampeg_attack=0.1
 volume=-3
 
 <region>
@@ -51,6 +55,8 @@ loop_end=318684
 lokey=47
 hikey=49
 pitch_keycenter=48
+offset=2000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-opendiapason8ft/051-D#.flac
@@ -158,6 +164,8 @@ loop_end=195085
 lokey=86
 hikey=88
 pitch_keycenter=87
+offset=3000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-opendiapason8ft/090-F#.flac

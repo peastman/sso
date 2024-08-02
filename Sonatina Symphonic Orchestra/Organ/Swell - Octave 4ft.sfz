@@ -19,6 +19,8 @@ loop_end=243402
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=4000
+ampeg_attack=0.02
 volume=1
 
 <region>
@@ -36,6 +38,8 @@ loop_end=289358
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=2000
+ampeg_attack=0.02
 volume=-4
 
 <region>
@@ -82,7 +86,7 @@ loop_end=274431
 lokey=56
 hikey=58
 pitch_keycenter=57
-volume=-1
+volume=-3
 
 <region>
 sample=../Samples/Organ/swell-octave4ft/060-C.flac
@@ -257,7 +261,7 @@ offset=313681
 lokey=56
 hikey=58
 pitch_keycenter=57
-volume=-1
+volume=-3
 
 <region>
 sample=../Samples/Organ/swell-octave4ft/060-C.flac

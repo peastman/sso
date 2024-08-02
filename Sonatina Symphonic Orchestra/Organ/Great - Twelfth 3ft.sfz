@@ -79,7 +79,7 @@ loop_end=319265
 lokey=56
 hikey=58
 pitch_keycenter=57
-offset=4000
+offset=10000
 ampeg_attack=0.06
 
 <region>

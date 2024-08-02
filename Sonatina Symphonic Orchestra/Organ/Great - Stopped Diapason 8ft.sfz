@@ -15,6 +15,8 @@ loop_end=219505
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=6000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-stoppeddiapason8ft/039-D#.flac
@@ -23,6 +25,8 @@ loop_end=211639
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=7000
+ampeg_attack=0.02
 
 <region>
 sample=../Samples/Organ/great-stoppeddiapason8ft/042-F#.flac
@@ -31,6 +35,8 @@ loop_end=287170
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=3000
+ampeg_attack=0.08
 
 <region>
 sample=../Samples/Organ/great-stoppeddiapason8ft/045-A.flac

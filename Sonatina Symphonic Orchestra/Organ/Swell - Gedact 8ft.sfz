@@ -19,6 +19,8 @@ loop_end=224653
 lokey=36
 hikey=37
 pitch_keycenter=36
+offset=4000
+ampeg_attack=0.05
 tune=-68
 
 <region>
@@ -28,6 +30,8 @@ loop_end=364363
 lokey=38
 hikey=40
 pitch_keycenter=39
+offset=3000
+ampeg_attack=0.05
 tune=-55
 
 <region>
@@ -37,6 +41,8 @@ loop_end=311228
 lokey=41
 hikey=43
 pitch_keycenter=42
+offset=3000
+ampeg_attack=0.05
 tune=-17
 
 <region>
@@ -47,7 +53,8 @@ lokey=44
 hikey=46
 pitch_keycenter=45
 offset=7000
-ampeg_attack=0.02
+ampeg_attack=0.07
+volume=-1
 tune=-70
 
 <region>
