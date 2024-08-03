@@ -186,44 +186,44 @@ ampeg_release=1
 sample=../Samples-looped/Percussion/timpani-roll-c1.flac
 loop_start=3000
 loop_end=84808
-lokey=c5
-hikey=c#5
-pitch_keycenter=c5
+lokey=c4
+hikey=c#4
+pitch_keycenter=c4
 volume=2
 
 <region>
 sample=../Samples-looped/Percussion/timpani-roll-d#1.flac
 loop_start=3950
 loop_end=88298
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
 
 <region>
 sample=../Samples-looped/Percussion/timpani-roll-f#1.flac
 loop_start=3013
 loop_end=87536
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
 volume=-1
 
 <region>
 sample=../Samples-looped/Percussion/timpani-roll-a1.flac
 loop_start=10495
 loop_end=88865
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
 volume=2
 
 <region>
 sample=../Samples-looped/Percussion/timpani-roll-c2.flac
 loop_start=6087
 loop_end=88873
-lokey=b5
-hikey=c6
-pitch_keycenter=c6
+lokey=b4
+hikey=c5
+pitch_keycenter=c5
 
 
 <group>
@@ -235,40 +235,40 @@ ampeg_release=3
 <region>
 sample=../Samples/Percussion/timpani-roll-c1.wav
 offset=87538
-lokey=c5
-hikey=c#5
-pitch_keycenter=c5
+lokey=c4
+hikey=c#4
+pitch_keycenter=c4
 volume=-1
 
 <region>
 sample=../Samples/Percussion/timpani-roll-d#1.wav
 offset=89377
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
 
 <region>
 sample=../Samples/Percussion/timpani-roll-f#1.wav
 offset=87537
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
 volume=2
 
 <region>
 sample=../Samples/Percussion/timpani-roll-a1.wav
 offset=89140
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
 volume=2
 
 <region>
 sample=../Samples/Percussion/timpani-roll-c2.wav
 offset=88874
-lokey=b5
-hikey=c6
-pitch_keycenter=c6
+lokey=b4
+hikey=c5
+pitch_keycenter=c5
 volume=2
 
 
@@ -280,31 +280,31 @@ ampeg_release=1
 
 <region>
 sample=..\Samples\Percussion\timpani-roll-crsc-c1.wav
-lokey=c7
-hikey=c#7
-pitch_keycenter=c7
+lokey=c6
+hikey=c#6
+pitch_keycenter=c6
 
 <region>
 sample=..\Samples\Percussion\timpani-roll-crsc-d#1.wav
-lokey=d7
-hikey=e7
-pitch_keycenter=d#7
+lokey=d6
+hikey=e6
+pitch_keycenter=d#6
 
 <region>
 sample=..\Samples\Percussion\timpani-roll-crsc-f#1.wav
-lokey=f7
-hikey=g7
-pitch_keycenter=f#7
+lokey=f6
+hikey=g6
+pitch_keycenter=f#6
 
 <region>
 sample=..\Samples\Percussion\timpani-roll-crsc-a1.wav
-lokey=g#7
-hikey=a#7
-pitch_keycenter=a7
+lokey=g#6
+hikey=a#6
+pitch_keycenter=a6
 
 <region>
 sample=..\Samples\Percussion\timpani-roll-crsc-c2.wav
-lokey=b7
-hikey=c8
-pitch_keycenter=c8
+lokey=b6
+hikey=c7
+pitch_keycenter=c7
 
