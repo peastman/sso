@@ -1,7 +1,7 @@
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=12
 sw_label=Great - Mezzo piano
 
@@ -11,7 +11,7 @@ sw_label=Great - Mezzo piano
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=13
 sw_label=Great - Mezzo forte
 
@@ -21,7 +21,7 @@ sw_label=Great - Mezzo forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=14
 sw_label=Great - Forte
 
@@ -32,7 +32,7 @@ sw_label=Great - Forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=15
 sw_label=Great - Fortissimo
 
@@ -44,7 +44,7 @@ sw_label=Great - Fortissimo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=16
 sw_label=Great - Intense
 
@@ -57,7 +57,7 @@ sw_label=Great - Intense
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=17
 sw_label=Swell - Mezzo piano
 
@@ -67,7 +67,7 @@ sw_label=Swell - Mezzo piano
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=18
 sw_label=Swell - Mezzo forte
 
@@ -78,7 +78,7 @@ sw_label=Swell - Mezzo forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=19
 sw_label=Swell - Forte
 
@@ -90,7 +90,7 @@ sw_label=Swell - Forte
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=20
 sw_label=Pure solo
 
@@ -100,7 +100,7 @@ sw_label=Pure solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=21
 sw_label=High solo
 
@@ -110,7 +110,7 @@ sw_label=High solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=22
 sw_label=Intense Solo
 
@@ -120,7 +120,7 @@ sw_label=Intense Solo
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=23
 sw_label=Combined flutes
 
@@ -131,9 +131,51 @@ sw_label=Combined flutes
 <global>
 sw_default=14
 sw_lokey=12
-sw_hikey=24
+sw_hikey=28
 sw_last=24
-sw_label=Combined pedal
+sw_label=Low pedal
 
 #include "Pedal - Bourdon 16ft.sfz"
 #include "Pedal - Violon 16ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=25
+sw_label=Flute pedal - Piano
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Swell - Gedact 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=26
+sw_label=Flute Pedal - Mezzo forte
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Pedal - Violon 16ft.sfz"
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=27
+sw_label=Oboe Pedal - Mezzo piano
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=28
+sw_label=Oboe Pedal - Mezzo forte
+
+#include "Pedal - Violon 16ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
