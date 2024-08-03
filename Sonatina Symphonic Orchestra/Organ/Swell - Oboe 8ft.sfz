@@ -1,3 +1,7 @@
+<control>
+label_cc1=Swell
+set_cc1=127
+
 <group>
 loop_mode=loop_continuous
 amp_veltrack=0
