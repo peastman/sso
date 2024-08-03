@@ -4,187 +4,275 @@
 //            Timpani
 // ------------------------------
 
+// Hits
+
 <group>
+seq_position=1
+seq_length=2
 ampeg_release=7.5
-hivel=127
-lovel=80
+xfin_lovel=70
+xfin_hivel=90
+xf_cccurve=gain
 
 <region>
 sample=..\Samples\Percussion\timpani-f-lh-c1.wav
-lokey=c1
-hikey=c#1
-pitch_keycenter=c1
+lokey=c2
+hikey=c#2
+pitch_keycenter=c2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-lh-d#1.wav
-lokey=d1
-hikey=e1
-pitch_keycenter=d#1
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
+volume=-1
 
 <region>
 sample=..\Samples\Percussion\timpani-f-lh-f#1.wav
-lokey=f1
-hikey=g1
-pitch_keycenter=f#1
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-lh-a1.wav
-lokey=g#1
-hikey=a#1
-pitch_keycenter=a1
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
+volume=-1
+tune=50
 
 <region>
 sample=..\Samples\Percussion\timpani-f-lh-c2.wav
-lokey=b1
-hikey=c2
-pitch_keycenter=c2
+lokey=b2
+hikey=c3
+pitch_keycenter=c3
 
 
 <group>
+seq_position=1
+seq_length=2
 ampeg_release=7.5
-hivel=79
-lovel=0
-transpose=-1
+xfout_lovel=70
+xfout_hivel=90
+xf_cccurve=gain
 
 <region>
 sample=..\Samples\Percussion\timpani-p-lh-c1.wav
-lokey=c1
-hikey=c#1
-pitch_keycenter=c1
+lokey=c2
+hikey=c#2
+pitch_keycenter=c2
+tune=64
 
 <region>
 sample=..\Samples\Percussion\timpani-p-lh-d#1.wav
-lokey=d1
-hikey=e1
-pitch_keycenter=d#1
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
+tune=247
 
 <region>
 sample=..\Samples\Percussion\timpani-p-lh-f#1.wav
-lokey=f1
-hikey=g1
-pitch_keycenter=f#1
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
+tune=65
 
 <region>
 sample=..\Samples\Percussion\timpani-p-lh-a1.wav
-lokey=g#1
-hikey=a#1
-pitch_keycenter=a1
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
+tune=340
 
 <region>
 sample=..\Samples\Percussion\timpani-p-lh-c2.wav
-lokey=b1
-hikey=c2
-pitch_keycenter=c2
-
-
-
+lokey=b2
+hikey=c3
+pitch_keycenter=c3
+tune=89
 
 
 <group>
+seq_position=2
+seq_length=2
 ampeg_release=7.5
-hivel=127
-lovel=80
-transpose=-1
+xfin_lovel=70
+xfin_hivel=90
+xf_cccurve=gain
 
 <region>
 sample=..\Samples\Percussion\timpani-f-rh-c1.wav
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
+lokey=c2
+hikey=c#2
+pitch_keycenter=c2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-rh-d#1.wav
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-rh-f#1.wav
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-rh-a1.wav
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
 
 <region>
 sample=..\Samples\Percussion\timpani-f-rh-c2.wav
-lokey=b3
-hikey=c4
-pitch_keycenter=c4
+lokey=b2
+hikey=c3
+pitch_keycenter=c3
 
 
 <group>
+seq_position=2
+seq_length=2
 ampeg_release=7.5
-hivel=79
-lovel=0
+xfout_lovel=70
+xfout_hivel=90
+xf_cccurve=gain
 
 <region>
 sample=..\Samples\Percussion\timpani-p-rh-c1.wav
-lokey=c3
-hikey=c#3
-pitch_keycenter=c3
+lokey=c2
+hikey=c#2
+pitch_keycenter=c2
+tune=113
 
 <region>
 sample=..\Samples\Percussion\timpani-p-rh-d#1.wav
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
+tune=45
 
 <region>
 sample=..\Samples\Percussion\timpani-p-rh-f#1.wav
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
+tune=18
 
 <region>
 sample=..\Samples\Percussion\timpani-p-rh-a1.wav
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
+tune=199
 
 <region>
 sample=..\Samples\Percussion\timpani-p-rh-c2.wav
-lokey=b3
-hikey=c4
-pitch_keycenter=c4
+lokey=b2
+hikey=c3
+pitch_keycenter=c3
+tune=94
+
+
+// Rolls
 
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=1
 
 <region>
-sample=..\Samples\Percussion\timpani-roll-c1.wav
+sample=../Samples-looped/Percussion/timpani-roll-c1.flac
+loop_start=3000
+loop_end=84808
 lokey=c5
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
-sample=..\Samples\Percussion\timpani-roll-d#1.wav
+sample=../Samples-looped/Percussion/timpani-roll-d#1.flac
+loop_start=3950
+loop_end=88298
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
 
 <region>
-sample=..\Samples\Percussion\timpani-roll-f#1.wav
+sample=../Samples-looped/Percussion/timpani-roll-f#1.flac
+loop_start=3013
+loop_end=87536
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-1
 
 <region>
-sample=..\Samples\Percussion\timpani-roll-a1.wav
+sample=../Samples-looped/Percussion/timpani-roll-a1.flac
+loop_start=10495
+loop_end=88865
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
+volume=2
 
 <region>
-sample=..\Samples\Percussion\timpani-roll-c2.wav
+sample=../Samples-looped/Percussion/timpani-roll-c2.flac
+loop_start=6087
+loop_end=88873
 lokey=b5
 hikey=c6
 pitch_keycenter=c6
+
+
+<group>
+loop_mode=one_shot
+trigger=release_key
+ampeg_attack=0.05
+ampeg_release=3
+
+<region>
+sample=../Samples/Percussion/timpani-roll-c1.wav
+offset=87538
+lokey=c5
+hikey=c#5
+pitch_keycenter=c5
+volume=-1
+
+<region>
+sample=../Samples/Percussion/timpani-roll-d#1.wav
+offset=89377
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+
+<region>
+sample=../Samples/Percussion/timpani-roll-f#1.wav
+offset=87537
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+volume=2
+
+<region>
+sample=../Samples/Percussion/timpani-roll-a1.wav
+offset=89140
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+volume=2
+
+<region>
+sample=../Samples/Percussion/timpani-roll-c2.wav
+offset=88874
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+volume=2
+
+
+// Crescendos
 
 
 <group>
