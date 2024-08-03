@@ -103,6 +103,7 @@ SSO includes the following instruments and articulations:
 |Concert Harp| - |
 |Chorus| Mixed, Large |
 |Harpsichord| 4', 8', Full |
+|Pipe Organ| 14 stops, 17 combination presets |
 
 Instruments with multiple articulations are packaged in two ways.  Use whichever one is more convenient for your
 workflow.

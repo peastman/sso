@@ -1,0 +1,181 @@
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=12
+sw_label=Great - Mezzo piano
+
+#include "Great - Stopped Diapason 8ft.sfz"
+#include "Great - Dulciana 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=13
+sw_label=Great - Mezzo forte
+
+#include "Great - Open Diapason 8ft.sfz"
+#include "Great - Principal 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=14
+sw_label=Great - Forte
+
+#include "Great - Open Diapason 8ft.sfz"
+#include "Great - Principal 4ft.sfz"
+#include "Great - Fifteenth 2ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=15
+sw_label=Great - Fortissimo
+
+#include "Great - Open Diapason 8ft.sfz"
+#include "Great - Principal 4ft.sfz"
+#include "Great - Fifteenth 2ft.sfz"
+#include "Great - Bourdon 16ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=16
+sw_label=Great - Intense
+
+#include "Great - Open Diapason 8ft.sfz"
+#include "Great - Principal 4ft.sfz"
+#include "Great - Fifteenth 2ft.sfz"
+#include "Great - Bourdon 16ft.sfz"
+#include "Great - Twelfth 3ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=17
+sw_label=Swell - Mezzo piano
+
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Gamba 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=18
+sw_label=Swell - Mezzo forte
+
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Gamba 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=19
+sw_label=Swell - Forte
+
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Gamba 8ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=20
+sw_label=Pure solo
+
+#include "Great - Stopped Diapason 8ft.sfz"
+#include "Great - Flute 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=21
+sw_label=High solo
+
+#include "Great - Flute 4ft.sfz"
+#include "Great - Principal 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=22
+sw_label=Intense Solo
+
+#include "Great - Open Diapason 8ft.sfz"
+#include "Great - Fifteenth 2ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=23
+sw_label=Combined flutes
+
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+#include "Great - Flute 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=24
+sw_label=Low pedal
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Pedal - Violon 16ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=25
+sw_label=Flute pedal - Piano
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Swell - Gedact 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=26
+sw_label=Flute Pedal - Mezzo forte
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Pedal - Violon 16ft.sfz"
+#include "Swell - Gedact 8ft.sfz"
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=27
+sw_label=Oboe Pedal - Mezzo piano
+
+#include "Pedal - Bourdon 16ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
+
+<global>
+sw_default=14
+sw_lokey=12
+sw_hikey=28
+sw_last=28
+sw_label=Oboe Pedal - Mezzo forte
+
+#include "Pedal - Violon 16ft.sfz"
+#include "Swell - Oboe 8ft.sfz"
