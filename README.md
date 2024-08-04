@@ -69,7 +69,7 @@ SSO includes the following instruments and articulations:
 
 |Instrument|Variations|
 |----------|----------|
-|Timpani|Right hand hits, Left hand hits, Rolls|
+|Timpani|Hits, Rolls, Crescendos|
 |Glockenspiel| - |
 |Xylophone| - |
 |Chimes| - |
