@@ -8,69 +8,59 @@
 
 <group>
 loop_mode=one_shot
+key=c3
 
 <region>
-sample=..\Samples\Percussion\bass_drum-p.wav
-lokey=c3
-hikey=c3
-pitch_keycenter=c3
+sample=../Samples/Percussion/bass_drum-p.wav
+xfout_lovel=70
+xfout_hivel=90
 
 <region>
-sample=..\Samples\Percussion\bass_drum-f.wav
-lokey=c#3
-hikey=c#3
-pitch_keycenter=c#3
+sample=../Samples/Percussion/bass_drum-f.wav
+xfin_lovel=70
+xfin_hivel=90
 
 // Snare
 
 <group>
 loop_mode=one_shot
+seq_position=1
+seq_length=2
+key=c#3
 
 <region>
-sample=..\Samples\Percussion\snare-lh-ff.wav
-lokey=d3
-hikey=d3
-pitch_keycenter=d3
+sample=../Samples/Percussion/snare-lh-ff.wav
 hivel=127
 lovel=80
 
 <region>
-sample=..\Samples\Percussion\snare-lh-mf.wav
-lokey=d3
-hikey=d3
-pitch_keycenter=d3
+sample=../Samples/Percussion/snare-lh-mf.wav
 hivel=79
 lovel=64
 
 <region>
-sample=..\Samples\Percussion\snare-lh-p.wav
-lokey=d3
-hikey=d3
-pitch_keycenter=d3
+sample=../Samples/Percussion/snare-lh-p.wav
 hivel=63
 lovel=0
 
+<group>
+loop_mode=one_shot
+seq_position=2
+seq_length=2
+key=c#3
+
 <region>
-sample=..\Samples\Percussion\snare-rh-ff.wav
-lokey=e3
-hikey=e3
-pitch_keycenter=e3
+sample=../Samples/Percussion/snare-rh-ff.wav
 hivel=127
 lovel=80
 
 <region>
-sample=..\Samples\Percussion\snare-rh-mf.wav
-lokey=e3
-hikey=e2
-pitch_keycenter=e3
+sample=../Samples/Percussion/snare-rh-mf.wav
 hivel=79
 lovel=64
 
 <region>
-sample=..\Samples\Percussion\snare-rh-p.wav
-lokey=e3
-hikey=e3
-pitch_keycenter=e3
+sample=../Samples/Percussion/snare-rh-p.wav
 hivel=63
 lovel=0
 
@@ -78,10 +68,8 @@ lovel=0
 ampeg_release=0.920
 
 <region>
-sample=..\Samples\Percussion\snare-roll.wav
+sample=../Samples/Percussion/snare-roll.wav
 transpose=-1
 tune=-50
-lokey=f3
-hikey=f3
-pitch_keycenter=f3
+key=d3
 
