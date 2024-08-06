@@ -4,6 +4,9 @@
 //           Piccolo
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -16,6 +19,7 @@ ampeg_release=0.550
 sample=..\Samples\piccolo\piccolo-c4.wav
 lokey=c4
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples\piccolo\piccolo-d#4.wav
@@ -86,6 +90,9 @@ pitch_keycenter=f#6
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -104,6 +111,9 @@ ampeg_release=0.550
 //           Piccolo
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -130,6 +140,9 @@ ampeg_release=0.550
 //       Piccolo Legato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2

@@ -4,6 +4,9 @@
 //           Piccolo
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 ampeg_release=0.550
 
@@ -11,6 +14,7 @@ ampeg_release=0.550
 sample=..\Samples\piccolo\piccolo-c4.wav
 lokey=c4
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples\piccolo\piccolo-d#4.wav

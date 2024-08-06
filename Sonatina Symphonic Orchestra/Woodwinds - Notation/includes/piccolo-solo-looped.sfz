@@ -7,6 +7,7 @@ loop_start=90439
 loop_end=148091
 lokey=c4
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=../Samples-looped/Piccolo/piccolo-d#4.wav
