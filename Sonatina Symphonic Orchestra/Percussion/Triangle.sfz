@@ -46,7 +46,7 @@ seq_position=3
 
 <group>
 loop_mode=one_shot
-seq_length=3
+seq_length=2
 group=2
 off_by=1
 ampeg_hold=2
@@ -63,16 +63,23 @@ sample=../Samples/Percussion/triangle-opn-rr2.flac
 key=e3
 seq_position=2
 
-<region>
-sample=../Samples/Percussion/triangle-opn-rr3.flac
-key=e3
-seq_position=3
+//<region>
+//sample=../Samples/Percussion/triangle-opn-rr3.flac
+//key=e3
+//seq_position=3
 
 <group>
-ampeg_release=0.520
-
-<region>
-sample=../Samples/Percussion/triangle-roll.wav
 key=f3
 fil_type=hpf_2p
 cutoff=300
+
+<region>
+ampeg_release=0.1
+sample=../Samples/Percussion/triangle-roll.wav
+
+<region>
+sample=../Samples/Percussion/triangle-roll.wav
+loop_mode=one_shot
+trigger=release_key
+ampeg_attack=0.01
+offset=46000
