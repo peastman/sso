@@ -8,82 +8,76 @@
 
 <group>
 loop_mode=one_shot
+key=d2
 
 <region>
-sample=..\Samples\Percussion\bass_drum-p.wav
-lokey=c2
-hikey=c2
-pitch_keycenter=c2
+sample=../Samples/Percussion/bass_drum-p.wav
+xfout_lovel=70
+xfout_hivel=90
 
 <region>
-sample=..\Samples\Percussion\bass_drum-f.wav
-lokey=c#2
-hikey=c#2
-pitch_keycenter=c#2
+sample=../Samples/Percussion/bass_drum-f.wav
+xfin_lovel=70
+xfin_hivel=90
 
 // Snare
 
 <group>
 loop_mode=one_shot
+seq_position=1
+seq_length=2
+key=d#2
 
 <region>
-sample=..\Samples\Percussion\snare-lh-ff.wav
-lokey=d2
-hikey=d2
-pitch_keycenter=d2
+sample=../Samples/Percussion/snare-lh-ff.wav
 hivel=127
 lovel=80
 
 <region>
-sample=..\Samples\Percussion\snare-lh-mf.wav
-lokey=d2
-hikey=d2
-pitch_keycenter=d2
+sample=../Samples/Percussion/snare-lh-mf.wav
 hivel=79
 lovel=64
 
 <region>
-sample=..\Samples\Percussion\snare-lh-p.wav
-lokey=d2
-hikey=d2
-pitch_keycenter=d2
-hivel=63
-lovel=0
-
-<region>
-sample=..\Samples\Percussion\snare-rh-ff.wav
-lokey=e2
-hikey=e2
-pitch_keycenter=e2
-hivel=127
-lovel=80
-
-<region>
-sample=..\Samples\Percussion\snare-rh-mf.wav
-lokey=e2
-hikey=e2
-pitch_keycenter=e2
-hivel=79
-lovel=64
-
-<region>
-sample=..\Samples\Percussion\snare-rh-p.wav
-lokey=e2
-hikey=e2
-pitch_keycenter=e2
+sample=../Samples/Percussion/snare-lh-p.wav
 hivel=63
 lovel=0
 
 <group>
-ampeg_release=0.920
+loop_mode=one_shot
+seq_position=2
+seq_length=2
+key=d#2
 
 <region>
-sample=..\Samples\Percussion\snare-roll.wav
+sample=../Samples/Percussion/snare-rh-ff.wav
+hivel=127
+lovel=80
+
+<region>
+sample=../Samples/Percussion/snare-rh-mf.wav
+hivel=79
+lovel=64
+
+<region>
+sample=../Samples/Percussion/snare-rh-p.wav
+hivel=63
+lovel=0
+
+<group>
 transpose=-1
 tune=-50
-lokey=d#2
-hikey=d#2
-pitch_keycenter=d#2
+key=e2
+
+<region>
+sample=../Samples/Percussion/snare-roll.wav
+ampeg_release=0.1
+
+<region>
+loop_mode=one_shot
+sample=../Samples/Percussion/snare-roll.wav
+trigger=release_key
+offset=150243
 
 // Cymbals
 
@@ -91,31 +85,31 @@ pitch_keycenter=d#2
 ampeg_release=1.25
 
 <region>
-sample=..\Samples\Percussion\cymbal_roll-a-f.wav
+sample=../Samples/Percussion/cymbal_roll-a-f.wav
 lokey=f2
 hikey=f2
 pitch_keycenter=f2
 
 <region>
-sample=..\Samples\Percussion\cymbal_roll-a-mf.wav
+sample=../Samples/Percussion/cymbal_roll-a-mf.wav
 lokey=f#2
 hikey=f#2
 pitch_keycenter=f#2
 
 <region>
-sample=..\Samples\Percussion\cymbal_roll-a-p.wav
+sample=../Samples/Percussion/cymbal_roll-a-p.wav
 lokey=g2
 hikey=g2
 pitch_keycenter=g2
 
 <region>
-sample=..\Samples\Percussion\cymbal_roll-b.wav
+sample=../Samples/Percussion/cymbal_roll-b.wav
 lokey=g#2
 hikey=g#2
 pitch_keycenter=g#2
 
 <region>
-sample=..\Samples\Percussion\piatti.wav
+sample=../Samples/Percussion/piatti.wav
 lokey=a2
 hikey=a2
 pitch_keycenter=a2
@@ -126,19 +120,19 @@ pitch_keycenter=a2
 ampeg_release=1
 
 <region>
-sample=..\Samples\Percussion\bar_chimes-a.wav
+sample=../Samples/Percussion/bar_chimes-a.wav
 lokey=a#2
 hikey=a#2
 pitch_keycenter=a#2
 
 <region>
-sample=..\Samples\Percussion\bar_chimes-b.wav
+sample=../Samples/Percussion/bar_chimes-b.wav
 lokey=b2
 hikey=b2
 pitch_keycenter=b2
 
 <region>
-sample=..\Samples\Percussion\bar_chimes-c.wav
+sample=../Samples/Percussion/bar_chimes-c.wav
 lokey=c3
 hikey=c3
 pitch_keycenter=c3
@@ -150,14 +144,14 @@ loop_mode=one_shot
 seq_length=2
 
 <region>
-sample=..\Samples\Percussion\conga-mut-rr1.wav
+sample=../Samples/Percussion/conga-mut-rr1.wav
 lokey=c#3
 hikey=c#3
 pitch_keycenter=c#3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\conga-mut-rr2.wav
+sample=../Samples/Percussion/conga-mut-rr2.wav
 lokey=c#3
 hikey=c#3
 pitch_keycenter=c#3
@@ -168,14 +162,14 @@ loop_mode=one_shot
 seq_length=2
 
 <region>
-sample=..\Samples\Percussion\conga-opn-rr1.wav
+sample=../Samples/Percussion/conga-opn-rr1.wav
 lokey=d3
 hikey=d3
 pitch_keycenter=d3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\conga-opn-rr2.wav
+sample=../Samples/Percussion/conga-opn-rr2.wav
 lokey=d3
 hikey=d3
 pitch_keycenter=d3
@@ -186,14 +180,14 @@ loop_mode=one_shot
 seq_length=2
 
 <region>
-sample=..\Samples\Percussion\conga-slp-rr1.wav
+sample=../Samples/Percussion/conga-slp-rr1.wav
 lokey=d#3
 hikey=d#3
 pitch_keycenter=d#3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\conga-slp-rr2.wav
+sample=../Samples/Percussion/conga-slp-rr2.wav
 lokey=d#3
 hikey=d#3
 pitch_keycenter=d#3
@@ -205,7 +199,7 @@ seq_position=2
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\tambourine-hit-f.wav
+sample=../Samples/Percussion/tambourine-hit-f.wav
 lokey=e3
 hikey=e3
 pitch_keycenter=e3
@@ -213,7 +207,7 @@ hivel=127
 lovel=80
 
 <region>
-sample=..\Samples\Percussion\tambourine-hit-mf.wav
+sample=../Samples/Percussion/tambourine-hit-mf.wav
 lokey=e3
 hikey=e3
 pitch_keycenter=e3
@@ -224,13 +218,13 @@ lovel=0
 ampeg_release=1
 
 <region>
-sample=..\Samples\Percussion\tambourine-shake.wav
+sample=../Samples/Percussion/tambourine-shake.wav
 lokey=f3
 hikey=f3
 pitch_keycenter=f3
 
 <region>
-sample=..\Samples\Percussion\tambourine-roll.wav
+sample=../Samples/Percussion/tambourine-roll.wav
 lokey=f#3
 hikey=f#3
 pitch_keycenter=f#3
@@ -243,24 +237,18 @@ seq_length=3
 group=1
 
 <region>
-sample=..\Samples\Percussion\triangle-mtd-rr1.wav
-lokey=g3
-hikey=g3
-pitch_keycenter=g3
+sample=../Samples/Percussion/triangle-mtd-rr1.wav
+key=g3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\triangle-mtd-rr2.wav
-lokey=g3
-hikey=g3
-pitch_keycenter=g3
+sample=../Samples/Percussion/triangle-mtd-rr2.wav
+key=g3
 seq_position=2
 
 <region>
-sample=..\Samples\Percussion\triangle-mtd-rr3.wav
-lokey=g3
-hikey=g3
-pitch_keycenter=g3
+sample=../Samples/Percussion/triangle-mtd-rr3.wav
+key=g3
 seq_position=3
 
 <group>
@@ -269,61 +257,59 @@ seq_length=3
 group=1
 
 <region>
-sample=..\Samples\Percussion\triangle-hlf-opn-rr1.wav
-lokey=g#3
-hikey=g#3
-pitch_keycenter=g#3
+sample=../Samples/Percussion/triangle-hlf-opn-rr1.flac
+key=g#3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\triangle-hlf-opn-rr2.wav
-lokey=g#3
-hikey=g#3
-pitch_keycenter=g#3
+sample=../Samples/Percussion/triangle-hlf-opn-rr2.flac
+key=g#3
 seq_position=2
 
 <region>
-sample=..\Samples\Percussion\triangle-hlf-opn-rr3.wav
-lokey=g#3
-hikey=g#3
-pitch_keycenter=g#3
+sample=../Samples/Percussion/triangle-hlf-opn-rr3.wav
+key=g#3
 seq_position=3
 
 <group>
 loop_mode=one_shot
-seq_length=3
+seq_length=2
 group=2
 off_by=1
+ampeg_hold=2
+ampeg_decay=3.5
+ampeg_sustain=0
 
 <region>
-sample=..\Samples\Percussion\triangle-opn-rr1.wav
-lokey=a3
-hikey=a3
-pitch_keycenter=a3
+sample=../Samples/Percussion/triangle-opn-rr1.flac
+key=a3
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\triangle-opn-rr2.wav
-lokey=a3
-hikey=a3
-pitch_keycenter=a3
+sample=../Samples/Percussion/triangle-opn-rr2.flac
+key=a3
 seq_position=2
 
-<region>
-sample=..\Samples\Percussion\triangle-opn-rr3.wav
-lokey=a3
-hikey=a3
-pitch_keycenter=a3
-seq_position=3
+//<region>
+//sample=../Samples/Percussion/triangle-opn-rr3.flac
+//key=a3
+//seq_position=3
 
 <group>
-ampeg_release=0.520
+key=a#3
+fil_type=hpf_2p
+cutoff=300
 
 <region>
-sample=..\Samples\Percussion\triangle-roll.wav
-lokey=a#3
-hikey=a#3
-pitch_keycenter=a#3
+ampeg_release=0.1
+sample=../Samples/Percussion/triangle-roll.wav
+
+<region>
+sample=../Samples/Percussion/triangle-roll.wav
+loop_mode=one_shot
+trigger=release_key
+ampeg_attack=0.01
+offset=46000
 
 // Finger cymbals
 
@@ -331,13 +317,15 @@ pitch_keycenter=a#3
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\finger_cymbal-hi.wav
+sample=../Samples/Percussion/finger_cymbal-hi.wav
 lokey=b3
 hikey=b3
 pitch_keycenter=b3
+fil_type=hpf_2p
+cutoff=2000
 
 <region>
-sample=..\Samples\Percussion\finger_cymbal-lo.wav
+sample=../Samples/Percussion/finger_cymbal-lo.wav
 lokey=c4
 hikey=c4
 pitch_keycenter=c4
@@ -349,14 +337,14 @@ loop_mode=one_shot
 seq_length=2
 
 <region>
-sample=..\Samples\Percussion\castanets-rr1.wav
+sample=../Samples/Percussion/castanets-rr1.wav
 lokey=c#4
 hikey=c#4
 pitch_keycenter=c#4
 seq_position=1
 
 <region>
-sample=..\Samples\Percussion\castanets-rr2.wav
+sample=../Samples/Percussion/castanets-rr2.wav
 lokey=c#4
 hikey=c#4
 pitch_keycenter=c4
@@ -368,13 +356,13 @@ seq_position=2
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\cabasa-a.wav
+sample=../Samples/Percussion/cabasa-a.wav
 lokey=d4
 hikey=d4
 pitch_keycenter=d4
 
 <region>
-sample=..\Samples\Percussion\cabasa-b.wav
+sample=../Samples/Percussion/cabasa-b.wav
 lokey=d#4
 hikey=d#4
 pitch_keycenter=d#4
@@ -385,19 +373,19 @@ pitch_keycenter=d#4
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\shaker-a.wav
+sample=../Samples/Percussion/shaker-a.wav
 lokey=e4
 hikey=e4
 pitch_keycenter=e4
 
 <region>
-sample=..\Samples\Percussion\shaker-b.wav
+sample=../Samples/Percussion/shaker-b.wav
 lokey=f4
 hikey=f4
 pitch_keycenter=f4
 
 <region>
-sample=..\Samples\Percussion\shaker-c.wav
+sample=../Samples/Percussion/shaker-c.wav
 lokey=f#4
 hikey=f#4
 pitch_keycenter=f#4
@@ -408,19 +396,19 @@ pitch_keycenter=f#4
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\tamtam-a.wav
+sample=../Samples/Percussion/tamtam-a.wav
 lokey=g4
 hikey=g4
 pitch_keycenter=g4
 
 <region>
-sample=..\Samples\Percussion\tamtam-b.wav
+sample=../Samples/Percussion/tamtam-b.wav
 lokey=g#4
 hikey=g#4
 pitch_keycenter=g#4
 
 <region>
-sample=..\Samples\Percussion\tamtam-c.wav
+sample=../Samples/Percussion/tamtam-c.wav
 lokey=a4
 hikey=a4
 pitch_keycenter=a4
@@ -431,7 +419,7 @@ pitch_keycenter=a4
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\sleigh_bells-f.wav
+sample=../Samples/Percussion/sleigh_bells-f.wav
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -439,7 +427,7 @@ hivel=127
 lovel=96
 
 <region>
-sample=..\Samples\Percussion\sleigh_bells-mf.wav
+sample=../Samples/Percussion/sleigh_bells-mf.wav
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -449,7 +437,7 @@ lovel=0
 // Bell tree
 
 <region>
-sample=..\Samples\Percussion\bell_tree.wav
+sample=../Samples/Percussion/bell_tree.wav
 lokey=b4
 hikey=b4
 pitch_keycenter=b4
@@ -460,7 +448,7 @@ pitch_keycenter=b4
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\vibraslap.wav
+sample=../Samples/Percussion/vibraslap.wav
 lokey=c5
 hikey=c5
 pitch_keycenter=c5
@@ -471,7 +459,20 @@ pitch_keycenter=c5
 loop_mode=one_shot
 
 <region>
-sample=..\Samples\Percussion\ratchet.wav
+sample=../Samples/Percussion/ratchet.wav
 lokey=c#5
 hikey=c#5
 pitch_keycenter=c#5
+
+// Wood blocks
+
+<group>
+loop_mode=one_shot
+
+<region>
+sample=../Samples/Percussion/wood_block-lo.wav
+key=d5
+
+<region>
+sample=../Samples/Percussion/wood_block-hi.wav
+key=d#5

@@ -67,43 +67,43 @@ SSO includes the following instruments and articulations:
 
 **Pitched Percussion**
 
-|Instrument|Variations|
-|----------|----------|
-|Timpani|Hits, Rolls, Crescendos|
-|Glockenspiel| - |
-|Xylophone| - |
-|Chimes| - |
+|Instrument  |Variations             |
+|------------|-----------------------|
+|Timpani     |Hits, Rolls, Crescendos|
+|Glockenspiel| -                     |
+|Xylophone   | -                     |
+|Chimes      | -                     |
 
 **Percussion**
 
-|Instrument|Variations|
-|----------|----------|
-|Bass Drum|Soft hit, Hard hit|
-|Snare Drum|Left hand hit, Right hand hit, Roll|
-|Cymbals|Hit, 4 Rolls|
-|Conga|Muffled, Open, Slap|
-|Bar Chimes|3 Variations|
-|Tamtam|3 Variations|
-|Triangle|Mute, Half-open, Open, Roll|
-|Tambourine|Soft hit, Hard hit, Shake, Roll|
-|Wood Blocks|High, Low|
-|Cabasa|2 Variations|
-|Shaker|3 Variations|
-|Sleigh Bells|Soft hit, Hard hit|
-|Castanets|2 Variations|
-|Ratchet| - |
-|Vibraslap| - |
-|Bell Tree| - |
+|Instrument  |Variations                     |
+|------------|-------------------------------|
+|Bass Drum   | -                             |
+|Snare Drum  |Hit, Roll                      |
+|Cymbals     |Hit, 4 Rolls                   |
+|Conga       |Muffled, Open, Slap            |
+|Bar Chimes  |3 Variations                   |
+|Tamtam      |3 Variations                   |
+|Triangle    |Mute, Half-open, Open, Roll    |
+|Tambourine  |Soft hit, Hard hit, Shake, Roll|
+|Wood Blocks |High, Low                      |
+|Cabasa      |2 Variations                   |
+|Shaker      |3 Variations                   |
+|Sleigh Bells|Soft hit, Hard hit             |
+|Castanets   |2 Variations                   |
+|Ratchet     | -                             |
+|Vibraslap   | -                             |
+|Bell Tree   | -                             |
 
 **Miscellaneous**
 
-|Instrument|Variations|
-|----------|----------|
-|Grand Piano| - |
-|Concert Harp| - |
-|Chorus| Mixed, Large |
-|Harpsichord| 4', 8', Full |
-|Pipe Organ| 14 stops, 17 combination presets |
+|Instrument  |Variations                      |
+|------------|--------------------------------|
+|Grand Piano | -                              |
+|Concert Harp| -                              |
+|Chorus      |Mixed, Large                    |
+|Harpsichord |4', 8', Full                    |
+|Pipe Organ  |14 stops, 17 combination presets|
 
 Instruments with multiple articulations are packaged in two ways.  Use whichever one is more convenient for your
 workflow.
