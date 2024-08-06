@@ -65,11 +65,16 @@ hivel=63
 lovel=0
 
 <group>
-ampeg_release=0.920
-
-<region>
-sample=../Samples/Percussion/snare-roll.wav
 transpose=-1
 tune=-50
 key=d3
 
+<region>
+sample=../Samples/Percussion/snare-roll.wav
+ampeg_release=0.1
+
+<region>
+loop_mode=one_shot
+sample=../Samples/Percussion/snare-roll.wav
+trigger=release_key
+offset=150243
