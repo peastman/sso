@@ -27,6 +27,7 @@ pitch_keycenter=a3
 sample=../Samples/Flutes/flutes-stc-rr1-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 volume=1
 
 <region>

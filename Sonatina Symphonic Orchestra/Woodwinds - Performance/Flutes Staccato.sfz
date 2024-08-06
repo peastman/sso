@@ -4,6 +4,9 @@
 //        Flutes Staccato
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 loop_mode=one_shot
 seq_position=1

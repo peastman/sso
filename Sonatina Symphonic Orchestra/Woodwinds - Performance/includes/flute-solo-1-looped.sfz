@@ -39,6 +39,7 @@ loop_start=133268
 loop_end=267191
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 tune=-16
 
 <region>

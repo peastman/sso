@@ -5,6 +5,9 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 // -------
 // Sustain
 // -------
@@ -50,6 +53,7 @@ pitch_keycenter=a3
 sample=..\Samples\Flutes\flutes-sus-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples\Flutes\flutes-sus-d#4.wav

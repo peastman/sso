@@ -4,6 +4,9 @@
 //            Flute
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 ampeg_release=0.425
 
@@ -35,6 +38,7 @@ pitch_keycenter=a3
 sample=..\Samples\flute\flute-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 tune=-16
 
 <region>

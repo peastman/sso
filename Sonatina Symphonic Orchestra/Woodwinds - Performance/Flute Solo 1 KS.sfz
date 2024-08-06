@@ -4,6 +4,9 @@
 //            Flute
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -43,6 +46,7 @@ pitch_keycenter=a3
 sample=..\Samples\flute\flute-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 tune=-16
 
 <region>
@@ -109,6 +113,9 @@ tune=-18
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -130,6 +137,9 @@ gain_cc1=30
 //            Flute
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -159,6 +169,9 @@ gain_cc1=30
 //          Flute Legato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2

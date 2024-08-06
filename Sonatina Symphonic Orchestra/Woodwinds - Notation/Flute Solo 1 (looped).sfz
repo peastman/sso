@@ -5,6 +5,9 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.425
