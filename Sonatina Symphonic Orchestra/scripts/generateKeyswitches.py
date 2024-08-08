@@ -97,7 +97,9 @@ soloFluteArticulations = (
     ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
     ("Legato", " Legato", 2),
     ("Legato Non-Vibrato", " Legato Non-Vibrato", 3),
-    ("Staccato", " Staccato", 4)
+    ("Marcato", " Marcato", 4),
+    ("Marcato Non-Vibrato", " Marcato Non-Vibrato", 5),
+    ("Staccato", " Staccato", 6)
 )
 
 keyNames = ['c', 'c#', 'd', 'd#', 'e', 'f', 'f#', 'g', 'g#', 'a', 'a#', 'b'] 

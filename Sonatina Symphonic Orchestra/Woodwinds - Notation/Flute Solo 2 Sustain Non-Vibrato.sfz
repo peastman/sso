@@ -1,15 +1,22 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//            Flute 2
+// ------------------------------
 
 <control>
 octave_offset=1
 
 <group>
 ampeg_release=0.4
-lovel=80
+xfin_lovel=70
+xfin_hivel=80
 
 #include "includes/flute-solo-2-sustain-non-vibrato-ff.sfz"
 
 <group>
 ampeg_release=0.4
-hivel=79
+xfout_lovel=70
+xfout_hivel=80
 
 #include "includes/flute-solo-2-sustain-non-vibrato-mf.sfz"

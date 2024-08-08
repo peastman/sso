@@ -48,22 +48,22 @@ SSO includes the following instruments and articulations:
 
 **Woodwinds**
 
-|Instrument|Articulations|
-|----------|-------------|
-|Flutes|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|Oboes|Sustain (looped, non-looped), Legato|
-|Clarinets|Sustain (looped, non-looped), Legato|
-|Bassoons|Sustain (looped, non-looped), Legato|
-|Solo Piccolo|Sustain (non-looped, looped, decay), Legato|
-|Solo Flute 1|Sustain (non-looped, looped, decay), Legato|
-|Solo Flute 2|Sustain, Sustain non-vibrato, Staccato, Legato, Legato non-vibrato|
-|Solo Alto Flute|Sustain (non-looped, looped, decay), Legato|
-|Solo Cor Anglais|Sustain (non-looped, looped, decay), Legato|
-|Solo Oboe|Sustain (non-looped, looped, decay), Legato|
-|Solo Clarinet|Sustain (non-looped, looped, decay), Legato|
-|Solo Bass Clarinet|Sustain (non-looped, looped, decay), Legato|
-|Solo Bassoon|Sustain (non-looped, looped, decay), Legato|
-|Solo Contrabassoon|Sustain (non-looped, looped, decay), Legato|
+|Instrument        |Articulations                                                                                   |
+|------------------|------------------------------------------------------------------------------------------------|
+|Flutes            |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato                    |
+|Oboes             |Sustain (looped, non-looped), Legato                                                            |
+|Clarinets         |Sustain (looped, non-looped), Legato                                                            |
+|Bassoons          |Sustain (looped, non-looped), Legato                                                            |
+|Solo Piccolo      |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Flute 1      |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Flute 2      |Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Staccato, Legato, Legato non-vibrato|
+|Solo Alto Flute   |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Cor Anglais  |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Oboe         |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Clarinet     |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Bass Clarinet|Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Bassoon      |Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Contrabassoon|Sustain (non-looped, looped, decay), Legato                                                     |
 
 **Pitched Percussion**
 
