@@ -5,6 +5,9 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -32,6 +35,9 @@ cutoff=500
 // ------------------------------
 //        Flutes Sustain
 // ------------------------------
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -79,6 +85,7 @@ pitch_keycenter=a3
 sample=..\Samples\Flutes\flutes-sus-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples\Flutes\flutes-sus-d#4.wav
@@ -132,6 +139,9 @@ pitch_keycenter=a5
 //        Flutes Marcato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 // -------
 // Sustain
@@ -204,6 +214,9 @@ gain_cc1=-12
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 // -------
 // Sustain
 // -------
@@ -254,6 +267,7 @@ pitch_keycenter=a3
 sample=..\Samples\Flutes\flutes-sus-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples\Flutes\flutes-sus-d#4.wav
@@ -345,6 +359,9 @@ gain_cc1=-12
 //        Flutes Staccato
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -383,6 +400,9 @@ ampeg_vel2decay=10
 //        Flutes Legato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2

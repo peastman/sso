@@ -1,3 +1,5 @@
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -9,7 +11,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/flute-solo-2-sustain-ff.sfz"
@@ -24,12 +26,15 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/flute-solo-2-sustain-mf.sfz"
 
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -41,7 +46,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/flute-solo-2-sustain-non-vibrato-ff.sfz"
@@ -56,7 +61,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/flute-solo-2-sustain-non-vibrato-mf.sfz"
@@ -69,6 +74,9 @@ gain_cc1=30
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -79,7 +87,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -99,7 +107,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2
@@ -120,7 +128,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -142,7 +150,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2
@@ -161,6 +169,9 @@ offset=10000
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -171,7 +182,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -191,7 +202,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2
@@ -212,7 +223,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -234,7 +245,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2
@@ -246,6 +257,9 @@ offset=10000
 #include "includes/flute-solo-2-sustain-non-vibrato-mf.sfz"
 
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2
@@ -263,6 +277,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#4.wav
@@ -287,6 +302,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#5.wav
@@ -328,6 +344,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#4.wav
@@ -352,6 +369,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#5.wav
@@ -364,6 +382,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr2-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-a5.wav
@@ -393,6 +412,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_mf_rr1-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr1-d#4.wav
@@ -458,6 +478,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-d#4.wav
@@ -494,6 +515,7 @@ sample=..\Samples/Flute 2/fl2_stc_mf_rr2-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-a5.wav

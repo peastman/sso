@@ -5,12 +5,15 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -25,7 +28,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2
@@ -41,7 +44,7 @@ ampeg_release=0.4
 xfin_locc1=70
 xfin_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=1
 off_by=1
@@ -58,7 +61,7 @@ ampeg_release=0.4
 xfout_locc1=70
 xfout_hicc1=80
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 group=2
 off_by=2

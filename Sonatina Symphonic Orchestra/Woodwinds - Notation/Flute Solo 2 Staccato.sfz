@@ -1,4 +1,7 @@
 
+<control>
+octave_offset=1
+
 <group>
 lovel=80
 hivel=127
@@ -10,6 +13,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#4.wav
@@ -34,6 +38,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr1-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr1-d#5.wav
@@ -70,6 +75,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#4.wav
@@ -94,6 +100,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr2-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
+volume=2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-d#5.wav
@@ -106,6 +113,7 @@ sample=..\Samples/Flute 2/fl2_stc_ff_rr2-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_ff_rr2-a5.wav
@@ -130,6 +138,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_mf_rr1-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr1-d#4.wav
@@ -190,6 +199,7 @@ ampeg_release=0.800
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-c4.wav
 lokey=a3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-d#4.wav
@@ -226,6 +236,7 @@ sample=..\Samples/Flute 2/fl2_stc_mf_rr2-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-2
 
 <region>
 sample=..\Samples/Flute 2/fl2_stc_mf_rr2-a5.wav

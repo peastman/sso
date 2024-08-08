@@ -5,6 +5,9 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -61,6 +64,9 @@ xf_cccurve=gain
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -114,6 +120,9 @@ xf_cccurve=gain
 //        Flutes Marcato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 // -------
 // Sustain
@@ -214,6 +223,9 @@ gain_cc1=20
 //        Flutes Marcato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 // -------
 // Sustain
@@ -313,6 +325,9 @@ gain_cc1=20
 //        Flutes Staccato
 // ------------------------------
 
+<control>
+octave_offset=1
+
 <group>
 sw_default=c2
 sw_lokey=c2
@@ -351,6 +366,9 @@ ampeg_vel2decay=10
 //        Flutes Legato
 // ------------------------------
 
+
+<control>
+octave_offset=1
 
 <group>
 sw_default=c2

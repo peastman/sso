@@ -5,6 +5,9 @@
 // ------------------------------
 
 
+<control>
+octave_offset=1
+
 <group>
 loop_mode=loop_continuous
 ampeg_attack=0.640

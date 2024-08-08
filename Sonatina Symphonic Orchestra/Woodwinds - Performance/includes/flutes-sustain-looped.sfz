@@ -40,6 +40,7 @@ loop_start=101372
 loop_end=187929
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 
 <region>
 sample=../Samples-looped/Flutes/flutes-sus-d#4.wav
