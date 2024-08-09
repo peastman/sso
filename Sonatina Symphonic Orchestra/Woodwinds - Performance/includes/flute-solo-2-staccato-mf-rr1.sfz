@@ -1,0 +1,62 @@
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-c4.wav
+lokey=a3
+hikey=c#4
+pitch_keycenter=c4
+tune=-45
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-d#4.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+tune=-27
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-f#4.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+tune=-23
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-a4.wav
+lokey=g#4
+hikey=a#4
+pitch_keycenter=a4
+tune=-34
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-c5.wav
+lokey=b4
+hikey=c#5
+pitch_keycenter=c5
+tune=-36
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-d#5.wav
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
+tune=-43
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-f#5.wav
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
+tune=-39
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-a5.wav
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
+tune=-24
+
+<region>
+sample=../Samples/Flute 2/fl2_stc_mf_rr1-c6.wav
+lokey=b5
+hikey=c6
+pitch_keycenter=c6
+tune=-39
