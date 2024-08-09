@@ -11,6 +11,8 @@ lokey=g3
 hikey=g#3
 pitch_keycenter=g3
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_hold=0.07
@@ -36,6 +38,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=103639
 delay=0.04
 ampeg_attack=0.1
@@ -51,8 +54,11 @@ hikey=b3
 pitch_keycenter=a#3
 tune=8
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
+offset=4000
 ampeg_attack=0.05
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -77,6 +83,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=115847
 delay=0.04
 ampeg_attack=0.1
@@ -91,6 +98,8 @@ pitch_keycenter=c#4
 tune=11
 volume=2
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -117,6 +126,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=116028
 delay=0.04
 ampeg_attack=0.1
@@ -131,6 +141,8 @@ pitch_keycenter=e4
 tune=-13
 volume=-1
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -157,6 +169,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=136330
 delay=0.04
 ampeg_attack=0.1
@@ -171,6 +184,8 @@ pitch_keycenter=g4
 tune=-22
 ampeg_attack=0.05
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -197,6 +212,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=125387
 delay=0.04
 ampeg_attack=0.1
@@ -210,6 +226,8 @@ hikey=b4
 pitch_keycenter=a#4
 volume=1
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -236,6 +254,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=136431
 delay=0.04
 ampeg_attack=0.1
@@ -251,6 +270,8 @@ hikey=d5
 pitch_keycenter=c#5
 tune=-6
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -277,6 +298,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=124953
 delay=0.04
 ampeg_attack=0.1
@@ -290,6 +312,8 @@ hikey=f5
 pitch_keycenter=e5
 tune=-23
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -316,6 +340,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=120490
 delay=0.04
 ampeg_attack=0.1
@@ -329,6 +354,8 @@ hikey=g#5
 pitch_keycenter=g5
 tune=-32
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -355,6 +382,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=111841
 delay=0.04
 ampeg_attack=0.1
@@ -369,6 +397,8 @@ pitch_keycenter=a#5
 tune=-30
 volume=1
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -395,6 +425,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=113457
 delay=0.04
 ampeg_attack=0.1
@@ -409,6 +440,8 @@ pitch_keycenter=c#6
 tune=-28
 volume=4
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -435,6 +468,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=120326
 delay=0.04
 ampeg_attack=0.1
@@ -448,6 +482,8 @@ hikey=f6
 pitch_keycenter=e6
 tune=-26
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -474,6 +510,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=115902
 delay=0.04
 ampeg_attack=0.1
@@ -487,6 +524,8 @@ hikey=g6
 pitch_keycenter=g6
 tune=-58
 loop_mode=one_shot
+group_volume=$GROUP_VOLUME
+gain_cc1=$GAIN_CC1
 
 <region>
 ampeg_attack=0.05
@@ -513,6 +552,7 @@ ampeg_sustain=0
 ampeg_decay=0.2
 
 <region>
+amplitude=$RELEASE_AMPLITUDE
 offset=124676
 delay=0.04
 ampeg_attack=0.1
