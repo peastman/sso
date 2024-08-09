@@ -99,7 +99,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=59389
+offset=59334
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -108,7 +108,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=68227
+offset=68036
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -134,7 +134,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=22876
+offset=22777
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -143,7 +143,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=40825
+offset=40625
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -169,7 +169,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=46920
+offset=46817
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -178,7 +178,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=64021
+offset=63894
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -204,7 +204,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=71448
+offset=71248
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -213,7 +213,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=131986
+offset=131786
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -239,7 +239,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=50327
+offset=50446
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -248,7 +248,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=59478
+offset=59667
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -274,7 +274,7 @@ gain_cc1=20
 <region>
 seq_length=2
 seq_position=1
-offset=47488
+offset=47616
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
@@ -283,7 +283,7 @@ ampeg_decay=0.2
 <region>
 seq_length=2
 seq_position=2
-offset=64373
+offset=64479
 ampeg_attack=0.03
 ampeg_hold=0.07
 ampeg_sustain=0
