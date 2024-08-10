@@ -1,0 +1,27 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Piccolo Marcato
+// ------------------------------
+
+<control>
+octave_offset=1
+
+// -------
+// Sustain
+// -------
+
+<group>
+ampeg_release=0.550
+
+#include "includes/piccolo-solo-sustain.sfz"
+
+// --------
+// Staccato
+// --------
+
+#define $RELEASE_AMPLITUDE 0
+#define $GROUP_VOLUME 0
+#define $GAIN_CC1 -12
+
+#include "includes/piccolo-solo-staccato.sfz"
