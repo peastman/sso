@@ -5,7 +5,7 @@ sw_hikey=g2
 sw_last=c2
 sw_label=Sustain (non-looped)
 
-#include "Piccolo Solo.sfz"
+#include "Piccolo Solo Sustain.sfz"
 
 <global>
 sw_default=c2
@@ -14,7 +14,7 @@ sw_hikey=g2
 sw_last=c#2
 sw_label=Sustain (looped)
 
-#include "Piccolo Solo (looped).sfz"
+#include "Piccolo Solo Sustain (looped).sfz"
 
 <global>
 sw_default=c2
@@ -23,7 +23,7 @@ sw_hikey=g2
 sw_last=d2
 sw_label=Sustain (looped, decay)
 
-#include "Piccolo Solo (looped, decay).sfz"
+#include "Piccolo Solo Sustain (looped, decay).sfz"
 
 <global>
 sw_default=c2
