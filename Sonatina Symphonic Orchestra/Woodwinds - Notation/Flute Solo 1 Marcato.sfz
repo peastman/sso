@@ -1,0 +1,27 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Flute Marcato
+// ------------------------------
+
+<control>
+octave_offset=1
+
+// -------
+// Sustain
+// -------
+
+<group>
+ampeg_release=0.425
+
+#include "includes/flute-solo-1-sustain.sfz"
+
+// --------
+// Staccato
+// --------
+
+#define $RELEASE_AMPLITUDE 0
+#define $GROUP_VOLUME 0
+#define $GAIN_CC1 -12
+
+#include "includes/flute-solo-1-staccato.sfz"

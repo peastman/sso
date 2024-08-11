@@ -1,0 +1,16 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//           Piccolo
+// ------------------------------
+
+<control>
+octave_offset=1
+
+<group>
+ampeg_release=0.550
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+#include "includes/piccolo-solo-sustain.sfz"

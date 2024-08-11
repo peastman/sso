@@ -1,0 +1,25 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Alto Flute Marcato
+// ------------------------------
+
+// -------
+// Sustain
+// -------
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.450
+
+#include "includes/alto-flute-solo-looped.sfz"
+
+// --------
+// Staccato
+// --------
+
+#define $RELEASE_AMPLITUDE 0
+#define $GROUP_VOLUME 0
+#define $GAIN_CC1 -12
+
+#include "includes/alto-flute-solo-staccato.sfz"

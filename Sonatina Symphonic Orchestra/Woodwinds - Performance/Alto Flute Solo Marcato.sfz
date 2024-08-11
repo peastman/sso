@@ -1,0 +1,27 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Alto Flute Marcato
+// ------------------------------
+
+// -------
+// Sustain
+// -------
+
+<group>
+ampeg_release=0.425
+amp_veltrack=0
+volume=-30
+gain_cc1=30
+
+#include "includes/alto-flute-solo-sustain.sfz"
+
+// --------
+// Staccato
+// --------
+
+#define $RELEASE_AMPLITUDE 0
+#define $GROUP_VOLUME -18
+#define $GAIN_CC1 20
+
+#include "includes/alto-flute-solo-staccato.sfz"

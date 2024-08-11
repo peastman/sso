@@ -1,210 +1,71 @@
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//           Piccolo
-// ------------------------------
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=c2
 sw_label=Sustain (non-looped)
-ampeg_release=0.550
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-<region>
-sample=..\Samples\piccolo\piccolo-c4.wav
-lokey=c4
-hikey=c#4
-pitch_keycenter=c4
+#include "Piccolo Solo Sustain.sfz"
 
-<region>
-sample=..\Samples\piccolo\piccolo-d#4.wav
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
-
-<region>
-sample=..\Samples\piccolo\piccolo-f#4.wav
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
-
-<region>
-sample=..\Samples\piccolo\piccolo-a4.wav
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
-
-<region>
-sample=..\Samples\piccolo\piccolo-c5.wav
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-
-<region>
-sample=..\Samples\piccolo\piccolo-d#5.wav
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-
-<region>
-sample=..\Samples\piccolo\piccolo-f#5.wav
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-
-<region>
-sample=..\Samples\piccolo\piccolo-a5.wav
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
-volume=-28
-
-<region>
-sample=..\Samples\piccolo\piccolo-c6.wav
-lokey=b5
-hikey=c#6
-pitch_keycenter=c6
-
-<region>
-sample=..\Samples\piccolo\piccolo-d#6.wav
-lokey=d6
-hikey=e6
-pitch_keycenter=d#6
-
-<region>
-sample=..\Samples\piccolo\piccolo-f#6.wav
-lokey=f6
-hikey=g6
-pitch_keycenter=f#6
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//           Piccolo
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=c#2
 sw_label=Sustain (looped)
-loop_mode=loop_continuous
-ampeg_release=0.550
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-#include "includes/piccolo-solo-looped.sfz"
+#include "Piccolo Solo Sustain (looped).sfz"
 
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//           Piccolo
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=d2
 sw_label=Sustain (looped, decay)
-loop_mode=loop_continuous
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.550
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-#include "includes/piccolo-solo-looped.sfz"
+#include "Piccolo Solo Sustain (looped, decay).sfz"
 
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//       Piccolo Legato
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
-sw_last=e2
+sw_hikey=g2
+sw_last=d#2
 sw_label=Legato
-loop_mode=loop_continuous
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.550
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
 
-#include "includes/piccolo-solo-looped.sfz"
+#include "Piccolo Solo Legato.sfz"
 
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=e2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.550
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
+sw_label=Marcato (non-looped)
 
-#include "includes/piccolo-solo-looped.sfz"
+#include "Piccolo Solo Marcato.sfz"
 
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=f2
+sw_label=Marcato (looped)
 
+#include "Piccolo Solo Marcato (looped).sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=f#2
+sw_label=Marcato (looped, decay)
+
+#include "Piccolo Solo Marcato (looped, decay).sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=g2
+sw_label=Staccato
+
+#include "Piccolo Solo Staccato.sfz"

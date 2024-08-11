@@ -1,0 +1,10 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Alto Flute
+// ------------------------------
+
+<group>
+ampeg_release=0.450
+
+#include "includes/alto-flute-solo-sustain.sfz"

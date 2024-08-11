@@ -1,0 +1,14 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Piccolo Staccato
+// ------------------------------
+
+#define $RELEASE_AMPLITUDE 100
+#define $GROUP_VOLUME 0
+#define $GAIN_CC1 0
+
+<control>
+octave_offset=1
+
+#include "includes/piccolo-solo-staccato.sfz"

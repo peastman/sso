@@ -1,0 +1,13 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//            Flute
+// ------------------------------
+
+<control>
+octave_offset=1
+
+<group>
+ampeg_release=0.425
+
+#include "includes/flute-solo-1-sustain.sfz"
