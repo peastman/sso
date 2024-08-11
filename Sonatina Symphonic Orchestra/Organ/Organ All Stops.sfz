@@ -1,0 +1,99 @@
+<control>
+label_cc16=Great Bourdon 16'
+label_cc17=Great Open Diapason 8'
+label_cc18=Great Stopped Diapason 8'
+label_cc19=Great Dulciana 8'
+label_cc20=Great Flute 4'
+label_cc21=Great Principal 4'
+label_cc22=Great Twelfth 3'
+label_cc23=Great Fifteenth 2'
+label_cc24=Swell Gamba 8'
+label_cc25=Swell Gedact 8'
+label_cc26=Swell Oboe 8'
+label_cc27=Swell Octave 4'
+label_cc28=Pedal Bourdon 16'
+label_cc29=Pedal Violon 16'
+set_cc16=0
+set_cc17=0
+set_cc18=0
+set_cc19=0
+set_cc20=0
+set_cc21=0
+set_cc22=0
+set_cc23=0
+set_cc24=0
+set_cc25=0
+set_cc26=0
+set_cc27=0
+set_cc28=0
+set_cc29=0
+
+<global>
+locc16=64
+
+#include "Great - Bourdon 16ft.sfz"
+
+<global>
+locc17=64
+
+#include "Great - Open Diapason 8ft.sfz"
+
+<global>
+locc18=64
+
+#include "Great - Stopped Diapason 8ft.sfz"
+
+<global>
+locc19=64
+
+#include "Great - Dulciana 8ft.sfz"
+
+<global>
+locc20=64
+
+#include "Great - Flute 4ft.sfz"
+
+<global>
+locc21=64
+
+#include "Great - Principal 4ft.sfz"
+
+<global>
+locc22=64
+
+#include "Great - Twelfth 3ft.sfz"
+
+<global>
+locc23=64
+
+#include "Great - Fifteenth 2ft.sfz"
+
+<global>
+locc24=64
+
+#include "Swell - Gamba 8ft.sfz"
+
+<global>
+locc25=64
+
+#include "Swell - Gedact 8ft.sfz"
+
+<global>
+locc26=64
+
+#include "Swell - Oboe 8ft.sfz"
+
+<global>
+locc27=64
+
+#include "Swell - Octave 4ft.sfz"
+
+<global>
+locc28=64
+
+#include "Pedal - Bourdon 16ft.sfz"
+
+<global>
+locc29=64
+
+#include "Pedal - Violon 16ft.sfz"
