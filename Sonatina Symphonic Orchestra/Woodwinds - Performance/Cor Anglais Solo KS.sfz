@@ -1,189 +1,36 @@
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//          Cor Anglais
-// ------------------------------
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=e2
 sw_last=c2
 sw_label=Sustain (non-looped)
-ampeg_release=0.442
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-<region>
-sample=..\Samples\cor anglais\cor_anglais-f3.wav
-lokey=f3
-hikey=f#3
-pitch_keycenter=f3
+#include "Cor Anglais Solo.sfz"
 
-<region>
-sample=..\Samples\cor anglais\cor_anglais-g#3.wav
-lokey=g3
-hikey=a3
-pitch_keycenter=g#3
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-b3.wav
-lokey=a#3
-hikey=c4
-pitch_keycenter=b3
-tune=-6
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-d4.wav
-lokey=c#4
-hikey=d#4
-pitch_keycenter=d4
-tune=-9
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-f4.wav
-lokey=e4
-hikey=f#4
-pitch_keycenter=f4
-tune=-12
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-g#4.wav
-lokey=g4
-hikey=a4
-pitch_keycenter=g#4
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-b4.wav
-lokey=a#4
-hikey=c5
-pitch_keycenter=b4
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-d5.wav
-lokey=c#5
-hikey=d#5
-pitch_keycenter=d5
-
-<region>
-sample=..\Samples\cor anglais\cor_anglais-f5.wav
-lokey=e5
-hikey=f5
-pitch_keycenter=f5
-tune=-8
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//          Cor Anglais
-// ------------------------------
-
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=e2
 sw_last=c#2
 sw_label=Sustain (looped)
-loop_mode=loop_continuous
-ampeg_release=0.442
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-#include "includes/cor-anglais-solo-looped.sfz"
+#include "Cor Anglais Solo (looped).sfz"
 
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//          Cor Anglais
-// ------------------------------
-
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=e2
 sw_last=d2
 sw_label=Sustain (looped, decay)
-loop_mode=loop_continuous
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.442
-amp_veltrack=0
-volume=-30
-gain_cc1=30
 
-#include "includes/cor-anglais-solo-looped.sfz"
+#include "Cor Anglais Solo (looped, decay).sfz"
 
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//       Cor Anglais Legato
-// ------------------------------
-
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=e2
 sw_last=e2
 sw_label=Legato
-loop_mode=loop_continuous
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.442
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
 
-#include "includes/cor-anglais-solo-looped.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=e2
-sw_last=e2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_hold=3.1416
-ampeg_decay=32.3607
-ampeg_sustain=16.18
-amplfo_delay=1.618
-amplfo_fade=0.618
-amplfo_freq=0.3142
-amplfo_depth=1.5708
-ampeg_release=0.442
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/cor-anglais-solo-looped.sfz"
-
+#include "Cor Anglais Solo Legato.sfz"
 

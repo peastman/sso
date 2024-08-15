@@ -93,6 +93,17 @@ soloCelloArticulations = (
 )
 
 soloFluteArticulations = (
+    ("Sustain (non-looped)", " Sustain", 0),
+    ("Sustain (looped)", " Sustain (looped)", 1),
+    ("Sustain (looped, decay)", " Sustain (looped, decay)", 2),
+    ("Legato", " Legato", 3),
+    ("Marcato (non-looped)", " Marcato", 4),
+    ("Marcato (looped)", " Marcato (looped)", 5),
+    ("Marcato (looped, decay)", " Marcato (looped, decay)", 6),
+    ("Staccato", " Staccato", 7)
+)
+
+soloFlute2Articulations = (
     ("Sustain", " Sustain", 0),
     ("Sustain Non-Vibrato", " Sustain Non-Vibrato", 1),
     ("Legato", " Legato", 2),
@@ -110,17 +121,16 @@ def noteName(id):
 def createFile(directory, instrument, articulations, base):
     with open(f'{directory}/{instrument} KS.sfz', 'w') as output:
         for name, fileSuffix, key in articulations:
-            content = open(f'{directory}/{instrument}{fileSuffix}.sfz').read()
-            commands = """
-sw_default=%s
-sw_lokey=%s
-sw_hikey=%s
-sw_last=%s
-sw_label=%s""" % (noteName(base), noteName(base), noteName(base+max(a[2] for a in articulations)),
-                    noteName(base+key), name)
-            content = content.replace('<group>', '<group>'+commands)
-            output.write(content)
-            output.write('\n\n')
+            output.write(f"""<global>
+sw_default={noteName(base)}
+sw_lokey={noteName(base)}
+sw_hikey={noteName(base+max(a[2] for a in articulations))}
+sw_last={noteName(base+key)}
+sw_label={name}
+
+#include "{instrument}{fileSuffix}.sfz"
+
+""")
 
 for directory in ['Brass - Notation', 'Brass - Performance']:
     createFile(directory, "Horns", hornArticulations, 72)
@@ -139,10 +149,10 @@ for directory in ['Woodwinds - Notation', 'Woodwinds - Performance']:
     createFile(directory, "Clarinets", sustainArticulations, 24)
     createFile(directory, "Bassoons", sustainArticulations, 72)
 
-    createFile(directory, "Piccolo Solo", soloArticulations, 24)
-    createFile(directory, "Flute Solo 1", soloArticulations, 24)
-    createFile(directory, "Flute Solo 2", soloFluteArticulations, 24)
-    createFile(directory, "Alto Flute Solo", soloArticulations, 24)
+    createFile(directory, "Piccolo Solo", soloFluteArticulations, 24)
+    createFile(directory, "Flute Solo 1", soloFluteArticulations, 24)
+    createFile(directory, "Flute Solo 2", soloFlute2Articulations, 24)
+    createFile(directory, "Alto Flute Solo", soloFluteArticulations, 24)
     createFile(directory, "Oboe Solo", soloArticulations, 24)
     createFile(directory, "Cor Anglais Solo", soloArticulations, 24)
     createFile(directory, "Clarinet Solo", soloArticulations, 24)

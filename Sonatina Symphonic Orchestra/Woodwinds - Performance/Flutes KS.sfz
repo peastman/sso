@@ -1,487 +1,54 @@
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Sustain
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=c2
 sw_label=Sustain (looped)
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
 
-#include "includes/flutes-sustain-looped.sfz"
+#include "Flutes Sustain (looped).sfz"
 
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=c2
-sw_label=Sustain (looped)
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-
-#include "includes/flutes-sustain-looped.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Sustain
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=c#2
 sw_label=Sustain (non-looped)
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
 
-#include "includes/flutes-sustain.sfz"
+#include "Flutes Sustain.sfz"
 
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=c#2
-sw_label=Sustain (non-looped)
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-
-#include "includes/flutes-sustain.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Marcato
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-// -------
-// Sustain
-// -------
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=d2
 sw_label=Marcato (looped)
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
 
-#include "includes/flutes-sustain-looped.sfz"
+#include "Flutes Marcato (looped).sfz"
 
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d2
-sw_label=Marcato (looped)
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-
-#include "includes/flutes-sustain-looped.sfz"
-
-
-// --------
-// Staccato
-// --------
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d2
-sw_label=Marcato (looped)
-loop_mode=one_shot
-seq_position=1
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
-group_volume=-20
-gain_cc1=20
-
-#include "includes/flutes-staccato-rr1.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d2
-sw_label=Marcato (looped)
-loop_mode=one_shot
-transpose=-1
-seq_position=2
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
-group_volume=-20
-gain_cc1=20
-
-#include "includes/flutes-staccato-rr2.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Marcato
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-// -------
-// Sustain
-// -------
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=d#2
 sw_label=Marcato (non-looped)
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
 
-#include "includes/flutes-sustain.sfz"
+#include "Flutes Marcato.sfz"
 
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d#2
-sw_label=Marcato (non-looped)
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-
-#include "includes/flutes-sustain.sfz"
-
-
-
-// --------
-// Staccato
-// --------
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d#2
-sw_label=Marcato (non-looped)
-loop_mode=one_shot
-seq_position=1
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
-group_volume=-20
-gain_cc1=20
-
-#include "includes/flutes-staccato-rr1.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=d#2
-sw_label=Marcato (non-looped)
-loop_mode=one_shot
-transpose=-1
-seq_position=2
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
-group_volume=-20
-gain_cc1=20
-
-#include "includes/flutes-staccato-rr2.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Staccato
-// ------------------------------
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=e2
 sw_label=Staccato
-loop_mode=one_shot
-seq_position=1
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
 
-#include "includes/flutes-staccato-rr1.sfz"
+#include "Flutes Staccato.sfz"
 
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=e2
-sw_label=Staccato
-loop_mode=one_shot
-transpose=-1
-seq_position=2
-seq_length=2
-ampeg_sustain=0
-ampeg_decay=1
-ampeg_vel2decay=10
-
-#include "includes/flutes-staccato-rr2.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Flutes Legato
-// ------------------------------
-
-
-<control>
-octave_offset=1
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=f2
 sw_last=f2
 sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
 
-#include "includes/flutes-sustain-looped.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=f2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.640
-ampeg_attackcc1=-0.640
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
-
-#include "includes/flutes-sustain-looped.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=f2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfout_locc1=0
-xfout_hicc1=127
-xf_cccurve=gain
-fil_keytrack=80
-fil_keycenter=c3
-fil_type=lpf_2p
-cutoff=500
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/flutes-sustain-looped.sfz"
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=f2
-sw_last=f2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_release=0.910
-ampeg_hold=1.0
-ampeg_decay=25
-ampeg_sustain=35
-amp_veltrack=0
-volume=-30
-gain_cc1=30
-xfin_locc1=0
-xfin_hicc1=127
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/flutes-sustain-looped.sfz"
+#include "Flutes Legato.sfz"
 

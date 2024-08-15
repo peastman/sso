@@ -1,177 +1,27 @@
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Oboes Sustain
-// ------------------------------
-
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=d2
 sw_last=c2
 sw_label=Sustain (looped)
-loop_mode=loop_continuous
-ampeg_release=0.700
-ampeg_hold=1.025
-ampeg_decay=26
-ampeg_sustain=35
-fil_veltrack=7000
-fil_keytrack=80
-fil_keycenter=a#3
-fil_type=lpf_2p
-cutoff=200
 
-#include "includes/oboes-sustain-looped.sfz"
+#include "Oboes Sustain (looped).sfz"
 
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Oboes Sustain
-// ------------------------------
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=d2
 sw_last=c#2
 sw_label=Sustain (non-looped)
-ampeg_release=0.700
-ampeg_hold=1.025
-ampeg_decay=26
-ampeg_sustain=35
-fil_veltrack=7000
-fil_keytrack=80
-fil_keycenter=a#3
-fil_type=lpf_2p
-cutoff=200
 
-<region>
-sample=..\Samples\Oboes\oboes-sus-a#3.wav
-lokey=a#3
-hikey=b3
-pitch_keycenter=a#3
+#include "Oboes Sustain.sfz"
 
-<region>
-sample=..\Samples\Oboes\oboes-sus-c#4.wav
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-e4.wav
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-g4.wav
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-volume=-2
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-a#4.wav
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-volume=1
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-c#5.wav
-lokey=c5
-hikey=d5
-pitch_keycenter=c#5
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-e5.wav
-lokey=d#5
-hikey=f5
-pitch_keycenter=e5
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-g5.wav
-lokey=f#5
-hikey=g#5
-pitch_keycenter=g5
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-a#5.wav
-lokey=a5
-hikey=b5
-pitch_keycenter=a#5
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-c#6.flac
-lokey=c6
-hikey=d6
-pitch_keycenter=c#6
-
-<region>
-sample=..\Samples\Oboes\oboes-sus-e6.flac
-lokey=d#6
-hikey=f6
-pitch_keycenter=e6
-volume=-3
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//         Oboes Legato
-// ------------------------------
-
-
-<group>
+<global>
 sw_default=c2
 sw_lokey=c2
 sw_hikey=d2
 sw_last=d2
 sw_label=Legato
-loop_mode=loop_continuous
-ampeg_release=0.700
-ampeg_hold=1.025
-ampeg_decay=26
-ampeg_sustain=35
-fil_veltrack=7000
-fil_keytrack=80
-fil_keycenter=a#3
-fil_type=lpf_2p
-cutoff=200
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
 
-#include "includes/oboes-sustain-looped.sfz"
-
-<group>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=d2
-sw_last=d2
-sw_label=Legato
-loop_mode=loop_continuous
-ampeg_attack=0.2
-ampeg_release=0.700
-ampeg_hold=1.025
-ampeg_decay=26
-ampeg_sustain=35
-fil_veltrack=7000
-fil_keytrack=80
-fil_keycenter=a#3
-fil_type=lpf_2p
-cutoff=200
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/oboes-sustain-looped.sfz"
-
+#include "Oboes Legato.sfz"
 

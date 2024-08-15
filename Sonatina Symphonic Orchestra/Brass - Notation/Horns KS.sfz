@@ -1,274 +1,36 @@
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//         Horns Sustain
-// ------------------------------
-
-<group>
+<global>
 sw_default=c6
 sw_lokey=c6
 sw_hikey=f6
 sw_last=c6
 sw_label=Sustain
-ampeg_attack=0.000000
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfout_lovel=60
-xfout_hivel=100
-xf_cccurve=gain
 
-#include "includes/horns-sustain-mp.sfz"
+#include "Horns Sustain.sfz"
 
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=c6
-sw_label=Sustain
-ampeg_attack=0.000000
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfin_lovel=60
-xfin_hivel=100
-xf_cccurve=gain
-
-#include "includes/horns-sustain-ff.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//         Horns Marcato
-// ------------------------------
-
-
-// -------
-// Sustain
-// -------
-
-<group>
+<global>
 sw_default=c6
 sw_lokey=c6
 sw_hikey=f6
 sw_last=d6
 sw_label=Marcato
-ampeg_attack=0.000000
-ampeg_attackcc1=0.2
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfout_lovel=60
-xfout_hivel=100
-xf_cccurve=gain
 
-#include "includes/horns-sustain-mp.sfz"
+#include "Horns Marcato.sfz"
 
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=d6
-sw_label=Marcato
-ampeg_attack=0.000000
-ampeg_attackcc1=0.2
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfin_lovel=60
-xfin_hivel=100
-xf_cccurve=gain
-
-#include "includes/horns-sustain-ff.sfz"
-
-
-// --------
-// Staccato
-// --------
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=d6
-sw_label=Marcato
-loop_mode=one_shot
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
-gain_cc1=-20
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=d6
-sw_label=Marcato
-loop_mode=one_shot
-seq_length=2
-seq_position=1
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
-gain_cc1=-20
-
-#include "includes/horns-staccato-rr1.sfz"
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=d6
-sw_label=Marcato
-loop_mode=one_shot
-seq_length=2
-seq_position=2
-transpose=-1
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
-gain_cc1=-20
-
-#include "includes/horns-staccato-rr2.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//        Horns Staccato
-// ------------------------------
-
-<group>
+<global>
 sw_default=c6
 sw_lokey=c6
 sw_hikey=f6
 sw_last=e6
 sw_label=Staccato
-loop_mode=one_shot
-seq_length=2
-seq_position=1
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
 
-#include "includes/horns-staccato-rr1.sfz"
+#include "Horns Staccato.sfz"
 
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=e6
-sw_label=Staccato
-loop_mode=one_shot
-seq_length=2
-seq_position=2
-transpose=-1
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
-
-#include "includes/horns-staccato-rr2.sfz"
-
-
-// ------------------------------
-//  Sonatina Symphonic Orchestra
-// ------------------------------
-//         Horns Legato
-// ------------------------------
-
-<group>
+<global>
 sw_default=c6
 sw_lokey=c6
 sw_hikey=f6
 sw_last=f6
 sw_label=Legato
-ampeg_attack=0.000000
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfout_lovel=60
-xfout_hivel=100
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
 
-#include "includes/horns-sustain-mp.sfz"
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=f6
-sw_label=Legato
-ampeg_attack=0.000000
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfin_lovel=60
-xfin_hivel=100
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=first
-
-#include "includes/horns-sustain-ff.sfz"
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=f6
-sw_label=Legato
-ampeg_attack=0.2
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfout_lovel=60
-xfout_hivel=100
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/horns-sustain-mp.sfz"
-
-<group>
-sw_default=c6
-sw_lokey=c6
-sw_hikey=f6
-sw_last=f6
-sw_label=Legato
-ampeg_attack=0.2
-ampeg_release=0.865000
-ampeg_hold=3
-ampeg_decay=28
-ampeg_sustain=35
-xfin_lovel=60
-xfin_hivel=100
-xf_cccurve=gain
-group=1
-off_by=1
-off_mode=time
-off_time=0.5
-trigger=legato
-offset=10000
-
-#include "includes/horns-sustain-ff.sfz"
-
+#include "Horns Legato.sfz"
 
