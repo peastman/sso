@@ -6,21 +6,21 @@ loop_end=127824
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
-volume=-33
+volume=-3
 
 <region>
 sample=../Samples/Celli/celli-sus-d#2.wav
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
-volume=-29
+volume=1
 
 <region>
 sample=../Samples/Celli/celli-sus-f#2.wav
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
-volume=-29
+volume=1
 
 <region>
 sample=../Samples/Celli/celli-sus-a2.wav
@@ -51,13 +51,13 @@ sample=../Samples/Celli/celli-sus-a3.wav
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Celli/celli-sus-c4.wav
 lokey=b3
 hikey=c#4
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Celli/celli-sus-d#4.wav
@@ -76,11 +76,11 @@ sample=../Samples/Celli/celli-sus-a4.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Celli/celli-sus-c5.wav
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
-volume=-32
+volume=-2
