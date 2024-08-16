@@ -13,8 +13,8 @@
 ampeg_attack=0.300
 ampeg_vel2attack=-0.300
 ampeg_release=1.5
-fil_type=hpf_1p
-cutoff=12
+fil2_type=hpf_1p
+cutoff2=12
 amp_veltrack=0
 group_volume=-29
 gain_cc1=29

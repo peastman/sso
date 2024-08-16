@@ -1,6 +1,11 @@
 
 <group>
 ampeg_release=0.500
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=..\Samples\1st Violins\1st-violins-trm-g3.wav

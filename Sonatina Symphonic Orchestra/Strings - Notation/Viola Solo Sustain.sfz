@@ -9,5 +9,10 @@ loop_mode=loop_continuous
 ampeg_attack=0.2
 ampeg_vel2attack=-0.15
 ampeg_release=0.5
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 #include "includes/viola-solo-sustain.sfz"

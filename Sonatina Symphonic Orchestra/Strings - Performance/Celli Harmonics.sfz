@@ -8,11 +8,16 @@
 ampeg_attack=0.500
 ampeg_vel2attack=-0.300
 ampeg_release=1.5
-fil_type=hpf_1p
-cutoff=12
+fil2_type=hpf_1p
+cutoff2=12
 amp_veltrack=0
-volume=-30
-gain_cc1=30
+group_volume=-29
+gain_cc1=29
+fil_type=lpf_1p
+cutoff=1500
+cutoff_cc1=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=../Samples/Celli/celli-hrm-c2.flac
@@ -22,7 +27,7 @@ loop_end=154811
 lokey=c2
 hikey=c#2
 pitch_keycenter=c2
-volume=-33
+volume=-3
 
 <region>
 sample=../Samples/Celli/celli-hrm-d#2.flac
@@ -32,7 +37,7 @@ loop_end=135195
 lokey=d2
 hikey=e2
 pitch_keycenter=d#2
-volume=-29
+volume=1
 
 <region>
 sample=../Samples/Celli/celli-hrm-f#2.flac
@@ -42,7 +47,7 @@ loop_end=137835
 lokey=f2
 hikey=g2
 pitch_keycenter=f#2
-volume=-29
+volume=1
 
 <region>
 sample=../Samples/Celli/celli-hrm-a2.flac
@@ -79,7 +84,7 @@ loop_end=120826
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
-volume=-27
+volume=3
 
 <region>
 sample=../Samples/Celli/celli-hrm-a3.flac
@@ -89,7 +94,7 @@ loop_end=157121
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Celli/celli-hrm-c4.flac
@@ -98,7 +103,7 @@ loop_start=81546
 loop_end=160928
 lokey=b3
 hikey=c#4
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Celli/celli-hrm-d#4.flac
@@ -108,7 +113,7 @@ loop_end=144950
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
-volume=-28
+volume=2
 
 <region>
 sample=../Samples/Celli/celli-hrm-f#4.flac
@@ -118,7 +123,7 @@ loop_end=161068
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
-volume=-29
+volume=1
 
 <region>
 sample=../Samples/Celli/celli-hrm-a4.flac
@@ -128,7 +133,7 @@ loop_end=159361
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
-volume=-31
+volume=-1
 
 <region>
 sample=../Samples/Celli/celli-hrm-c5.flac
@@ -138,4 +143,4 @@ loop_end=138955
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
-volume=-32
+volume=-2
