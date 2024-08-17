@@ -8,8 +8,13 @@
 ampeg_attack=0.180
 ampeg_release=1.15
 amp_veltrack=0
-volume=-30
-gain_cc1=30
+group_volume=-29
+gain_cc1=29
+fil_type=lpf_1p
+cutoff=1100
+cutoff_cc1=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=../Samples/Violas/violas-hrm-c3.flac
@@ -28,7 +33,7 @@ loop_end=208693
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
-volume=-31
+volume=-1
 
 <region>
 sample=../Samples/Violas/violas-hrm-f#3.flac
@@ -38,7 +43,7 @@ loop_end=201911
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
-volume=-28
+volume=2
 
 <region>
 sample=../Samples/Violas/violas-hrm-a3.flac
@@ -101,7 +106,7 @@ loop_end=178595
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
-volume=-27
+volume=3
 
 <region>
 sample=../Samples/Violas/violas-hrm-f#5.flac

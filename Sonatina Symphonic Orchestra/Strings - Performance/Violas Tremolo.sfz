@@ -8,8 +8,13 @@
 loop_mode=loop_continuous
 ampeg_release=1.15
 amp_veltrack=0
-volume=-30
-gain_cc1=30
+volume=-29
+gain_cc1=29
+fil_type=lpf_1p
+cutoff=1100
+cutoff_cc1=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=../Samples/Violas/violas-trm-c3.flac
@@ -57,7 +62,7 @@ loop_end=243837
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
-volume=-26
+volume=4
 
 <region>
 sample=../Samples/Violas/violas-trm-f#4.flac
@@ -66,7 +71,7 @@ loop_end=245906
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
-volume=-28
+volume=2
 
 <region>
 sample=../Samples/Violas/violas-trm-a4.flac
@@ -75,7 +80,7 @@ loop_end=244883
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
-volume=-31
+volume=-1
 
 <region>
 sample=../Samples/Violas/violas-trm-c5.flac
@@ -84,7 +89,7 @@ loop_end=246287
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
-volume=-28
+volume=2
 
 <region>
 sample=../Samples/Violas/violas-trm-d#5.flac
@@ -109,7 +114,7 @@ loop_end=242665
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
-volume=-32
+volume=-2
 
 <region>
 sample=../Samples/Violas/violas-trm-c6.flac

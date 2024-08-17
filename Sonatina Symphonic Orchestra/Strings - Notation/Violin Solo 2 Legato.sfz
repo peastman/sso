@@ -6,6 +6,11 @@
 
 <group>
 ampeg_release=0.45
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 group=1
 off_by=1
 off_mode=time
@@ -17,6 +22,11 @@ trigger=first
 <group>
 ampeg_attack=0.2
 ampeg_release=0.45
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 group=1
 off_by=1
 off_mode=time

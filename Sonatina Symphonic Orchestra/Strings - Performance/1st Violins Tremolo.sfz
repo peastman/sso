@@ -2,8 +2,13 @@
 <group>
 ampeg_release=0.500
 amp_veltrack=0
-volume=-30
-gain_cc1=30
+volume=-29
+gain_cc1=29
+fil_type=lpf_1p
+cutoff=1100
+cutoff_cc1=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=..\Samples\1st Violins\1st-violins-trm-g3.wav

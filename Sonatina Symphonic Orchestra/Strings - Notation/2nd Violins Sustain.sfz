@@ -8,5 +8,10 @@
 ampeg_attack=0.175
 ampeg_vel2attack=-0.175
 ampeg_release=1
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 #include "includes/2nd-violins-sustain.sfz"

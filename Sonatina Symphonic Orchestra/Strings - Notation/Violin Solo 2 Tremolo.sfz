@@ -6,6 +6,11 @@
 
 <group>
 ampeg_release=0.45
+fil_type=lpf_1p
+cutoff=1100
+fil_veltrack=4800
+fil_keycenter=a3
+fil_keytrack=100
 
 <region>
 sample=..\Samples/Violin 2/violin_tremolo_G2.wav
