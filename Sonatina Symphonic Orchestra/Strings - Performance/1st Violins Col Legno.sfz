@@ -14,7 +14,7 @@ sample=../Samples/1st Violins/1st-violins-col-g3-p.flac
 lokey=g3
 hikey=a#3
 pitch_keycenter=g3
-pan=3
+pan=8
 tune=-5
 
 <region>
@@ -22,7 +22,7 @@ sample=../Samples/1st Violins/1st-violins-col-g3-pp.flac
 lokey=g3
 hikey=b3
 pitch_keycenter=g3
-pan=10
+pan=25
 tune=-13
 
 <region>
@@ -30,7 +30,7 @@ sample=../Samples/1st Violins/1st-violins-col-a#3-p.flac
 lokey=g3
 hikey=c#4
 pitch_keycenter=a#3
-pan=3
+pan=8
 tune=3
 
 <region>
@@ -38,7 +38,7 @@ sample=../Samples/1st Violins/1st-violins-col-c#4-p.flac
 lokey=g3
 hikey=d#4
 pitch_keycenter=c#4
-pan=-10
+pan=-25
 tune=23
 
 <region>
@@ -46,7 +46,7 @@ sample=../Samples/1st Violins/1st-violins-col-c#4-pp.flac
 lokey=b3
 hikey=d#4
 pitch_keycenter=c#4
-pan=-3
+pan=-8
 tune=9
 
 <region>
@@ -54,7 +54,7 @@ sample=../Samples/1st Violins/1st-violins-col-d4-pp.flac
 lokey=c4
 hikey=d#4
 pitch_keycenter=d4
-pan=10
+pan=25
 tune=0
 
 <region>
@@ -62,7 +62,7 @@ sample=../Samples/1st Violins/1st-violins-col-e4-p.flac
 lokey=d4
 hikey=f4
 pitch_keycenter=e4
-pan=-10
+pan=-25
 tune=-7
 
 <region>
@@ -70,7 +70,7 @@ sample=../Samples/1st Violins/1st-violins-col-e4-pp.flac
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
-pan=-3
+pan=-8
 tune=0
 
 <region>
@@ -78,7 +78,7 @@ sample=../Samples/1st Violins/1st-violins-col-f4-p.flac
 lokey=e4
 hikey=f#4
 pitch_keycenter=f4
-pan=3
+pan=8
 tune=-14
 
 <region>
@@ -86,7 +86,7 @@ sample=../Samples/1st Violins/1st-violins-col-f4-pp.flac
 lokey=e4
 hikey=f#4
 pitch_keycenter=f4
-pan=10
+pan=25
 tune=0
 
 <region>
@@ -94,7 +94,7 @@ sample=../Samples/1st Violins/1st-violins-col-f#4-p.flac
 lokey=f#4
 hikey=g4
 pitch_keycenter=f#4
-pan=-10
+pan=-25
 tune=-2
 
 <region>
@@ -102,7 +102,7 @@ sample=../Samples/1st Violins/1st-violins-col-f#4-pp.flac
 lokey=f#4
 hikey=g4
 pitch_keycenter=f#4
-pan=-3
+pan=-8
 tune=-17
 
 <region>
@@ -110,7 +110,7 @@ sample=../Samples/1st Violins/1st-violins-col-g4-p.flac
 lokey=g4
 hikey=g#4
 pitch_keycenter=g4
-pan=3
+pan=8
 tune=-2
 
 <region>
@@ -118,7 +118,7 @@ sample=../Samples/1st Violins/1st-violins-col-g4-pp.flac
 lokey=g4
 hikey=g#4
 pitch_keycenter=g4
-pan=10
+pan=25
 tune=-3
 
 <region>
@@ -126,7 +126,7 @@ sample=../Samples/1st Violins/1st-violins-col-a#4-p.flac
 lokey=g#4
 hikey=b4
 pitch_keycenter=a#4
-pan=-10
+pan=-25
 tune=-26
 
 <region>
@@ -134,7 +134,7 @@ sample=../Samples/1st Violins/1st-violins-col-a#4-p2.flac
 lokey=g#4
 hikey=b4
 pitch_keycenter=a#4
-pan=-3
+pan=-8
 tune=-8
 
 <region>
@@ -142,7 +142,7 @@ sample=../Samples/1st Violins/1st-violins-col-b4-p.flac
 lokey=a4
 hikey=c5
 pitch_keycenter=b4
-pan=3
+pan=8
 tune=6
 
 <region>
@@ -150,7 +150,7 @@ sample=../Samples/1st Violins/1st-violins-col-b4-pp.flac
 lokey=a4
 hikey=c5
 pitch_keycenter=b4
-pan=10
+pan=25
 tune=-5
 
 <region>
@@ -158,7 +158,7 @@ sample=../Samples/1st Violins/1st-violins-col-c5-p.flac
 lokey=c5
 hikey=c#5
 pitch_keycenter=c5
-pan=-10
+pan=-25
 tune=9
 
 <region>
@@ -166,7 +166,7 @@ sample=../Samples/1st Violins/1st-violins-col-c5-pp.flac
 lokey=c5
 hikey=c#5
 pitch_keycenter=c5
-pan=-3
+pan=-8
 tune=53
 
 <region>
@@ -174,7 +174,7 @@ sample=../Samples/1st Violins/1st-violins-col-d#5-p.flac
 lokey=c#5
 hikey=e5
 pitch_keycenter=d#5
-pan=3
+pan=8
 tune=-21
 
 <region>
@@ -182,7 +182,7 @@ sample=../Samples/1st Violins/1st-violins-col-d#5-pp.flac
 lokey=c#5
 hikey=e5
 pitch_keycenter=d#5
-pan=10
+pan=25
 tune=4
 
 <region>
@@ -190,7 +190,7 @@ sample=../Samples/1st Violins/1st-violins-col-e5-p.flac
 lokey=d5
 hikey=f#5
 pitch_keycenter=e5
-pan=-10
+pan=-25
 tune=5
 
 <region>
@@ -198,7 +198,7 @@ sample=../Samples/1st Violins/1st-violins-col-e5-pp.flac
 lokey=d5
 hikey=f#5
 pitch_keycenter=e5
-pan=-3
+pan=-8
 tune=-10
 
 <region>
@@ -206,7 +206,7 @@ sample=../Samples/1st Violins/1st-violins-col-g#5-p.flac
 lokey=f5
 hikey=a5
 pitch_keycenter=g#5
-pan=3
+pan=8
 tune=-5
 
 <region>
@@ -214,7 +214,7 @@ sample=../Samples/1st Violins/1st-violins-col-g#5-pp.flac
 lokey=f5
 hikey=a5
 pitch_keycenter=g#5
-pan=10
+pan=25
 tune=-11
 
 <region>
@@ -222,7 +222,7 @@ sample=../Samples/1st Violins/1st-violins-col-a#5-p.flac
 lokey=g5
 hikey=b5
 pitch_keycenter=a#5
-pan=-10
+pan=-25
 tune=0
 
 <region>
@@ -230,7 +230,7 @@ sample=../Samples/1st Violins/1st-violins-col-a#5-pp.flac
 lokey=g5
 hikey=b5
 pitch_keycenter=a#5
-pan=-3
+pan=-8
 tune=17
 
 <region>
@@ -238,7 +238,7 @@ sample=../Samples/1st Violins/1st-violins-col-b5-p.flac
 lokey=a#5
 hikey=d#6
 pitch_keycenter=b5
-pan=3
+pan=8
 tune=0
 
 <region>
@@ -246,7 +246,7 @@ sample=../Samples/1st Violins/1st-violins-col-b5-pp.flac
 lokey=a#5
 hikey=d#6
 pitch_keycenter=b5
-pan=10
+pan=25
 tune=0
 
 <region>
@@ -254,7 +254,7 @@ sample=../Samples/1st Violins/1st-violins-col-c#6-p.flac
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
-pan=-10
+pan=-25
 tune=9
 
 <region>
@@ -262,7 +262,7 @@ sample=../Samples/1st Violins/1st-violins-col-d6-pp.flac
 lokey=c6
 hikey=c7
 pitch_keycenter=d6
-pan=-3
+pan=-8
 tune=-25
 
 <region>
@@ -270,7 +270,7 @@ sample=../Samples/1st Violins/1st-violins-col-d#6-p.flac
 lokey=d#6
 hikey=c7
 pitch_keycenter=d#6
-pan=-10
+pan=-25
 tune=27
 
 <region>
@@ -278,7 +278,7 @@ sample=../Samples/1st Violins/1st-violins-col-g#6-p.flac
 lokey=e6
 hikey=c7
 pitch_keycenter=g#6
-pan=3
+pan=8
 tune=-36
 
 <region>
@@ -286,5 +286,5 @@ sample=../Samples/1st Violins/1st-violins-col-c#7-pp.flac
 lokey=e6
 hikey=c7
 pitch_keycenter=c#7
-pan=10
+pan=25
 tune=9

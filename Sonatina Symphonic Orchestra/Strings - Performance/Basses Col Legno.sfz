@@ -19,7 +19,7 @@ lokey=c1
 hikey=g1
 tune=-26
 volume=-2
-pan=-7
+pan=-20
 
 <region>
 sample=../Samples/Basses/basses-col-f1.flac
@@ -28,7 +28,7 @@ lokey=c1
 hikey=a1
 tune=-13
 volume=5
-pan=7
+pan=20
 
 <region>
 sample=../Samples/Basses/basses-col-a#1.flac
@@ -37,7 +37,7 @@ lokey=g#1
 hikey=d2
 tune=-8
 volume=1
-pan=-7
+pan=-20
 
 <region>
 sample=../Samples/Basses/basses-col-d2.flac
@@ -46,7 +46,7 @@ lokey=a#1
 hikey=e2
 tune=-48
 volume=0
-pan=7
+pan=20
 
 <region>
 sample=../Samples/Basses/basses-col-g2.flac
@@ -55,7 +55,7 @@ lokey=d#2
 hikey=g2
 tune=-42
 volume=0
-pan=-7
+pan=-20
 
 <region>
 sample=../Samples/Basses/basses-col-g2-2.flac
@@ -63,7 +63,7 @@ pitch_keycenter=g2
 lokey=f2
 hikey=g#2
 volume=0
-pan=7
+pan=20
 
 <region>
 sample=../Samples/Basses/basses-col-g#2.flac
@@ -72,7 +72,7 @@ lokey=g#2
 hikey=a#2
 tune=-23
 volume=0
-pan=-7
+pan=-20
 
 <region>
 sample=../Samples/Basses/basses-col-a2.flac
@@ -81,7 +81,7 @@ lokey=a2
 hikey=c#3
 tune=-25
 volume=-2
-pan=7
+pan=20
 
 <region>
 sample=../Samples/Basses/basses-col-c#3.flac
@@ -90,7 +90,7 @@ lokey=b2
 hikey=a3
 tune=-36
 volume=0
-pan=-7
+pan=-20
 
 <region>
 sample=../Samples/Basses/basses-col-f#3.flac
@@ -99,7 +99,7 @@ lokey=d3
 hikey=a3
 tune=-39
 volume=2
-pan=7
+pan=20
 
 
 // Borrowed cello samples
