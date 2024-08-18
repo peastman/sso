@@ -1,5 +1,6 @@
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.500
 amp_veltrack=0
 volume=-29
@@ -11,90 +12,118 @@ fil_keycenter=a3
 fil_keytrack=100
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-g3.wav
+sample=../Samples/1st Violins/1st-violins-trm-g3.wav
+loop_start=33330
+loop_end=242405
 lokey=g3
 hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-a#3.wav
+sample=../Samples/1st Violins/1st-violins-trm-a#3.wav
+loop_start=52641
+loop_end=227892
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-c#4.wav
+sample=../Samples/1st Violins/1st-violins-trm-c#4.wav
+loop_start=51008
+loop_end=227049
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-e4.wav
+sample=../Samples/1st Violins/1st-violins-trm-e4.wav
+loop_start=33915
+loop_end=240525
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-g4.wav
+sample=../Samples/1st Violins/1st-violins-trm-g4.wav
+loop_start=39753
+loop_end=209176
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-a#4.wav
+sample=../Samples/1st Violins/1st-violins-trm-a#4.wav
+loop_start=30736
+loop_end=189063
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 volume=-27
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-c#5.wav
+sample=../Samples/1st Violins/1st-violins-trm-c#5.wav
+loop_start=22063
+loop_end=182484
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-e5.wav
+sample=../Samples/1st Violins/1st-violins-trm-e5.wav
+loop_start=62434
+loop_end=213469
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
 volume=-32
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-g5.wav
+sample=../Samples/1st Violins/1st-violins-trm-g5.wav
+loop_start=35180
+loop_end=187101
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
 volume=-31
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-a#5.wav
+sample=../Samples/1st Violins/1st-violins-trm-a#5.wav
+loop_start=45865
+loop_end=237470
 lokey=a5
 hikey=b5
 pitch_keycenter=a#5
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-c#6.wav
+sample=../Samples/1st Violins/1st-violins-trm-c#6.wav
+loop_start=42451
+loop_end=199483
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-e6.wav
+sample=../Samples/1st Violins/1st-violins-trm-e6.wav
+loop_start=55595
+loop_end=204916
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
 volume=-35
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-g6.wav
+sample=../Samples/1st Violins/1st-violins-trm-g6.wav
+loop_start=29826
+loop_end=224670
 lokey=f#6
 hikey=g#6
 pitch_keycenter=g6
 volume=-36
 
 <region>
-sample=..\Samples\1st Violins\1st-violins-trm-a#6.wav
+sample=../Samples/1st Violins/1st-violins-trm-a#6.wav
+loop_start=37592
+loop_end=189596
 lokey=a6
 hikey=c7
 pitch_keycenter=a#6
