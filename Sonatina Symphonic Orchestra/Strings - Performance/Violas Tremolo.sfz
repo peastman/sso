@@ -8,7 +8,7 @@
 loop_mode=loop_continuous
 ampeg_release=1.15
 amp_veltrack=0
-volume=-29
+group_volume=-29
 gain_cc1=29
 fil_type=lpf_1p
 cutoff=1100

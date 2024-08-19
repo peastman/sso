@@ -1,5 +1,6 @@
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.500
 fil_type=lpf_1p
 cutoff=1100
@@ -8,89 +9,117 @@ fil_keycenter=a3
 fil_keytrack=100
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-g3.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-g3.wav
+loop_start=49868
+loop_end=158566
 lokey=g3
 hikey=g#3
 pitch_keycenter=g3
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-a#3.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-a#3.wav
+loop_start=36180
+loop_end=243857
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-c#4.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-c#4.wav
+loop_start=42104
+loop_end=205048
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-e4.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-e4.wav
+loop_start=37988
+loop_end=241726
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-g4.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-g4.wav
+loop_start=31006
+loop_end=210370
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-a#4.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-a#4.wav
+loop_start=49402
+loop_end=227101
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-c#5.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-c#5.wav
+loop_start=22017
+loop_end=194438
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-e5.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-e5.wav
+loop_start=93761
+loop_end=232910
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
 volume=-3
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-g5.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-g5.wav
+loop_start=92576
+loop_end=231036
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
 volume=-1
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-a#5.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-a#5.wav
+loop_start=57343
+loop_end=250145
 lokey=a5
 hikey=b5
 pitch_keycenter=a#5
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-c#6.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-c#6.wav
+loop_start=43409
+loop_end=216422
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-e6.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-e6.wav
+loop_start=40205
+loop_end=200542
 lokey=d#6
 hikey=f6
 pitch_keycenter=e6
 volume=-4
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-g6.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-g6.wav
+loop_start=64060
+loop_end=247095
 lokey=f#6
 hikey=g#6
 pitch_keycenter=g6
 volume=-5
 
 <region>
-sample=..\Samples\2nd Violins\2nd-violins-trm-a#6.wav
+sample=../Samples/2nd Violins/2nd-violins-trm-a#6.wav
+loop_start=65241
+loop_end=240781
 lokey=a6
 hikey=c7
 pitch_keycenter=a#6
