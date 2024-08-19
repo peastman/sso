@@ -22,7 +22,8 @@ hornArticulations = (
 sustainArticulations = (
     ("Sustain (looped)", " Sustain (looped)", 0),
     ("Sustain (non-looped)", " Sustain", 1),
-    ("Legato", " Legato", 2)
+    ("Staccato", " Staccato", 2),
+    ("Legato", " Legato", 3)
 )
 
 stringArticulations = (

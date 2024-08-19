@@ -1,0 +1,36 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//      Clarinets Staccato
+// ------------------------------
+
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=2
+fil_veltrack=7000
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/clarinets-sustain.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+fil_veltrack=7000
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_2p
+cutoff=500
+
+#include "includes/clarinets-sustain.sfz"

@@ -1,7 +1,7 @@
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=d#6
 sw_last=c6
 sw_label=Sustain (looped)
 
@@ -10,7 +10,7 @@ sw_label=Sustain (looped)
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=d#6
 sw_last=c#6
 sw_label=Sustain (non-looped)
 
@@ -19,8 +19,17 @@ sw_label=Sustain (non-looped)
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=d6
+sw_hikey=d#6
 sw_last=d6
+sw_label=Staccato
+
+#include "Bassoons Staccato.sfz"
+
+<global>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=d#6
+sw_last=d#6
 sw_label=Legato
 
 #include "Bassoons Legato.sfz"
