@@ -112,8 +112,8 @@ pitch_keycenter=a#5
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-c#6.flac
 loop_mode=loop_continuous
-loop_start=109045
-loop_end=228195
+loop_start=35588
+loop_end=172603
 lokey=c6
 hikey=d6
 pitch_keycenter=c#6

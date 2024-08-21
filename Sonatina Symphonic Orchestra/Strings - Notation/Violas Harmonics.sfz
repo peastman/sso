@@ -16,8 +16,8 @@ fil_keytrack=100
 <region>
 sample=../Samples/Violas/violas-hrm-c3.flac
 loop_mode=loop_continuous
-loop_start=89874
-loop_end=226371
+loop_start=61929
+loop_end=198671
 lokey=c3
 hikey=c#3
 pitch_keycenter=c3
@@ -25,8 +25,8 @@ pitch_keycenter=c3
 <region>
 sample=../Samples/Violas/violas-hrm-d#3.flac
 loop_mode=loop_continuous
-loop_start=90570
-loop_end=208693
+loop_start=49830
+loop_end=146364
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
@@ -45,8 +45,8 @@ volume=2
 <region>
 sample=../Samples/Violas/violas-hrm-a3.flac
 loop_mode=loop_continuous
-loop_start=86632
-loop_end=203876
+loop_start=48477
+loop_end=164065
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
@@ -55,8 +55,8 @@ volume=1
 <region>
 sample=../Samples/Violas/violas-hrm-c4.flac
 loop_mode=loop_continuous
-loop_start=96905
-loop_end=197043
+loop_start=38349
+loop_end=147313
 lokey=b3
 hikey=c#4
 
