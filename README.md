@@ -54,9 +54,9 @@ SSO includes the following instruments and articulations:
 |Instrument        |Articulations                                                                                   |
 |------------------|------------------------------------------------------------------------------------------------|
 |Flutes            |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato                    |
-|Oboes             |Sustain (looped, non-looped), Legato                                                            |
-|Clarinets         |Sustain (looped, non-looped), Legato                                                            |
-|Bassoons          |Sustain (looped, non-looped), Legato                                                            |
+|Oboes             |Sustain (looped, non-looped), Staccato, Legato                                                  |
+|Clarinets         |Sustain (looped, non-looped), Staccato, Legato                                                  |
+|Bassoons          |Sustain (looped, non-looped), Staccato, Legato                                                  |
 |Solo Piccolo      |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato      |
 |Solo Flute 1      |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato      |
 |Solo Flute 2      |Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Staccato, Legato, Legato non-vibrato|
