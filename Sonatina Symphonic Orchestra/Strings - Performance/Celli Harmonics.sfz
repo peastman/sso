@@ -89,8 +89,8 @@ volume=3
 <region>
 sample=../Samples/Celli/celli-hrm-a3.flac
 loop_mode=loop_continuous
-loop_start=103134
-loop_end=157121
+loop_start=22883
+loop_end=127541
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3

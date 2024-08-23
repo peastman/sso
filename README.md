@@ -23,31 +23,31 @@ SSO includes the following instruments and articulations:
 
 **Strings**
 
-|Instrument|Articulations|
-|----------|-------------|
-|1st Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
-|2nd Violins|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
-|Violas|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
-|Cellos|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics|
-|Basses|Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo|
-|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato, Pizzicato|
+|Instrument   |Articulations                                                                                                       |
+|-------------|--------------------------------------------------------------------------------------------------------------------|
+|1st Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
+|2nd Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
+|Violas       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
+|Cellos       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
+|Basses       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo                                                   |
+|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato, Pizzicato                             |
 |Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
-|Solo Viola|Sustain, Marcato, Staccato, Legato, Pizzicato|
-|Solo Cello|Sustain, Marcato, Staccato, Legato, Pizzicato|
-|Solo Bass|Sustain, Marcato, Staccato, Legato, Pizzicato|
+|Solo Viola   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
+|Solo Cello   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
+|Solo Bass    |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
 
 **Brass**
 
-|Instrument|Articulations|
-|----------|-------------|
-|Trumpets|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|French Horns|Sustain, Marcato, Staccato, Legato|
-|Trombones|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|Tuba|Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|Solo Trumpet|Sustain (non-looped, looped, decay), Legato|
-|Solo French Horn|Sustain (non-looped, looped, decay), Legato|
-|Solo Tenor Trombone|Sustain (non-looped, looped, decay), Legato|
-|Solo Bass Trombone|Sustain (non-looped, looped, decay), Legato|
+|Instrument         |Articulations                                                               |
+|-------------------|----------------------------------------------------------------------------|
+|Trumpets           |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|French Horns       |Sustain, Marcato, Staccato, Legato                                          |
+|Trombones          |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|Tuba               |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
+|Solo Trumpet       |Sustain (non-looped, looped, decay), Legato                                 |
+|Solo French Horn   |Sustain (non-looped, looped, decay), Legato                                 |
+|Solo Tenor Trombone|Sustain (non-looped, looped, decay), Legato                                 |
+|Solo Bass Trombone |Sustain (non-looped, looped, decay), Legato                                 |
 
 **Woodwinds**
 

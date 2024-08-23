@@ -189,7 +189,7 @@ sample=../Samples/Bass/bass-piz-rr2-a#2.flac
 lokey=g#2
 hikey=a#2
 pitch_keycenter=a#2
-tune=-19
+tune=0
 
 <region>
 sample=../Samples/Bass/bass-piz-rr2-c#3.flac
