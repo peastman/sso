@@ -1,9 +1,58 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//       Horn Solo Staccato
+// ------------------------------
+
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=2
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/horn-solo.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/horn-solo.sfz"
+
+<group>
+delay=0.04
+ampeg_attack=0.1
+ampeg_release=2
+loop_mode=one_shot
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
 <region>
 sample=../Samples/horn/horn-e2.wav
 lokey=e2
 hikey=f2
 pitch_keycenter=e2
 tune=30
+offset=119315
 
 <region>
 sample=../Samples/horn/horn-g2.wav
@@ -12,36 +61,42 @@ hikey=g#2
 pitch_keycenter=g2
 tune=-11
 volume=-1
+offset=126811
 
 <region>
 sample=../Samples/horn/horn-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+offset=120509
 
 <region>
 sample=../Samples/horn/horn-c#3.wav
 lokey=c3
 hikey=d3
 pitch_keycenter=c#3
+offset=115082
 
 <region>
 sample=../Samples/horn/horn-e3.wav
 lokey=d#3
 hikey=f3
 pitch_keycenter=e3
+offset=97407
 
 <region>
 sample=../Samples/horn/horn-g3.wav
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
+offset=146027
 
 <region>
 sample=../Samples/horn/horn-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+offset=122643
 
 <region>
 sample=../Samples/horn/horn-c#4.wav
@@ -49,12 +104,14 @@ lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 tune=-10
+offset=130085
 
 <region>
 sample=../Samples/horn/horn-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+offset=132865
 
 <region>
 sample=../Samples/horn/horn-g4.wav
@@ -62,6 +119,7 @@ lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
 tune=-8
+offset=108311
 
 <region>
 sample=../Samples/horn/horn-a#4.wav
@@ -69,6 +127,7 @@ lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 tune=-9
+offset=117363
 
 <region>
 sample=../Samples/horn/horn-c#5.wav
@@ -76,9 +135,11 @@ lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 tune=23
+offset=103318
 
 <region>
 sample=../Samples/horn/horn-e5.wav
 lokey=d#5
 hikey=e5
 pitch_keycenter=e5
+offset=111999

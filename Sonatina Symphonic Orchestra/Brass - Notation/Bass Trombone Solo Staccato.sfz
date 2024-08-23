@@ -1,8 +1,57 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//    Bass Trombone Staccato
+// ------------------------------
+
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=4
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/bass-trombone-solo.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/bass-trombone-solo.sfz"
+
+<group>
+delay=0.04
+ampeg_attack=0.1
+ampeg_release=2
+loop_mode=one_shot
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-e1.wav
 lokey=e1
 hikey=f1
 pitch_keycenter=e1
+offset=108057
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-g1.wav
@@ -10,6 +59,7 @@ lokey=f#1
 hikey=g#1
 pitch_keycenter=g1
 volume=-1
+offset=117139
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-a#1.wav
@@ -17,6 +67,7 @@ lokey=a1
 hikey=b1
 pitch_keycenter=a#1
 volume=2
+offset=115934
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-c#2.wav
@@ -24,12 +75,14 @@ lokey=c2
 hikey=d2
 pitch_keycenter=c#2
 volume=1
+offset=111365
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-e2.wav
 lokey=d#2
 hikey=f2
 pitch_keycenter=e2
+offset=113182
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-g2.wav
@@ -37,48 +90,56 @@ lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
 volume=2
+offset=107268
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-a#2.wav
 lokey=a2
 hikey=b2
 pitch_keycenter=a#2
+offset=104141
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-c#3.wav
 lokey=c3
 hikey=d3
 pitch_keycenter=c#3
+offset=108541
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-e3.wav
 lokey=d#3
 hikey=f3
 pitch_keycenter=e3
+offset=111097
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-g3.wav
 lokey=f#3
 hikey=g#3
 pitch_keycenter=g3
+offset=105243
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-a#3.wav
 lokey=a3
 hikey=b3
 pitch_keycenter=a#3
+offset=96125
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
+offset=96081
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+offset=111999
 
 <region>
 sample=../Samples/Bass Trombone/bass_trombone-g4.wav
@@ -86,3 +147,4 @@ lokey=f#4
 hikey=g4
 pitch_keycenter=g4
 volume=-3
+offset=104432

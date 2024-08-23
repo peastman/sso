@@ -103,6 +103,7 @@ lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 tune=23
+offset=1183
 
 <region>
 sample=../Samples-looped/Horn/horn-e5.wav

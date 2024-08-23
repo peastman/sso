@@ -7,7 +7,7 @@
 <group>
 ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfout_locc1=0
 xfout_hicc1=60
@@ -20,7 +20,7 @@ cutoff=1000
 <group>
 ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=0
 xfin_hicc1=60
@@ -35,7 +35,7 @@ cutoff=2000
 <group>
 ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=90
 xfin_hicc1=120
