@@ -10,4 +10,4 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/trumpet-solo-offset-attacks.sfz"

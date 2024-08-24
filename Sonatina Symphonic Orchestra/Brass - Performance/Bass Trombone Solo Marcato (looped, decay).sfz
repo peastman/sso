@@ -1,9 +1,13 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
-//         Bass Trombone
+//     Bass Trombone Marcato
 // ------------------------------
 
+
+// -------
+// Sustain
+// -------
 
 <group>
 loop_mode=loop_continuous
@@ -67,3 +71,41 @@ xfin_hicc1=120
 xf_cccurve=gain
 
 #include "includes/bass-trombone-solo-looped.sfz"
+
+
+// --------
+// Staccato
+// --------
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=-20
+gain_cc1=25
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/bass-trombone-solo.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+group_volume=-20
+gain_cc1=25
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/bass-trombone-solo.sfz"

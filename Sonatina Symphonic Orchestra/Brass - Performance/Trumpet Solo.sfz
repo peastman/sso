@@ -15,7 +15,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=1000
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/trumpet-solo-offset-attacks.sfz"
 
 <group>
 ampeg_release=0.500
@@ -30,7 +30,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=2000
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/trumpet-solo-offset-attacks.sfz"
 
 <group>
 ampeg_release=0.500
@@ -41,4 +41,4 @@ xfin_locc1=90
 xfin_hicc1=120
 xf_cccurve=gain
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/trumpet-solo-offset-attacks.sfz"

@@ -12,13 +12,13 @@ tune=30
 
 <region>
 sample=../Samples-looped/Horn/horn-g2.wav
-loop_start=21491
-loop_end=49930
+loop_start=15718
+loop_end=44157
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
 tune=-11
-volume=-21
+volume=-1
 
 <region>
 sample=../Samples-looped/Horn/horn-a#2.wav
