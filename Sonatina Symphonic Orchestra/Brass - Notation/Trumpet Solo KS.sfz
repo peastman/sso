@@ -1,36 +1,72 @@
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=c2
 sw_label=Sustain (non-looped)
 
-#include "Trumpet Solo.sfz"
+#include "Trumpet Solo Sustain.sfz"
 
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=c#2
 sw_label=Sustain (looped)
 
-#include "Trumpet Solo (looped).sfz"
+#include "Trumpet Solo Sustain (looped).sfz"
 
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
+sw_hikey=g2
 sw_last=d2
 sw_label=Sustain (looped, decay)
 
-#include "Trumpet Solo (looped, decay).sfz"
+#include "Trumpet Solo Sustain (looped, decay).sfz"
 
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=e2
-sw_last=e2
+sw_hikey=g2
+sw_last=d#2
 sw_label=Legato
 
 #include "Trumpet Solo Legato.sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=e2
+sw_label=Marcato (non-looped)
+
+#include "Trumpet Solo Marcato.sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=f2
+sw_label=Marcato (looped)
+
+#include "Trumpet Solo Marcato (looped).sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=f#2
+sw_label=Marcato (looped, decay)
+
+#include "Trumpet Solo Marcato (looped, decay).sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=g2
+sw_label=Staccato
+
+#include "Trumpet Solo Staccato.sfz"
 

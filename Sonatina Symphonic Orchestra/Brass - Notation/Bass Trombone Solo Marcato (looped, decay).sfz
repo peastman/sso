@@ -25,7 +25,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 
-#include "includes/horn-solo-looped.sfz"
+#include "includes/bass-trombone-solo-looped.sfz"
 
 
 // --------

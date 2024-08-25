@@ -7,6 +7,8 @@
 
 <group>
 ampeg_release=0.600
+ampeg_attack=0.400
+ampeg_vel2attack=-0.400
 amp_veltrack=0
 group_volume=-20
 gain_cc1=20
@@ -20,6 +22,8 @@ cutoff=1000
 
 <group>
 ampeg_release=0.600
+ampeg_attack=0.400
+ampeg_vel2attack=-0.400
 amp_veltrack=0
 group_volume=-20
 gain_cc1=20
@@ -35,6 +39,8 @@ cutoff=2000
 
 <group>
 ampeg_release=0.600
+ampeg_attack=0.400
+ampeg_vel2attack=-0.400
 amp_veltrack=0
 group_volume=-20
 gain_cc1=20
