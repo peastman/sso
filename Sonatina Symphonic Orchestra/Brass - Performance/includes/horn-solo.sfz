@@ -55,6 +55,7 @@ sample=../Samples/horn/horn-e4.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+volume=-2
 
 <region>
 sample=../Samples/horn/horn-g4.wav

@@ -11,6 +11,7 @@ sample=../Samples/tenor trombone/tenor_trombone-g2.wav
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
+volume=-2
 
 <region>
 sample=../Samples/tenor trombone/tenor_trombone-a#2.wav
@@ -31,6 +32,7 @@ hikey=f3
 pitch_keycenter=e3
 offset=15000
 ampeg_attack=0.4
+volume=-1
 
 <region>
 sample=../Samples/tenor trombone/tenor_trombone-g3.wav

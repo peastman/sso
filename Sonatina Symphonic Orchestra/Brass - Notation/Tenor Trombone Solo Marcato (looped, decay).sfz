@@ -53,6 +53,7 @@ ampeg_attack=0.07
 ampeg_hold=0.05
 ampeg_sustain=0
 ampeg_decay=0.5
+group_volume=2
 gain_cc1=-12
 fil_veltrack=4800
 fil_keytrack=50
