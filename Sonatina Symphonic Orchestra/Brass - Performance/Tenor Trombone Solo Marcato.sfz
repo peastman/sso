@@ -22,7 +22,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=1000
 
-#include "includes/tenor-trombone-solo.sfz"
+#include "includes/tenor-trombone-solo-offset-attacks.sfz"
 
 <group>
 ampeg_release=0.554
@@ -39,7 +39,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=2000
 
-#include "includes/tenor-trombone-solo.sfz"
+#include "includes/tenor-trombone-solo-offset-attacks.sfz"
 
 <group>
 ampeg_release=0.554
@@ -52,7 +52,7 @@ xfin_locc1=90
 xfin_hicc1=120
 xf_cccurve=gain
 
-#include "includes/tenor-trombone-solo.sfz"
+#include "includes/tenor-trombone-solo-offset-attacks.sfz"
 
 
 // --------

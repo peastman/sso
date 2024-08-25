@@ -40,6 +40,8 @@ loop_end=63181
 lokey=d#3
 hikey=f3
 pitch_keycenter=e3
+offset=15000
+ampeg_attack=0.4
 
 <region>
 sample=../Samples-looped/Tenor Trombone/tenor_trombone-g3.wav

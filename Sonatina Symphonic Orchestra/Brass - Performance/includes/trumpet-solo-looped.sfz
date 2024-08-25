@@ -10,7 +10,7 @@ hikey=f3
 pitch_keycenter=e3
 tune=-6
 offset=9000
-ampeg_attack=0.03
+ampeg_attack=0.04
 
 <region>
 sample=../Samples-looped/Trumpet/trumpet-g3.wav
@@ -21,7 +21,7 @@ hikey=g#3
 pitch_keycenter=g3
 tune=8
 offset=2000
-ampeg_attack=0.03
+ampeg_attack=0.04
 
 <region>
 sample=../Samples-looped/Trumpet/trumpet-a#3.wav
@@ -33,7 +33,7 @@ pitch_keycenter=a#3
 tune=12
 volume=-3
 offset=5000
-ampeg_attack=0.03
+ampeg_attack=0.04
 
 <region>
 sample=../Samples-looped/Trumpet/trumpet-c#4.wav
@@ -116,7 +116,7 @@ pitch_keycenter=c#6
 tune=5
 volume=2
 offset=3000
-ampeg_attack=0.03
+ampeg_attack=0.04
 
 <region>
 sample=../Samples-looped/Trumpet/trumpet-e6.wav
@@ -128,4 +128,4 @@ pitch_keycenter=e6
 tune=-9
 volume=1
 offset=10000
-ampeg_attack=0.03
+ampeg_attack=0.04

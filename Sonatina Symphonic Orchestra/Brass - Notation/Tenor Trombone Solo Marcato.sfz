@@ -15,7 +15,7 @@ fil_veltrack=11000
 fil_type=lpf_2p
 cutoff=120
 
-#include "includes/tenor-trombone-solo.sfz"
+#include "includes/tenor-trombone-solo-offset-attacks.sfz"
 
 
 // --------
