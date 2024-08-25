@@ -1,0 +1,13 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Bass Trombone
+// ------------------------------
+
+<group>
+ampeg_release=0.600
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+
+#include "includes/bass-trombone-solo.sfz"

@@ -1,0 +1,55 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Trumpet Marcato
+// ------------------------------
+
+
+// -------
+// Sustain
+// -------
+
+<group>
+ampeg_release=0.500
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+
+#include "includes/trumpet-solo-offset-attacks.sfz"
+
+
+// --------
+// Staccato
+// --------
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=2
+gain_cc1=-14
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=400
+
+#include "includes/trumpet-solo-offset-attacks.sfz"
+
+<group>
+loop_mode=one_shot
+offset=40000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+gain_cc1=-14
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=400
+
+#include "includes/trumpet-solo.sfz"

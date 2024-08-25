@@ -12,8 +12,8 @@ tune=30
 
 <region>
 sample=../Samples-looped/Horn/horn-g2.wav
-loop_start=21491
-loop_end=49930
+loop_start=15718
+loop_end=44157
 lokey=f#2
 hikey=g#2
 pitch_keycenter=g2
@@ -76,6 +76,7 @@ loop_end=130423
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
+volume=-2
 
 <region>
 sample=../Samples-looped/Horn/horn-g4.wav
@@ -103,6 +104,7 @@ lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 tune=23
+offset=1183
 
 <region>
 sample=../Samples-looped/Horn/horn-e5.wav

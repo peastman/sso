@@ -1,13 +1,16 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
-//          Trumpet
+//            Horn
 // ------------------------------
 
+
 <group>
-ampeg_release=0.500
+ampeg_release=0.650
+ampeg_attack=0.600
+ampeg_vel2attack=-0.600
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfout_locc1=0
 xfout_hicc1=60
@@ -15,12 +18,14 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=1000
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/horn-solo.sfz"
 
 <group>
-ampeg_release=0.500
+ampeg_release=0.650
+ampeg_attack=0.600
+ampeg_vel2attack=-0.600
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=0
 xfin_hicc1=60
@@ -30,15 +35,17 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=2000
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/horn-solo.sfz"
 
 <group>
-ampeg_release=0.500
+ampeg_release=0.650
+ampeg_attack=0.600
+ampeg_vel2attack=-0.600
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=90
 xfin_hicc1=120
 xf_cccurve=gain
 
-#include "includes/trumpet-solo.sfz"
+#include "includes/horn-solo.sfz"

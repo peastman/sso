@@ -1,0 +1,125 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//    Tenor Trombone Staccato
+// ------------------------------
+
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+group_volume=4
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/tenor-trombone-solo.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+#include "includes/tenor-trombone-solo.sfz"
+
+<group>
+delay=0.04
+ampeg_attack=0.1
+ampeg_release=2
+loop_mode=one_shot
+fil_veltrack=4800
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-e2.wav
+lokey=e2
+hikey=f2
+pitch_keycenter=e2
+offset=79963
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-g2.wav
+lokey=f#2
+hikey=g#2
+pitch_keycenter=g2
+offset=91608
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-a#2.wav
+lokey=a2
+hikey=b2
+pitch_keycenter=a#2
+offset=88643
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-c#3.wav
+lokey=c3
+hikey=d3
+pitch_keycenter=c#3
+offset=88794
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-e3.wav
+lokey=d#3
+hikey=f3
+pitch_keycenter=e3
+offset=91634
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-g3.wav
+lokey=f#3
+hikey=g#3
+pitch_keycenter=g3
+offset=86105
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-a#3.wav
+lokey=a3
+hikey=b3
+pitch_keycenter=a#3
+offset=89346
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-c#4.wav
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
+offset=84819
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-e4.wav
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
+offset=93261
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-g4.wav
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
+offset=92369
+
+<region>
+sample=../Samples/tenor trombone/tenor_trombone-a#4.wav
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
+tune=7
+offset=95035

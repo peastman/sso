@@ -139,10 +139,10 @@ for directory in ['Brass - Notation', 'Brass - Performance']:
     createFile(directory, "Trombones", windArticulations, 72)
     createFile(directory, "Tuba", windArticulations, 72)
 
-    createFile(directory, "Horn Solo", soloArticulations, 72)
-    createFile(directory, "Trumpet Solo", soloArticulations, 24)
-    createFile(directory, "Tenor Trombone Solo", soloArticulations, 72)
-    createFile(directory, "Bass Trombone Solo", soloArticulations, 72)
+    createFile(directory, "Horn Solo", soloFluteArticulations, 72)
+    createFile(directory, "Trumpet Solo", soloFluteArticulations, 24)
+    createFile(directory, "Tenor Trombone Solo", soloFluteArticulations, 72)
+    createFile(directory, "Bass Trombone Solo", soloFluteArticulations, 72)
 
 for directory in ['Woodwinds - Notation', 'Woodwinds - Performance']:
     createFile(directory, "Flutes", windArticulations, 24)

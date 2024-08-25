@@ -1,7 +1,7 @@
 // ------------------------------
 //  Sonatina Symphonic Orchestra
 // ------------------------------
-//         Bass Trombone
+//          Trumpet
 // ------------------------------
 
 
@@ -14,9 +14,9 @@ amplfo_delay=1.618
 amplfo_fade=0.618
 amplfo_freq=0.3142
 amplfo_depth=1.5708
-ampeg_release=0.600
+ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfout_locc1=0
 xfout_hicc1=60
@@ -24,7 +24,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=1000
 
-#include "includes/bass-trombone-solo-looped.sfz"
+#include "includes/trumpet-solo-looped.sfz"
 
 <group>
 loop_mode=loop_continuous
@@ -35,9 +35,9 @@ amplfo_delay=1.618
 amplfo_fade=0.618
 amplfo_freq=0.3142
 amplfo_depth=1.5708
-ampeg_release=0.600
+ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=0
 xfin_hicc1=60
@@ -47,7 +47,7 @@ xf_cccurve=gain
 fil_type=lpf_2p
 cutoff=2000
 
-#include "includes/bass-trombone-solo-looped.sfz"
+#include "includes/trumpet-solo-looped.sfz"
 
 <group>
 loop_mode=loop_continuous
@@ -58,12 +58,12 @@ amplfo_delay=1.618
 amplfo_fade=0.618
 amplfo_freq=0.3142
 amplfo_depth=1.5708
-ampeg_release=0.600
+ampeg_release=0.500
 amp_veltrack=0
-volume=-20
+group_volume=-20
 gain_cc1=20
 xfin_locc1=90
 xfin_hicc1=120
 xf_cccurve=gain
 
-#include "includes/bass-trombone-solo-looped.sfz"
+#include "includes/trumpet-solo-looped.sfz"

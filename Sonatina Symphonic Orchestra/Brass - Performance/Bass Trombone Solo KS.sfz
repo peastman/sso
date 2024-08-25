@@ -1,36 +1,72 @@
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=e6
+sw_hikey=g6
 sw_last=c6
 sw_label=Sustain (non-looped)
 
-#include "Bass Trombone Solo.sfz"
+#include "Bass Trombone Solo Sustain.sfz"
 
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=e6
+sw_hikey=g6
 sw_last=c#6
 sw_label=Sustain (looped)
 
-#include "Bass Trombone Solo (looped).sfz"
+#include "Bass Trombone Solo Sustain (looped).sfz"
 
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=e6
+sw_hikey=g6
 sw_last=d6
 sw_label=Sustain (looped, decay)
 
-#include "Bass Trombone Solo (looped, decay).sfz"
+#include "Bass Trombone Solo Sustain (looped, decay).sfz"
 
 <global>
 sw_default=c6
 sw_lokey=c6
-sw_hikey=e6
-sw_last=e6
+sw_hikey=g6
+sw_last=d#6
 sw_label=Legato
 
 #include "Bass Trombone Solo Legato.sfz"
+
+<global>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=e6
+sw_label=Marcato (non-looped)
+
+#include "Bass Trombone Solo Marcato.sfz"
+
+<global>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=f6
+sw_label=Marcato (looped)
+
+#include "Bass Trombone Solo Marcato (looped).sfz"
+
+<global>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=f#6
+sw_label=Marcato (looped, decay)
+
+#include "Bass Trombone Solo Marcato (looped, decay).sfz"
+
+<global>
+sw_default=c6
+sw_lokey=c6
+sw_hikey=g6
+sw_last=g6
+sw_label=Staccato
+
+#include "Bass Trombone Solo Staccato.sfz"
 

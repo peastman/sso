@@ -38,16 +38,16 @@ SSO includes the following instruments and articulations:
 
 **Brass**
 
-|Instrument         |Articulations                                                               |
-|-------------------|----------------------------------------------------------------------------|
-|Trumpets           |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|French Horns       |Sustain, Marcato, Staccato, Legato                                          |
-|Trombones          |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|Tuba               |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato|
-|Solo Trumpet       |Sustain (non-looped, looped, decay), Legato                                 |
-|Solo French Horn   |Sustain (non-looped, looped, decay), Legato                                 |
-|Solo Tenor Trombone|Sustain (non-looped, looped, decay), Legato                                 |
-|Solo Bass Trombone |Sustain (non-looped, looped, decay), Legato                                 |
+|Instrument         |Articulations                                                                             |
+|-------------------|------------------------------------------------------------------------------------------|
+|Trumpets           |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato              |
+|French Horns       |Sustain, Marcato, Staccato, Legato                                                        |
+|Trombones          |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato              |
+|Tuba               |Sustain (looped, non-looped), Marcato (looped, non-looped), Staccato, Legato              |
+|Solo Trumpet       |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
+|Solo French Horn   |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
+|Solo Tenor Trombone|Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
+|Solo Bass Trombone |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
 
 **Woodwinds**
 

@@ -1,0 +1,16 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//            Horn
+// ------------------------------
+
+
+<group>
+ampeg_release=0.650
+ampeg_attack=0.600
+ampeg_vel2attack=-0.600
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+
+#include "includes/horn-solo.sfz"
