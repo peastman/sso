@@ -123,4 +123,5 @@ lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 tune=-10
-
+offset=10000
+ampeg_attack=0.04

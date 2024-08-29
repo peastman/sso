@@ -16,7 +16,7 @@ amplfo_freq=0.3142
 amplfo_depth=1.5708
 ampeg_release=0.460
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/bass-clarinet-solo-looped.sfz"
