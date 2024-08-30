@@ -100,6 +100,7 @@ loop_end=81660
 lokey=a#5
 hikey=c6
 pitch_keycenter=b5
+volume=1
 
 <region>
 sample=../Samples-looped/Clarinet/clarinet-d6.wav

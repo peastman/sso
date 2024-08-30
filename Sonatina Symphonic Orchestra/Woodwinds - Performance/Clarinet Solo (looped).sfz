@@ -9,7 +9,7 @@
 loop_mode=loop_continuous
 ampeg_release=0.540
 amp_veltrack=0
-volume=-30
+group_volume=-30
 gain_cc1=30
 
 #include "includes/clarinet-solo-looped.sfz"
