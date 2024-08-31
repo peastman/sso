@@ -1,0 +1,15 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Cor Anglais
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.442
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/cor-anglais-solo-looped.sfz"

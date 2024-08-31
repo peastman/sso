@@ -1,0 +1,10 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Contrabassoon
+// ------------------------------
+
+<group>
+ampeg_release=0.500
+
+#include "includes/contrabassoon-solo.sfz"

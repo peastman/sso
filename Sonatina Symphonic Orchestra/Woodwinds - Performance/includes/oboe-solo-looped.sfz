@@ -45,6 +45,7 @@ lokey=a4
 hikey=b4
 pitch_keycenter=a#4
 tune=-5
+volume=-2
 
 <region>
 sample=../Samples-looped/Oboe/oboe-c#5.wav
@@ -53,6 +54,7 @@ loop_end=52658
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
+volume=-2
 
 <region>
 sample=../Samples-looped/Oboe/oboe-e5.wav
@@ -62,7 +64,7 @@ lokey=d#5
 hikey=f5
 pitch_keycenter=e5
 tune=-15
-volume=-28
+volume=4
 
 <region>
 sample=../Samples-looped/Oboe/oboe-g5.wav

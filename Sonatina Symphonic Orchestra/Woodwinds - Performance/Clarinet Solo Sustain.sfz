@@ -1,0 +1,13 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//          Clarinet
+// ------------------------------
+
+<group>
+ampeg_release=0.540
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/clarinet-solo.sfz"

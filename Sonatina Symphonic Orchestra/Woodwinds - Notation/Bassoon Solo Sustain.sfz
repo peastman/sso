@@ -1,0 +1,13 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//           Bassoon
+// ------------------------------
+
+<group>
+ampeg_release=0.500
+fil_veltrack=11000
+fil_type=lpf_2p
+cutoff=120
+
+#include "includes/bassoon-solo-offset-attacks.sfz"

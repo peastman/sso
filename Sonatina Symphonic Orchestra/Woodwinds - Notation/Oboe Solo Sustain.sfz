@@ -1,0 +1,12 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//           Oboe
+// ------------------------------
+
+<group>
+ampeg_release=0.560
+fil_type=lpf_2p
+cutoff=5000
+
+#include "includes/oboe-solo.sfz"

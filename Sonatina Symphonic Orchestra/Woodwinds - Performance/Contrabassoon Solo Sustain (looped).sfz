@@ -1,0 +1,15 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//         Contrabassoon
+// ------------------------------
+
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.500
+amp_veltrack=0
+group_volume=-30
+gain_cc1=30
+
+#include "includes/contrabassoon-solo-looped.sfz"
