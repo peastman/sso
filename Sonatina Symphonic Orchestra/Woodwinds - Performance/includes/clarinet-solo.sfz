@@ -37,6 +37,7 @@ sample=../Samples/clarinet/clarinet-f4.wav
 lokey=e4
 hikey=f#4
 pitch_keycenter=f4
+volume=-1
 
 <region>
 sample=../Samples/clarinet/clarinet-g#4.wav

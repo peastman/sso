@@ -171,8 +171,8 @@ thin, ghostly sound.
 Technical Details
 -----------------
 
-All samples are stereo, 16 bit, 44 kHz.  Most instruments are sampled in minor 3rds.  Staccato and pizzicato
-articulations use 2x round robin.
+All samples are stereo, 16 bit, 44 kHz.  Most instruments are sampled in minor 3rds.  Most short articulations
+use at least 2x round robin.
 
 Most samples have only a small amount of reverb baked into them, so adding a realistic reverb is important for producing
 a good overall sound.  Given that the samples came from a variety of different sources, this is also important for

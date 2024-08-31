@@ -34,6 +34,7 @@ lokey=c#4
 hikey=d#4
 pitch_keycenter=d4
 tune=-9
+volume=2
 
 <region>
 sample=../Samples-looped/Cor Anglais/cor_anglais-f4.wav
@@ -43,6 +44,7 @@ lokey=e4
 hikey=f#4
 pitch_keycenter=f4
 tune=-12
+volume=2
 
 <region>
 sample=../Samples-looped/Cor Anglais/cor_anglais-g#4.wav
@@ -51,6 +53,7 @@ loop_end=237543
 lokey=g4
 hikey=a4
 pitch_keycenter=g#4
+volume=2
 
 <region>
 sample=../Samples-looped/Cor Anglais/cor_anglais-b4.wav
@@ -59,6 +62,7 @@ loop_end=135901
 lokey=a#4
 hikey=c5
 pitch_keycenter=b4
+volume=3
 
 <region>
 sample=../Samples-looped/Cor Anglais/cor_anglais-d5.wav
@@ -67,6 +71,7 @@ loop_end=164751
 lokey=c#5
 hikey=d#5
 pitch_keycenter=d5
+volume=3
 
 <region>
 sample=../Samples-looped/Cor Anglais/cor_anglais-f5.wav
@@ -76,3 +81,4 @@ lokey=e5
 hikey=f5
 pitch_keycenter=f5
 tune=-8
+volume=3
