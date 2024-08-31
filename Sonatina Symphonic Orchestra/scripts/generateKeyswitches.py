@@ -49,9 +49,10 @@ bassArticulations = (
 )
 
 soloArticulations = (
-    ("Sustain (non-looped)", "", 0),
-    ("Sustain (looped)", " (looped)", 1),
-    ("Sustain (looped, decay)", " (looped, decay)", 2),
+    ("Sustain (non-looped)", " Sustain", 0),
+    ("Sustain (looped)", " Sustain (looped)", 1),
+    ("Sustain (looped, decay)", " Sustain (looped, decay)", 2),
+    ("Staccato", " Staccato", 3),
     ("Legato", " Legato", 4),
 )
 

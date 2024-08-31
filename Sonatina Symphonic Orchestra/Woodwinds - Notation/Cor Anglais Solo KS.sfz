@@ -5,7 +5,7 @@ sw_hikey=e2
 sw_last=c2
 sw_label=Sustain (non-looped)
 
-#include "Cor Anglais Solo.sfz"
+#include "Cor Anglais Solo Sustain.sfz"
 
 <global>
 sw_default=c2
@@ -14,7 +14,7 @@ sw_hikey=e2
 sw_last=c#2
 sw_label=Sustain (looped)
 
-#include "Cor Anglais Solo (looped).sfz"
+#include "Cor Anglais Solo Sustain (looped).sfz"
 
 <global>
 sw_default=c2
@@ -23,7 +23,16 @@ sw_hikey=e2
 sw_last=d2
 sw_label=Sustain (looped, decay)
 
-#include "Cor Anglais Solo (looped, decay).sfz"
+#include "Cor Anglais Solo Sustain (looped, decay).sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=e2
+sw_last=d#2
+sw_label=Staccato
+
+#include "Cor Anglais Solo Staccato.sfz"
 
 <global>
 sw_default=c2

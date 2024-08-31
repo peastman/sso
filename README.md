@@ -61,12 +61,12 @@ SSO includes the following instruments and articulations:
 |Solo Flute 1      |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato      |
 |Solo Flute 2      |Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Staccato, Legato, Legato non-vibrato|
 |Solo Alto Flute   |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato      |
-|Solo Cor Anglais  |Sustain (non-looped, looped, decay), Legato                                                     |
-|Solo Oboe         |Sustain (non-looped, looped, decay), Legato                                                     |
-|Solo Clarinet     |Sustain (non-looped, looped, decay), Legato                                                     |
-|Solo Bass Clarinet|Sustain (non-looped, looped, decay), Legato                                                     |
-|Solo Bassoon      |Sustain (non-looped, looped, decay), Legato                                                     |
-|Solo Contrabassoon|Sustain (non-looped, looped, decay), Legato                                                     |
+|Solo Cor Anglais  |Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|Solo Oboe         |Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|Solo Clarinet     |Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|Solo Bass Clarinet|Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|Solo Bassoon      |Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|Solo Contrabassoon|Sustain (non-looped, looped, decay), Staccato, Legato                                           |
 
 **Pitched Percussion**
 
