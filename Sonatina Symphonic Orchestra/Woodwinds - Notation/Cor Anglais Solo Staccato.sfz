@@ -1,0 +1,98 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//      Cor Anglais Staccato
+// ------------------------------
+
+
+<group>
+loop_mode=one_shot
+ampeg_hold=0.07
+ampeg_sustain=0
+ampeg_decay=0.1
+
+#include "includes/cor-anglais-solo-looped.sfz"
+
+<group>
+loop_mode=one_shot
+offset=30000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.05
+ampeg_sustain=0
+ampeg_decay=0.5
+
+#include "includes/cor-anglais-solo-looped.sfz"
+
+<group>
+delay=0.04
+ampeg_attack=0.1
+ampeg_release=2
+loop_mode=one_shot
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-f3.wav
+lokey=f3
+hikey=f#3
+pitch_keycenter=f3
+offset=105000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-g#3.wav
+lokey=g3
+hikey=a3
+pitch_keycenter=g#3
+offset=141000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-b3.wav
+lokey=a#3
+hikey=c4
+pitch_keycenter=b3
+tune=-6
+offset=159000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-d4.wav
+lokey=c#4
+hikey=d#4
+pitch_keycenter=d4
+tune=-9
+offset=168000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-f4.wav
+lokey=e4
+hikey=f#4
+pitch_keycenter=f4
+tune=-12
+offset=141000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-g#4.wav
+lokey=g4
+hikey=a4
+pitch_keycenter=g#4
+offset=174000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-b4.wav
+lokey=a#4
+hikey=c5
+pitch_keycenter=b4
+offset=146000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-d5.wav
+lokey=c#5
+hikey=d#5
+pitch_keycenter=d5
+offset=135000
+
+<region>
+sample=..\Samples\cor anglais\cor_anglais-f5.wav
+lokey=e5
+hikey=f5
+pitch_keycenter=f5
+tune=-8
+offset=114000
