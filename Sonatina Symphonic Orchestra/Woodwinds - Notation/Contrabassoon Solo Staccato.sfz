@@ -10,6 +10,11 @@ loop_mode=one_shot
 ampeg_hold=0.07
 ampeg_sustain=0
 ampeg_decay=0.1
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=250
+fil_veltrack=6000
 
 #include "includes/contrabassoon-solo.sfz"
 
@@ -21,6 +26,11 @@ ampeg_attack=0.07
 ampeg_hold=0.05
 ampeg_sustain=0
 ampeg_decay=0.5
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=250
+fil_veltrack=6000
 
 #include "includes/contrabassoon-solo.sfz"
 

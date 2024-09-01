@@ -9,7 +9,12 @@
 loop_mode=loop_continuous
 ampeg_release=0.460
 amp_veltrack=0
-group_volume=-30
-gain_cc1=30
+group_volume=-25
+gain_cc1=25
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+cutoff_cc1=4800
 
 #include "includes/bass-clarinet-solo-looped.sfz"

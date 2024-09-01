@@ -6,5 +6,10 @@
 
 <group>
 ampeg_release=0.460
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+fil_veltrack=4800
 
 #include "includes/bass-clarinet-solo.sfz"

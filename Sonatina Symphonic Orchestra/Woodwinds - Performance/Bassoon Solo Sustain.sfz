@@ -12,5 +12,10 @@ cutoff=120
 amp_veltrack=0
 volume=-20
 gain_cc1=20
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=200
+cutoff_cc1=4800
 
 #include "includes/bassoon-solo-offset-attacks.sfz"

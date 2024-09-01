@@ -6,7 +6,10 @@
 
 <group>
 ampeg_release=0.560
-fil_type=lpf_2p
-cutoff=5000
+fil_keytrack=80
+fil_keycenter=a#3
+fil_type=lpf_1p
+cutoff=200
+fil_veltrack=4800
 
 #include "includes/oboe-solo.sfz"

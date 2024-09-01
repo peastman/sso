@@ -7,8 +7,13 @@
 <group>
 ampeg_release=0.442
 amp_veltrack=0
-group_volume=-30
-gain_cc1=30
+group_volume=-20
+gain_cc1=20
+fil_keytrack=80
+fil_keycenter=a#3
+fil_type=lpf_1p
+cutoff=200
+cutoff_cc1=4800
 
 <region>
 sample=..\Samples\cor anglais\cor_anglais-f3.wav

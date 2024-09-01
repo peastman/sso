@@ -8,5 +8,10 @@
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.500
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=200
+fil_veltrack=4800
 
 #include "includes/contrabassoon-solo-looped.sfz"
