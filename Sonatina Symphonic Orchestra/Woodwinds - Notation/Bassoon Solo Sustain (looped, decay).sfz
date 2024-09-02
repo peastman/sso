@@ -15,8 +15,10 @@ amplfo_fade=0.618
 amplfo_freq=0.3142
 amplfo_depth=1.5708
 ampeg_release=0.500
-fil_veltrack=11000
-fil_type=lpf_2p
-cutoff=120
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=200
+fil_veltrack=4800
 
 #include "includes/bassoon-solo-looped.sfz"

@@ -7,7 +7,12 @@
 <group>
 ampeg_release=0.540
 amp_veltrack=0
-group_volume=-30
-gain_cc1=30
+group_volume=-26
+gain_cc1=26
+fil_keytrack=50
+fil_keycenter=d#3
+fil_type=lpf_1p
+cutoff=500
+cutoff_cc1=4800
 
 #include "includes/clarinet-solo.sfz"

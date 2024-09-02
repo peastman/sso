@@ -45,7 +45,7 @@ sample=../Samples/piccolo/piccolo-a5.wav
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
-volume=-28
+volume=2
 
 <region>
 sample=../Samples/piccolo/piccolo-c6.wav

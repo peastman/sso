@@ -9,7 +9,12 @@
 loop_mode=loop_continuous
 ampeg_release=0.500
 amp_veltrack=0
-group_volume=-30
-gain_cc1=30
+group_volume=-25
+gain_cc1=25
+fil_keytrack=70
+fil_keycenter=a#1
+fil_type=lpf_1p
+cutoff=200
+cutoff_cc1=4800
 
 #include "includes/contrabassoon-solo-looped.sfz"
