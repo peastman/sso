@@ -18,5 +18,10 @@ amplfo_fade=0.618
 amplfo_freq=0.3142
 amplfo_depth=1.5708
 ampeg_release=0.425
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_1p
+cutoff=500
+fil_veltrack=4800
 
 #include "includes/flute-solo-1-looped.sfz"

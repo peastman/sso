@@ -11,8 +11,13 @@
 <group>
 ampeg_release=0.425
 amp_veltrack=0
-volume=-30
-gain_cc1=30
+group_volume=-28
+gain_cc1=28
+fil_keytrack=80
+fil_keycenter=c3
+fil_type=lpf_1p
+cutoff=500
+cutoff_cc1=4800
 
 #include "includes/alto-flute-solo-sustain.sfz"
 
