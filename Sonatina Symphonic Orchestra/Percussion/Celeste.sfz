@@ -27,7 +27,8 @@ v127=1
 <group>
 ampeg_attack=0.004
 ampeg_release=0.5
-lovel=64
+xfin_lovel=0
+xfin_hivel=127
 
 <region>
 sample=../Samples/Celeste/celeste-c4-hard.flac
@@ -117,7 +118,8 @@ volume=-5
 ampeg_attack=0.004
 ampeg_release=0.5
 group_volume=18
-hivel=63
+xfout_lovel=0
+xfout_hivel=127
 
 <region>
 sample=../Samples/Celeste/celeste-c4-soft.flac
