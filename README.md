@@ -74,6 +74,7 @@ SSO includes the following instruments and articulations:
 |------------|-----------------------|
 |Timpani     |Hits, Rolls, Crescendos|
 |Glockenspiel| -                     |
+|Celeste     | -                     |
 |Xylophone   | -                     |
 |Chimes      | -                     |
 
