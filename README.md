@@ -77,6 +77,7 @@ SSO includes the following instruments and articulations:
 |Celeste     | -                     |
 |Xylophone   | -                     |
 |Chimes      | -                     |
+|Crotales    | -                     |
 
 **Percussion**
 
