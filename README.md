@@ -76,6 +76,7 @@ SSO includes the following instruments and articulations:
 |Glockenspiel| -                     |
 |Celeste     | -                     |
 |Xylophone   | -                     |
+|Marimba     |Hits, Rolls            |
 |Chimes      | -                     |
 |Crotales    | -                     |
 
