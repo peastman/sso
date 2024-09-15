@@ -70,5 +70,5 @@ volume=-31
 <region>
 sample=../Samples/Flutes/flutes-sus-a5.wav
 lokey=g#5
-hikey=a5
+hikey=c6
 pitch_keycenter=a5

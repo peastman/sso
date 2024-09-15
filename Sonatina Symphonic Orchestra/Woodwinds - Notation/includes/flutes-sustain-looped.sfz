@@ -97,5 +97,5 @@ sample=../Samples-looped/Flutes/flutes-sus-a5.wav
 loop_start=87260
 loop_end=164059
 lokey=g#5
-hikey=a5
+hikey=c6
 pitch_keycenter=a5
