@@ -116,7 +116,7 @@ offset=180000
 <region>
 sample=../Samples/Oboes/oboes-sus-e6.flac
 lokey=d#6
-hikey=f6
+hikey=g6
 pitch_keycenter=e6
 volume=-3
 offset=183000

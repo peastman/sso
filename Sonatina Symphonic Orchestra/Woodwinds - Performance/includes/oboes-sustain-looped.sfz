@@ -88,6 +88,6 @@ sample=../Samples-looped/Oboes/oboes-sus-e6.flac
 loop_start=95647
 loop_end=179814
 lokey=d#6
-hikey=f6
+hikey=g6
 pitch_keycenter=e6
 volume=-33

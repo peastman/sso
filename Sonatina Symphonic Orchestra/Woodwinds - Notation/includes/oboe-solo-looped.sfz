@@ -89,6 +89,6 @@ sample=../Samples-looped/Oboe/oboe-c6.wav
 loop_start=34711
 loop_end=65240
 lokey=c6
-hikey=c6
+hikey=d#6
 pitch_keycenter=c6
 tune=-25
