@@ -3,6 +3,7 @@ sample=../Samples/flute/flute-c3.wav
 lokey=c3
 hikey=c#3
 pitch_keycenter=c3
+volume=-1
 
 <region>
 sample=../Samples/flute/flute-d#3.wav
@@ -62,6 +63,7 @@ sample=../Samples/flute/flute-d#5.wav
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=-2
 tune=-8
 
 <region>
@@ -69,6 +71,7 @@ sample=../Samples/flute/flute-f#5.wav
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-3
 tune=-16
 
 <region>

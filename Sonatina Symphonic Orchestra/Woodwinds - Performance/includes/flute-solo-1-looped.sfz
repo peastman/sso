@@ -8,6 +8,7 @@ loop_end=215075
 lokey=c3
 hikey=c#3
 pitch_keycenter=c3
+volume=-1
 
 <region>
 sample=../Samples-looped/Flute/flute-d#3.wav
@@ -85,6 +86,7 @@ loop_end=143531
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
+volume=-2
 tune=-8
 
 <region>
@@ -94,6 +96,7 @@ loop_end=240563
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
+volume=-3
 tune=-16
 
 <region>
