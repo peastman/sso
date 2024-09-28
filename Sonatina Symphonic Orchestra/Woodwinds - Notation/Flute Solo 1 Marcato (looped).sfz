@@ -27,7 +27,7 @@ fil_veltrack=4800
 // --------
 
 #define $RELEASE_AMPLITUDE 0
-#define $GROUP_VOLUME 0
+#define $GROUP_VOLUME 2
 #define $GAIN_CC1 -12
 
 #include "includes/flute-solo-1-staccato.sfz"

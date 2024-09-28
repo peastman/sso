@@ -30,7 +30,7 @@ cutoff_cc1=4800
 // --------
 
 #define $RELEASE_AMPLITUDE 0
-#define $GROUP_VOLUME -18
+#define $GROUP_VOLUME -16
 #define $GAIN_CC1 20
 
 #include "includes/flute-solo-1-staccato.sfz"
