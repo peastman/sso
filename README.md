@@ -13,7 +13,7 @@ The instruments are packaged in SFZ format.  They can be used with any compatibl
 [Sforzando](https://www.plogue.com/products/sforzando/) and [sfizz](https://sfz.tools/sfizz/).  Other players often
 have less complete support for the format, so some features may not work correctly on them.
 
-[Here is an example](https://on.soundcloud.com/JkDurSyxMf2xavhG7) created entirely with Sonatina Symphonic Orchestra,
+[Here are some examples](https://on.soundcloud.com/PgJ4A7YuQGq5kHkz6) created entirely with Sonatina Symphonic Orchestra,
 so you can hear what it sounds like.
 
 Instruments
