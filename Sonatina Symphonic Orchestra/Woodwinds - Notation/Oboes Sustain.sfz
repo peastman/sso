@@ -80,6 +80,6 @@ pitch_keycenter=c#6
 <region>
 sample=..\Samples\Oboes\oboes-sus-e6.flac
 lokey=d#6
-hikey=f6
+hikey=g6
 pitch_keycenter=e6
 volume=-3
