@@ -4,6 +4,10 @@
 //     1st Violins Harmonics
 // ------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_attack=0.375
 ampeg_vel2attack=-0.175
@@ -16,6 +20,10 @@ cutoff=1100
 cutoff_cc1=4800
 fil_keycenter=a3
 fil_keytrack=100
+
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 
 <region>
 sample=../Samples/1st Violins/1st-violins-hrm-g3.flac

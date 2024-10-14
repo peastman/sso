@@ -4,6 +4,10 @@
 //          Bass Sustain
 // ------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=64
+
 <group>
 loop_mode=loop_continuous
 ampeg_attack=0.8
@@ -15,4 +19,7 @@ fil_veltrack=4800
 fil_keycenter=a3
 fil_keytrack=100
 
+#define $VIB_PITCH 35
+#define $VIB_DELAY 0.5
+#include "includes/vibrato.sfz"
 #include "includes/bass-solo-sustain.sfz"

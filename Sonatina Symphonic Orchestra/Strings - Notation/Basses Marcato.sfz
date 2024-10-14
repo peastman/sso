@@ -5,6 +5,11 @@
 // ------------------------------
 
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
+
 // -------
 // Sustain
 // -------
@@ -19,6 +24,9 @@ fil_veltrack=4800
 fil_keycenter=a3
 fil_keytrack=100
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/basses-sustain.sfz"
 
 

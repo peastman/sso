@@ -4,6 +4,10 @@
 //        Violas Sustain
 // ------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_release=1.15
 fil_type=lpf_1p
@@ -12,4 +16,7 @@ fil_veltrack=4800
 fil_keycenter=a3
 fil_keytrack=100
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/violas-sustain.sfz"

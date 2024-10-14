@@ -5,6 +5,10 @@
 // ------------------------------
 
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_release=1.15
 amp_veltrack=0
@@ -21,6 +25,9 @@ off_mode=time
 off_time=1
 trigger=first
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/violas-sustain.sfz"
 
 <group>
@@ -41,4 +48,7 @@ off_time=1
 trigger=legato
 offset=20000
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/violas-sustain.sfz"
