@@ -134,16 +134,16 @@ Many instruments are provided in separate "notation" and "performance" versions.
 
 - Notation instruments use a control system convenient for use in notation programs.
   - All instruments use velocity to set the volume.
-  - Marcato articulations use the mod wheel (MIDI control channel 1) to adjust the strength of the initial attack.  This
+  - Marcato articulations use the mod wheel (MIDI CC 1) to adjust the strength of the initial attack.  This
     lets you smoothly blend between a gentle sustain and a strong marcato.
 - Performance instruments are better for use in live performance.
-  - Long articulations use the mod wheel (MIDI control channel 1) to set the volume.  This allows you to continuously
+  - Long articulations use the mod wheel (MIDI CC 1) to set the volume.  This allows you to continuously
     shape each note.  Many long articulations also use velocity to control the attack rate.
   - Marcato articulations use the mod wheel to set the overall volume and velocity to control the strength of the
     initial attack.
   - Short articulations use velocity to set the volume.
 
-In both control systems, MIDI control channel 21 controls the amount of vibrato in string instruments.
+In both control systems, MIDI CC 21 controls the amount of vibrato in string instruments.
 
 Here are definitions of the most common articulations.
 
