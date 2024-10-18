@@ -124,7 +124,8 @@ Most solo instruments have three versions:
   on how long any note can be held.
 - A looped version that can be held indefinitely, but sounds less natural than the non-looped version.
 - A looped version that adds a gradual decay and gentle modulation.  This tries to give a more natural sound than the
-  simple looped version, but still not place a strict limit on how long notes can be held.
+  simple looped version, but still not place a strict limit on how long notes can be held.  If you are in doubt about
+  which version to use, this is usually the best choice.
 
 There are two different solo violin instruments, and likewise two different solo flutes.  In each case, one of the two
 instruments has more articulations, but does not offer a looped version.
@@ -133,14 +134,16 @@ Many instruments are provided in separate "notation" and "performance" versions.
 
 - Notation instruments use a control system convenient for use in notation programs.
   - All instruments use velocity to set the volume.
-  - Marcato articulations use the mod wheel (MIDI control channel 1) to adjust the strength of the initial attack.  This
+  - Marcato articulations use the mod wheel (MIDI CC 1) to adjust the strength of the initial attack.  This
     lets you smoothly blend between a gentle sustain and a strong marcato.
 - Performance instruments are better for use in live performance.
-  - Long articulations use the mod wheel (MIDI control channel 1) to set the volume.  This allows you to continuously
+  - Long articulations use the mod wheel (MIDI CC 1) to set the volume.  This allows you to continuously
     shape each note.  Many long articulations also use velocity to control the attack rate.
   - Marcato articulations use the mod wheel to set the overall volume and velocity to control the strength of the
     initial attack.
   - Short articulations use velocity to set the volume.
+
+In both control systems, MIDI CC 21 controls the amount of vibrato in string instruments.
 
 Here are definitions of the most common articulations.
 

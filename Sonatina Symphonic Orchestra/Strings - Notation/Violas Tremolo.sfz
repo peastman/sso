@@ -15,47 +15,47 @@ fil_keytrack=100
 
 <region>
 sample=../Samples/Violas/violas-trm-c3.flac
-loop_start=65650
-loop_end=242126
+loop_start=66669
+loop_end=244408
 lokey=c3
 hikey=c#3
 pitch_keycenter=c3
 
 <region>
 sample=../Samples/Violas/violas-trm-d#3.flac
-loop_start=68013
-loop_end=246537
+loop_start=66034
+loop_end=242534
 lokey=d3
 hikey=e3
 pitch_keycenter=d#3
 
 <region>
 sample=../Samples/Violas/violas-trm-f#3.flac
-loop_start=65491
-loop_end=240105
+loop_start=66867
+loop_end=243276
 lokey=f3
 hikey=g3
 pitch_keycenter=f#3
 
 <region>
 sample=../Samples/Violas/violas-trm-a3.flac
-loop_start=65880
-loop_end=239727
+loop_start=66475
+loop_end=242722
 lokey=g#3
 hikey=a#3
 pitch_keycenter=a3
 
 <region>
 sample=../Samples/Violas/violas-trm-c4.flac
-loop_start=66467
-loop_end=242598
+loop_start=66708
+loop_end=242614
 lokey=b3
 hikey=c#4
 
 <region>
 sample=../Samples/Violas/violas-trm-d#4.flac
-loop_start=67162
-loop_end=245193
+loop_start=66723
+loop_end=243837
 lokey=d4
 hikey=e4
 pitch_keycenter=d#4
@@ -63,8 +63,8 @@ volume=4
 
 <region>
 sample=../Samples/Violas/violas-trm-f#4.flac
-loop_start=66148
-loop_end=243699
+loop_start=67277
+loop_end=245906
 lokey=f4
 hikey=g4
 pitch_keycenter=f#4
@@ -72,8 +72,8 @@ volume=2
 
 <region>
 sample=../Samples/Violas/violas-trm-a4.flac
-loop_start=65593
-loop_end=242506
+loop_start=66499
+loop_end=244883
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
@@ -81,8 +81,8 @@ volume=-1
 
 <region>
 sample=../Samples/Violas/violas-trm-c5.flac
-loop_start=66339
-loop_end=243879
+loop_start=67284
+loop_end=246287
 lokey=b4
 hikey=c#5
 pitch_keycenter=c5
@@ -90,24 +90,24 @@ volume=2
 
 <region>
 sample=../Samples/Violas/violas-trm-d#5.flac
-loop_start=65521
-loop_end=239643
+loop_start=66357
+loop_end=241746
 lokey=d5
 hikey=e5
 pitch_keycenter=d#5
 
 <region>
 sample=../Samples/Violas/violas-trm-f#5.flac
-loop_start=66549
-loop_end=243732
+loop_start=66219
+loop_end=242733
 lokey=f5
 hikey=g5
 pitch_keycenter=f#5
 
 <region>
 sample=../Samples/Violas/violas-trm-a5.flac
-loop_start=66523
-loop_end=242876
+loop_start=66736
+loop_end=242665
 lokey=g#5
 hikey=a#5
 pitch_keycenter=a5
@@ -115,8 +115,8 @@ volume=-2
 
 <region>
 sample=../Samples/Violas/violas-trm-c6.flac
-loop_start=67948
-loop_end=247645
+loop_start=66383
+loop_end=243330
 lokey=b5
 hikey=c6
 pitch_keycenter=c6

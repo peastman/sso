@@ -4,6 +4,10 @@
 //        Celli Harmonics
 // ------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_attack=0.500
 ampeg_vel2attack=-0.300
@@ -18,6 +22,10 @@ cutoff=1500
 cutoff_cc1=4800
 fil_keycenter=a3
 fil_keytrack=100
+
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 
 <region>
 sample=../Samples/Celli/celli-hrm-c2.flac

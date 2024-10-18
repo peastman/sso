@@ -4,8 +4,11 @@
 //     2nd Violins Harmonics
 // ------------------------------
 
-<group>
+<control>
+label_cc21=Vibrato
+set_cc21=0
 
+<group>
 ampeg_attack=0.375
 ampeg_vel2attack=-0.175
 ampeg_release=1
@@ -14,6 +17,10 @@ cutoff=1100
 fil_veltrack=4800
 fil_keycenter=a3
 fil_keytrack=100
+
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 
 <region>
 sample=../Samples/2nd Violins/2nd-violins-hrm-g3.flac

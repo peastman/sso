@@ -5,6 +5,10 @@
 // ------------------------------
 
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_attack=0.30
 ampeg_vel2attack=-0.175
@@ -24,6 +28,9 @@ off_time=1
 trigger=first
 offset=20000
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/2nd-violins-sustain.sfz"
 
 <group>
@@ -45,4 +52,7 @@ off_time=1
 trigger=legato
 offset=20000
 
+#define $VIB_PITCH 20
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 #include "includes/2nd-violins-sustain.sfz"

@@ -1,0 +1,23 @@
+// Use a LFO to modulate the pitch and volume based on CC 21.
+
+lfo01_pitch_oncc21=$VIB_PITCH
+lfo01_volume_oncc21=1
+lfo01_freq=5
+lfo01_freq_oncc21=2
+lfo01_delay=$VIB_DELAY
+lfo01_fade=0.5
+
+// Also vary the amount of high frequency harmonics.
+
+eq1_freq=2000
+eq1_bw=2
+lfo01_eq1gain_oncc21=3
+lfo01_eq1freq_oncc21=500
+
+// Using a complex waveform with multiple components gives a more natural sound.
+
+lfo01_wave=0
+lfo01_wave2=1
+lfo01_ratio2=0.48
+lfo01_offset2=0
+lfo01_scale2=0.2
