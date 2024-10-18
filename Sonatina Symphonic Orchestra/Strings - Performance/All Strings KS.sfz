@@ -1,0 +1,63 @@
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=c0
+sw_label=Sustain
+
+#include "All Strings Sustain.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=d0
+sw_label=Marcato
+
+#include "All Strings Marcato.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=e0
+sw_label=Staccato
+
+#include "All Strings Staccato.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=f0
+sw_label=Pizzicato
+
+#include "All Strings Pizzicato.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=f#0
+sw_label=Col Legno
+
+#include "All Strings Col Legno.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=g0
+sw_label=Tremolo
+
+#include "All Strings Tremolo.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=a0
+sw_last=a0
+sw_label=Harmonics
+
+#include "All Strings Harmonics.sfz"
+
