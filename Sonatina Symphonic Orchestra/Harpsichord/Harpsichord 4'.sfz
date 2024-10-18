@@ -1,3 +1,7 @@
+<control>
+label_cc12=Release Volume
+set_cc12=127
+
 <group>
 trigger=attack
 ampeg_attack=0.004000
@@ -183,15 +187,14 @@ volume=1
 sample=../Samples/Harpsichord/Sustains/High/HarpsiRH_High_Far_C6_rr1.flac
 pitch_keycenter=84
 lokey=84
-hikey=84
+hikey=89
 volume=5
 
 <group>
 trigger=release
-//ampeg_attack=0.050000
 ampeg_release=0.300000
-//rt_decay=5
 amp_veltrack=0
+amplitude_oncc12=100
 
 <region>
 sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_F#1_rr1.flac
@@ -219,23 +222,23 @@ volume=2.412872
 sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_C#2_rr1.flac
 pitch_keycenter=37
 lokey=36
-hikey=38
-volume=1.006407
+hikey=39
+volume=0
 
-<region>
-sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_E2_rr1.flac
-pitch_keycenter=40
-lokey=39
-hikey=41
-offset=57
-volume=-17.270185
+//<region>
+//sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_E2_rr1.flac
+//pitch_keycenter=40
+//lokey=39
+//hikey=41
+//offset=57
+//volume=-17.270185
 
 <region>
 sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_F#2_rr1.flac
 pitch_keycenter=42
-lokey=42
+lokey=40
 hikey=43
-volume=-0.378688
+volume=-4
 
 <region>
 sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_G#2_rr1.flac
@@ -374,7 +377,5 @@ volume=-10.739275
 sample=../Samples/Harpsichord/Releases/High/HarpsiRH_HighRel_Far_C6_rr1.flac
 pitch_keycenter=84
 lokey=84
-hikey=84
+hikey=89
 volume=-5.844790
-
-
