@@ -1,0 +1,26 @@
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=e0
+sw_last=c0
+sw_label=Sustain
+
+#include "All Brass Sustain.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=e0
+sw_last=d0
+sw_label=Marcato
+
+#include "All Brass Marcato.sfz"
+
+<global>
+sw_default=c0
+sw_lokey=c0
+sw_hikey=e0
+sw_last=e0
+sw_label=Staccato
+
+#include "All Brass Staccato.sfz"
