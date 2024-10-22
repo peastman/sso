@@ -51,7 +51,10 @@ hikey=a#2
 pitch_keycenter=a2
 
 <region>
-sample=../Samples/Basses/basses-sus-c3.wav
+sample=../Samples/Basses/basses-sus-c3.flac
+loop_mode=loop_continuous
+loop_start=29917
+loop_end=194362
 lokey=b2
 hikey=c#3
 pitch_keycenter=c3
@@ -79,6 +82,9 @@ volume=-3
 
 <region>
 sample=../Samples/Basses/basses-sus-c4.wav
+loop_mode=loop_continuous
+loop_start=118989
+loop_end=200732
 lokey=b3
 hikey=c4
 pitch_keycenter=c4
