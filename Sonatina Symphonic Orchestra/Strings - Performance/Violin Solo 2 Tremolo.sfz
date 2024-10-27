@@ -5,6 +5,7 @@
 // ------------------------------
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.45
 amp_veltrack=0
 volume=-29
@@ -16,7 +17,9 @@ fil_keycenter=a3
 fil_keytrack=100
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G2.wav
+sample=../Samples/Violin 2/violin_tremolo_G2.wav
+loop_start=25780
+loop_end=224593
 lokey=g3
 hikey=g3
 pitch_keycenter=g3
@@ -24,7 +27,9 @@ offset=4369
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G#2.wav
+sample=../Samples/Violin 2/violin_tremolo_G#2.wav
+loop_start=18738
+loop_end=247213
 lokey=g#3
 hikey=g#3
 pitch_keycenter=g#3
@@ -32,7 +37,9 @@ offset=6787
 tune=8
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A2.wav
+sample=../Samples/Violin 2/violin_tremolo_A2.wav
+loop_start=31999
+loop_end=241401
 lokey=a3
 hikey=a3
 pitch_keycenter=a3
@@ -40,7 +47,9 @@ offset=5278
 tune=5
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A#2.wav
+sample=../Samples/Violin 2/violin_tremolo_A#2.wav
+loop_start=15192
+loop_end=242284
 lokey=a#3
 hikey=a#3
 pitch_keycenter=a#3
@@ -48,7 +57,9 @@ offset=6026
 tune=3
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_B2.wav
+sample=../Samples/Violin 2/violin_tremolo_B2.wav
+loop_start=30509
+loop_end=235139
 lokey=b3
 hikey=b3
 pitch_keycenter=b3
@@ -56,7 +67,9 @@ offset=3631
 tune=3
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C3.wav
+sample=../Samples/Violin 2/violin_tremolo_C3.wav
+loop_start=26719
+loop_end=212230
 lokey=c4
 hikey=c4
 pitch_keycenter=c4
@@ -65,7 +78,9 @@ tune=-7
 volume=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C#3.wav
+sample=../Samples/Violin 2/violin_tremolo_C#3.wav
+loop_start=10219
+loop_end=214141
 lokey=c#4
 hikey=c#4
 pitch_keycenter=c#4
@@ -74,7 +89,9 @@ tune=-3
 volume=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D3.wav
+sample=../Samples/Violin 2/violin_tremolo_D3.wav
+loop_start=23528
+loop_end=240326
 lokey=d4
 hikey=d4
 pitch_keycenter=d4
@@ -83,7 +100,9 @@ tune=14
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D#3.wav
+sample=../Samples/Violin 2/violin_tremolo_D#3.wav
+loop_start=21430
+loop_end=194445
 lokey=d#4
 hikey=d#4
 pitch_keycenter=d#4
@@ -91,7 +110,9 @@ offset=2941
 tune=8
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_E3.wav
+sample=../Samples/Violin 2/violin_tremolo_E3.wav
+loop_start=19505
+loop_end=282985
 lokey=e4
 hikey=e4
 pitch_keycenter=e4
@@ -99,7 +120,9 @@ offset=3922
 tune=14
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F3.wav
+sample=../Samples/Violin 2/violin_tremolo_F3.wav
+loop_start=24157
+loop_end=265006
 lokey=f4
 hikey=f4
 pitch_keycenter=f4
@@ -107,7 +130,9 @@ offset=714
 tune=9
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F#3.wav
+sample=../Samples/Violin 2/violin_tremolo_F#3.wav
+loop_start=64707
+loop_end=303587
 lokey=f#4
 hikey=f#4
 pitch_keycenter=f#4
@@ -115,7 +140,9 @@ offset=4071
 tune=16
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G3.wav
+sample=../Samples/Violin 2/violin_tremolo_G3.wav
+loop_start=31923
+loop_end=312465
 lokey=g4
 hikey=g4
 pitch_keycenter=g4
@@ -123,7 +150,9 @@ offset=3991
 tune=-1
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G#3.wav
+sample=../Samples/Violin 2/violin_tremolo_G#3.wav
+loop_start=32435
+loop_end=352829
 lokey=g#4
 hikey=g#4
 pitch_keycenter=g#4
@@ -132,7 +161,9 @@ tune=-1
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A3.wav
+sample=../Samples/Violin 2/violin_tremolo_A3.wav
+loop_start=20290
+loop_end=351388
 lokey=a4
 hikey=a4
 pitch_keycenter=a4
@@ -141,7 +172,9 @@ tune=5
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A#3.wav
+sample=../Samples/Violin 2/violin_tremolo_A#3.wav
+loop_start=14890
+loop_end=306638
 lokey=a#4
 hikey=a#4
 pitch_keycenter=a#4
@@ -150,7 +183,9 @@ tune=1
 volume=-31
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_B3.wav
+sample=../Samples/Violin 2/violin_tremolo_B3.wav
+loop_start=33466
+loop_end=311571
 lokey=b4
 hikey=b4
 pitch_keycenter=b4
@@ -158,7 +193,9 @@ offset=3571
 tune=19
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C4.wav
+sample=../Samples/Violin 2/violin_tremolo_C4.wav
+loop_start=19738
+loop_end=296291
 lokey=c5
 hikey=c5
 pitch_keycenter=c5
@@ -167,7 +204,9 @@ tune=6
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C#4.wav
+sample=../Samples/Violin 2/violin_tremolo_C#4.wav
+loop_start=12801
+loop_end=344102
 lokey=c#5
 hikey=c#5
 pitch_keycenter=c#5
@@ -176,7 +215,9 @@ tune=11
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D4.wav
+sample=../Samples/Violin 2/violin_tremolo_D4.wav
+loop_start=17470
+loop_end=349789
 lokey=d5
 hikey=d5
 pitch_keycenter=d5
@@ -184,7 +225,9 @@ offset=7074
 tune=-2
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D#4.wav
+sample=../Samples/Violin 2/violin_tremolo_D#4.wav
+loop_start=30977
+loop_end=370832
 lokey=d#5
 hikey=d#5
 pitch_keycenter=d#5
@@ -192,7 +235,9 @@ offset=5134
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_E4.wav
+sample=../Samples/Violin 2/violin_tremolo_E4.wav
+loop_start=54916
+loop_end=363657
 lokey=e5
 hikey=e5
 pitch_keycenter=e5
@@ -200,7 +245,9 @@ offset=4693
 tune=-3
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F4.wav
+sample=../Samples/Violin 2/violin_tremolo_F4.wav
+loop_start=35464
+loop_end=318535
 lokey=f5
 hikey=f5
 pitch_keycenter=f5
@@ -208,7 +255,9 @@ offset=3647
 tune=-6
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F#4.wav
+sample=../Samples/Violin 2/violin_tremolo_F#4.wav
+loop_start=31864
+loop_end=353917
 lokey=f#5
 hikey=f#5
 pitch_keycenter=f#5
@@ -216,7 +265,9 @@ offset=3865
 tune=1
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G4.wav
+sample=../Samples/Violin 2/violin_tremolo_G4.wav
+loop_start=29778
+loop_end=370245
 lokey=g5
 hikey=g5
 pitch_keycenter=g5
@@ -224,7 +275,9 @@ offset=4756
 tune=4
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G#4.wav
+sample=../Samples/Violin 2/violin_tremolo_G#4.wav
+loop_start=21279
+loop_end=256329
 lokey=g#5
 hikey=g#5
 pitch_keycenter=g#5
@@ -232,7 +285,9 @@ offset=7390
 tune=8
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A4.wav
+sample=../Samples/Violin 2/violin_tremolo_A4.wav
+loop_start=33306
+loop_end=349857
 lokey=a5
 hikey=a5
 pitch_keycenter=a5
@@ -241,7 +296,9 @@ tune=-3
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A#4.wav
+sample=../Samples/Violin 2/violin_tremolo_A#4.wav
+loop_start=37246
+loop_end=394758
 lokey=a#5
 hikey=a#5
 pitch_keycenter=a#5
@@ -249,7 +306,9 @@ offset=4174
 tune=-14
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_B4.wav
+sample=../Samples/Violin 2/violin_tremolo_B4.wav
+loop_start=41609
+loop_end=367820
 lokey=b5
 hikey=b5
 pitch_keycenter=b5
@@ -257,7 +316,9 @@ offset=6835
 tune=-4
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C5.wav
+sample=../Samples/Violin 2/violin_tremolo_C5.wav
+loop_start=39129
+loop_end=374893
 lokey=c6
 hikey=c6
 pitch_keycenter=c6
@@ -266,7 +327,9 @@ tune=-8
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_C#5.wav
+sample=../Samples/Violin 2/violin_tremolo_C#5.wav
+loop_start=32895
+loop_end=281475
 lokey=c#6
 hikey=c#6
 pitch_keycenter=c#6
@@ -275,7 +338,9 @@ tune=-11
 volume=-28
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D5.wav
+sample=../Samples/Violin 2/violin_tremolo_D5.wav
+loop_start=28778
+loop_end=317146
 lokey=d6
 hikey=d6
 pitch_keycenter=d6
@@ -284,7 +349,9 @@ tune=8
 volume=-27
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_D#5.wav
+sample=../Samples/Violin 2/violin_tremolo_D#5.wav
+loop_start=28326
+loop_end=306069
 lokey=d#6
 hikey=d#6
 pitch_keycenter=d#6
@@ -292,7 +359,9 @@ offset=2548
 tune=-14
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_E5.wav
+sample=../Samples/Violin 2/violin_tremolo_E5.wav
+loop_start=24869
+loop_end=333965
 lokey=e6
 hikey=e6
 pitch_keycenter=e6
@@ -301,7 +370,9 @@ tune=-2
 volume-1
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F5.wav
+sample=../Samples/Violin 2/violin_tremolo_F5.wav
+loop_start=58245
+loop_end=311533
 lokey=f6
 hikey=f6
 pitch_keycenter=f6
@@ -310,7 +381,9 @@ tune=-6
 volume-2
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_F#5.wav
+sample=../Samples/Violin 2/violin_tremolo_F#5.wav
+loop_start=37318
+loop_end=363686
 lokey=f#6
 hikey=f#6
 pitch_keycenter=f#6
@@ -319,7 +392,9 @@ tune=-10
 volume=-29
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G5.wav
+sample=../Samples/Violin 2/violin_tremolo_G5.wav
+loop_start=44046
+loop_end=288928
 lokey=g6
 hikey=g6
 pitch_keycenter=g6
@@ -327,7 +402,9 @@ offset=3193
 tune=-33
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_G#5.wav
+sample=../Samples/Violin 2/violin_tremolo_G#5.wav
+loop_start=30768
+loop_end=368758
 lokey=g#6
 hikey=g#6
 pitch_keycenter=g#6
@@ -336,7 +413,9 @@ tune=-39
 volume=-31
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A5.wav
+sample=../Samples/Violin 2/violin_tremolo_A5.wav
+loop_start=22397
+loop_end=368603
 lokey=a6
 hikey=a6
 pitch_keycenter=a6
@@ -345,7 +424,9 @@ tune=-16
 volume=-31
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_A#5.wav
+sample=../Samples/Violin 2/violin_tremolo_A#5.wav
+loop_start=141572
+loop_end=379441
 lokey=a#6
 hikey=a#6
 pitch_keycenter=a#6
@@ -353,7 +434,9 @@ offset=4123
 tune=-37
 
 <region>
-sample=..\Samples/Violin 2/violin_tremolo_B5.wav
+sample=../Samples/Violin 2/violin_tremolo_B5.wav
+loop_start=37498
+loop_end=390971
 lokey=b6
 hikey=c7
 pitch_keycenter=b6
