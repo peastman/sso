@@ -348,7 +348,9 @@ offset=493
 tune=-12
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_F#5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_f#5.flac
+loop_start=117255
+loop_end=184276
 lokey=f#6
 hikey=f#6
 pitch_keycenter=f#6
@@ -356,14 +358,18 @@ offset=209
 tune=-32
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_G5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_g5.flac
+loop_start=118400
+loop_end=185369
 lokey=g6
 hikey=g6
 pitch_keycenter=g6
 tune=-30
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_G#5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_g#5.flac
+loop_start=102745
+loop_end=200810
 lokey=g#6
 hikey=g#6
 pitch_keycenter=g#6
@@ -371,7 +377,9 @@ offset=1261
 tune=-21
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_A5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_a5.flac
+loop_start=88625
+loop_end=220056
 lokey=a6
 hikey=a6
 pitch_keycenter=a6
@@ -379,7 +387,9 @@ offset=148
 tune=-24
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_A#5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_a#5.flac
+loop_start=89350
+loop_end=172132
 lokey=a#6
 hikey=a#6
 pitch_keycenter=a#6
@@ -387,7 +397,9 @@ offset=1202
 tune=-32
 
 <region>
-sample=../Samples/Violin 2/violin_arco_vib_B5.wav
+sample=../Samples-looped/Violin 2/violin_arco_vib_b5.flac
+loop_start=92645
+loop_end=168850
 lokey=b6
 hikey=c7
 pitch_keycenter=b6

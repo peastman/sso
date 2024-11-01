@@ -5,6 +5,7 @@
 // ------------------------------
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.45
 amp_veltrack=0
 volume=-29
