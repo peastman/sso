@@ -50,8 +50,8 @@ tune=10
 
 <region>
 sample=../Samples-looped/Violin 2/violin_arco_vib_c3.flac
-loop_start=172975
-loop_end=198804
+loop_start=105037
+loop_end=199139
 lokey=c4
 hikey=c4
 pitch_keycenter=c4
@@ -100,8 +100,8 @@ tune=7
 
 <region>
 sample=../Samples-looped/Violin 2/violin_arco_vib_f3.flac
-loop_start=161598
-loop_end=195383
+loop_start=119615
+loop_end=186326
 lokey=f4
 hikey=f4
 pitch_keycenter=f4

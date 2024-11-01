@@ -299,8 +299,8 @@ offset=1230
 
 <region>
 sample=../Samples-looped/Violin 2/violin_arco_non_vib_C#5.flac
-loop_start=60578
-loop_end=217914
+loop_start=84468
+loop_end=208854
 lokey=c#6
 hikey=c#6
 pitch_keycenter=c#6
@@ -319,8 +319,8 @@ tune=-5
 
 <region>
 sample=../Samples-looped/Violin 2/violin_arco_non_vib_D#5.flac
-loop_start=159604
-loop_end=254764
+loop_start=159590
+loop_end=254820
 lokey=d#6
 hikey=d#6
 pitch_keycenter=d#6
@@ -347,7 +347,7 @@ tune=-25
 
 <region>
 sample=../Samples-looped/Violin 2/violin_arco_non_vib_F#5.flac
-loop_start=162368
+loop_start=118864
 loop_end=227952
 lokey=f#6
 hikey=f#6
