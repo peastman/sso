@@ -5,6 +5,7 @@
 // --------------------------------
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.45
 fil_type=lpf_1p
 cutoff=1100
@@ -20,6 +21,7 @@ trigger=first
 #include "includes/violin-solo-2-sustain-non-vibrato.sfz"
 
 <group>
+loop_mode=loop_continuous
 ampeg_attack=0.2
 ampeg_release=0.45
 fil_type=lpf_1p

@@ -9,6 +9,7 @@
 // -------
 
 <group>
+loop_mode=loop_continuous
 ampeg_release=0.45
 fil_type=lpf_1p
 cutoff=1100
