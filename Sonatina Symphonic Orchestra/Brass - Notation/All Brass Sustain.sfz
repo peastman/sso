@@ -1,0 +1,8 @@
+<master>
+master_volume=-5
+
+#include "Trumpets Sustain (looped).sfz"
+#include "Horns Sustain.sfz"
+#include "Trombones Sustain (looped).sfz"
+#include "Bass Trombone Solo Sustain (looped, decay).sfz"
+#include "Tuba Sustain (looped).sfz"

@@ -1,0 +1,8 @@
+<master>
+master_volume=-5
+
+#include "Trumpets Staccato.sfz"
+#include "Horns Staccato.sfz"
+#include "Trombones Staccato.sfz"
+#include "Bass Trombone Solo Staccato.sfz"
+#include "Tuba Staccato.sfz"

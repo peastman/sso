@@ -35,6 +35,7 @@ SSO includes the following instruments and articulations:
 |Solo Viola   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
 |Solo Cello   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
 |Solo Bass    |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
+|All Strings  |Sustain, Marcato, Staccato, Pizzicato, Col Legno, Tremolo, Harmonics                                                |
 
 **Brass**
 
@@ -48,6 +49,7 @@ SSO includes the following instruments and articulations:
 |Solo French Horn   |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
 |Solo Tenor Trombone|Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
 |Solo Bass Trombone |Sustain (non-looped, looped, decay), Marcato (non-looped, looped, decay), Staccato, Legato|
+|All Brass          |Sustain, Marcato, Staccato                                                                |
 
 **Woodwinds**
 
@@ -67,6 +69,7 @@ SSO includes the following instruments and articulations:
 |Solo Bass Clarinet|Sustain (non-looped, looped, decay), Staccato, Legato                                           |
 |Solo Bassoon      |Sustain (non-looped, looped, decay), Staccato, Legato                                           |
 |Solo Contrabassoon|Sustain (non-looped, looped, decay), Staccato, Legato                                           |
+|All Woodwinds     |Sustain, Staccato                                                                               |
 
 **Pitched Percussion**
 

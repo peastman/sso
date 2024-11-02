@@ -1,0 +1,7 @@
+<master>
+master_volume=-5
+
+#include "1st Violins Staccato.sfz"
+#include "Violas Staccato.sfz"
+#include "Celli Staccato.sfz"
+#include "Basses Staccato.sfz"

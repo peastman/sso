@@ -1,0 +1,7 @@
+<master>
+master_volume=-5
+
+#include "Flutes Sustain (looped).sfz"
+#include "Oboes Sustain (looped).sfz"
+#include "Clarinets Sustain (looped).sfz"
+#include "Bassoons Sustain (looped).sfz"

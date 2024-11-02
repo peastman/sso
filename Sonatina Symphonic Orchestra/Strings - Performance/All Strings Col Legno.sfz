@@ -1,0 +1,7 @@
+<master>
+master_volume=-3
+
+#include "1st Violins Col Legno.sfz"
+#include "Violas Col Legno.sfz"
+#include "Celli Col Legno.sfz"
+#include "Basses Col Legno.sfz"
