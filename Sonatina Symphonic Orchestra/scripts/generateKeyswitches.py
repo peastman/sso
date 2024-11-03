@@ -57,8 +57,8 @@ soloArticulations = (
 )
 
 soloViolin1Articulations = (
-    ("Sustain (non-looped)", "", 0),
-    ("Sustain (looped)", " (looped)", 1),
+    ("Sustain (non-looped)", " Sustain", 0),
+    ("Sustain (looped)", " Sustain (looped)", 1),
     ("Legato", " Legato", 2),
     ("Marcato (non-looped)", " Marcato", 3),
     ("Marcato (looped)", " Marcato (looped)", 4),
