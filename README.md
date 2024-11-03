@@ -146,7 +146,10 @@ Many instruments are provided in separate "notation" and "performance" versions.
     initial attack.
   - Short articulations use velocity to set the volume.
 
-In both control systems, MIDI CC 21 controls the amount of vibrato in string instruments.
+In both control systems, most string instruments use MIDI CC 21 to control the amount of vibrato.  The only exceptions
+are the solo violins and solo cello, which have vibrato baked into the samples.  Solo violin 2 has separate samples
+with and without vibrato.  When using the non-vibrato samples, you can use CC 21 to add vibrato.  This lets you precisely
+control the amount of vibrato, but the sound is slightly less realistic than the vibrato samples.
 
 Here are definitions of the most common articulations.
 

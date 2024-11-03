@@ -4,6 +4,10 @@
 //       Violas Harmonics
 // ------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 ampeg_attack=0.180
 ampeg_release=1.15
@@ -15,6 +19,11 @@ cutoff=1100
 cutoff_cc1=4800
 fil_keycenter=a3
 fil_keytrack=100
+
+#define $VIB_PITCH 20
+#define $VIB_VOLUME 0
+#define $VIB_DELAY 0
+#include "includes/vibrato.sfz"
 
 <region>
 sample=../Samples/Violas/violas-hrm-c3.flac

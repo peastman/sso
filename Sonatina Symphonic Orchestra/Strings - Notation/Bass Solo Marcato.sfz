@@ -26,6 +26,7 @@ fil_keycenter=a3
 fil_keytrack=100
 
 #define $VIB_PITCH 35
+#define $VIB_VOLUME 1
 #define $VIB_DELAY 0.5
 #include "includes/vibrato.sfz"
 #include "includes/bass-solo-sustain.sfz"

@@ -29,6 +29,7 @@ off_time=0.5
 trigger=first
 
 #define $VIB_PITCH 35
+#define $VIB_VOLUME 1
 #define $VIB_DELAY 0.5
 #include "includes/vibrato.sfz"
 #include "includes/viola-solo-sustain.sfz"
@@ -53,6 +54,7 @@ trigger=legato
 offset=40000
 
 #define $VIB_PITCH 35
+#define $VIB_VOLUME 1
 #define $VIB_DELAY 0
 #include "includes/vibrato.sfz"
 #include "includes/viola-solo-sustain.sfz"

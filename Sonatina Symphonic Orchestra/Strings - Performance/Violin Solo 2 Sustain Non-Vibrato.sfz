@@ -4,6 +4,10 @@
 // Solo Violin 2 Sustain Non-Vibrato
 // ---------------------------------
 
+<control>
+label_cc21=Vibrato
+set_cc21=0
+
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.45
@@ -16,4 +20,8 @@ cutoff_cc1=4800
 fil_keycenter=a3
 fil_keytrack=100
 
+#define $VIB_PITCH 40
+#define $VIB_VOLUME 1
+#define $VIB_DELAY 0.5
+#include "includes/vibrato.sfz"
 #include "includes/violin-solo-2-sustain-non-vibrato.sfz"

@@ -1,16 +1,16 @@
 // Use a LFO to modulate the pitch and volume based on CC 21.
 
 lfo01_pitch_oncc21=$VIB_PITCH
-lfo01_volume_oncc21=1
-lfo01_freq=5
-lfo01_freq_oncc21=2
+lfo01_volume_oncc21=$VIB_VOLUME
+lfo01_freq=4.5
+lfo01_freq_oncc21=1
 lfo01_delay=$VIB_DELAY
 lfo01_fade=0.5
 
 // Also vary the amount of high frequency harmonics.
 
 eq1_freq=2000
-eq1_bw=2
+eq1_bw=3
 lfo01_eq1gain_oncc21=3
 lfo01_eq1freq_oncc21=500
 
