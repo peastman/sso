@@ -20,4 +20,5 @@ fil_keytrack=100
 #define $VIB_PITCH 40
 #define $VIB_VOLUME 1
 #define $VIB_DELAY 0.5
+#include "includes/vibrato.sfz"
 #include "includes/violin-solo-2-sustain-non-vibrato.sfz"
