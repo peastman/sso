@@ -30,6 +30,7 @@ off_time=1
 trigger=first
 
 #define $VIB_PITCH 20
+#define $VIB_VOLUME 0
 #define $VIB_DELAY 0
 #include "includes/vibrato.sfz"
 #include "includes/celli-sustain.sfz"
@@ -55,6 +56,7 @@ trigger=legato
 offset=20000
 
 #define $VIB_PITCH 20
+#define $VIB_VOLUME 0
 #define $VIB_DELAY 0
 #include "includes/vibrato.sfz"
 #include "includes/celli-sustain.sfz"

@@ -26,6 +26,7 @@ off_time=1
 trigger=first
 
 #define $VIB_PITCH 35
+#define $VIB_VOLUME 1
 #define $VIB_DELAY 0.5
 #include "includes/vibrato.sfz"
 #include "includes/bass-solo-sustain.sfz"
@@ -47,6 +48,7 @@ trigger=legato
 offset=20000
 
 #define $VIB_PITCH 35
+#define $VIB_VOLUME 1
 #define $VIB_DELAY 0
 #include "includes/vibrato.sfz"
 #include "includes/bass-solo-sustain.sfz"
