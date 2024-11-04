@@ -4,6 +4,10 @@
 //     Tenor Trombone Marcato
 // ------------------------------
 
+<control>
+label_cc1=Marcato Attack
+set_cc1=0
+
 
 // -------
 // Sustain
