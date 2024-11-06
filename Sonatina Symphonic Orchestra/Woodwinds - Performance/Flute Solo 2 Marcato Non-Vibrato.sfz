@@ -5,6 +5,8 @@
 // ------------------------------
 
 <control>
+label_cc1=Dynamics
+set_cc1=96
 octave_offset=1
 
 // -------

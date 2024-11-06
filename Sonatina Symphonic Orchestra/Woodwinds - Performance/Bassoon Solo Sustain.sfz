@@ -4,6 +4,10 @@
 //           Bassoon
 // ------------------------------
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 <group>
 ampeg_release=0.500
 cutoff_cc1=11000

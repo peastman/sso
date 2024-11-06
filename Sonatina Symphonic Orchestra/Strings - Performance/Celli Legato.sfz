@@ -4,8 +4,9 @@
 //         Celli Legato
 // ------------------------------
 
-
 <control>
+label_cc1=Dynamics
+set_cc1=96
 label_cc21=Vibrato
 set_cc21=0
 

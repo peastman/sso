@@ -5,10 +5,14 @@
 // ------------------------------
 
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
+
 // -------
 // Sustain
 // -------
-
 
 <group>
 loop_mode=loop_continuous
