@@ -4,6 +4,10 @@
 //         Bass Clarinet
 // ------------------------------
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 <group>
 ampeg_release=0.460
 amp_veltrack=0

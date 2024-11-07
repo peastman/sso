@@ -6,6 +6,8 @@
 
 
 <control>
+label_cc1=Marcato Attack
+set_cc1=0
 label_cc21=Vibrato
 set_cc21=0
 

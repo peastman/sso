@@ -4,6 +4,10 @@
 //         Horns Sustain
 // ------------------------------
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 <group>
 ampeg_attack=0.000000
 ampeg_release=0.865000

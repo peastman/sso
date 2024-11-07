@@ -5,6 +5,10 @@
 // ------------------------------
 
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 <group>
 loop_mode=loop_continuous
 ampeg_hold=3.1416

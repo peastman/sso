@@ -4,6 +4,10 @@
 //         Cello Marcato
 // ------------------------------
 
+<control>
+label_cc1=Marcato Attack
+set_cc1=16
+
 
 // -------
 // Sustain

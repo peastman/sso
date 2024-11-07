@@ -9,6 +9,10 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 // -------
 // Sustain
 // -------

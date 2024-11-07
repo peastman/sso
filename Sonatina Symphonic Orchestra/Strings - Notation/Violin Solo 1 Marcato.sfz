@@ -9,6 +9,11 @@
 // Looped by Signal Experiments
 //         sig-ex.com
 
+<control>
+label_cc1=Marcato Attack
+set_cc1=16
+
+
 // -------
 // Sustain
 // -------

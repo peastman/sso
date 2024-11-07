@@ -4,6 +4,10 @@
 //       Trumpets Sustain
 // ------------------------------
 
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
 <group>
 loop_mode=loop_continuous
 ampeg_attack=0.250
