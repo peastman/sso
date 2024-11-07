@@ -1,6 +1,5 @@
 
 <control>
-octave_offset=1
 
 <group>
 lovel=80
@@ -45,9 +44,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_ff-c#3.wav
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
 tune=-15
 loop_mode=one_shot
 volume=-3
@@ -86,9 +85,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_ff-e3.wav
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
 tune=-7
 loop_mode=one_shot
 volume=-3
@@ -127,9 +126,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_ff-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
 tune=-9
 loop_mode=one_shot
 lovel=80
@@ -168,9 +167,9 @@ volume=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-c#3.wav
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
 tune=-5
 loop_mode=one_shot
 volume=-3
@@ -209,9 +208,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-e3.wav
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
 tune=-6
 loop_mode=one_shot
 volume=-3
@@ -250,9 +249,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
 tune=-5
 loop_mode=one_shot
 lovel=0

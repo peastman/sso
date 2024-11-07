@@ -9,6 +9,5 @@
 #define $GAIN_CC1 0
 
 <control>
-octave_offset=1
 
 #include "includes/flute-solo-1-staccato.sfz"

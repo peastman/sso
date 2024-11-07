@@ -1,17 +1,17 @@
 <global>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=d2
-sw_last=c2
+sw_default=c1
+sw_lokey=c1
+sw_hikey=d1
+sw_last=c1
 sw_label=Sustain
 
 #include "All Woodwinds Sustain.sfz"
 
 <global>
-sw_default=c2
-sw_lokey=c2
-sw_hikey=d2
-sw_last=d2
+sw_default=c1
+sw_lokey=c1
+sw_hikey=d1
+sw_last=d1
 sw_label=Staccato
 
 #include "All Woodwinds Staccato.sfz"

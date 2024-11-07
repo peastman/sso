@@ -1,82 +1,82 @@
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-c#3.wav
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
+lokey=c4
+hikey=d4
+pitch_keycenter=c#4
 tune=-5
 
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-e3.wav
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
+lokey=d#4
+hikey=f4
+pitch_keycenter=e4
 tune=-6
 
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
+lokey=f#4
+hikey=g#4
+pitch_keycenter=g4
 tune=-5
 
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-a#3.wav
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
+lokey=a4
+hikey=b4
+pitch_keycenter=a#4
 tune=-18
 
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-c#4.wav
-lokey=c4
-hikey=d4
-pitch_keycenter=c#4
-tune=-1
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-e4.wav
-lokey=d#4
-hikey=f4
-pitch_keycenter=e4
-tune=-5
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-g4.wav
-lokey=f#4
-hikey=g#4
-pitch_keycenter=g4
-tune=-6
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-a#4.wav
-lokey=a4
-hikey=b4
-pitch_keycenter=a#4
-tune=3
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-c#5.wav
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
 tune=-1
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-e5.wav
+sample=../Samples/Flute 2/fl2_sus_vb_mf-e4.wav
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
+tune=-5
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_vb_mf-g5.wav
+sample=../Samples/Flute 2/fl2_sus_vb_mf-g4.wav
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
+tune=-6
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_vb_mf-a#4.wav
+lokey=a5
+hikey=b5
+pitch_keycenter=a#5
+tune=3
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_vb_mf-c#5.wav
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+tune=-1
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_vb_mf-e5.wav
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_vb_mf-g5.wav
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
 tune=-1
 
 <region>
 sample=../Samples/Flute 2/fl2_sus_vb_mf-a#5.wav
-lokey=a5
-hikey=c6
-pitch_keycenter=a#5
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6
 tune=-3

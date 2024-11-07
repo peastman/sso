@@ -8,7 +8,6 @@
 <control>
 label_cc1=Marcato Attack
 set_cc1=0
-octave_offset=1
 
 // -------
 // Sustain
@@ -24,7 +23,7 @@ ampeg_decay=25
 ampeg_sustain=35
 fil_veltrack=7000
 fil_keytrack=80
-fil_keycenter=c3
+fil_keycenter=c4
 fil_type=lpf_2p
 cutoff=500
 

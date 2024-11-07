@@ -7,7 +7,6 @@
 <control>
 label_cc1=Dynamics
 set_cc1=96
-octave_offset=1
 
 // -------
 // Sustain
@@ -27,7 +26,7 @@ amp_veltrack=0
 group_volume=-29
 gain_cc1=29
 fil_keytrack=80
-fil_keycenter=c3
+fil_keycenter=c4
 fil_type=lpf_1p
 cutoff=500
 cutoff_cc1=4800

@@ -6,13 +6,12 @@
 
 
 <control>
-octave_offset=1
 
 <group>
 loop_mode=loop_continuous
 ampeg_release=0.550
 fil_keytrack=80
-fil_keycenter=c3
+fil_keycenter=c4
 fil_type=lpf_1p
 cutoff=500
 fil_veltrack=4800
