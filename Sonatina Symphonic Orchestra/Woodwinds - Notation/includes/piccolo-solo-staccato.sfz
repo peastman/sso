@@ -1,8 +1,8 @@
 <group>
 sample=../Samples/piccolo/piccolo-c4.wav
-lokey=c4
-hikey=c#4
-pitch_keycenter=c4
+lokey=c5
+hikey=c#5
+pitch_keycenter=c5
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -40,9 +40,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-d#4.wav
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
+lokey=d5
+hikey=e5
+pitch_keycenter=d#5
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -80,9 +80,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-f#4.wav
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
+lokey=f5
+hikey=g5
+pitch_keycenter=f#5
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -120,9 +120,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-a4.wav
-lokey=g#4
-hikey=a#4
-pitch_keycenter=a4
+lokey=g#5
+hikey=a#5
+pitch_keycenter=a5
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -160,9 +160,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-c5.wav
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
+lokey=b5
+hikey=c#6
+pitch_keycenter=c6
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -200,9 +200,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-d#5.wav
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
+lokey=d6
+hikey=e6
+pitch_keycenter=d#6
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -240,9 +240,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-f#5.wav
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
+lokey=f6
+hikey=g6
+pitch_keycenter=f#6
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -280,9 +280,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-a5.wav
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
+lokey=g#6
+hikey=a#6
+pitch_keycenter=a6
 volume=2
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
@@ -321,9 +321,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-c6.wav
-lokey=b5
-hikey=c#6
-pitch_keycenter=c6
+lokey=b6
+hikey=c#7
+pitch_keycenter=c7
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -361,9 +361,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-d#6.wav
-lokey=d6
-hikey=e6
-pitch_keycenter=d#6
+lokey=d7
+hikey=e7
+pitch_keycenter=d#7
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1
@@ -401,9 +401,9 @@ ampeg_release=2
 
 <group>
 sample=../Samples/piccolo/piccolo-f#6.wav
-lokey=f6
-hikey=g6
-pitch_keycenter=f#6
+lokey=f7
+hikey=g7
+pitch_keycenter=f#7
 loop_mode=one_shot
 group_volume=$GROUP_VOLUME
 gain_cc1=$GAIN_CC1

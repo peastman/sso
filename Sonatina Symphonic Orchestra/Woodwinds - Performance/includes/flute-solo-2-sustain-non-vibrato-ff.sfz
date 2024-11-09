@@ -1,74 +1,74 @@
 <region>
 sample=../Samples/Flute 2/fl2_sus_nv_ff-c#3.wav
-lokey=c3
-hikey=d3
-pitch_keycenter=c#3
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-e3.wav
-lokey=d#3
-hikey=f3
-pitch_keycenter=e3
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-g3.wav
-lokey=f#3
-hikey=g#3
-pitch_keycenter=g3
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-a#3.wav
-lokey=a3
-hikey=b3
-pitch_keycenter=a#3
-
-<region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-c#4.wav
 lokey=c4
 hikey=d4
 pitch_keycenter=c#4
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-e4.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-e3.wav
 lokey=d#4
 hikey=f4
 pitch_keycenter=e4
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-g4.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-g3.wav
 lokey=f#4
 hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-a#4.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-a#3.wav
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
-volume=2
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-c#5.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-c#4.wav
 lokey=c5
 hikey=d5
 pitch_keycenter=c#5
-volume=1
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-e5.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-e4.wav
 lokey=d#5
 hikey=f5
 pitch_keycenter=e5
-volume=-2
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-g5.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-g4.wav
 lokey=f#5
 hikey=g#5
 pitch_keycenter=g5
 
 <region>
-sample=../Samples/Flute 2/fl2_sus_nv_ff-a#5.wav
+sample=../Samples/Flute 2/fl2_sus_nv_ff-a#4.wav
 lokey=a5
-hikey=c6
+hikey=b5
 pitch_keycenter=a#5
+volume=2
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_nv_ff-c#5.wav
+lokey=c6
+hikey=d6
+pitch_keycenter=c#6
+volume=1
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_nv_ff-e5.wav
+lokey=d#6
+hikey=f6
+pitch_keycenter=e6
+volume=-2
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_nv_ff-g5.wav
+lokey=f#6
+hikey=g#6
+pitch_keycenter=g6
+
+<region>
+sample=../Samples/Flute 2/fl2_sus_nv_ff-a#5.wav
+lokey=a6
+hikey=c7
+pitch_keycenter=a#6

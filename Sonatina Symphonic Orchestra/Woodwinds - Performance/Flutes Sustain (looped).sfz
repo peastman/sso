@@ -8,7 +8,6 @@
 <control>
 label_cc1=Dynamics
 set_cc1=96
-octave_offset=1
 
 <group>
 loop_mode=loop_continuous
@@ -25,7 +24,7 @@ xfout_locc1=0
 xfout_hicc1=127
 xf_cccurve=gain
 fil_keytrack=80
-fil_keycenter=c3
+fil_keycenter=c4
 fil_type=lpf_2p
 cutoff=500
 
