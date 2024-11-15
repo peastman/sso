@@ -46,7 +46,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=../Samples-looped/Violin/violin-a#4.wav
+sample=../Samples-looped/Violin/violin-a#4.flac
 loop_start=118756
 loop_end=219720
 lokey=a4

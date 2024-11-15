@@ -58,7 +58,7 @@ hikey=g#4
 pitch_keycenter=g4
 
 <region>
-sample=../Samples/violin/violin-a#4.wav
+sample=../Samples/violin/violin-a#4.flac
 lokey=a4
 hikey=b4
 pitch_keycenter=a#4
