@@ -56,6 +56,15 @@ sw_label=Spiccato
 sw_default=c2
 sw_lokey=c2
 sw_hikey=g2
+sw_last=f#2
+sw_label=Staccato
+
+#include "Violin Solo 1 Staccato.sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
 sw_last=g2
 sw_label=Pizzicato
 

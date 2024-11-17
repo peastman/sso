@@ -23,19 +23,19 @@ SSO includes the following instruments and articulations:
 
 **Strings**
 
-|Instrument   |Articulations                                                                                                       |
-|-------------|--------------------------------------------------------------------------------------------------------------------|
-|1st Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
-|2nd Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
-|Violas       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
-|Cellos       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                        |
-|Basses       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo                                                   |
-|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Spiccato, Legato, Pizzicato                             |
-|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
-|Solo Viola   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
-|Solo Cello   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
-|Solo Bass    |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                       |
-|All Strings  |Sustain, Marcato, Staccato, Pizzicato, Col Legno, Tremolo, Harmonics                                                |
+|Instrument   |Articulations                                                                                                                 |
+|-------------|------------------------------------------------------------------------------------------------------------------------------|
+|1st Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                                  |
+|2nd Violins  |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                                  |
+|Violas       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                                  |
+|Cellos       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo, Harmonics                                                  |
+|Basses       |Sustain, Marcato, Staccato, Legato, Pizzicato, Col Legno, Tremolo                                                             |
+|Solo Violin 1|Sustain (non-looped, looped), Marcato (non-looped, looped), Staccato, Spiccato, Legato, Pizzicato                             |
+|Solo Violin 2|Sustain, Sustain non-vibrato, Marcato, Marcato non-vibrato, Staccato, Spiccato, Legato, Legato non-vibrato, Pizzicato, Tremolo|
+|Solo Viola   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                                 |
+|Solo Cello   |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                                 |
+|Solo Bass    |Sustain, Marcato, Staccato, Legato, Pizzicato                                                                                 |
+|All Strings  |Sustain, Marcato, Staccato, Pizzicato, Col Legno, Tremolo, Harmonics                                                          |
 
 **Brass**
 

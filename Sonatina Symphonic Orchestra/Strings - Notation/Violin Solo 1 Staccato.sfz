@@ -1,0 +1,39 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//     Solo Violin 1 Staccato
+// ------------------------------
+
+<group>
+loop_mode=one_shot
+offset=50000
+offset_random=10000
+ampeg_attack=0.07
+ampeg_hold=0.03
+ampeg_sustain=0
+ampeg_decay=0.5
+
+#include "includes/violin-solo-1-sustain.sfz"
+
+<group>
+loop_mode=one_shot
+ampeg_attack=0.2
+ampeg_hold=0
+ampeg_sustain=0
+ampeg_decay=0.8
+group_volume=-3
+fil_type=lpf_2p
+cutoff=500
+fil_keytrack=100
+fil_keycenter=c3
+
+#include "includes/violin-solo-1-sustain.sfz"
+
+<group>
+loop_mode=one_shot
+ampeg_attack=0
+ampeg_hold=0.1
+ampeg_sustain=0
+ampeg_decay=0.3
+
+#include "includes/violin-solo-1-sustain.sfz"
