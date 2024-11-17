@@ -5,8 +5,9 @@
 // ------------------------------
 
 <control>
-label_cc11=Vibrato
+label_cc21=Vibrato
 label_cc64=Sustain Pedal
+set_cc21=0
 
 <curve>
 curve_index=11
@@ -24,7 +25,7 @@ ampeg_decay_curvecc64=11
 ampeg_dynamic=1
 lfo01_volume=3
 lfo01_pitch=8
-lfo01_freq_oncc11=12
+lfo01_freq_oncc21=12
 lfo01_wave=1
 fil_type=hpf_1p
 cutoff=1000
