@@ -30,6 +30,7 @@ lfo01_wave=1
 fil_type=hpf_1p
 cutoff=1000
 cutoff_cc64=-1000
+sustain_cc=90
 
 <region>
 sample=../Samples/Vibraphone/vibraphone-c3.flac
