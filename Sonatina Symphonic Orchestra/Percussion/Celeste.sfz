@@ -4,6 +4,9 @@
 //            Celeste
 // ------------------------------
 
+<control>
+label_cc64=Sustain Pedal
+
 <global>
 // The following are to implement half pedaling.
 // Adapted from https://vi-control.net/community/threads/sfz-half-pedaling.116007/#post-4943326
