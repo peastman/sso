@@ -1,7 +1,7 @@
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=c2
 sw_label=Sustain
 
@@ -10,7 +10,7 @@ sw_label=Sustain
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=c#2
 sw_label=Sustain Non-Vibrato
 
@@ -19,7 +19,7 @@ sw_label=Sustain Non-Vibrato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=d2
 sw_label=Legato
 
@@ -28,7 +28,7 @@ sw_label=Legato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=d#2
 sw_label=Legato Non-Vibrato
 
@@ -37,7 +37,7 @@ sw_label=Legato Non-Vibrato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=e2
 sw_label=Marcato
 
@@ -46,7 +46,7 @@ sw_label=Marcato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=f2
 sw_label=Marcato Non-Vibrato
 
@@ -55,7 +55,7 @@ sw_label=Marcato Non-Vibrato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=f#2
 sw_label=Spiccato
 
@@ -64,7 +64,7 @@ sw_label=Spiccato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=g2
 sw_label=Pizzicato
 
@@ -73,7 +73,7 @@ sw_label=Pizzicato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=g#2
 sw_label=Tremolo
 
@@ -82,8 +82,26 @@ sw_label=Tremolo
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=a2
+sw_hikey=b2
 sw_last=a2
 sw_label=Staccato
 
 #include "Violin Solo 2 Staccato.sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=b2
+sw_last=a#2
+sw_label=Harmonics
+
+#include "Violin Solo 2 Harmonics.sfz"
+
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=b2
+sw_last=b2
+sw_label=Harmonics Non-Vibrato
+
+#include "Violin Solo 2 Harmonics Non-Vibrato.sfz"

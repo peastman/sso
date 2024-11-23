@@ -1,0 +1,411 @@
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G2.flac
+loop_start=163786
+loop_end=181569
+lokey=g3
+hikey=g3
+pitch_keycenter=g3
+offset=3967
+tune=2
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G#2.flac
+loop_start=39227
+loop_end=205344
+lokey=g#3
+hikey=g#3
+pitch_keycenter=g#3
+offset=1669
+tune=-1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A2.flac
+loop_start=65725
+loop_end=163320
+lokey=a3
+hikey=a3
+pitch_keycenter=a3
+offset=18
+tune=-3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A#2.flac
+loop_start=124338
+loop_end=163870
+lokey=a#3
+hikey=a#3
+pitch_keycenter=a#3
+offset=1691
+tune=0
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_B2.flac
+loop_start=71980
+loop_end=157923
+lokey=b3
+hikey=b3
+pitch_keycenter=b3
+offset=1270
+tune=7
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C3.flac
+loop_start=68945
+loop_end=181339
+lokey=c4
+hikey=c4
+pitch_keycenter=c4
+offset=2409
+tune=-9
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C#3.flac
+loop_start=70023
+loop_end=182526
+lokey=c#4
+hikey=c#4
+pitch_keycenter=c#4
+offset=1555
+tune=-12
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D3.flac
+loop_start=37665
+loop_end=212431
+lokey=d4
+hikey=d4
+pitch_keycenter=d4
+offset=1626
+tune=5
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D#3.flac
+loop_start=60750
+loop_end=161871
+lokey=d#4
+hikey=d#4
+pitch_keycenter=d#4
+offset=1207
+tune=3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_E3.flac
+loop_start=165607
+loop_end=193990
+lokey=e4
+hikey=e4
+pitch_keycenter=e4
+offset=717
+tune=11
+volume=-1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F3.flac
+loop_start=71206
+loop_end=178192
+lokey=f4
+hikey=f4
+pitch_keycenter=f4
+offset=1739
+tune=3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F#3.flac
+loop_start=99180
+loop_end=155708
+lokey=f#4
+hikey=f#4
+pitch_keycenter=f#4
+offset=712
+tune=5
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G3.flac
+loop_start=186662
+loop_end=220281
+lokey=g4
+hikey=g4
+pitch_keycenter=g4
+offset=703
+tune=0
+ampeg_attack=0.1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G#3.flac
+loop_start=87015
+loop_end=195549
+lokey=g#4
+hikey=g#4
+pitch_keycenter=g#4
+offset=1294
+tune=-10
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A3.flac
+loop_start=77698
+loop_end=200065
+lokey=a4
+hikey=a4
+pitch_keycenter=a4
+offset=1481
+tune=-3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A#3.flac
+loop_start=66953
+loop_end=180161
+lokey=a#4
+hikey=a#4
+pitch_keycenter=a#4
+offset=1349
+tune=-2
+volume=-2
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_B3.flac
+loop_start=173252
+loop_end=197452
+lokey=b4
+hikey=b4
+pitch_keycenter=b4
+offset=1771
+tune=3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C4.flac
+loop_start=163156
+loop_end=193924
+lokey=c5
+hikey=c5
+pitch_keycenter=c5
+offset=1719
+tune=-1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C#4.flac
+loop_start=155224
+loop_end=189554
+lokey=c#5
+hikey=c#5
+pitch_keycenter=c#5
+offset=1393
+tune=-12
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D4.flac
+loop_start=160647
+loop_end=239058
+lokey=d5
+hikey=d5
+pitch_keycenter=d5
+offset=2259
+tune=-7
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D#4.flac
+loop_start=108184
+loop_end=200986
+lokey=d#5
+hikey=d#5
+pitch_keycenter=d#5
+offset=2064
+tune=-1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_E4.flac
+loop_start=48088
+loop_end=200584
+lokey=e5
+hikey=e5
+pitch_keycenter=e5
+offset=983
+tune=-9
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F4.flac
+loop_start=170808
+loop_end=207187
+lokey=f5
+hikey=f5
+pitch_keycenter=f5
+offset=1905
+tune=-6
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F#4.flac
+loop_start=191342
+loop_end=235614
+lokey=f#5
+hikey=f#5
+pitch_keycenter=f#5
+offset=206
+tune=-4
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G4.flac
+loop_start=187338
+loop_end=237596
+lokey=g5
+hikey=g5
+pitch_keycenter=g5
+offset=1268
+tune=-3
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G#4.flac
+loop_start=73836
+loop_end=213756
+lokey=g#5
+hikey=g#5
+pitch_keycenter=g#5
+offset=2162
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A4.flac
+loop_start=171437
+loop_end=249158
+lokey=a5
+hikey=a5
+pitch_keycenter=a5
+offset=1032
+tune=-1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A#4.flac
+loop_start=185667
+loop_end=253782
+lokey=a#5
+hikey=a#5
+pitch_keycenter=a#5
+offset=172
+tune=-12
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_B4.flac
+loop_start=47128
+loop_end=176797
+lokey=b5
+hikey=b5
+pitch_keycenter=b5
+offset=1563
+tune=-4
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C5.flac
+loop_start=110039
+loop_end=191165
+lokey=c6
+hikey=c6
+pitch_keycenter=c6
+offset=1230
+volume=-4
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_C#5.flac
+loop_start=84468
+loop_end=208854
+lokey=c#6
+hikey=c#6
+pitch_keycenter=c#6
+offset=2319
+tune=-8
+volume=1
+ampeg_attack=0.1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D5.flac
+loop_start=91966
+loop_end=217323
+lokey=d6
+hikey=d6
+pitch_keycenter=d6
+offset=1399
+tune=-5
+volume=1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_D#5.flac
+loop_start=159590
+loop_end=254820
+lokey=d#6
+hikey=d#6
+pitch_keycenter=d#6
+offset=3205
+volume=1
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_E5.flac
+loop_start=108025
+loop_end=199057
+lokey=e6
+hikey=e6
+pitch_keycenter=e6
+offset=438
+tune=-6
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F5.flac
+loop_start=140925
+loop_end=226101
+lokey=f6
+hikey=f6
+pitch_keycenter=f6
+tune=-25
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_F#5.flac
+loop_start=118864
+loop_end=227952
+lokey=f#6
+hikey=f#6
+pitch_keycenter=f#6
+tune=-15
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G5.flac
+loop_start=134363
+loop_end=241151
+lokey=g6
+hikey=g6
+pitch_keycenter=g6
+tune=-17
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_G#5.flac
+loop_start=143893
+loop_end=246872
+lokey=g#6
+hikey=g#6
+pitch_keycenter=g#6
+offset=1153
+tune=-31
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A5.flac
+loop_start=150234
+loop_end=264223
+lokey=a6
+hikey=a6
+pitch_keycenter=a6
+offset=1340
+tune=-15
+volume=2
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_A#5.flac
+loop_start=92115
+loop_end=180350
+lokey=a#6
+hikey=a#6
+pitch_keycenter=a#6
+tune=-56
+
+<region>
+sample=../Samples-looped/Violin 2/violin_hrm_non_vib_B5.flac
+loop_start=40214
+loop_end=169679
+lokey=b6
+hikey=c7
+pitch_keycenter=b6
+offset=1034
+tune=-32

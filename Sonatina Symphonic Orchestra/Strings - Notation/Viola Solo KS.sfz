@@ -1,7 +1,7 @@
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=f2
+sw_hikey=g2
 sw_last=c2
 sw_label=Sustain
 
@@ -10,7 +10,7 @@ sw_label=Sustain
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=f2
+sw_hikey=g2
 sw_last=c#2
 sw_label=Legato
 
@@ -19,7 +19,7 @@ sw_label=Legato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=f2
+sw_hikey=g2
 sw_last=d2
 sw_label=Marcato
 
@@ -28,7 +28,7 @@ sw_label=Marcato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=f2
+sw_hikey=g2
 sw_last=e2
 sw_label=Staccato
 
@@ -37,9 +37,17 @@ sw_label=Staccato
 <global>
 sw_default=c2
 sw_lokey=c2
-sw_hikey=f2
+sw_hikey=g2
 sw_last=f2
 sw_label=Pizzicato
 
 #include "Viola Solo Pizzicato.sfz"
 
+<global>
+sw_default=c2
+sw_lokey=c2
+sw_hikey=g2
+sw_last=g2
+sw_label=Harmonics
+
+#include "Viola Solo Harmonics.sfz"

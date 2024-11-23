@@ -63,6 +63,7 @@ volume=-3
 sample=../Samples/cello/cello-c4.wav
 lokey=b3
 hikey=c#4
+pitch_keycenter=c4
 tune=-2
 volume=-2
 
