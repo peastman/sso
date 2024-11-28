@@ -1,0 +1,23 @@
+// ------------------------------
+//  Sonatina Symphonic Orchestra
+// ------------------------------
+//        Violin Harmonics
+// ------------------------------
+
+<control>
+label_cc1=Dynamics
+set_cc1=96
+
+<group>
+loop_mode=loop_continuous
+ampeg_release=0.500
+amp_veltrack=0
+volume=-29
+gain_cc1=29
+fil_type=lpf_1p
+cutoff=1100
+cutoff_cc1=4800
+fil_keycenter=a3
+fil_keytrack=100
+
+#include "includes/violin-solo-1-harmonics.sfz"
