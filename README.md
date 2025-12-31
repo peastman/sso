@@ -73,16 +73,16 @@ SSO includes the following instruments and articulations:
 
 **Pitched Percussion**
 
-|Instrument  |Variations             |
-|------------|-----------------------|
-|Timpani     |Hits, Rolls, Crescendos|
-|Glockenspiel| -                     |
-|Celeste     | -                     |
-|Xylophone   | -                     |
-|Vibraphone  | -                     |
-|Marimba     |Hits, Rolls            |
-|Chimes      | -                     |
-|Crotales    | -                     |
+|Instrument  |Variations             |Controls              |
+|------------|-----------------------|----------------------|
+|Timpani     |Hits, Rolls, Crescendos|                      |
+|Glockenspiel| -                     |                      |
+|Celeste     | -                     |Sustain pedal         |
+|Xylophone   | -                     |                      |
+|Vibraphone  | -                     |Sustain pedal, Vibrato|
+|Marimba     |Hits, Rolls            |                      |
+|Chimes      | -                     |                      |
+|Crotales    | -                     |                      |
 
 **Percussion**
 
@@ -107,13 +107,13 @@ SSO includes the following instruments and articulations:
 
 **Miscellaneous**
 
-|Instrument  |Variations                      |
-|------------|--------------------------------|
-|Grand Piano | -                              |
-|Concert Harp| -                              |
-|Chorus      |Mixed, Large                    |
-|Harpsichord |4', 8', Full                    |
-|Pipe Organ  |14 stops, 17 combination presets|
+|Instrument  |Variations                      |Controls                                                |
+|------------|--------------------------------|--------------------------------------------------------|
+|Grand Piano | -                              |Sustain pedal, Resonance, Release time, Treble, Veltrack|
+|Concert Harp| -                              |                                                        |
+|Chorus      |Mixed, Large                    |                                                        |
+|Harpsichord |4', 8', Full                    |Release volume                                          |
+|Pipe Organ  |14 stops, 17 combination presets|Swell                                                   |
 
 Instruments with multiple articulations are packaged in two ways.  Use whichever one is more convenient for your
 workflow.
@@ -184,7 +184,7 @@ thin, ghostly sound.
 Technical Details
 -----------------
 
-All samples are stereo, 16 bit, 44 kHz.  Most instruments are sampled in minor 3rds.  Most short articulations
+All samples are stereo, 16 bit, 44.1 kHz.  Most instruments are sampled in minor 3rds.  Most short articulations
 use at least 2x round robin.
 
 Most samples have only a small amount of reverb baked into them, so adding a realistic reverb is important for producing
@@ -229,6 +229,7 @@ Related Projects
 SSO was the first high quality, free orchestral library.  More recently, a few others have become available.  Each one
 has its own sound, so try them all out.
 
+- [Berlin Free Orchestra](https://www.orchestraltools.com/berlin-free-orchestra)
 - [Virtual Playing Orchestra](http://virtualplaying.com/virtual-playing-orchestra/)
 - [Versilian Studios Chamber Orchestra Community Edition](http://vis.versilstudios.net/vsco-community.html)
 - [BBC Symphony Orchestra Discover Edition](https://www.spitfireaudio.com/bbc-symphony-orchestra-discover)
